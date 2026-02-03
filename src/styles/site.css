@@ -31,6 +31,25 @@ body {
   letter-spacing: 0.3px;
 }
 
+.skip-link {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -120%);
+  background: var(--color-accent);
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 999px;
+  font-family: var(--font-sans);
+  font-size: 0.9rem;
+  text-decoration: none;
+  z-index: 1000;
+}
+
+.skip-link:focus {
+  transform: translate(-50%, 1rem);
+}
+
 /* Layout */
 .site-header {
   border-bottom: 1px solid var(--color-border);
