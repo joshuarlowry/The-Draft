@@ -1,0 +1,24 @@
+<section class="extended-reading">
+  <h2>Extended Reading</h2>
+
+  <p class="reading-intro">{{ bundle.intro }}</p>
+
+  {% for group in bundle.groups %}
+  <div class="reading-group">
+    <h3>{{ group.title }}</h3>
+    {% if group.description %}
+    <p class="group-description">{{ group.description }}</p>
+    {% endif %}
+    <ul class="source-list">
+      {% for source in group.sources %}
+      <li class="source-item">
+        <strong>{% if source.author %}{{ source.author }} — {% endif %}{{ source.title }}</strong>
+        {% if source.description %}
+        <p>{{ source.description }}</p>
+        {% endif %}
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+  {% endfor %}
+</section>

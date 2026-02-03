@@ -1,0 +1,48 @@
+---
+layout: layouts/base.njk
+---
+<article class="article">
+  <header class="article-header">
+    <h1>{{ title }}</h1>
+  </header>
+
+  {% if intro %}
+  <section class="article-intro">
+    {{ intro | safe }}
+  </section>
+  {% endif %}
+
+  <section class="article-blocks">
+    {% for blockId in blocks %}
+      {% set block = collections.argumentBlocks | getBlockById(blockId) %}
+      {% if block %}
+        {% include "components/block.njk" %}
+      {% else %}
+        {% set conceptBlock = collections.concepts | getConceptById(blockId) %}
+        {% if conceptBlock %}
+          <section class="block concept-block" id="{{ conceptBlock.data.id }}">
+            <h2>{{ conceptBlock.data.title }}</h2>
+            <div class="block-content">
+              {{ conceptBlock.templateContent | safe }}
+            </div>
+          </section>
+        {% else %}
+          <!-- Block not found: {{ blockId }} -->
+        {% endif %}
+      {% endif %}
+    {% endfor %}
+  </section>
+
+  {% if reading_bundle %}
+    {% set bundle = reading_bundles | getBundleById(reading_bundle) %}
+    {% if bundle %}
+      {% include "components/extended-reading.njk" %}
+    {% endif %}
+  {% endif %}
+
+  {% if outro %}
+  <section class="article-outro">
+    {{ outro | safe }}
+  </section>
+  {% endif %}
+</article>

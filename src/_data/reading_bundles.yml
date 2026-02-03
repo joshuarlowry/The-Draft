@@ -1,0 +1,35 @@
+- id: plan-first-extended-reading
+  intro: "The articles and papers below provide additional context around planning, human judgment, and AI-assisted development. They are grouped by theme rather than position; agreement with every conclusion is not required to find them useful."
+  groups:
+    - title: "Planning and Structure in AI-Assisted Coding"
+      description: "These pieces focus on why upfront framing, task decomposition, and explicit constraints improve outcomes when working with AI coding tools."
+      sources:
+        - author: "Google Cloud"
+          title: "Five Best Practices for Using AI Coding Assistants"
+          description: "Practical guidance on planning, breaking down work, and setting context before asking AI to generate code."
+        - author: "InfoQ"
+          title: "Applying the PDCA Cycle to AI Code Generation"
+          description: "An exploration of using a Plan-Do-Check-Act loop with AI, grounding AI-assisted coding in established engineering process discipline."
+        - author: "Graphite"
+          title: "AI Pair Programming Best Practices"
+          description: "A practitioner-oriented guide on how context, constraints, and expectations shape the usefulness of AI coding output."
+
+    - title: "Human Responsibility, Oversight, and Risk"
+      description: "These sources examine what happens when AI accelerates implementation faster than human review and decision-making."
+      sources:
+        - author: "TechRadar Pro"
+          title: "AI Is Creating Code Faster—but Also More Security Issues"
+          description: "A discussion of real-world risks that emerge when AI-generated code is adopted without sufficient design review or oversight."
+        - author: "arXiv"
+          title: "Human-Centered Practices for Responsible AI Development"
+          description: "Research on how structured inputs, clear framing, and human supervision affect AI system behavior and reliability."
+
+    - title: "Engineering Judgment and Skill Development"
+      description: "These works are not about AI specifically. They explain how expertise develops and why reflective decision-making matters—principles that apply directly to planning-first workflows."
+      sources:
+        - author: "Barry W. Boehm"
+          title: "Software Engineering Economics"
+          description: "A foundational text on why detecting problems earlier in the lifecycle is cheaper and more effective than fixing them later."
+        - author: "Ericsson et al."
+          title: "The Role of Deliberate Practice in the Acquisition of Expert Performance"
+          description: "Classic research on how expert judgment improves through focused, reflective practice rather than repetition alone."

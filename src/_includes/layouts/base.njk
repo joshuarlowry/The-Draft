@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ title | default("The Draft") }}</title>
+  <link rel="stylesheet" href="/styles/site.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav>
+      <a href="/">The Draft</a>
+    </nav>
+  </header>
+  <main>
+    {{ content | safe }}
+  </main>
+  <footer class="site-footer">
+    <p>Built with Eleventy</p>
+  </footer>
+</body>
+</html>
