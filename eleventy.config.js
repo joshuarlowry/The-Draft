@@ -70,6 +70,7 @@ module.exports = function(eleventyConfig) {
   });
 
   return {
+    pathPrefix: '/The-Draft/',
     dir: {
       input: 'src',
       output: 'dist',
