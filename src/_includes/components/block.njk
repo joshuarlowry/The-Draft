@@ -1,0 +1,6 @@
+<section class="block argument-block" id="{{ block.data.id }}">
+  <h2>{{ block.data.title }}</h2>
+  <div class="block-content">
+    {{ block.templateContent | renderWithCitations(citations) | safe }}
+  </div>
+</section>
