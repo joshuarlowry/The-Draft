@@ -1,0 +1,89 @@
+---
+layout: layouts/base.njk
+pagination:
+  data: classification_terms
+  size: 1
+  alias: term
+permalink: "/topics/{{ term.type }}/{{ term.slug }}/"
+eleventyComputed:
+  title: "{{ term.label }} ({{ term.type | capitalize }})"
+---
+
+<h1>{{ term.label }}</h1>
+<p class="summary-intro">Browse sources and articles associated with this {{ term.type }}.</p>
+
+{% set matchingSources = [] %}
+{%- for source in sources %}
+  {%- set summary = source_summaries | getSourceSummaryById(source.id) %}
+  {%- if summary and summary[term.field] and term.label in summary[term.field] %}
+    {%- set matchingSources = matchingSources.concat([{
+      "source": source,
+      "summary": summary
+    }]) %}
+  {%- endif %}
+{%- endfor %}
+
+{% set matchingArticles = [] %}
+{%- for article in collections.articles %}
+  {%- set matched = false %}
+  {%- for blockId in article.data.blocks %}
+    {%- set block = collections.argumentBlocks | getBlockById(blockId) %}
+    {%- if block and block.data[term.field] and term.label in block.data[term.field] %}
+      {%- set matched = true %}
+    {%- endif %}
+  {%- endfor %}
+  {%- if matched %}
+    {%- set matchingArticles = matchingArticles.concat([article]) %}
+  {%- endif %}
+{%- endfor %}
+
+{% if matchingArticles.length %}
+  <section>
+    <h2>Related articles</h2>
+    <ul class="article-list">
+      {%- for article in matchingArticles %}
+        <li>
+          <a href="{{ article.url | url }}">{{ article.data.title }}</a>
+          {% if article.data.summary %}
+            <p class="article-summary">{{ article.data.summary }}</p>
+          {% endif %}
+        </li>
+      {%- endfor %}
+    </ul>
+  </section>
+{% endif %}
+
+<section>
+  <h2>Related sources</h2>
+  {% if matchingSources.length %}
+    <div class="summary-grid">
+      {%- for item in matchingSources %}
+        <article class="summary-card">
+          <h3>{{ item.source.title }}</h3>
+          {% if item.summary %}
+            <p>{{ item.summary.summary }}</p>
+          {% endif %}
+          <div class="summary-meta">
+            {%- for tag in item.summary.tags %}
+              <a class="tag-pill" href="{{ ('/topics/tag/' ~ (tag | slugifyTerm) ~ '/') | url }}">{{ tag }}</a>
+            {%- endfor %}
+            {%- for topic in item.summary.topics %}
+              <a class="tag-pill" href="{{ ('/topics/topic/' ~ (topic | slugifyTerm) ~ '/') | url }}">{{ topic }}</a>
+            {%- endfor %}
+            {%- for category in item.summary.categories %}
+              <a class="tag-pill" href="{{ ('/topics/category/' ~ (category | slugifyTerm) ~ '/') | url }}">{{ category }}</a>
+            {%- endfor %}
+          </div>
+          <div class="summary-links">
+            <a href="{{ ('/summaries/' ~ item.source.id ~ '/') | url }}">Read summary</a>
+            {%- if item.source.url %}
+              <a href="{{ item.source.url }}">Original source</a>
+            {%- endif %}
+          </div>
+        </article>
+      {%- endfor %}
+    </div>
+  {% else %}
+    <p class="summary-intro">No sources have been tagged with this {{ term.type }} yet.</p>
+  {% endif %}
+</section>

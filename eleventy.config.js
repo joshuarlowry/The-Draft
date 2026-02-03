@@ -27,6 +27,17 @@ module.exports = function (eleventyConfig) {
     return blocks.find((block) => block.data.id === id);
   });
 
+  // Filter: Slugify a term for URLs
+  eleventyConfig.addFilter('slugifyTerm', function (value) {
+    if (value === undefined || value === null) return '';
+    return value
+      .toString()
+      .toLowerCase()
+      .trim()
+      .replace(/[^a-z0-9]+/g, '-')
+      .replace(/(^-|-$)+/g, '');
+  });
+
   // Filter: Get a citation by ID from citations data
   eleventyConfig.addFilter('getCitationById', function (citations, id) {
     return citations.find((citation) => citation.id === id);

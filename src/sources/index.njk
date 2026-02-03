@@ -22,13 +22,13 @@ title: Sources
       <div class="summary-meta">
         {%- if summary %}
           {%- for tag in summary.tags %}
-            <span class="tag-pill">{{ tag }}</span>
+            <a class="tag-pill" href="{{ ('/topics/tag/' ~ (tag | slugifyTerm) ~ '/') | url }}">{{ tag }}</a>
           {%- endfor %}
           {%- for topic in summary.topics %}
-            <span class="tag-pill">{{ topic }}</span>
+            <a class="tag-pill" href="{{ ('/topics/topic/' ~ (topic | slugifyTerm) ~ '/') | url }}">{{ topic }}</a>
           {%- endfor %}
           {%- for category in summary.categories %}
-            <span class="tag-pill">{{ category }}</span>
+            <a class="tag-pill" href="{{ ('/topics/category/' ~ (category | slugifyTerm) ~ '/') | url }}">{{ category }}</a>
           {%- endfor %}
         {%- endif %}
       </div>
