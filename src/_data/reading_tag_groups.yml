@@ -21,3 +21,11 @@
 - id: tooling-guardrails
   title: 'Tooling Guardrails'
   description: 'Research on technical guardrails like static analysis, multi-agent validation, and automated testing that make AI output safer to integrate.'
+
+- id: rapid-prototyping
+  title: 'Rapid Prototyping with AI'
+  description: 'Sources on how AI tooling compresses time-to-first-build and enables faster iteration toward functional prototypes.'
+
+- id: usability-inspection
+  title: 'Usability Inspection and Heuristic Evaluation'
+  description: 'References that define heuristic evaluation and other inspection methods used to catch usability issues before user testing.'

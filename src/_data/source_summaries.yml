@@ -220,3 +220,42 @@
     - live-reload
   categories:
     - platform-tooling
+
+- source_id: ideo_rapid_prototyping_openai
+  summary: 'IDEO describes building a lightweight LLM prototyping system that enabled usable demos and reduced time to first prototype from weeks to days.'
+  long_summary: 'IDEO details how its team built a lightweight system that allowed designers without technical backgrounds to prototype with LLMs. The article explains that the approach expanded participation in AI-driven product design and compressed the time to reach a first functional prototype from weeks to days. The narrative emphasizes rapid iteration, collaborative experimentation, and the value of getting working demos in front of researchers and stakeholders earlier.'
+  tags:
+    - rapid-prototyping
+    - iteration-speed
+    - product-design
+  topics:
+    - ai-prototyping
+    - functional-demos
+  categories:
+    - rapid-prototyping
+
+- source_id: github_copilot_productivity_research
+  summary: 'GitHub’s research reports that developers using Copilot completed a programming task 55% faster than those who did not, indicating higher coding throughput.'
+  long_summary: 'GitHub’s controlled experiment measured the time developers took to complete a coding task with and without Copilot. The results show a 55% speed improvement for developers using Copilot, with significantly shorter completion times. This provides quantified evidence that AI code assistance can accelerate implementation work, a key enabler for faster functional prototyping and iteration cycles.'
+  tags:
+    - productivity
+    - ai-assistance
+    - speed
+  topics:
+    - ai-assisted-coding
+    - prototyping-velocity
+  categories:
+    - rapid-prototyping
+
+- source_id: wikipedia_heuristic_evaluation
+  summary: 'Wikipedia defines heuristic evaluation as a usability inspection method where evaluators judge interfaces against recognized usability principles to identify problems.'
+  long_summary: 'The entry explains heuristic evaluation as a structured usability inspection method for identifying user interface problems. Evaluators review the interface and assess it against recognized usability principles (heuristics), which makes the method useful for uncovering issues early and with limited resources. This definition anchors the idea of running fast usability checks before investing in deeper user research or usability testing.'
+  tags:
+    - usability
+    - heuristics
+    - evaluation
+  topics:
+    - usability-inspection
+    - user-experience
+  categories:
+    - usability-inspection
