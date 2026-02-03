@@ -1,0 +1,36 @@
+---
+layout: layouts/base.njk
+title: People
+---
+
+<h1>People</h1>
+<p class="summary-intro">People referenced across sources and articles.</p>
+
+<div class="summary-grid">
+  {%- for person in people %}
+    {% set personSources = [] %}
+    {%- for sourceId in person.source_ids %}
+      {%- set source = sources | getSourceById(sourceId) %}
+      {%- if source %}
+        {% set personSources = personSources.concat([source]) %}
+      {%- endif %}
+    {%- endfor %}
+    <article class="summary-card">
+      <h3><a href="{{ ('/people/' ~ person.id ~ '/') | url }}">{{ person.name }}</a></h3>
+      {% if personSources.length %}
+        {% if personSources.length == 1 %}
+          <p>1 source</p>
+        {% else %}
+          <p>{{ personSources.length }} sources</p>
+        {% endif %}
+        <ul class="meta-list">
+          {%- for source in personSources %}
+            <li><a href="{{ ('/summaries/' ~ source.id ~ '/') | url }}">{{ source.title }}</a></li>
+          {%- endfor %}
+        </ul>
+      {% else %}
+        <p>No linked sources yet.</p>
+      {% endif %}
+    </article>
+  {%- endfor %}
+</div>

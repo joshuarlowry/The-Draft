@@ -1,18 +1,18 @@
-- id: cian_clarke
-  name: 'Cian Clarke'
+- id: aline_paes
+  name: 'Aline Paes'
   links:
-    - label: 'From Vibe Coding to Spec-Driven Development'
-      url: 'https://tessl.io/blog/from-vibe-coding-to-spec-driven-development/'
+    - label: 'Combining TSL and LLM to Automate REST API Testing: A Comparative Study'
+      url: 'https://arxiv.org/abs/2509.05540'
   source_ids:
-    - cian_clarke_vibe_coding_spec_driven
+    - arxiv_resttsllm_api_testing
 
-- id: den_delimarsky
-  name: 'Den Delimarsky'
+- id: barry_w_boehm
+  name: 'Barry W. Boehm'
   links:
-    - label: 'Diving Into Spec-Driven Development With GitHub Spec Kit'
-      url: 'https://developer.microsoft.com/blog/spec-driven-development-spec-kit/'
+    - label: 'Software Engineering Economics'
+      url: 'https://www.cs.cmu.edu/~johnl/temple/18-749/papers/boehm1981.pdf'
   source_ids:
-    - microsoft_spec_kit_blog
+    - boehm_software_engineering_economics
 
 - id: birgitta_bockeler
   name: 'Birgitta Böckeler'
@@ -22,6 +22,62 @@
   source_ids:
     - martinfowler_sdd_tools
 
+- id: cian_clarke
+  name: 'Cian Clarke'
+  links:
+    - label: 'From Vibe Coding to Spec-Driven Development'
+      url: 'https://tessl.io/blog/from-vibe-coding-to-spec-driven-development/'
+  source_ids:
+    - cian_clarke_vibe_coding_spec_driven
+
+- id: clemens_tesch_romer
+  name: 'Clemens Tesch-Römer'
+  links:
+    - label: 'The Role of Deliberate Practice in the Acquisition of Expert Performance'
+      url: 'https://psycnet.apa.org/record/1993-40718-001'
+  source_ids:
+    - ericsson_deliberate_practice
+
+- id: craig_hale
+  name: 'Craig Hale'
+  links:
+    - label: 'AI Is Creating Code Faster—but Also More Security Issues'
+      url: 'https://www.techradar.com/pro/ai-is-creating-code-faster-but-this-also-means-more-potential-security-issues'
+  source_ids:
+    - techradar_ai_security
+
+- id: den_delimarsky
+  name: 'Den Delimarsky'
+  links:
+    - label: 'Diving Into Spec-Driven Development With GitHub Spec Kit'
+      url: 'https://developer.microsoft.com/blog/spec-driven-development-spec-kit/'
+  source_ids:
+    - microsoft_spec_kit_blog
+
+- id: denae_ford
+  name: 'Denae Ford'
+  links:
+    - label: 'Human-Centered Practices for Responsible AI Development'
+      url: 'https://arxiv.org/abs/2305.11248'
+  source_ids:
+    - arxiv_human_centered_practices
+
+- id: eirini_kalliamvakou
+  name: 'Eirini Kalliamvakou'
+  links:
+    - label: 'Research: quantifying GitHub Copilot’s impact on developer productivity and happiness'
+      url: 'https://github.blog/news-insights/research/research-quantifying-github-copilots-impact-on-developer-productivity-and-happiness/'
+  source_ids:
+    - github_copilot_productivity_research
+
+- id: greg_foster
+  name: 'Greg Foster'
+  links:
+    - label: 'AI Pair Programming Best Practices'
+      url: 'https://graphite.com/guides/ai-pair-programming-best-practices'
+  source_ids:
+    - graphite_ai_pair_programming
+
 - id: hakon_eriksen_drange
   name: 'Håkon Eriksen Drange'
   links:
@@ -29,3 +85,147 @@
       url: 'https://kiro.dev/'
   source_ids:
     - kiro_agentic_ai_development
+
+- id: himanshu_joshi
+  name: 'Himanshu Joshi'
+  links:
+    - label: 'Security Degradation in Iterative AI Code Generation -- A Systematic Analysis of the Paradox'
+      url: 'https://arxiv.org/abs/2506.11022'
+  source_ids:
+    - arxiv_security_degradation_ai_code
+
+- id: jason_davenport
+  name: 'Jason Davenport'
+  links:
+    - label: 'Five Best Practices for Using AI Coding Assistants'
+      url: 'https://cloud.google.com/blog/topics/developers-practitioners/five-best-practices-for-using-ai-coding-assistants'
+  source_ids:
+    - google_cloud_best_practices
+
+- id: joydeep_chandra
+  name: 'Joydeep Chandra'
+  links:
+    - label: 'SAFE-AI Framework: Preventing Failures in AI-Driven Software Engineering'
+      url: 'https://arxiv.org/abs/2508.11824'
+  source_ids:
+    - arxiv_safe_ai_framework
+
+- id: k_anders_ericsson
+  name: 'K. Anders Ericsson'
+  links:
+    - label: 'The Role of Deliberate Practice in the Acquisition of Expert Performance'
+      url: 'https://psycnet.apa.org/record/1993-40718-001'
+  source_ids:
+    - ericsson_deliberate_practice
+
+- id: kari_loftesness
+  name: 'Kari Loftesness'
+  links:
+    - label: 'Five Best Practices for Using AI Coding Assistants'
+      url: 'https://cloud.google.com/blog/topics/developers-practitioners/five-best-practices-for-using-ai-coding-assistants'
+  source_ids:
+    - google_cloud_best_practices
+
+- id: ken_judy
+  name: 'Ken Judy'
+  links:
+    - label: 'Applying the PDCA Cycle to AI Code Generation'
+      url: 'https://www.infoq.com/articles/PDCA-AI-code-generation/'
+  source_ids:
+    - infoq_pdca_cycle
+
+- id: muhammad_haseeb
+  name: 'Muhammad Haseeb'
+  links:
+    - label: 'Context Engineering for Multi-Agent LLM Code Assistants Using Elicit, NotebookLM, ChatGPT, and Claude Code'
+      url: 'https://arxiv.org/abs/2508.08322'
+  source_ids:
+    - arxiv_context_engineering_multi_agent
+
+- id: ralf_t_krampe
+  name: 'Ralf T. Krampe'
+  links:
+    - label: 'The Role of Deliberate Practice in the Acquisition of Expert Performance'
+      url: 'https://psycnet.apa.org/record/1993-40718-001'
+  source_ids:
+    - ericsson_deliberate_practice
+
+- id: romilla_syed
+  name: 'Romilla Syed'
+  links:
+    - label: 'Security Degradation in Iterative AI Code Generation -- A Systematic Analysis of the Paradox'
+      url: 'https://arxiv.org/abs/2506.11022'
+  source_ids:
+    - arxiv_security_degradation_ai_code
+
+- id: ruijia_cheng
+  name: 'Ruijia Cheng'
+  links:
+    - label: 'Human-Centered Practices for Responsible AI Development'
+      url: 'https://arxiv.org/abs/2305.11248'
+  source_ids:
+    - arxiv_human_centered_practices
+
+- id: ruotong_wang
+  name: 'Ruotong Wang'
+  links:
+    - label: 'Human-Centered Practices for Responsible AI Development'
+      url: 'https://arxiv.org/abs/2305.11248'
+  source_ids:
+    - arxiv_human_centered_practices
+
+- id: satya_nadella
+  name: 'Satya Nadella'
+  links:
+    - label: 'Microsoft CEO Satya Nadella says 30% of code now written by AI'
+      url: 'https://nypost.com/2025/04/30/business/microsoft-ceo-satya-nadella-says-30-of-code-now-written-by-ai/'
+  source_ids:
+    - microsoft_ai_code_nypost
+
+- id: satyam_kumar_navneet
+  name: 'Satyam Kumar Navneet'
+  links:
+    - label: 'SAFE-AI Framework: Preventing Failures in AI-Driven Software Engineering'
+      url: 'https://arxiv.org/abs/2508.11824'
+  source_ids:
+    - arxiv_safe_ai_framework
+
+- id: shivani_shukla
+  name: 'Shivani Shukla'
+  links:
+    - label: 'Security Degradation in Iterative AI Code Generation -- A Systematic Analysis of the Paradox'
+      url: 'https://arxiv.org/abs/2506.11022'
+  source_ids:
+    - arxiv_security_degradation_ai_code
+
+- id: taylor_herzlich
+  name: 'Taylor Herzlich'
+  links:
+    - label: 'Microsoft CEO Satya Nadella says 30% of code now written by AI'
+      url: 'https://nypost.com/2025/04/30/business/microsoft-ceo-satya-nadella-says-30-of-code-now-written-by-ai/'
+  source_ids:
+    - microsoft_ai_code_nypost
+
+- id: thiago_barradas
+  name: 'Thiago Barradas'
+  links:
+    - label: 'Combining TSL and LLM to Automate REST API Testing: A Comparative Study'
+      url: 'https://arxiv.org/abs/2509.05540'
+  source_ids:
+    - arxiv_resttsllm_api_testing
+
+- id: thomas_zimmermann
+  name: 'Thomas Zimmermann'
+  links:
+    - label: 'Human-Centered Practices for Responsible AI Development'
+      url: 'https://arxiv.org/abs/2305.11248'
+  source_ids:
+    - arxiv_human_centered_practices
+
+- id: vania_de_oliveira_neves
+  name: 'Vânia de Oliveira Neves'
+  links:
+    - label: 'Combining TSL and LLM to Automate REST API Testing: A Comparative Study'
+      url: 'https://arxiv.org/abs/2509.05540'
+  source_ids:
+    - arxiv_resttsllm_api_testing

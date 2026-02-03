@@ -1,0 +1,86 @@
+---
+layout: layouts/base.njk
+pagination:
+  data: people
+  size: 1
+  alias: person
+permalink: "/people/{{ person.id }}/"
+eleventyComputed:
+  title: "{{ person.name }}"
+---
+
+<h1>{{ person.name }}</h1>
+
+{% if person.links %}
+  <section>
+    <h2>Links</h2>
+    <ul>
+      {%- for link in person.links %}
+        <li><a href="{{ link.url }}">{{ link.label }}</a></li>
+      {%- endfor %}
+    </ul>
+  </section>
+{% endif %}
+
+{% set personSources = [] %}
+{%- for sourceId in person.source_ids %}
+  {%- set source = sources | getSourceById(sourceId) %}
+  {%- if source %}
+    {% set personSources = personSources.concat([source]) %}
+  {%- endif %}
+{%- endfor %}
+
+{% if personSources.length %}
+  <section>
+    <h2>Sources</h2>
+    <ul class="article-list">
+      {%- for source in personSources %}
+        {% set summary = source_summaries | getSourceSummaryById(source.id) %}
+        <li>
+          {% if summary %}
+            <a href="{{ ('/summaries/' ~ source.id ~ '/') | url }}">{{ source.title }}</a>
+          {% else %}
+            {{ source.title }}
+          {% endif %}
+          {% if source.url %}
+            <div class="summary-links">
+              <a href="{{ source.url }}">Original source</a>
+            </div>
+          {% endif %}
+        </li>
+      {%- endfor %}
+    </ul>
+  </section>
+{% endif %}
+
+{% set relatedArticles = [] %}
+{%- for article in collections.articles %}
+  {% set articleSourceIds = article.data.blocks | collectBlockSourceIds(collections.argumentBlocks, citations) %}
+  {% set matches = false %}
+  {%- for sourceId in person.source_ids %}
+    {%- if sourceId in articleSourceIds %}
+      {% set matches = true %}
+    {%- endif %}
+  {%- endfor %}
+  {% if matches %}
+    {% set relatedArticles = relatedArticles.concat([article]) %}
+  {% endif %}
+{%- endfor %}
+
+{% if relatedArticles.length %}
+  <section>
+    <h2>Related articles</h2>
+    <ul class="article-list">
+      {%- for article in relatedArticles %}
+        <li>
+          <a href="{{ article.url | url }}">{{ article.data.title }}</a>
+          {% if article.data.summary %}
+            <p class="article-summary">{{ article.data.summary }}</p>
+          {% endif %}
+        </li>
+      {%- endfor %}
+    </ul>
+  </section>
+{% endif %}
+
+<p><a href="{{ '/people/' | url }}">Back to people</a></p>

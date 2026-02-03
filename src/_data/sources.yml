@@ -1,4 +1,5 @@
 - id: google_cloud_best_practices
+  author: 'Kari Loftesness, Jason Davenport'
   title: 'Five Best Practices for Using AI Coding Assistants'
   publisher: 'Google Cloud'
   published: '2024'
@@ -12,6 +13,7 @@
     responsibility-oversight: 'Highlights how upfront framing reduces downstream risk when AI accelerates implementation.'
 
 - id: infoq_pdca_cycle
+  author: 'Ken Judy'
   title: 'Applying the PDCA Cycle to AI Code Generation'
   publisher: 'InfoQ'
   published: '2024'
@@ -23,6 +25,7 @@
     planning-and-structure: 'An exploration of using a Plan-Do-Check-Act loop with AI, grounding AI-assisted coding in established engineering process discipline.'
 
 - id: graphite_ai_pair_programming
+  author: 'Greg Foster'
   title: 'AI Pair Programming Best Practices'
   publisher: 'Graphite'
   published: '2024'
@@ -34,6 +37,7 @@
     planning-and-structure: 'A practitioner-oriented guide on how context, constraints, and expectations shape the usefulness of AI coding output.'
 
 - id: techradar_ai_security
+  author: 'Craig Hale'
   title: 'AI Is Creating Code Faster—but Also More Security Issues'
   publisher: 'TechRadar Pro'
   published: '2023'
@@ -47,6 +51,7 @@
     governance-guardrails: 'Evidence that faster AI output requires explicit checks and security guardrails.'
 
 - id: arxiv_human_centered_practices
+  author: 'Ruotong Wang, Ruijia Cheng, Denae Ford, Thomas Zimmermann'
   title: 'Human-Centered Practices for Responsible AI Development'
   repository: 'arXiv'
   published: '2023'
@@ -95,6 +100,7 @@
     ai-production-scale: 'DORA’s 2025 report explaining that AI amplifies existing organizational capabilities.'
 
 - id: microsoft_ai_code_nypost
+  author: 'Taylor Herzlich'
   title: 'Microsoft CEO Satya Nadella says 30% of code now written by AI'
   publisher: 'New York Post'
   published: '2025-04-30'
@@ -117,6 +123,7 @@
     governance-guardrails: 'Survey results on human review requirements for AI-generated code.'
 
 - id: arxiv_safe_ai_framework
+  author: 'Satyam Kumar Navneet, Joydeep Chandra'
   title: 'SAFE-AI Framework: Preventing Failures in AI-Driven Software Engineering'
   repository: 'arXiv'
   published: '2025-08-15'
@@ -128,6 +135,7 @@
     governance-guardrails: 'Academic guidance on guardrails, sandboxing, and runtime verification for AI-driven software engineering.'
 
 - id: arxiv_security_degradation_ai_code
+  author: 'Shivani Shukla, Himanshu Joshi, Romilla Syed'
   title: 'Security Degradation in Iterative AI Code Generation -- A Systematic Analysis of the Paradox'
   repository: 'arXiv'
   published: '2025-05-19'
@@ -141,6 +149,7 @@
     tooling-guardrails: 'Quantifies security regression across iterations, supporting the need for automated scanning between AI edits.'
 
 - id: arxiv_context_engineering_multi_agent
+  author: 'Muhammad Haseeb'
   title: 'Context Engineering for Multi-Agent LLM Code Assistants Using Elicit, NotebookLM, ChatGPT, and Claude Code'
   repository: 'arXiv'
   published: '2025-08-09'
@@ -152,6 +161,7 @@
     tooling-guardrails: 'Describes a multi-agent workflow with role decomposition and validation that improves reliability in code assistants.'
 
 - id: arxiv_resttsllm_api_testing
+  author: 'Thiago Barradas, Aline Paes, Vânia de Oliveira Neves'
   title: 'Combining TSL and LLM to Automate REST API Testing: A Comparative Study'
   repository: 'arXiv'
   published: '2025-09-05'
@@ -192,6 +202,7 @@
     rapid-prototyping: 'IDEO describes building an LLM prototyping tool and shortening time to first prototype from weeks to days.'
 
 - id: github_copilot_productivity_research
+  author: 'Eirini Kalliamvakou'
   title: 'Research: quantifying GitHub Copilot’s impact on developer productivity and happiness'
   publisher: 'GitHub'
   published: '2022-09-07'

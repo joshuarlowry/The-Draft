@@ -37,6 +37,18 @@ eleventyComputed:
   </div>
 </section>
 
+{% set sourcePeople = people | getPeopleBySourceId(source.id) %}
+{% if sourcePeople.length %}
+  <section>
+    <h2>People in this source</h2>
+    <ul class="meta-list">
+      {%- for person in sourcePeople %}
+        <li><a href="{{ ('/people/' ~ person.id ~ '/') | url }}">{{ person.name }}</a></li>
+      {%- endfor %}
+    </ul>
+  </section>
+{% endif %}
+
 {% set summaryTerms = [] %}
 {% if summary.tags %}
   {% set summaryTerms = summaryTerms.concat(summary.tags) %}

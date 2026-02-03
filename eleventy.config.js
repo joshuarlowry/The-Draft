@@ -53,6 +53,23 @@ module.exports = function (eleventyConfig) {
     return summaries.find((summary) => summary.source_id === id);
   });
 
+  // Filter: Get people by source ID
+  eleventyConfig.addFilter('getPeopleBySourceId', function (people = [], sourceId) {
+    if (!sourceId) return [];
+    return people.filter(
+      (person) => Array.isArray(person.source_ids) && person.source_ids.includes(sourceId),
+    );
+  });
+
+  // Filter: Get people by multiple source IDs
+  eleventyConfig.addFilter('getPeopleBySourceIds', function (people = [], sourceIds = []) {
+    if (!Array.isArray(sourceIds) || sourceIds.length === 0) return [];
+    return people.filter(
+      (person) =>
+        Array.isArray(person.source_ids) && person.source_ids.some((id) => sourceIds.includes(id)),
+    );
+  });
+
   // Filter: Get a reading tag group by ID
   eleventyConfig.addFilter('getReadingTagById', function (tags, id) {
     return tags.find((tag) => tag.id === id);
@@ -77,6 +94,25 @@ module.exports = function (eleventyConfig) {
       .flatMap((block) => (Array.isArray(block.data.citations) ? block.data.citations : []));
     return [...new Set(citations)];
   });
+
+  // Filter: Collect unique source IDs for a list of block IDs
+  eleventyConfig.addFilter(
+    'collectBlockSourceIds',
+    function (blockIds = [], blocks = [], citations = []) {
+      if (!Array.isArray(blockIds) || !Array.isArray(blocks) || !Array.isArray(citations)) {
+        return [];
+      }
+      const sourceIds = blockIds
+        .map((id) => blocks.find((block) => block.data.id === id))
+        .filter(Boolean)
+        .flatMap((block) => (Array.isArray(block.data.citations) ? block.data.citations : []))
+        .map((citationId) => citations.find((citation) => citation.id === citationId))
+        .filter(Boolean)
+        .map((citation) => citation.source_id)
+        .filter(Boolean);
+      return [...new Set(sourceIds)];
+    },
+  );
 
   const getSourceFromCitation = (citation, sources = []) =>
     sources.find((item) => item.id === citation.source_id) || {};
