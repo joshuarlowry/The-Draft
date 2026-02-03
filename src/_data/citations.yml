@@ -65,3 +65,27 @@
 - id: heuristic_evaluation_definition_quote
   quote: 'A heuristic evaluation is a usability inspection method for computer software that helps to identify usability problems in the user interface design. It specifically involves evaluators examining the interface and judging its compliance with recognized usability principles (the "heuristics").'
   source_id: wikipedia_heuristic_evaluation
+
+- id: cian_clarke_spec_driven_state_of_art_quote
+  quote: 'Spec-driven development represents the current state of the art in my view. The gains are quite measurable, and crucially, it removes the ceiling that limits pure vibe coding.'
+  source_id: cian_clarke_vibe_coding_spec_driven
+
+- id: cian_clarke_spec_driven_flips_dynamic_quote
+  quote: "The spec-driven approach flips this dynamic entirely. Much like how engineers do better when forced to decompose problems and articulate the why behind what they're building, models appreciate the same methodology."
+  source_id: cian_clarke_vibe_coding_spec_driven
+
+- id: microsoft_spec_kit_decisions_quote
+  quote: 'SDD is about making your technical decisions explicit, reviewable, and evolvable.'
+  source_id: microsoft_spec_kit_blog
+
+- id: martinfowler_sdd_definition_quote
+  quote: 'Spec-driven development means writing a “spec” before writing code with AI (“documentation first”). The spec becomes the source of truth for the human and the AI.'
+  source_id: martinfowler_sdd_tools
+
+- id: kiro_structure_before_code_quote
+  quote: 'Most tools are great at generating code, but Kiro gives structure to the chaos before you write a single line.'
+  source_id: kiro_agentic_ai_development
+
+- id: kiro_spec_driven_weekend_quote
+  quote: 'Thanks to Kiro’s spec-driven development, I was able to go from concept to working prototype in a single weekend.'
+  source_id: kiro_agentic_ai_development

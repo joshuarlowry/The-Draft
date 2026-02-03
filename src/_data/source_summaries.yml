@@ -259,3 +259,54 @@
     - user-experience
   categories:
     - usability-inspection
+
+- source_id: cian_clarke_vibe_coding_spec_driven
+  summary: 'Cian Clarke explains why spec-driven development outperforms vibe coding by clarifying requirements, architecture, and task decomposition before AI implementation.'
+  long_summary: 'This Tessl blog post details Cian Clarke’s perspective on the transition from vibe coding to spec-driven development. He argues that once teams move beyond quick one-shot prompting, the gains from spec-driven workflows become measurable and sustainable. The article lays out a spec-first flow that starts with requirements, moves to technical specs, and decomposes work into bounded tasks, emphasizing that clearer specs improve determinism and reduce rework. It positions spec-driven development as a state-of-the-art practice for AI-native engineering.'
+  tags:
+    - spec-driven-development
+    - requirements
+    - task-decomposition
+  topics:
+    - ai-native-engineering
+    - planning
+  categories:
+    - planning-and-structure
+
+- source_id: microsoft_spec_kit_blog
+  summary: 'Den Delimarsky’s Microsoft Developer blog post frames SDD as a lightweight way to make technical decisions explicit and evolve them over time.'
+  long_summary: 'This Microsoft Developer article introduces spec-driven development through the lens of GitHub Spec Kit. It emphasizes that SDD is not about heavy bureaucracy or exhaustive documentation, but about capturing technical decisions and the reasoning behind them in a form that can be reviewed and evolved. The post connects explicit specifications to better alignment across teams and stronger context for AI agents. It also outlines how Spec Kit operationalizes this workflow with templates and a CLI.'
+  tags:
+    - spec-driven-development
+    - decision-records
+    - tooling
+  topics:
+    - ai-assisted-development
+    - documentation
+  categories:
+    - planning-and-structure
+
+- source_id: martinfowler_sdd_tools
+  summary: 'Birgitta Böckeler surveys SDD tooling and definitions, describing spec-first development as writing specs before AI-generated code and treating specs as a shared source of truth.'
+  long_summary: 'This Martin Fowler article examines the emerging term spec-driven development, compares definitions from several tools, and proposes a taxonomy of spec-first, spec-anchored, and spec-as-source approaches. It frames SDD as a documentation-first workflow where the spec guides AI generation and remains central to human/AI collaboration. The article also provides observations about how different tools implement SDD and highlights open questions about maintaining specs over time.'
+  tags:
+    - spec-driven-development
+    - definitions
+    - tooling
+  topics:
+    - ai-assisted-development
+    - requirements
+  categories:
+    - planning-and-structure
+
+- source_id: kiro_agentic_ai_development
+  summary: 'Kiro’s homepage emphasizes spec-driven development and upfront structure as a way to improve AI coding outcomes before implementation starts.'
+  long_summary: 'The Kiro homepage positions the product as an agentic AI development environment that centers specs and structure early in the workflow. It includes testimonials that highlight spec-driven development as a way to increase relevance, quality, and speed, and frames Kiro as a tool that brings order to AI-assisted coding before code is written. The page is primarily marketing content but provides direct statements about spec-driven practices and outcomes.'
+  tags:
+    - spec-driven-development
+    - structure-first
+  topics:
+    - ai-assisted-development
+    - workflow
+  categories:
+    - planning-and-structure
