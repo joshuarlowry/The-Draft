@@ -212,3 +212,49 @@
     - usability-inspection
   reading_descriptions:
     usability-inspection: 'Defines heuristic evaluation as a usability inspection method that identifies interface problems by checking against recognized principles.'
+
+- id: cian_clarke_vibe_coding_spec_driven
+  author: 'Cian Clarke'
+  title: 'From Vibe Coding to Spec-Driven Development'
+  publisher: 'Tessl'
+  published: '2026-01-06'
+  accessed: '2026-02-03'
+  url: 'https://tessl.io/blog/from-vibe-coding-to-spec-driven-development/'
+  tags:
+    - planning-and-structure
+  reading_descriptions:
+    planning-and-structure: 'Cian Clarke argues that spec-driven development removes the ceiling of vibe coding by grounding AI work in explicit specs.'
+
+- id: microsoft_spec_kit_blog
+  author: 'Den Delimarsky'
+  title: 'Diving Into Spec-Driven Development With GitHub Spec Kit'
+  publisher: 'Microsoft Developer'
+  published: '2025-09-15'
+  accessed: '2026-02-03'
+  url: 'https://developer.microsoft.com/blog/spec-driven-development-spec-kit/'
+  tags:
+    - planning-and-structure
+  reading_descriptions:
+    planning-and-structure: 'A Microsoft Developer blog post framing SDD as explicit, reviewable technical decisions rather than heavy documentation.'
+
+- id: martinfowler_sdd_tools
+  author: 'Birgitta Böckeler'
+  title: 'Understanding Spec-Driven-Development: Kiro, spec-kit, and Tessl'
+  publisher: 'martinfowler.com'
+  published: '2026-01-29'
+  accessed: '2026-02-03'
+  url: 'https://martinfowler.com/articles/exploring-gen-ai/sdd-3-tools.html'
+  tags:
+    - planning-and-structure
+  reading_descriptions:
+    planning-and-structure: 'An overview of spec-driven development definitions and tooling, including spec-first, spec-anchored, and spec-as-source approaches.'
+
+- id: kiro_agentic_ai_development
+  title: 'Kiro: Agentic AI development from prototype to production'
+  publisher: 'Kiro'
+  accessed: '2026-02-03'
+  url: 'https://kiro.dev/'
+  tags:
+    - planning-and-structure
+  reading_descriptions:
+    planning-and-structure: 'Kiro highlights how spec-driven development and upfront structure improve outcomes before coding begins.'

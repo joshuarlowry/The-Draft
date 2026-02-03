@@ -1,0 +1,31 @@
+- id: cian_clarke
+  name: 'Cian Clarke'
+  links:
+    - label: 'From Vibe Coding to Spec-Driven Development'
+      url: 'https://tessl.io/blog/from-vibe-coding-to-spec-driven-development/'
+  source_ids:
+    - cian_clarke_vibe_coding_spec_driven
+
+- id: den_delimarsky
+  name: 'Den Delimarsky'
+  links:
+    - label: 'Diving Into Spec-Driven Development With GitHub Spec Kit'
+      url: 'https://developer.microsoft.com/blog/spec-driven-development-spec-kit/'
+  source_ids:
+    - microsoft_spec_kit_blog
+
+- id: birgitta_bockeler
+  name: 'Birgitta Böckeler'
+  links:
+    - label: 'Understanding Spec-Driven-Development: Kiro, spec-kit, and Tessl'
+      url: 'https://martinfowler.com/articles/exploring-gen-ai/sdd-3-tools.html'
+  source_ids:
+    - martinfowler_sdd_tools
+
+- id: hakon_eriksen_drange
+  name: 'Håkon Eriksen Drange'
+  links:
+    - label: 'Kiro: Agentic AI development from prototype to production'
+      url: 'https://kiro.dev/'
+  source_ids:
+    - kiro_agentic_ai_development
