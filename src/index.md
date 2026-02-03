@@ -11,7 +11,7 @@ A structured content system for assembling articles from reusable blocks.
 
 <ul class="article-list">
 {%- for article in collections.articles %}
-  <li><a href="{{ article.url }}">{{ article.data.title }}</a></li>
+  <li><a href="{{ article.url | url }}">{{ article.data.title }}</a></li>
 {%- endfor %}
 </ul>
 
