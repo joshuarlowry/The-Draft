@@ -21,6 +21,14 @@ This repository uses structured content in `src/` with shared data in `src/_data
 - **ID format:** lowercase snake-case ending in `_quote` (e.g., `google_cloud_best_practices_quote`).
 - **Notes:** `source_id` must point to a valid `id` in `sources.yml`.
 
+## Citation mechanism (APA)
+- **Inline citations:** Use `[[cite:your_quote_id]]` in content. The renderer outputs the quote plus an APA-style parenthetical reference, e.g., `(Author, 2024)` or `(Publisher, n.d.)`.
+- **Citations section:** Blocks should define a `citations` list in front matter with the quote IDs they use. The template renders a **Citations** section that lists unique sources in APA reference style.
+- **APA reference format:** `Author. (Year). Title. Container. URL`
+  - **Author fallback:** If no author is available, the publisher or repository is used.
+  - **Year fallback:** If `published` is missing, `n.d.` is used.
+  - **Container:** Uses `journal`, then `publisher`, then `repository` if present.
+
 ## Reading bundles (extended reading lists)
 - **Location:** `src/_data/reading_bundles.yml`
 - **Purpose:** Curated reading lists shown on article pages.

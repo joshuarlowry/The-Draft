@@ -164,7 +164,7 @@ a:hover {
 }
 
 /* Blockquotes (Citations) */
-blockquote {
+.citation-block {
   background: var(--color-blockquote-bg);
   border-left: 3px solid var(--color-blockquote-border);
   margin: calc(var(--spacing) * 1.5) 0;
@@ -174,43 +174,53 @@ blockquote {
   font-style: italic;
 }
 
-blockquote p {
+.citation-block p {
   margin: 0;
 }
 
-blockquote p + p {
+.citation-block p + p {
   margin-top: var(--spacing);
 }
 
-blockquote p:last-child {
+.citation-block p:last-child {
   color: var(--color-text-muted);
   font-size: 0.85rem;
   font-style: normal;
   font-weight: 600;
 }
 
-.citation-title {
+.citation-inline {
   color: var(--color-text-muted);
   font-size: 0.85rem;
   font-style: normal;
   font-weight: 600;
 }
 
-.citation-meta {
-  list-style: none;
-  margin: calc(var(--spacing) * 0.75) 0 0;
-  padding: 0;
-  font-size: 0.8rem;
-  font-style: normal;
+.citation-section {
+  margin-top: calc(var(--spacing) * 2);
+  border-top: 1px solid var(--color-border);
+  padding-top: var(--spacing);
+}
+
+.citation-section h3 {
+  margin-top: 0;
+  font-size: 1.1rem;
+}
+
+.citation-list {
+  margin: var(--spacing) 0 0;
+  padding-left: 1.25rem;
   color: var(--color-text-muted);
+  font-size: 0.9rem;
+  line-height: 1.6;
 }
 
-.citation-meta li {
-  margin-bottom: calc(var(--spacing) * 0.25);
+.citation-item {
+  margin-bottom: calc(var(--spacing) * 0.75);
 }
 
-.citation-meta li:last-child {
-  margin-bottom: 0;
+.citation-item a {
+  word-break: break-word;
 }
 
 /* Extended Reading */
