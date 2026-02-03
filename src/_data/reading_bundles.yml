@@ -26,3 +26,21 @@
           description: 'A foundational text on why detecting problems earlier in the lifecycle is cheaper and more effective than fixing them later.'
         - id: ericsson_deliberate_practice
           description: 'Classic research on how expert judgment improves through focused, reflective practice rather than repetition alone.'
+
+- id: oversight-skill-extended-reading
+  intro: 'These readings provide additional context on AI-assisted development, oversight, and governance. They are grouped by theme rather than position.'
+  groups:
+    - title: 'AI Production at Scale'
+      description: 'Sources that describe how AI output is expanding and how organizations interpret that shift.'
+      sources:
+        - id: microsoft_ai_code_nypost
+          description: 'Reporting on Satya Nadella’s remarks about the share of Microsoft code written by AI.'
+        - id: dora_ai_assisted_report
+          description: 'DORA’s 2025 report explaining that AI amplifies existing organizational capabilities.'
+    - title: 'Governance and Guardrails'
+      description: 'Evidence that oversight is shifting toward gates, policies, and technical guardrails.'
+      sources:
+        - id: adtmag_ai_coding_oversight
+          description: 'Survey results on human review requirements for AI-generated code.'
+        - id: arxiv_safe_ai_framework
+          description: 'Academic guidance on guardrails, sandboxing, and runtime verification for AI-driven software engineering.'

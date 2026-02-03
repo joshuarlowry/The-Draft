@@ -48,3 +48,31 @@
   published: '1993'
   accessed: '2026-02-02'
   url: 'https://psycnet.apa.org/record/1993-40718-001'
+
+- id: dora_ai_assisted_report
+  title: '2025 DORA State of AI-Assisted Software Development report'
+  publisher: 'Google Cloud'
+  published: '2025-09-23'
+  accessed: '2026-01-30'
+  url: 'https://cloud.google.com/resources/content/2025-dora-ai-assisted-software-development-report'
+
+- id: microsoft_ai_code_nypost
+  title: 'Microsoft CEO Satya Nadella says 30% of code now written by AI'
+  publisher: 'New York Post'
+  published: '2025-04-30'
+  accessed: '2026-01-30'
+  url: 'https://nypost.com/2025/04/30/business/microsoft-ceo-satya-nadella-says-30-of-code-now-written-by-ai/'
+
+- id: adtmag_ai_coding_oversight
+  title: 'Tech Leaders Embrace AI Coding Tools While Demanding Strict Oversight'
+  publisher: 'ADTMag'
+  published: '2025-09-10'
+  accessed: '2026-01-30'
+  url: 'https://adtmag.com/articles/2025/09/10/tech-leaders-embrace-ai-coding-tools-while-demanding-strict-oversight.aspx'
+
+- id: arxiv_safe_ai_framework
+  title: 'SAFE-AI Framework: Preventing Failures in AI-Driven Software Engineering'
+  repository: 'arXiv'
+  published: '2025-08-15'
+  accessed: '2026-01-30'
+  url: 'https://arxiv.org/abs/2508.11824'
