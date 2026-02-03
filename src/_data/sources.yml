@@ -179,3 +179,36 @@
   publisher: 'Eleventy'
   accessed: '2025-02-14'
   url: 'https://www.11ty.dev/docs/dev-server/'
+
+- id: ideo_rapid_prototyping_openai
+  title: 'Rapid prototyping with OpenAI'
+  publisher: 'IDEO'
+  published: '2024-02-01'
+  accessed: '2026-02-03'
+  url: 'https://www.ideo.com/journal/rapid-prototyping-with-openai'
+  tags:
+    - rapid-prototyping
+  reading_descriptions:
+    rapid-prototyping: 'IDEO describes building an LLM prototyping tool and shortening time to first prototype from weeks to days.'
+
+- id: github_copilot_productivity_research
+  title: 'Research: quantifying GitHub Copilot’s impact on developer productivity and happiness'
+  publisher: 'GitHub'
+  published: '2022-09-07'
+  accessed: '2026-02-03'
+  url: 'https://github.blog/news-insights/research/research-quantifying-github-copilots-impact-on-developer-productivity-and-happiness/'
+  tags:
+    - rapid-prototyping
+  reading_descriptions:
+    rapid-prototyping: 'Reports experimental evidence that Copilot users completed a programming task 55% faster, indicating higher throughput for prototyping work.'
+
+- id: wikipedia_heuristic_evaluation
+  title: 'Heuristic evaluation'
+  publisher: 'Wikimedia Foundation'
+  published: '2003-11-05'
+  accessed: '2026-02-03'
+  url: 'https://en.wikipedia.org/wiki/Heuristic_evaluation'
+  tags:
+    - usability-inspection
+  reading_descriptions:
+    usability-inspection: 'Defines heuristic evaluation as a usability inspection method that identifies interface problems by checking against recognized principles.'

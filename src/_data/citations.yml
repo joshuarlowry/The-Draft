@@ -53,3 +53,15 @@
 - id: eleventy_dev_server_hot_reload_quote
   quote: 'Eleventy includes its own hot-reloading development server.'
   source_id: eleventy_dev_server
+
+- id: ideo_rapid_prototyping_openai_quote
+  quote: 'By building a lightweight system that allows designers without technical backgrounds to prototype with LLMs, we could bring more voices, eyes, and hands into the AI-driven product design process. We also shortened our time to first prototype from weeks to days.'
+  source_id: ideo_rapid_prototyping_openai
+
+- id: github_copilot_productivity_quote
+  quote: 'The striking difference was that developers who used GitHub Copilot completed the task significantly faster–55% faster than the developers who didn’t use GitHub Copilot. Specifically, the developers using GitHub Copilot took on average 1 hour and 11 minutes to complete the task, while the developers who didn’t use GitHub Copilot took on average 2 hours and 41 minutes.'
+  source_id: github_copilot_productivity_research
+
+- id: heuristic_evaluation_definition_quote
+  quote: 'A heuristic evaluation is a usability inspection method for computer software that helps to identify usability problems in the user interface design. It specifically involves evaluators examining the interface and judging its compliance with recognized usability principles (the "heuristics").'
+  source_id: wikipedia_heuristic_evaluation
