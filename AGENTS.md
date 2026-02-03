@@ -2,6 +2,17 @@
 
 This repository uses structured content in `src/` with shared data in `src/_data`. Use the following conventions when adding or editing content.
 
+## Research workflow
+- Start by cataloging sources and summaries in `src/_data/sources.yml` and `src/_data/source_summaries.yml` (and any related notes) whenever research is performed or sources are added manually.
+- Not all sources need to end up in a block or article; cataloging first is expected.
+- When answering questions, search existing sources first, then perform new internet searches to find new or updated information as needed. Those findings trigger quotation blocks and/or articles.
+
+## Content guidance
+- Keep blocks and articles claim-driven and evidence-backed; every factual claim should be supported by citations where possible.
+- Preserve quoted source text verbatim; do not paraphrase inside quotes.
+- Favor reusable blocks over repeated prose; articles should assemble blocks by ID instead of duplicating content.
+- Keep intros/outros concise and focused on framing and synthesis rather than new claims.
+
 ## Before committing
 **Always run lint and build** before committing changes:
 - `npm run lint` — Prettier checks (CI will fail if this fails)
@@ -13,6 +24,13 @@ This repository uses structured content in `src/` with shared data in `src/_data
 - **Required fields:** `id`, `title`, `url`
 - **Optional fields:** `author`, `publisher`, `journal`, `repository`, `published`, `accessed`
 - **ID format:** lowercase snake-case, scoped to the source (e.g., `google_cloud_best_practices`).
+
+## Source summaries
+- **Location:** `src/_data/source_summaries.yml`
+- **Purpose:** Short and long summaries plus tags for each source.
+- **Required fields:** `source_id`, `summary`, `long_summary`
+- **Optional fields:** `tags`, `topics`, `categories`
+- **Notes:** `source_id` must match a valid `id` in `sources.yml`.
 
 ## Quotations (inline citations)
 - **Location:** `src/_data/citations.yml`

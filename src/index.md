@@ -11,7 +11,7 @@ A structured content system for assembling articles from reusable blocks.
 
 The Draft is powered by a private, request-only research feed. I ask, the agent hunts, and the site records what matters—summarized, tagged, and linked back to the original sources.
 
-Use the feed to jump into [[the Source Summaries]({{ '/summaries/' | url }})] or scan the [[full Bibliography]({{ '/bibliography/' | url }})] when you want every citation in one place.
+Use the feed to jump into [[Sources]({{ '/sources/' | url }})] when you want every citation and summary in one place.
 
 ## Articles
 

@@ -1,20 +1,20 @@
 ---
 layout: layouts/base.njk
-title: Bibliography
+title: Sources
 ---
 
-<h1>Bibliography</h1>
-<p class="summary-intro">A complete, searchable index of every source powering The Draft. Open a summary or jump straight to the original citation.</p>
+<h1>Sources</h1>
+<p class="summary-intro">A complete, searchable index of every source, with summaries, topics, and tags when available.</p>
 
 <div class="search-field">
-  <label for="bibliography-search">Search sources or summaries</label>
-  <input id="bibliography-search" type="search" placeholder="Search by title, author, or tag" data-bibliography-search>
+  <label for="sources-search">Search sources, summaries, or tags</label>
+  <input id="sources-search" type="search" placeholder="Search by title, author, topic, or tag" data-sources-search>
 </div>
 
-<div class="summary-grid" data-bibliography-grid>
+<div class="summary-grid" data-sources-grid>
   {%- for source in sources %}
     {%- set summary = source_summaries | getSourceSummaryById(source.id) %}
-    <article class="summary-card" data-bibliography-card data-search="{{ [source.title, source.author, source.publisher, source.repository, summary.summary, summary.long_summary, summary.tags | join(' '), summary.topics | join(' '), summary.categories | join(' ')] | join(' ') | lower }}">
+    <article class="summary-card" data-sources-card data-search="{{ [source.title, source.author, source.publisher, source.repository, summary.summary, summary.long_summary, summary.tags | join(' '), summary.topics | join(' '), summary.categories | join(' ')] | join(' ') | lower }}">
       <h3>{{ source.title }}</h3>
       {%- if summary %}
         <p>{{ summary.summary }}</p>
@@ -34,7 +34,7 @@ title: Bibliography
       </div>
       <div class="summary-links">
         {%- if summary %}
-          <a href="{{ ('/summaries/' ~ source.id ~ '/') | url }}">Summary</a>
+          <a href="{{ ('/summaries/' ~ source.id ~ '/') | url }}">Read summary</a>
         {%- endif %}
         {%- if source.url %}
           <a href="{{ source.url }}">Original source</a>
@@ -44,13 +44,13 @@ title: Bibliography
   {%- endfor %}
 </div>
 
-<p class="search-empty" data-bibliography-empty hidden>No sources match this search.</p>
+<p class="search-empty" data-sources-empty hidden>No sources match this search.</p>
 
 <script>
   (function () {
-    const input = document.querySelector('[data-bibliography-search]');
-    const cards = Array.from(document.querySelectorAll('[data-bibliography-card]'));
-    const emptyState = document.querySelector('[data-bibliography-empty]');
+    const input = document.querySelector('[data-sources-search]');
+    const cards = Array.from(document.querySelectorAll('[data-sources-card]'));
+    const emptyState = document.querySelector('[data-sources-empty]');
 
     if (!input) return;
 
