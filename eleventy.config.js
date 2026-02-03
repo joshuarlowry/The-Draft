@@ -53,6 +53,41 @@ module.exports = function (eleventyConfig) {
     return summaries.find((summary) => summary.source_id === id);
   });
 
+  const collectPeopleIdsForSource = (source = {}) => {
+    const authorIds = Array.isArray(source.author_ids) ? source.author_ids : [];
+    const mentionedIds = Array.isArray(source.mentioned_people_ids)
+      ? source.mentioned_people_ids
+      : [];
+    return [...new Set([...authorIds, ...mentionedIds])];
+  };
+
+  // Filter: Get people by IDs
+  eleventyConfig.addFilter('getPeopleByIds', function (people = [], ids = []) {
+    if (!Array.isArray(ids) || ids.length === 0) return [];
+    return people.filter((person) => ids.includes(person.id));
+  });
+
+  // Filter: Get people for a single source
+  eleventyConfig.addFilter('getPeopleBySource', function (people = [], source = {}) {
+    const peopleIds = collectPeopleIdsForSource(source);
+    if (peopleIds.length === 0) return [];
+    return people.filter((person) => peopleIds.includes(person.id));
+  });
+
+  // Filter: Get people by multiple source IDs
+  eleventyConfig.addFilter(
+    'getPeopleBySourceIds',
+    function (people = [], sources = [], sourceIds = []) {
+      if (!Array.isArray(sourceIds) || sourceIds.length === 0) return [];
+      const peopleIds = sourceIds
+        .map((sourceId) => sources.find((source) => source.id === sourceId))
+        .filter(Boolean)
+        .flatMap((source) => collectPeopleIdsForSource(source));
+      const uniqueIds = [...new Set(peopleIds)];
+      return people.filter((person) => uniqueIds.includes(person.id));
+    },
+  );
+
   // Filter: Get a reading tag group by ID
   eleventyConfig.addFilter('getReadingTagById', function (tags, id) {
     return tags.find((tag) => tag.id === id);
@@ -76,6 +111,34 @@ module.exports = function (eleventyConfig) {
       .filter(Boolean)
       .flatMap((block) => (Array.isArray(block.data.citations) ? block.data.citations : []));
     return [...new Set(citations)];
+  });
+
+  // Filter: Collect unique source IDs for a list of block IDs
+  eleventyConfig.addFilter(
+    'collectBlockSourceIds',
+    function (blockIds = [], blocks = [], citations = []) {
+      if (!Array.isArray(blockIds) || !Array.isArray(blocks) || !Array.isArray(citations)) {
+        return [];
+      }
+      const sourceIds = blockIds
+        .map((id) => blocks.find((block) => block.data.id === id))
+        .filter(Boolean)
+        .flatMap((block) => (Array.isArray(block.data.citations) ? block.data.citations : []))
+        .map((citationId) => citations.find((citation) => citation.id === citationId))
+        .filter(Boolean)
+        .map((citation) => citation.source_id)
+        .filter(Boolean);
+      return [...new Set(sourceIds)];
+    },
+  );
+
+  // Filter: Get sources for a person ID
+  eleventyConfig.addFilter('getSourcesByPersonId', function (sources = [], personId) {
+    if (!personId) return [];
+    return sources.filter((source) => {
+      const peopleIds = collectPeopleIdsForSource(source);
+      return peopleIds.includes(personId);
+    });
   });
 
   const getSourceFromCitation = (citation, sources = []) =>
