@@ -6,6 +6,7 @@ This repository uses structured content in `src/` with shared data in `src/_data
 - Start by cataloging sources and summaries in `src/_data/sources.yml` and `src/_data/source_summaries.yml` (and any related notes) whenever research is performed or sources are added manually.
 - Not all sources need to end up in a block or article; cataloging first is expected.
 - When answering questions, search existing sources first, then perform new internet searches to find new or updated information as needed. Those findings trigger quotation blocks and/or articles.
+- When adding a source, extract authors and any notable people mentioned so we can create people profiles that connect back to the source and related articles. Plan ahead for future profile photos on those people pages.
 
 ## Content guidance
 - Keep blocks and articles claim-driven and evidence-backed; every factual claim should be supported by citations where possible.

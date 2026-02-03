@@ -1,0 +1,74 @@
+---
+layout: layouts/base.njk
+title: People
+---
+
+<h1>People</h1>
+<p class="summary-intro">People referenced across sources and articles.</p>
+
+<div class="search-field">
+  <label for="people-search">Search people or sources</label>
+  <input
+    id="people-search"
+    type="search"
+    placeholder="Search by name or source"
+    data-people-search
+  >
+</div>
+
+<div class="summary-grid">
+  {%- for person in people %}
+    {% set personSources = sources | getSourcesByPersonId(person.id) %}
+    {% set searchTerms = [person.name] %}
+    {%- for source in personSources %}
+      {% set searchTerms = searchTerms.concat([source.title]) %}
+    {%- endfor %}
+    <article
+      class="summary-card"
+      data-people-card
+      data-search="{{ searchTerms | join(' ') | lower }}"
+    >
+      <h3><a href="{{ ('/people/' ~ person.id ~ '/') | url }}">{{ person.name }}</a></h3>
+      {% if personSources.length %}
+        {% if personSources.length == 1 %}
+          <p>1 source</p>
+        {% else %}
+          <p>{{ personSources.length }} sources</p>
+        {% endif %}
+        <ul class="meta-list">
+          {%- for source in personSources %}
+            <li><a href="{{ ('/summaries/' ~ source.id ~ '/') | url }}">{{ source.title }}</a></li>
+          {%- endfor %}
+        </ul>
+      {% else %}
+        <p>No linked sources yet.</p>
+      {% endif %}
+    </article>
+  {%- endfor %}
+</div>
+
+<p class="search-empty" data-people-empty hidden>No people match this search.</p>
+
+<script>
+  (function () {
+    const input = document.querySelector('[data-people-search]');
+    const cards = Array.from(document.querySelectorAll('[data-people-card]'));
+    const emptyState = document.querySelector('[data-people-empty]');
+
+    if (!input) return;
+
+    const update = () => {
+      const term = input.value.trim().toLowerCase();
+      let visible = 0;
+      cards.forEach((card) => {
+        const haystack = card.dataset.search || '';
+        const match = !term || haystack.includes(term);
+        card.hidden = !match;
+        if (match) visible += 1;
+      });
+      if (emptyState) emptyState.hidden = visible !== 0;
+    };
+
+    input.addEventListener('input', update);
+  })();
+</script>

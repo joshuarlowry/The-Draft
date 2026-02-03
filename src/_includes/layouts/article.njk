@@ -12,6 +12,19 @@ layout: layouts/base.njk
   </section>
   {% endif %}
 
+  {% set articleSourceIds = blocks | collectBlockSourceIds(collections.argumentBlocks, citations) %}
+  {% set articlePeople = people | getPeopleBySourceIds(sources, articleSourceIds) %}
+  {% if articlePeople.length %}
+  <section class="article-people">
+    <h2>People referenced</h2>
+    <ul class="meta-list">
+      {%- for person in articlePeople %}
+        <li><a href="{{ ('/people/' ~ person.id ~ '/') | url }}">{{ person.name }}</a></li>
+      {%- endfor %}
+    </ul>
+  </section>
+  {% endif %}
+
   {% set articleCitationIds = blocks | collectBlockCitations(collections.argumentBlocks) %}
 
   <section class="article-blocks">
