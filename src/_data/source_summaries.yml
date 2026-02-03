@@ -181,3 +181,42 @@
     - ai-tooling
   categories:
     - tooling-guardrails
+
+- source_id: eleventy_image_plugin
+  summary: 'Eleventy Image is a plugin that automatically processes image markup so sites can generate responsive images without manual asset pipelines.'
+  long_summary: 'The Eleventy Image documentation explains how the plugin integrates into Eleventy builds to process <img> and <picture> elements. It positions the plugin as an automated way to handle responsive image generation and related output formats, reducing manual steps in managing assets. For The Draft, it represents a drop-in improvement to image handling without building a custom pipeline.'
+  tags:
+    - images
+    - performance
+    - plugins
+  topics:
+    - asset-optimization
+    - eleventy-plugins
+  categories:
+    - platform-tooling
+
+- source_id: eleventy_fetch_plugin
+  summary: 'Eleventy Fetch caches network resources locally and refreshes them at configurable intervals to prevent repeated API calls on every build.'
+  long_summary: 'The Eleventy Fetch documentation describes a caching plugin that retrieves remote resources and stores them locally, refreshing on a schedule instead of per-build. It emphasizes that cached responses keep builds resilient and reduce load on external services. This is relevant for any future data sourcing or automated research ingestion for The Draft.'
+  tags:
+    - caching
+    - data
+    - plugins
+  topics:
+    - remote-data
+    - build-performance
+  categories:
+    - platform-tooling
+
+- source_id: eleventy_dev_server
+  summary: 'Eleventy ships with a hot-reloading development server for local preview during content and design work.'
+  long_summary: 'The Eleventy Dev Server documentation notes that Eleventy includes its own hot-reloading development server. That built-in server can simplify local previews and reduce dependence on external tooling for live reload. For The Draft, it is a straightforward way to improve authoring feedback loops during design or content changes.'
+  tags:
+    - development
+    - preview
+    - workflow
+  topics:
+    - local-development
+    - live-reload
+  categories:
+    - platform-tooling

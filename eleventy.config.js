@@ -57,6 +57,16 @@ module.exports = function (eleventyConfig) {
     return concepts.find((concept) => concept.data.id === id);
   });
 
+  // Filter: Collect unique citation IDs for a list of block IDs
+  eleventyConfig.addFilter('collectBlockCitations', function (blockIds = [], blocks = []) {
+    if (!Array.isArray(blockIds) || !Array.isArray(blocks)) return [];
+    const citations = blockIds
+      .map((id) => blocks.find((block) => block.data.id === id))
+      .filter(Boolean)
+      .flatMap((block) => (Array.isArray(block.data.citations) ? block.data.citations : []));
+    return [...new Set(citations)];
+  });
+
   const getSourceFromCitation = (citation, sources = []) =>
     sources.find((item) => item.id === citation.source_id) || {};
 

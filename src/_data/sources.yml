@@ -161,3 +161,21 @@
     - tooling-guardrails
   reading_descriptions:
     tooling-guardrails: 'Shows how LLMs can automate test generation from API specifications, improving test coverage discipline.'
+
+- id: eleventy_image_plugin
+  title: 'Eleventy Image'
+  publisher: 'Eleventy'
+  accessed: '2025-02-14'
+  url: 'https://www.11ty.dev/docs/plugins/image/'
+
+- id: eleventy_fetch_plugin
+  title: 'Fetch'
+  publisher: 'Eleventy'
+  accessed: '2025-02-14'
+  url: 'https://www.11ty.dev/docs/plugins/fetch/'
+
+- id: eleventy_dev_server
+  title: 'Eleventy Dev Server'
+  publisher: 'Eleventy'
+  accessed: '2025-02-14'
+  url: 'https://www.11ty.dev/docs/dev-server/'

@@ -12,6 +12,8 @@ layout: layouts/base.njk
   </section>
   {% endif %}
 
+  {% set articleCitationIds = blocks | collectBlockCitations(collections.argumentBlocks) %}
+
   <section class="article-blocks">
     {% for blockId in blocks %}
       {% set block = collections.argumentBlocks | getBlockById(blockId) %}
@@ -41,5 +43,9 @@ layout: layouts/base.njk
   <section class="article-outro">
     {{ outro | safe }}
   </section>
+  {% endif %}
+
+  {% if articleCitationIds and articleCitationIds.length %}
+    {{ articleCitationIds | renderCitationSection(citations, sources, source_summaries) | safe }}
   {% endif %}
 </article>
