@@ -14,10 +14,21 @@ title: Sources
 <div class="summary-grid" data-sources-grid>
   {%- for source in sources %}
     {%- set summary = source_summaries | getSourceSummaryById(source.id) %}
+    {%- set sourcePeople = people | getPeopleBySourceId(source.id) %}
     <article class="summary-card" data-sources-card data-search="{{ [source.title, source.author, source.publisher, source.repository, summary.summary, summary.long_summary, summary.tags | join(' '), summary.topics | join(' '), summary.categories | join(' ')] | join(' ') | lower }}">
       <h3>{{ source.title }}</h3>
       {%- if summary %}
         <p>{{ summary.summary }}</p>
+      {%- endif %}
+      {%- if sourcePeople.length %}
+        <div class="summary-meta">
+          <span class="meta-label">People:</span>
+          <ul class="meta-list">
+            {%- for person in sourcePeople %}
+              <li><a href="{{ ('/people/' ~ person.id ~ '/') | url }}">{{ person.name }}</a></li>
+            {%- endfor %}
+          </ul>
+        </div>
       {%- endif %}
       <div class="summary-meta">
         {%- if summary %}
