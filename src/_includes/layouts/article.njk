@@ -33,11 +33,8 @@ layout: layouts/base.njk
     {% endfor %}
   </section>
 
-  {% if reading_bundle %}
-    {% set bundle = reading_bundles | getBundleById(reading_bundle) %}
-    {% if bundle %}
-      {% include "components/extended-reading.njk" %}
-    {% endif %}
+  {% if reading_tags %}
+    {% include "components/extended-reading.njk" %}
   {% endif %}
 
   {% if outro %}

@@ -10,7 +10,10 @@ blocks:
   - oversight-governance
   - oversight-guardrails
   - oversight-leadership-implication
-reading_bundle: oversight-skill-extended-reading
+reading_tags:
+  - ai-production-scale
+  - governance-guardrails
+reading_intro: 'These readings provide additional context on AI-assisted development, oversight, and governance. They are grouped by theme rather than position.'
 outro: |
   <p class="reading-conclusion">Oversight does not mean reading every line. It means designing systems that keep accountability intact as output scales.</p>
 ---

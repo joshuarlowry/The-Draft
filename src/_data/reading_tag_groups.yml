@@ -1,0 +1,19 @@
+- id: planning-and-structure
+  title: 'Planning and Structure in AI-Assisted Coding'
+  description: 'These pieces focus on why upfront framing, task decomposition, and explicit constraints improve outcomes when working with AI coding tools.'
+
+- id: responsibility-oversight
+  title: 'Human Responsibility, Oversight, and Risk'
+  description: 'These sources examine what happens when AI accelerates implementation faster than human review and decision-making.'
+
+- id: engineering-judgment
+  title: 'Engineering Judgment and Skill Development'
+  description: 'These works are not about AI specifically. They explain how expertise develops and why reflective decision-making matters—principles that apply directly to planning-first workflows.'
+
+- id: ai-production-scale
+  title: 'AI Production at Scale'
+  description: 'Sources that describe how AI output is expanding and how organizations interpret that shift.'
+
+- id: governance-guardrails
+  title: 'Governance and Guardrails'
+  description: 'Evidence that oversight is shifting toward gates, policies, and technical guardrails.'

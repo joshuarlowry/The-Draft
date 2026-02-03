@@ -9,7 +9,11 @@ blocks:
   - plan-first
   - human-responsibility
   - engineer-judgment
-reading_bundle: plan-first-extended-reading
+reading_tags:
+  - planning-and-structure
+  - responsibility-oversight
+  - engineering-judgment
+reading_intro: 'The articles and papers below provide additional context around planning, human judgment, and AI-assisted development. They are grouped by theme rather than position; agreement with every conclusion is not required to find them useful.'
 outro: |
   <p class="reading-conclusion">These readings reinforce a common theme:<br>
   better outcomes come from deliberate thinking before execution—regardless of whether the work is done by a human, an AI, or both.</p>
