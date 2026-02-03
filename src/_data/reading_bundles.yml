@@ -5,24 +5,24 @@
       description: 'These pieces focus on why upfront framing, task decomposition, and explicit constraints improve outcomes when working with AI coding tools.'
       sources:
         - id: google_cloud_best_practices
-          description: "Practical guidance on planning, breaking down work, and setting context before asking AI to generate code."
+          description: 'Practical guidance on planning, breaking down work, and setting context before asking AI to generate code.'
         - id: infoq_pdca_cycle
-          description: "An exploration of using a Plan-Do-Check-Act loop with AI, grounding AI-assisted coding in established engineering process discipline."
+          description: 'An exploration of using a Plan-Do-Check-Act loop with AI, grounding AI-assisted coding in established engineering process discipline.'
         - id: graphite_ai_pair_programming
-          description: "A practitioner-oriented guide on how context, constraints, and expectations shape the usefulness of AI coding output."
+          description: 'A practitioner-oriented guide on how context, constraints, and expectations shape the usefulness of AI coding output.'
 
     - title: 'Human Responsibility, Oversight, and Risk'
       description: 'These sources examine what happens when AI accelerates implementation faster than human review and decision-making.'
       sources:
         - id: techradar_ai_security
-          description: "A discussion of real-world risks that emerge when AI-generated code is adopted without sufficient design review or oversight."
+          description: 'A discussion of real-world risks that emerge when AI-generated code is adopted without sufficient design review or oversight.'
         - id: arxiv_human_centered_practices
-          description: "Research on how structured inputs, clear framing, and human supervision affect AI system behavior and reliability."
+          description: 'Research on how structured inputs, clear framing, and human supervision affect AI system behavior and reliability.'
 
     - title: 'Engineering Judgment and Skill Development'
       description: 'These works are not about AI specifically. They explain how expertise develops and why reflective decision-making matters—principles that apply directly to planning-first workflows.'
       sources:
         - id: boehm_software_engineering_economics
-          description: "A foundational text on why detecting problems earlier in the lifecycle is cheaper and more effective than fixing them later."
+          description: 'A foundational text on why detecting problems earlier in the lifecycle is cheaper and more effective than fixing them later.'
         - id: ericsson_deliberate_practice
-          description: "Classic research on how expert judgment improves through focused, reflective practice rather than repetition alone."
+          description: 'Classic research on how expert judgment improves through focused, reflective practice rather than repetition alone.'

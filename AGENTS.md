@@ -2,6 +2,11 @@
 
 This repository uses structured content in `src/` with shared data in `src/_data`. Use the following conventions when adding or editing content.
 
+## Before committing
+**Always run lint and build** before committing changes:
+- `npm run lint` — Prettier checks (CI will fail if this fails)
+- `npm run build` — Eleventy build
+
 ## Sources (canonical reference records)
 - **Location:** `src/_data/sources.yml`
 - **Purpose:** Canonical source metadata used by both citations and reading bundles.

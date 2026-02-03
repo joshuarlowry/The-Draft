@@ -1,5 +1,5 @@
 - id: google_cloud_best_practices_quote
-  quote: "Spending extra time with AI tools to build and revise an execution plan generally gives you better code output on complex tasks."
+  quote: 'Spending extra time with AI tools to build and revise an execution plan generally gives you better code output on complex tasks.'
   source_id: google_cloud_best_practices
 
 - id: arxiv_human_centered_practices_quote
@@ -7,9 +7,9 @@
   source_id: arxiv_human_centered_practices
 
 - id: boehm_software_engineering_economics_quote
-  quote: "The earlier a defect is introduced into the development process, the more expensive it is to fix later."
+  quote: 'The earlier a defect is introduced into the development process, the more expensive it is to fix later.'
   source_id: boehm_software_engineering_economics
 
 - id: ericsson_deliberate_practice_quote
-  quote: "Expert performance is the result of deliberate practice, which involves focused effort, feedback, and opportunities to correct errors."
+  quote: 'Expert performance is the result of deliberate practice, which involves focused effort, feedback, and opportunities to correct errors.'
   source_id: ericsson_deliberate_practice

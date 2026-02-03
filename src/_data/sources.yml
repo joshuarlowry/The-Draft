@@ -1,50 +1,50 @@
 - id: google_cloud_best_practices
-  title: "Five Best Practices for Using AI Coding Assistants"
-  publisher: "Google Cloud"
-  published: "2024"
-  accessed: "2026-02-02"
-  url: "https://cloud.google.com/blog/topics/developers-practitioners/five-best-practices-for-using-ai-coding-assistants"
+  title: 'Five Best Practices for Using AI Coding Assistants'
+  publisher: 'Google Cloud'
+  published: '2024'
+  accessed: '2026-02-02'
+  url: 'https://cloud.google.com/blog/topics/developers-practitioners/five-best-practices-for-using-ai-coding-assistants'
 
 - id: infoq_pdca_cycle
-  title: "Applying the PDCA Cycle to AI Code Generation"
-  publisher: "InfoQ"
-  published: "2024"
-  accessed: "2026-02-02"
-  url: "https://www.infoq.com/articles/PDCA-AI-code-generation/"
+  title: 'Applying the PDCA Cycle to AI Code Generation'
+  publisher: 'InfoQ'
+  published: '2024'
+  accessed: '2026-02-02'
+  url: 'https://www.infoq.com/articles/PDCA-AI-code-generation/'
 
 - id: graphite_ai_pair_programming
-  title: "AI Pair Programming Best Practices"
-  publisher: "Graphite"
-  published: "2024"
-  accessed: "2026-02-02"
-  url: "https://graphite.com/guides/ai-pair-programming-best-practices"
+  title: 'AI Pair Programming Best Practices'
+  publisher: 'Graphite'
+  published: '2024'
+  accessed: '2026-02-02'
+  url: 'https://graphite.com/guides/ai-pair-programming-best-practices'
 
 - id: techradar_ai_security
-  title: "AI Is Creating Code Faster—but Also More Security Issues"
-  publisher: "TechRadar Pro"
-  published: "2023"
-  accessed: "2026-02-02"
-  url: "https://www.techradar.com/pro/ai-is-creating-code-faster-but-this-also-means-more-potential-security-issues"
+  title: 'AI Is Creating Code Faster—but Also More Security Issues'
+  publisher: 'TechRadar Pro'
+  published: '2023'
+  accessed: '2026-02-02'
+  url: 'https://www.techradar.com/pro/ai-is-creating-code-faster-but-this-also-means-more-potential-security-issues'
 
 - id: arxiv_human_centered_practices
-  title: "Human-Centered Practices for Responsible AI Development"
-  repository: "arXiv"
-  published: "2023"
-  accessed: "2026-02-02"
-  url: "https://arxiv.org/abs/2305.11248"
+  title: 'Human-Centered Practices for Responsible AI Development'
+  repository: 'arXiv'
+  published: '2023'
+  accessed: '2026-02-02'
+  url: 'https://arxiv.org/abs/2305.11248'
 
 - id: boehm_software_engineering_economics
-  author: "Barry W. Boehm"
-  title: "Software Engineering Economics"
-  publisher: "Prentice Hall"
-  published: "1981"
-  accessed: "2026-02-02"
-  url: "https://www.cs.cmu.edu/~johnl/temple/18-749/papers/boehm1981.pdf"
+  author: 'Barry W. Boehm'
+  title: 'Software Engineering Economics'
+  publisher: 'Prentice Hall'
+  published: '1981'
+  accessed: '2026-02-02'
+  url: 'https://www.cs.cmu.edu/~johnl/temple/18-749/papers/boehm1981.pdf'
 
 - id: ericsson_deliberate_practice
-  author: "K. Anders Ericsson, Ralf T. Krampe, Clemens Tesch-Römer"
-  title: "The Role of Deliberate Practice in the Acquisition of Expert Performance"
-  journal: "Psychological Review, Vol. 100, No. 3"
-  published: "1993"
-  accessed: "2026-02-02"
-  url: "https://psycnet.apa.org/record/1993-40718-001"
+  author: 'K. Anders Ericsson, Ralf T. Krampe, Clemens Tesch-Römer'
+  title: 'The Role of Deliberate Practice in the Acquisition of Expert Performance'
+  journal: 'Psychological Review, Vol. 100, No. 3'
+  published: '1993'
+  accessed: '2026-02-02'
+  url: 'https://psycnet.apa.org/record/1993-40718-001'
