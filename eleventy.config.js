@@ -76,6 +76,7 @@ module.exports = function (eleventyConfig) {
     const title = source.title || 'Untitled source';
     const container = source.journal || source.publisher || source.repository;
     const url = source.url;
+    const accessed = source.accessed;
     const parts = [`${author}. (${year}). <em>${title}</em>.`];
 
     if (container && container !== author) {
@@ -83,6 +84,9 @@ module.exports = function (eleventyConfig) {
     }
 
     if (url) {
+      if (accessed) {
+        parts.push(`Accessed ${accessed}.`);
+      }
       parts.push(`<a href="${url}">${url}</a>`);
     }
 

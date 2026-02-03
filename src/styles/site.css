@@ -88,6 +88,24 @@ main {
   font-family: var(--font-sans);
 }
 
+@media (max-width: 720px) {
+  main {
+    padding: calc(var(--spacing) * 1.5);
+  }
+
+  .site-header {
+    padding: calc(var(--spacing) * 1.25);
+  }
+
+  .site-footer {
+    padding: calc(var(--spacing) * 1.5);
+  }
+
+  p {
+    text-align: left;
+  }
+}
+
 /* Typography */
 h1 {
   font-size: 2.5rem;
