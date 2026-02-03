@@ -13,6 +13,11 @@ Use the feed to jump into [[Sources]({{ '/sources/' | url }})] when you want eve
 
 <ul class="article-list">
 {%- for article in collections.articles %}
-  <li><a href="{{ article.url | url }}">{{ article.data.title }}</a></li>
+  <li>
+    <a href="{{ article.url | url }}">{{ article.data.title }}</a>
+    {%- if article.data.summary %}
+      <p class="article-summary">{{ article.data.summary }}</p>
+    {%- endif %}
+  </li>
 {%- endfor %}
 </ul>

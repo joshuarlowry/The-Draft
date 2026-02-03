@@ -20,13 +20,13 @@ eleventyComputed:
   {%- endif %}
   <div class="summary-meta">
     {%- for tag in summary.tags %}
-      <span class="tag-pill">{{ tag }}</span>
+      <a class="tag-pill" href="{{ ('/topics/tag/' ~ (tag | slugifyTerm) ~ '/') | url }}">{{ tag }}</a>
     {%- endfor %}
     {%- for topic in summary.topics %}
-      <span class="tag-pill">{{ topic }}</span>
+      <a class="tag-pill" href="{{ ('/topics/topic/' ~ (topic | slugifyTerm) ~ '/') | url }}">{{ topic }}</a>
     {%- endfor %}
     {%- for category in summary.categories %}
-      <span class="tag-pill">{{ category }}</span>
+      <a class="tag-pill" href="{{ ('/topics/category/' ~ (category | slugifyTerm) ~ '/') | url }}">{{ category }}</a>
     {%- endfor %}
   </div>
   <div class="summary-links">
@@ -36,6 +36,57 @@ eleventyComputed:
     {%- endif %}
   </div>
 </section>
+
+{% set summaryTerms = [] %}
+{% if summary.tags %}
+  {% set summaryTerms = summaryTerms.concat(summary.tags) %}
+{% endif %}
+{% if summary.topics %}
+  {% set summaryTerms = summaryTerms.concat(summary.topics) %}
+{% endif %}
+{% if summary.categories %}
+  {% set summaryTerms = summaryTerms.concat(summary.categories) %}
+{% endif %}
+
+{% if summaryTerms.length %}
+  {% set relatedArticles = [] %}
+  {%- for article in collections.articles %}
+    {%- set matched = false %}
+    {%- for blockId in article.data.blocks %}
+      {%- set block = collections.argumentBlocks | getBlockById(blockId) %}
+      {%- if block %}
+        {%- set blockTerms = [] %}
+        {%- if block.data.tags %}{%- set blockTerms = blockTerms.concat(block.data.tags) %}{%- endif %}
+        {%- if block.data.topics %}{%- set blockTerms = blockTerms.concat(block.data.topics) %}{%- endif %}
+        {%- if block.data.categories %}{%- set blockTerms = blockTerms.concat(block.data.categories) %}{%- endif %}
+        {%- for term in summaryTerms %}
+          {%- if term in blockTerms %}
+            {%- set matched = true %}
+          {%- endif %}
+        {%- endfor %}
+      {%- endif %}
+    {%- endfor %}
+    {%- if matched %}
+      {%- set relatedArticles = relatedArticles.concat([article]) %}
+    {%- endif %}
+  {%- endfor %}
+
+  {% if relatedArticles.length %}
+    <section>
+      <h2>Related articles</h2>
+      <ul class="article-list">
+        {%- for article in relatedArticles %}
+          <li>
+            <a href="{{ article.url | url }}">{{ article.data.title }}</a>
+            {% if article.data.summary %}
+              <p class="article-summary">{{ article.data.summary }}</p>
+            {% endif %}
+          </li>
+        {%- endfor %}
+      </ul>
+    </section>
+  {% endif %}
+{% endif %}
 
 <section class="citation-section">
   <h3>Source details</h3>

@@ -7,7 +7,9 @@
         <span class="meta-label">Categories:</span>
         <ul class="meta-list">
           {%- for category in block.data.categories %}
-            <li>{{ category }}</li>
+            <li>
+              <a href="{{ ('/topics/category/' ~ (category | slugifyTerm) ~ '/') | url }}">{{ category }}</a>
+            </li>
           {%- endfor %}
         </ul>
       </div>
@@ -17,7 +19,9 @@
         <span class="meta-label">Topics:</span>
         <ul class="meta-list">
           {%- for topic in block.data.topics %}
-            <li>{{ topic }}</li>
+            <li>
+              <a href="{{ ('/topics/topic/' ~ (topic | slugifyTerm) ~ '/') | url }}">{{ topic }}</a>
+            </li>
           {%- endfor %}
         </ul>
       </div>
@@ -27,7 +31,9 @@
         <span class="meta-label">Tags:</span>
         <ul class="meta-list">
           {%- for tag in block.data.tags %}
-            <li>{{ tag }}</li>
+            <li>
+              <a href="{{ ('/topics/tag/' ~ (tag | slugifyTerm) ~ '/') | url }}">{{ tag }}</a>
+            </li>
           {%- endfor %}
         </ul>
       </div>

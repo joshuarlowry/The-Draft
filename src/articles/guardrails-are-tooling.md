@@ -2,6 +2,7 @@
 layout: layouts/article.njk
 id: guardrails-are-tooling
 title: 'Guardrails Are Tooling, Not Meetings'
+summary: 'Effective AI oversight scales when guardrails are embedded in tests, analysis, and workflow tooling instead of policy alone.'
 intro: |
   <p>Guardrails for AI-assisted development are often described as policy. In practice, they work best when they are embedded in the tooling and workflows that shape every change.</p>
   <p>Static analysis, automated tests, and multi-agent workflows turn oversight into repeatable checks that scale with output.</p>

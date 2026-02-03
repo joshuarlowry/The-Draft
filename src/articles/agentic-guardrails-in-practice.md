@@ -2,6 +2,7 @@
 layout: layouts/article.njk
 id: agentic-guardrails-in-practice
 title: 'Agentic Guardrails in Practice'
+summary: 'Multi-agent workflows turn oversight into a repeatable system by dividing intent, retrieval, and validation across roles.'
 intro: |
   <p>Agentic workflows can speed delivery, but they also amplify small mistakes. Planning and role clarity are what keep that speed from becoming chaos.</p>
   <p>Guardrails that combine deliberate planning with automated checks are how teams keep control as agents take on more of the execution.</p>
