@@ -1,0 +1,55 @@
+---
+layout: layouts/base.njk
+pagination:
+  data: source_summaries
+  size: 1
+  alias: summary
+permalink: "/summaries/{{ summary.source_id }}/"
+eleventyComputed:
+  title: "{{ (sources | getSourceById(summary.source_id)).title }} Summary"
+---
+{% set source = sources | getSourceById(summary.source_id) %}
+
+<h1>{{ source.title }}</h1>
+<p class="summary-intro">A human-readable summary curated by the agentic feed.</p>
+
+<section class="summary-card">
+  <p><strong>Summary:</strong> {{ summary.summary }}</p>
+  {%- if summary.long_summary %}
+    <p>{{ summary.long_summary }}</p>
+  {%- endif %}
+  <div class="summary-meta">
+    {%- for tag in summary.tags %}
+      <span class="tag-pill">{{ tag }}</span>
+    {%- endfor %}
+    {%- for topic in summary.topics %}
+      <span class="tag-pill">{{ topic }}</span>
+    {%- endfor %}
+    {%- for category in summary.categories %}
+      <span class="tag-pill">{{ category }}</span>
+    {%- endfor %}
+  </div>
+  <div class="summary-links">
+    <a href="{{ '/summaries/' | url }}">Back to all summaries</a>
+    {%- if source.url %}
+      <a href="{{ source.url }}">Original source</a>
+    {%- endif %}
+  </div>
+</section>
+
+<section class="citation-section">
+  <h3>Source details</h3>
+  <ol class="citation-list">
+    <li class="citation-item">
+      <strong>Author/Publisher:</strong>
+      {{ source.author or source.publisher or source.repository or 'Unknown' }}<br>
+      <strong>Published:</strong> {{ source.published or 'n.d.' }}<br>
+      <strong>Title:</strong> {{ source.title }}<br>
+      {%- if source.journal %}<strong>Container:</strong> {{ source.journal }}<br>{% endif -%}
+      {%- if source.publisher and not source.journal %}<strong>Container:</strong> {{ source.publisher }}<br>{% endif -%}
+      {%- if source.repository and not source.journal and not source.publisher %}<strong>Container:</strong> {{ source.repository }}<br>{% endif -%}
+      {%- if source.accessed %}<strong>Accessed:</strong> {{ source.accessed }}<br>{% endif -%}
+      {%- if source.url %}<strong>URL:</strong> <a href="{{ source.url }}">{{ source.url }}</a>{% endif -%}
+    </li>
+  </ol>
+</section>

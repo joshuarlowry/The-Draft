@@ -1,7 +1,35 @@
 <section class="block argument-block" id="{{ block.data.id }}">
   <h2>{{ block.data.title }}</h2>
-  <div class="block-content">
-    {{ block.templateContent | renderWithCitations(citations, sources) | safe }}
+  {% if block.data.tags or block.data.topics or block.data.categories %}
+  <div class="block-meta">
+    {% if block.data.categories %}
+      <span class="meta-label">Categories:</span>
+      <ul class="meta-list">
+        {%- for category in block.data.categories %}
+          <li>{{ category }}</li>
+        {%- endfor %}
+      </ul>
+    {% endif %}
+    {% if block.data.topics %}
+      <span class="meta-label">Topics:</span>
+      <ul class="meta-list">
+        {%- for topic in block.data.topics %}
+          <li>{{ topic }}</li>
+        {%- endfor %}
+      </ul>
+    {% endif %}
+    {% if block.data.tags %}
+      <span class="meta-label">Tags:</span>
+      <ul class="meta-list">
+        {%- for tag in block.data.tags %}
+          <li>{{ tag }}</li>
+        {%- endfor %}
+      </ul>
+    {% endif %}
   </div>
-  {{ block.data.citations | renderCitationSection(citations, sources) | safe }}
+  {% endif %}
+  <div class="block-content">
+    {{ block.templateContent | renderWithCitations(citations, sources, source_summaries) | safe }}
+  </div>
+  {{ block.data.citations | renderCitationSection(citations, sources, source_summaries) | safe }}
 </section>

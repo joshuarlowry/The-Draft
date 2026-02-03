@@ -1,6 +1,16 @@
 ---
 id: oversight-governance
 title: 'Governance is about gates, not exhaustive comprehension'
+categories:
+  - governance-guardrails
+topics:
+  - governance
+  - review-gates
+  - accountability
+tags:
+  - policy
+  - review-checkpoints
+  - risk-bounds
 citations:
   - adtmag_human_review_quote
 ---

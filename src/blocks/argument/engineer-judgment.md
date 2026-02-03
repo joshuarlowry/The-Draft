@@ -1,6 +1,16 @@
 ---
 id: engineer-judgment
 title: "Planning first improves the engineer's judgment, not just the outcome of one task"
+categories:
+  - engineering-judgment
+topics:
+  - deliberate-practice
+  - expertise
+  - judgment
+tags:
+  - planning-loop
+  - reflection
+  - skill-growth
 citations:
   - ericsson_deliberate_practice_quote
 ---

@@ -1,6 +1,16 @@
 ---
 id: human-responsibility
 title: 'Plan mode keeps humans responsible for system design instead of reviewing it after the fact'
+categories:
+  - responsibility-oversight
+topics:
+  - design-review
+  - accountability
+  - human-in-the-loop
+tags:
+  - plan-mode
+  - early-review
+  - system-design
 citations:
   - arxiv_human_centered_practices_quote
   - boehm_software_engineering_economics_quote

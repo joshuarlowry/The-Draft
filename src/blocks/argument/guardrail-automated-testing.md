@@ -1,6 +1,16 @@
 ---
 id: guardrail-automated-testing
 title: 'Automated testing is the fastest guardrail you can add'
+categories:
+  - tooling-guardrails
+topics:
+  - automated-testing
+  - feedback-loops
+  - quality
+tags:
+  - test-automation
+  - coverage
+  - guardrail-speed
 citations:
   - resttsllm_api_testing_quote
 ---

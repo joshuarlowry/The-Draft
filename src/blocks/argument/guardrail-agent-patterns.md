@@ -1,6 +1,16 @@
 ---
 id: guardrail-agent-patterns
 title: 'Multi-agent patterns turn guardrails into workflow'
+categories:
+  - tooling-guardrails
+topics:
+  - multi-agent
+  - workflow-design
+  - validation
+tags:
+  - agentic-patterns
+  - role-separation
+  - guardrail-workflow
 citations:
   - context_engineering_multi_agent_quote
 ---

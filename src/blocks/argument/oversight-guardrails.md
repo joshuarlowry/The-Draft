@@ -1,6 +1,16 @@
 ---
 id: oversight-guardrails
 title: 'Research points to guardrails, not manual inspection'
+categories:
+  - governance-guardrails
+topics:
+  - guardrails
+  - runtime-verification
+  - safety-engineering
+tags:
+  - sandboxing
+  - human-in-loop
+  - observability
 citations:
   - safe_ai_framework_quote
 ---

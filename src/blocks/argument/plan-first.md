@@ -1,6 +1,16 @@
 ---
 id: plan-first
 title: "If you don't plan first, the AI will make design decisions for you"
+categories:
+  - planning-and-structure
+topics:
+  - task-framing
+  - design-decisions
+  - constraints
+tags:
+  - plan-first
+  - design-authority
+  - context-setting
 citations:
   - google_cloud_best_practices_quote
 ---

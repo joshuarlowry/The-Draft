@@ -1,0 +1,183 @@
+- source_id: google_cloud_best_practices
+  summary: 'Google Cloud outlines practical habits for getting better AI coding results, emphasizing upfront planning, clear constraints, and tight review loops so generated code reflects real system intent rather than generic patterns.'
+  long_summary: 'Google Cloud presents a set of concrete practices for using AI coding assistants responsibly, starting with clear task framing and explicit constraints. The guidance stresses that the AI should be treated like a collaborator that needs context, examples, and clear acceptance criteria to deliver useful results. It also highlights the importance of reviewing output, iterating with intent, and using automation (tests and checks) to validate AI-generated changes. The through-line is that planning and oversight are not optional add-ons—they are the inputs that keep AI output aligned with real system goals.'
+  tags:
+    - planning
+    - prompting
+    - review
+    - workflow
+  topics:
+    - ai-assisted-coding
+    - task-framing
+    - quality-control
+  categories:
+    - planning-and-structure
+
+- source_id: infoq_pdca_cycle
+  summary: 'InfoQ describes applying the Plan-Do-Check-Act cycle to AI code generation, arguing that iterative planning and verification keeps AI output aligned with engineering discipline and measurable outcomes.'
+  long_summary: 'This InfoQ article adapts the Plan-Do-Check-Act (PDCA) quality framework to AI code generation. It argues that teams should not treat AI output as a one-shot artifact, but rather as part of a disciplined loop that starts with a plan, proceeds to generation, and then validates results before acting on them. The piece emphasizes that verification and reflection are necessary to prevent AI-driven velocity from eroding quality, and it provides a process lens for integrating AI into established engineering practices.'
+  tags:
+    - pdca
+    - iteration
+    - process-discipline
+  topics:
+    - ai-assisted-coding
+    - continuous-improvement
+  categories:
+    - planning-and-structure
+
+- source_id: graphite_ai_pair_programming
+  summary: 'Graphite’s guide frames AI pair programming as a collaboration that improves when developers provide explicit context, constraints, and expectations, reducing rework and misaligned output.'
+  long_summary: 'Graphite positions AI pair programming as a partnership that benefits from explicit direction. The guide underscores that the most effective results come from carefully scoped prompts, clear guardrails, and shared definitions of “done.” It encourages developers to provide surrounding context, highlight constraints, and review the output as they would a human collaborator’s work. The takeaway is that the quality of AI output depends on the quality of the context and the feedback loop that shapes it.'
+  tags:
+    - pairing
+    - constraints
+    - context-setting
+  topics:
+    - ai-collaboration
+    - developer-workflow
+  categories:
+    - planning-and-structure
+
+- source_id: techradar_ai_security
+  summary: 'TechRadar Pro reports that faster AI-generated code can introduce security risk when shipped without adequate review, highlighting the need for tighter oversight as velocity increases.'
+  long_summary: 'This TechRadar Pro article focuses on the security tradeoffs of AI-accelerated software delivery. It notes that rapid AI-generated code can increase the pace of vulnerabilities if security review and testing do not keep up. The piece highlights that teams adopting AI need to strengthen oversight, introduce security gates, and treat AI output as potentially riskier until it is validated. The broader message is that speed must be paired with explicit safeguards to avoid scaling weaknesses alongside productivity.'
+  tags:
+    - security-risk
+    - velocity
+    - oversight
+  topics:
+    - ai-production
+    - software-security
+  categories:
+    - responsibility-oversight
+
+- source_id: arxiv_human_centered_practices
+  summary: 'This arXiv paper surveys human-centered practices for responsible AI development, stressing the importance of structured inputs, supervision, and accountability mechanisms.'
+  long_summary: 'The paper surveys research on human-centered AI development practices, emphasizing that clear problem framing and structured inputs significantly affect AI system outcomes. It highlights the need for supervision and accountability mechanisms that keep humans in the loop throughout the lifecycle. Rather than treating AI as autonomous, the paper argues for processes that clarify intent, make decision points visible, and establish responsibility for outcomes. These practices are presented as core to building reliable and trustworthy AI systems.'
+  tags:
+    - human-centered
+    - supervision
+    - accountability
+  topics:
+    - responsible-ai
+    - governance
+  categories:
+    - responsibility-oversight
+
+- source_id: boehm_software_engineering_economics
+  summary: 'Barry Boehm’s classic text demonstrates that catching defects early is dramatically cheaper than fixing them later, reinforcing why upfront rigor pays off.'
+  long_summary: 'Barry Boehm’s foundational book on software engineering economics shows that the cost of fixing defects rises sharply as projects progress. By quantifying the savings of early detection, the text makes a long-standing case for planning, review, and early validation. The work is often cited for demonstrating why upstream rigor—clear requirements, design evaluation, and early testing—reduces downstream cost and risk. It remains a key reference for understanding why proactive engineering disciplines matter.'
+  tags:
+    - cost-of-defects
+    - lifecycle
+    - prevention
+  topics:
+    - engineering-economics
+    - quality-assurance
+  categories:
+    - engineering-judgment
+
+- source_id: ericsson_deliberate_practice
+  summary: 'Ericsson and colleagues show that expert performance grows from deliberate practice—focused feedback loops rather than repetition—supporting the case for reflective engineering habits.'
+  long_summary: 'Ericsson, Krampe, and Tesch-Römer’s study on deliberate practice argues that expertise develops through focused, feedback-rich practice rather than simple repetition. The paper emphasizes structured goals, coaching, and reflection as the core ingredients of improvement. In an engineering context, this supports the idea that planning and review are not just process steps—they are how professionals build judgment over time. The research provides a cognitive foundation for why reflective workflows improve performance.'
+  tags:
+    - deliberate-practice
+    - feedback
+    - expertise
+  topics:
+    - skill-development
+    - judgment
+  categories:
+    - engineering-judgment
+
+- source_id: dora_ai_assisted_report
+  summary: 'Google Cloud’s DORA report notes that AI amplifies existing engineering capabilities, so organizational maturity determines whether AI improves outcomes or magnifies weaknesses.'
+  long_summary: 'The 2025 DORA report on AI-assisted software development frames AI as an amplifier of existing organizational capabilities. It suggests that teams with strong practices in place see AI improve outcomes, while weaker practices are magnified just as quickly. The report emphasizes that metrics, tooling, and process discipline are still decisive in determining whether AI adoption yields positive results. Its core message is that AI does not substitute for organizational maturity—it makes it more visible.'
+  tags:
+    - organizational-maturity
+    - capability-amplification
+    - metrics
+  topics:
+    - ai-adoption
+    - productivity
+  categories:
+    - ai-production-scale
+
+- source_id: microsoft_ai_code_nypost
+  summary: 'This New York Post report covers Satya Nadella’s remarks that a significant portion of Microsoft code is now AI-written, underscoring the scale of AI-assisted development.'
+  long_summary: 'The New York Post reports on comments from Microsoft CEO Satya Nadella about the growing share of AI-written code at Microsoft. The article serves as a signal of how quickly AI-assisted development is scaling inside large organizations. It frames AI coding as more than experimentation, pointing to real production usage at meaningful scale. The takeaway is that oversight and governance approaches must evolve because AI output is no longer a small supplement to human code—it is becoming a sizable portion of it.'
+  tags:
+    - adoption
+    - scale
+    - executive-commentary
+  topics:
+    - ai-production
+    - industry-signals
+  categories:
+    - ai-production-scale
+
+- source_id: adtmag_ai_coding_oversight
+  summary: 'ADTMag summarizes survey findings showing leaders are adopting AI coding tools while insisting on strict human review and governance controls.'
+  long_summary: 'ADTMag reports survey results indicating that tech leaders are embracing AI coding tools while simultaneously demanding strict oversight. The survey highlights human review requirements as a common control, reinforcing that adoption is coupled with governance expectations. The article suggests that organizations are willing to move quickly with AI, but only if accountability and review gates remain in place. It provides an industry snapshot of how leaders balance innovation with risk management.'
+  tags:
+    - leadership
+    - governance
+    - review-requirements
+  topics:
+    - ai-policy
+    - organizational-controls
+  categories:
+    - governance-guardrails
+
+- source_id: arxiv_safe_ai_framework
+  summary: 'The SAFE-AI framework proposes guardrails such as sandboxing, runtime verification, and policy gates to reduce AI-driven software failures.'
+  long_summary: 'The SAFE-AI framework paper lays out a structured set of guardrails for AI-driven software engineering. It argues that integrating LLMs into software development introduces risks like insecure code and accountability gaps, and recommends mitigations such as sandboxing, runtime verification, and policy-based gates. The framework positions guardrails as architectural components rather than ad hoc human review. Its goal is to make AI-assisted workflows safer by embedding checks into the system itself.'
+  tags:
+    - framework
+    - sandboxing
+    - verification
+  topics:
+    - safety-engineering
+    - risk-mitigation
+  categories:
+    - governance-guardrails
+
+- source_id: arxiv_security_degradation_ai_code
+  summary: 'This study finds that iterative AI code refinement can degrade security without systematic checks, making a strong case for continuous scanning between AI edits.'
+  long_summary: 'This arXiv study analyzes iterative AI code generation and finds that repeated refinement can introduce security regressions. The research shows that even when changes appear to “improve” code, vulnerabilities can accumulate without strong verification between iterations. The authors argue for continuous scanning and static analysis as mandatory gates when using AI in multi-step coding workflows. The study reinforces the need for tooling-based guardrails that keep security from drifting over time.'
+  tags:
+    - security-regression
+    - iterative-generation
+    - scanning
+  topics:
+    - vulnerability-management
+    - ai-risk
+  categories:
+    - tooling-guardrails
+
+- source_id: arxiv_context_engineering_multi_agent
+  summary: 'The paper details a multi-agent workflow that uses role decomposition and validation to improve the reliability of LLM-based code assistants.'
+  long_summary: 'This paper explores multi-agent LLM workflows for software engineering and shows that separating roles improves outcomes. By delegating intent capture, retrieval, and validation to distinct agents, the workflow reduces ambiguity and increases adherence to project context. The research highlights that reliability gains come from structured handoffs rather than simply more model capacity. The implication is that “agentic” systems can scale guardrails by design, turning review into an integrated workflow pattern.'
+  tags:
+    - multi-agent
+    - validation
+    - role-decomposition
+  topics:
+    - agentic-workflows
+    - reliability
+  categories:
+    - tooling-guardrails
+
+- source_id: arxiv_resttsllm_api_testing
+  summary: 'Researchers combine task specification language with LLMs to automate REST API test generation, demonstrating higher test coverage with less manual effort.'
+  long_summary: 'This study combines Task Specification Language (TSL) with LLMs to automate REST API test generation. It compares automated generation against manual approaches and reports improved coverage with reduced effort. The work demonstrates how AI can be paired with structured specifications to produce more reliable automated tests. It supports the argument that LLMs become safer and more useful when embedded in disciplined testing workflows.'
+  tags:
+    - api-testing
+    - automation
+    - coverage
+  topics:
+    - testing
+    - ai-tooling
+  categories:
+    - tooling-guardrails
