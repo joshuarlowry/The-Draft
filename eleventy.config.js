@@ -37,9 +37,14 @@ module.exports = function (eleventyConfig) {
     return sources.find((source) => source.id === id);
   });
 
-  // Filter: Get a reading bundle by ID
-  eleventyConfig.addFilter('getBundleById', function (bundles, id) {
-    return bundles.find((bundle) => bundle.id === id);
+  // Filter: Get a reading tag group by ID
+  eleventyConfig.addFilter('getReadingTagById', function (tags, id) {
+    return tags.find((tag) => tag.id === id);
+  });
+
+  // Filter: Get sources matching a reading tag
+  eleventyConfig.addFilter('getSourcesByTag', function (sources, tagId) {
+    return sources.filter((source) => Array.isArray(source.tags) && source.tags.includes(tagId));
   });
 
   // Filter: Get a concept by ID

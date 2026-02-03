@@ -4,6 +4,12 @@
   published: '2024'
   accessed: '2026-02-02'
   url: 'https://cloud.google.com/blog/topics/developers-practitioners/five-best-practices-for-using-ai-coding-assistants'
+  tags:
+    - planning-and-structure
+    - responsibility-oversight
+  reading_descriptions:
+    planning-and-structure: 'Practical guidance on planning, breaking down work, and setting context before asking AI to generate code.'
+    responsibility-oversight: 'Highlights how upfront framing reduces downstream risk when AI accelerates implementation.'
 
 - id: infoq_pdca_cycle
   title: 'Applying the PDCA Cycle to AI Code Generation'
@@ -11,6 +17,10 @@
   published: '2024'
   accessed: '2026-02-02'
   url: 'https://www.infoq.com/articles/PDCA-AI-code-generation/'
+  tags:
+    - planning-and-structure
+  reading_descriptions:
+    planning-and-structure: 'An exploration of using a Plan-Do-Check-Act loop with AI, grounding AI-assisted coding in established engineering process discipline.'
 
 - id: graphite_ai_pair_programming
   title: 'AI Pair Programming Best Practices'
@@ -18,6 +28,10 @@
   published: '2024'
   accessed: '2026-02-02'
   url: 'https://graphite.com/guides/ai-pair-programming-best-practices'
+  tags:
+    - planning-and-structure
+  reading_descriptions:
+    planning-and-structure: 'A practitioner-oriented guide on how context, constraints, and expectations shape the usefulness of AI coding output.'
 
 - id: techradar_ai_security
   title: 'AI Is Creating Code Faster—but Also More Security Issues'
@@ -25,6 +39,12 @@
   published: '2023'
   accessed: '2026-02-02'
   url: 'https://www.techradar.com/pro/ai-is-creating-code-faster-but-this-also-means-more-potential-security-issues'
+  tags:
+    - responsibility-oversight
+    - governance-guardrails
+  reading_descriptions:
+    responsibility-oversight: 'A discussion of real-world risks that emerge when AI-generated code is adopted without sufficient design review or oversight.'
+    governance-guardrails: 'Evidence that faster AI output requires explicit checks and security guardrails.'
 
 - id: arxiv_human_centered_practices
   title: 'Human-Centered Practices for Responsible AI Development'
@@ -32,6 +52,12 @@
   published: '2023'
   accessed: '2026-02-02'
   url: 'https://arxiv.org/abs/2305.11248'
+  tags:
+    - responsibility-oversight
+    - governance-guardrails
+  reading_descriptions:
+    responsibility-oversight: 'Research on how structured inputs, clear framing, and human supervision affect AI system behavior and reliability.'
+    governance-guardrails: 'Covers oversight practices that translate into organizational guardrails.'
 
 - id: boehm_software_engineering_economics
   author: 'Barry W. Boehm'
@@ -40,6 +66,10 @@
   published: '1981'
   accessed: '2026-02-02'
   url: 'https://www.cs.cmu.edu/~johnl/temple/18-749/papers/boehm1981.pdf'
+  tags:
+    - engineering-judgment
+  reading_descriptions:
+    engineering-judgment: 'A foundational text on why detecting problems earlier in the lifecycle is cheaper and more effective than fixing them later.'
 
 - id: ericsson_deliberate_practice
   author: 'K. Anders Ericsson, Ralf T. Krampe, Clemens Tesch-Römer'
@@ -48,6 +78,10 @@
   published: '1993'
   accessed: '2026-02-02'
   url: 'https://psycnet.apa.org/record/1993-40718-001'
+  tags:
+    - engineering-judgment
+  reading_descriptions:
+    engineering-judgment: 'Classic research on how expert judgment improves through focused, reflective practice rather than repetition alone.'
 
 - id: dora_ai_assisted_report
   title: '2025 DORA State of AI-Assisted Software Development report'
@@ -55,6 +89,10 @@
   published: '2025-09-23'
   accessed: '2026-01-30'
   url: 'https://cloud.google.com/resources/content/2025-dora-ai-assisted-software-development-report'
+  tags:
+    - ai-production-scale
+  reading_descriptions:
+    ai-production-scale: 'DORA’s 2025 report explaining that AI amplifies existing organizational capabilities.'
 
 - id: microsoft_ai_code_nypost
   title: 'Microsoft CEO Satya Nadella says 30% of code now written by AI'
@@ -62,6 +100,10 @@
   published: '2025-04-30'
   accessed: '2026-01-30'
   url: 'https://nypost.com/2025/04/30/business/microsoft-ceo-satya-nadella-says-30-of-code-now-written-by-ai/'
+  tags:
+    - ai-production-scale
+  reading_descriptions:
+    ai-production-scale: 'Reporting on Satya Nadella’s remarks about the share of Microsoft code written by AI.'
 
 - id: adtmag_ai_coding_oversight
   title: 'Tech Leaders Embrace AI Coding Tools While Demanding Strict Oversight'
@@ -69,6 +111,10 @@
   published: '2025-09-10'
   accessed: '2026-01-30'
   url: 'https://adtmag.com/articles/2025/09/10/tech-leaders-embrace-ai-coding-tools-while-demanding-strict-oversight.aspx'
+  tags:
+    - governance-guardrails
+  reading_descriptions:
+    governance-guardrails: 'Survey results on human review requirements for AI-generated code.'
 
 - id: arxiv_safe_ai_framework
   title: 'SAFE-AI Framework: Preventing Failures in AI-Driven Software Engineering'
@@ -76,3 +122,7 @@
   published: '2025-08-15'
   accessed: '2026-01-30'
   url: 'https://arxiv.org/abs/2508.11824'
+  tags:
+    - governance-guardrails
+  reading_descriptions:
+    governance-guardrails: 'Academic guidance on guardrails, sandboxing, and runtime verification for AI-driven software engineering.'
