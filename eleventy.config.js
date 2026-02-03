@@ -37,6 +37,11 @@ module.exports = function (eleventyConfig) {
     return sources.find((source) => source.id === id);
   });
 
+  // Filter: Get a source summary by source ID
+  eleventyConfig.addFilter('getSourceSummaryById', function (summaries, id) {
+    return summaries.find((summary) => summary.source_id === id);
+  });
+
   // Filter: Get a reading tag group by ID
   eleventyConfig.addFilter('getReadingTagById', function (tags, id) {
     return tags.find((tag) => tag.id === id);
@@ -93,27 +98,41 @@ module.exports = function (eleventyConfig) {
     return parts.join(' ');
   };
 
-  const renderCitation = (citation, sources = []) => {
+  const urlFilter = eleventyConfig.getFilter('url');
+
+  const renderCitation = (citation, sources = [], summaries = []) => {
     const source = getSourceFromCitation(citation, sources);
     const inlineCitation = getApaInlineCitation(source);
+    const summary = summaries.find((entry) => entry.source_id === citation.source_id);
+    const summaryLink = summary ? urlFilter(`/summaries/${citation.source_id}/`) : null;
+    const sourceLink = source.url ? `<a href="${source.url}">Original source</a>` : '';
+    const summaryAnchor = summaryLink ? `<a href="${summaryLink}">Summary</a>` : '';
+    const links = [summaryAnchor, sourceLink]
+      .filter(Boolean)
+      .join(' <span aria-hidden="true">•</span> ');
+
     return `<blockquote class="citation-block">
 <p class="citation-quote">“${citation.quote}” <span class="citation-inline">(${inlineCitation})</span></p>
+${links ? `<p class="citation-links">${links}</p>` : ''}
 </blockquote>`;
   };
 
   // Filter: Render block content with citation placeholders resolved
-  eleventyConfig.addFilter('renderWithCitations', function (content, citations, sources = []) {
-    if (!content || !citations) return content;
+  eleventyConfig.addFilter(
+    'renderWithCitations',
+    function (content, citations, sources = [], summaries = []) {
+      if (!content || !citations) return content;
 
-    // Replace [[cite:ID]] placeholders with rendered citation blockquotes
-    return content.replace(/\[\[cite:([^\]]+)\]\]/g, function (match, citationId) {
-      const citation = citations.find((c) => c.id === citationId.trim());
-      if (citation) {
-        return renderCitation(citation, sources);
-      }
-      return match; // Return original if citation not found
-    });
-  });
+      // Replace [[cite:ID]] placeholders with rendered citation blockquotes
+      return content.replace(/\[\[cite:([^\]]+)\]\]/g, function (match, citationId) {
+        const citation = citations.find((c) => c.id === citationId.trim());
+        if (citation) {
+          return renderCitation(citation, sources, summaries);
+        }
+        return match; // Return original if citation not found
+      });
+    },
+  );
 
   // Shortcode: Render a citation as a blockquote
   eleventyConfig.addShortcode('citation', function (citations, sources, id) {
@@ -130,7 +149,7 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addFilter(
     'renderCitationSection',
-    function (citationIds = [], citations = [], sources = []) {
+    function (citationIds = [], citations = [], sources = [], summaries = []) {
       if (!Array.isArray(citationIds) || citationIds.length === 0) return '';
 
       const sourceIds = citationIds
@@ -141,7 +160,18 @@ module.exports = function (eleventyConfig) {
       const entries = uniqueSourceIds
         .map((id) => sources.find((source) => source.id === id))
         .filter(Boolean)
-        .map((source) => `<li class="citation-item">${formatApaReference(source)}</li>`)
+        .map((source) => {
+          const summary = summaries.find((entry) => entry.source_id === source.id);
+          const summaryLink = summary ? urlFilter(`/summaries/${source.id}/`) : null;
+          const links = [
+            summaryLink ? `<a href="${summaryLink}">Summary</a>` : null,
+            source.url ? `<a href="${source.url}">Original source</a>` : null,
+          ]
+            .filter(Boolean)
+            .join(' <span aria-hidden="true">•</span> ');
+          const linkMarkup = links ? `<div class="citation-links">${links}</div>` : '';
+          return `<li class="citation-item">${formatApaReference(source)}${linkMarkup}</li>`;
+        })
         .join('');
 
       if (!entries) return '';

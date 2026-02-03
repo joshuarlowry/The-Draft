@@ -1,6 +1,16 @@
 ---
 id: guardrail-static-analysis
 title: 'Iterative AI coding needs static analysis gates'
+categories:
+  - tooling-guardrails
+topics:
+  - static-analysis
+  - security
+  - regression
+tags:
+  - scanning
+  - gatekeeping
+  - iteration-safety
 citations:
   - security_degradation_iterative_ai_quote
 ---

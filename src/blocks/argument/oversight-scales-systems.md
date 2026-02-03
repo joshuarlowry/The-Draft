@@ -1,6 +1,17 @@
 ---
 id: oversight-scales-systems
 title: 'Oversight scales when it is designed into the system'
+categories:
+  - ai-production-scale
+  - governance-guardrails
+topics:
+  - scale
+  - accountability
+  - process-design
+tags:
+  - scaling-oversight
+  - verification
+  - system-design
 citations:
   - microsoft_ai_code_quote
   - dora_ai_amplifier_quote

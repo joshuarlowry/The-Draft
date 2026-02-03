@@ -1,6 +1,16 @@
 ---
 id: oversight-leadership-implication
 title: 'The leadership implication is uncomfortable but unavoidable'
+categories:
+  - responsibility-oversight
+topics:
+  - leadership
+  - change-management
+  - oversight-skills
+tags:
+  - governance-shift
+  - enablement
+  - accountability
 ---
 
 Teams that insist engineers must read and fully understand every AI-generated line will face one of two outcomes: velocity collapses, or the rule is quietly ignored.
