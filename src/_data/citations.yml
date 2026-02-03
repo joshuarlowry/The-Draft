@@ -1,19 +1,19 @@
 - id: google_cloud_best_practices_quote
-  quote: "Spending extra time with AI tools to build and revise an execution plan generally gives you better code output on complex tasks."
-  attribution: "Five Best Practices for Using AI Coding Assistants, Google Cloud Blog"
-  url: "https://cloud.google.com/blog/topics/developers-practitioners/five-best-practices-for-using-ai-coding-assistants"
+  quote: 'Spending extra time with AI tools to build and revise an execution plan generally gives you better code output on complex tasks.'
+  attribution: 'Five Best Practices for Using AI Coding Assistants, Google Cloud Blog'
+  url: 'https://cloud.google.com/blog/topics/developers-practitioners/five-best-practices-for-using-ai-coding-assistants'
 
 - id: arxiv_human_centered_practices_quote
   quote: "AI systems, including code generation models, perform best when given structured inputs that clearly frame the problem and constraints. Ambiguous or underspecified prompts often yield outputs that reflect generic assumptions rather than the user's needs."
-  attribution: "Human-Centered Practices for Responsible AI Development, arXiv"
-  url: "https://arxiv.org/abs/2305.11248"
+  attribution: 'Human-Centered Practices for Responsible AI Development, arXiv'
+  url: 'https://arxiv.org/abs/2305.11248'
 
 - id: boehm_software_engineering_economics_quote
-  quote: "The earlier a defect is introduced into the development process, the more expensive it is to fix later."
-  attribution: "Barry W. Boehm, Software Engineering Economics"
-  url: "https://www.cs.cmu.edu/~johnl/temple/18-749/papers/boehm1981.pdf"
+  quote: 'The earlier a defect is introduced into the development process, the more expensive it is to fix later.'
+  attribution: 'Barry W. Boehm, Software Engineering Economics'
+  url: 'https://www.cs.cmu.edu/~johnl/temple/18-749/papers/boehm1981.pdf'
 
 - id: ericsson_deliberate_practice_quote
-  quote: "Expert performance is the result of deliberate practice, which involves focused effort, feedback, and opportunities to correct errors."
-  attribution: "Ericsson et al., The Role of Deliberate Practice in the Acquisition of Expert Performance"
-  url: "https://psycnet.apa.org/record/1993-40718-001"
+  quote: 'Expert performance is the result of deliberate practice, which involves focused effort, feedback, and opportunities to correct errors.'
+  attribution: 'Ericsson et al., The Role of Deliberate Practice in the Acquisition of Expert Performance'
+  url: 'https://psycnet.apa.org/record/1993-40718-001'

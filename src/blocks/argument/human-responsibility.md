@@ -1,10 +1,11 @@
 ---
 id: human-responsibility
-title: "Plan mode keeps humans responsible for system design instead of reviewing it after the fact"
+title: 'Plan mode keeps humans responsible for system design instead of reviewing it after the fact'
 citations:
   - arxiv_human_centered_practices_quote
   - boehm_software_engineering_economics_quote
 ---
+
 Good teams do not let junior developers redesign systems unreviewed. They ask for proposals, discuss tradeoffs, and align on scope before implementation begins.
 
 AI deserves the same treatment.
