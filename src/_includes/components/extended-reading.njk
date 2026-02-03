@@ -10,18 +10,24 @@
     <p class="group-description">{{ group.description }}</p>
     {% endif %}
     <ul class="source-list">
-      {% for source in group.sources %}
+      {% for sourceRef in group.sources %}
+      {% set source = sources | getSourceById(sourceRef.id) %}
       <li class="source-item">
+        {% if source %}
         <strong>
           {% if source.author %}{{ source.author }} — {% endif %}
+          {% if source.publisher and not source.author %}{{ source.publisher }} — {% endif %}
           {% if source.url %}
             <a href="{{ source.url }}">{{ source.title }}</a>
           {% else %}
             {{ source.title }}
           {% endif %}
         </strong>
-        {% if source.description %}
-        <p>{{ source.description }}</p>
+        {% else %}
+        <strong>{{ sourceRef.id }}</strong>
+        {% endif %}
+        {% if sourceRef.description %}
+        <p>{{ sourceRef.description }}</p>
         {% endif %}
       </li>
       {% endfor %}
