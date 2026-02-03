@@ -41,3 +41,15 @@
 - id: resttsllm_api_testing_quote
   quote: 'Exhaustive testing of all input combinations is impractical, often resulting in undetected failures, high manual effort, and limited test coverage.'
   source_id: arxiv_resttsllm_api_testing
+
+- id: eleventy_image_processing_quote
+  quote: 'That’s it! All <img> and <picture> elements will be processed for you by Eleventy Image.'
+  source_id: eleventy_image_plugin
+
+- id: eleventy_fetch_caching_quote
+  quote: 'Fetch network resources and cache them locally to avoid bombarding your API (or other remote or rate-limited resources). Do this at configurable intervals (not with every build): once per minute, once per hour, once per day, or however often you like!'
+  source_id: eleventy_fetch_plugin
+
+- id: eleventy_dev_server_hot_reload_quote
+  quote: 'Eleventy includes its own hot-reloading development server.'
+  source_id: eleventy_dev_server
