@@ -50,9 +50,12 @@ module.exports = function(eleventyConfig) {
     return content.replace(/\[\[cite:([^\]]+)\]\]/g, function(match, citationId) {
       const citation = citations.find(c => c.id === citationId.trim());
       if (citation) {
+        const attribution = citation.url
+          ? `<a href="${citation.url}">${citation.attribution}</a>`
+          : citation.attribution;
         return `<blockquote>
 <p><strong>"${citation.quote}"</strong></p>
-<p>— <em>${citation.attribution}</em></p>
+<p>— <em>${attribution}</em></p>
 </blockquote>`;
       }
       return match; // Return original if citation not found
@@ -63,9 +66,12 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addShortcode('citation', function(citations, id) {
     const citation = citations.find(c => c.id === id);
     if (!citation) return `<!-- Citation ${id} not found -->`;
+    const attribution = citation.url
+      ? `<a href="${citation.url}">${citation.attribution}</a>`
+      : citation.attribution;
     return `<blockquote>
 <p><strong>"${citation.quote}"</strong></p>
-<p>— <em>${citation.attribution}</em></p>
+<p>— <em>${attribution}</em></p>
 </blockquote>`;
   });
 

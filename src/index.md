@@ -14,13 +14,3 @@ A structured content system for assembling articles from reusable blocks.
   <li><a href="{{ article.url | url }}">{{ article.data.title }}</a></li>
 {%- endfor %}
 </ul>
-
-## How It Works
-
-This site demonstrates a modular content architecture where:
-
-- **Concepts** define reusable terms and definitions
-- **Argument Blocks** contain self-contained arguments with citations
-- **Citations** are stored once and referenced by ID
-- **Reading Bundles** group related sources by theme
-- **Articles** assemble blocks in order without duplicating content
