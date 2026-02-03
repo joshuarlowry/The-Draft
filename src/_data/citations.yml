@@ -29,3 +29,15 @@
 - id: safe_ai_framework_quote
   quote: 'Integration of LLMs into software engineering introduces risks such as insecure code generation, lack of transparency, and accountability gaps, requiring guardrails, sandboxing, runtime verification, and human-in-the-loop systems.'
   source_id: arxiv_safe_ai_framework
+
+- id: security_degradation_iterative_ai_quote
+  quote: 'Our findings show a 37.6% increase in critical vulnerabilities after just five iterations, with distinct vulnerability patterns emerging across different prompting approaches.'
+  source_id: arxiv_security_degradation_ai_code
+
+- id: context_engineering_multi_agent_quote
+  quote: 'We demonstrate that this method significantly improves the accuracy and reliability of code assistants in real-world repositories, yielding higher single-shot success rates and better adherence to project context than baseline single-agent approaches.'
+  source_id: arxiv_context_engineering_multi_agent
+
+- id: resttsllm_api_testing_quote
+  quote: 'Exhaustive testing of all input combinations is impractical, often resulting in undetected failures, high manual effort, and limited test coverage.'
+  source_id: arxiv_resttsllm_api_testing

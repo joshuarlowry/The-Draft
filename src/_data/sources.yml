@@ -126,3 +126,38 @@
     - governance-guardrails
   reading_descriptions:
     governance-guardrails: 'Academic guidance on guardrails, sandboxing, and runtime verification for AI-driven software engineering.'
+
+- id: arxiv_security_degradation_ai_code
+  title: 'Security Degradation in Iterative AI Code Generation -- A Systematic Analysis of the Paradox'
+  repository: 'arXiv'
+  published: '2025-05-19'
+  accessed: '2026-02-02'
+  url: 'https://arxiv.org/abs/2506.11022'
+  tags:
+    - governance-guardrails
+    - tooling-guardrails
+  reading_descriptions:
+    governance-guardrails: 'Evidence that iterative AI code refinement can increase vulnerabilities without strong verification.'
+    tooling-guardrails: 'Quantifies security regression across iterations, supporting the need for automated scanning between AI edits.'
+
+- id: arxiv_context_engineering_multi_agent
+  title: 'Context Engineering for Multi-Agent LLM Code Assistants Using Elicit, NotebookLM, ChatGPT, and Claude Code'
+  repository: 'arXiv'
+  published: '2025-08-09'
+  accessed: '2026-02-02'
+  url: 'https://arxiv.org/abs/2508.08322'
+  tags:
+    - tooling-guardrails
+  reading_descriptions:
+    tooling-guardrails: 'Describes a multi-agent workflow with role decomposition and validation that improves reliability in code assistants.'
+
+- id: arxiv_resttsllm_api_testing
+  title: 'Combining TSL and LLM to Automate REST API Testing: A Comparative Study'
+  repository: 'arXiv'
+  published: '2025-09-05'
+  accessed: '2026-02-02'
+  url: 'https://arxiv.org/abs/2509.05540'
+  tags:
+    - tooling-guardrails
+  reading_descriptions:
+    tooling-guardrails: 'Shows how LLMs can automate test generation from API specifications, improving test coverage discipline.'

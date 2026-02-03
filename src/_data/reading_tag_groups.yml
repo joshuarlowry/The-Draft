@@ -17,3 +17,7 @@
 - id: governance-guardrails
   title: 'Governance and Guardrails'
   description: 'Evidence that oversight is shifting toward gates, policies, and technical guardrails.'
+
+- id: tooling-guardrails
+  title: 'Tooling Guardrails'
+  description: 'Research on technical guardrails like static analysis, multi-agent validation, and automated testing that make AI output safer to integrate.'
