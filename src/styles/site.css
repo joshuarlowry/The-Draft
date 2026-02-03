@@ -9,8 +9,8 @@
   --color-blockquote-border: #d4c4a8;
   --max-width: 680px;
   --spacing: 1.5rem;
-  --font-serif: Georgia, "Times New Roman", serif;
-  --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, sans-serif;
+  --font-serif: Georgia, 'Times New Roman', serif;
+  --font-sans: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
 }
 
 * {
@@ -260,7 +260,7 @@ blockquote p:last-child {
 }
 
 .source-item::before {
-  content: "▪";
+  content: '▪';
   position: absolute;
   left: 0;
   color: var(--color-accent);

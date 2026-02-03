@@ -1,8 +1,8 @@
 - id: plan-first-extended-reading
-  intro: "The articles and papers below provide additional context around planning, human judgment, and AI-assisted development. They are grouped by theme rather than position; agreement with every conclusion is not required to find them useful."
+  intro: 'The articles and papers below provide additional context around planning, human judgment, and AI-assisted development. They are grouped by theme rather than position; agreement with every conclusion is not required to find them useful.'
   groups:
-    - title: "Planning and Structure in AI-Assisted Coding"
-      description: "These pieces focus on why upfront framing, task decomposition, and explicit constraints improve outcomes when working with AI coding tools."
+    - title: 'Planning and Structure in AI-Assisted Coding'
+      description: 'These pieces focus on why upfront framing, task decomposition, and explicit constraints improve outcomes when working with AI coding tools.'
       sources:
         - id: google_cloud_best_practices
           description: "Practical guidance on planning, breaking down work, and setting context before asking AI to generate code."
@@ -11,16 +11,16 @@
         - id: graphite_ai_pair_programming
           description: "A practitioner-oriented guide on how context, constraints, and expectations shape the usefulness of AI coding output."
 
-    - title: "Human Responsibility, Oversight, and Risk"
-      description: "These sources examine what happens when AI accelerates implementation faster than human review and decision-making."
+    - title: 'Human Responsibility, Oversight, and Risk'
+      description: 'These sources examine what happens when AI accelerates implementation faster than human review and decision-making.'
       sources:
         - id: techradar_ai_security
           description: "A discussion of real-world risks that emerge when AI-generated code is adopted without sufficient design review or oversight."
         - id: arxiv_human_centered_practices
           description: "Research on how structured inputs, clear framing, and human supervision affect AI system behavior and reliability."
 
-    - title: "Engineering Judgment and Skill Development"
-      description: "These works are not about AI specifically. They explain how expertise develops and why reflective decision-making matters—principles that apply directly to planning-first workflows."
+    - title: 'Engineering Judgment and Skill Development'
+      description: 'These works are not about AI specifically. They explain how expertise develops and why reflective decision-making matters—principles that apply directly to planning-first workflows.'
       sources:
         - id: boehm_software_engineering_economics
           description: "A foundational text on why detecting problems earlier in the lifecycle is cheaper and more effective than fixing them later."

@@ -1,7 +1,7 @@
 ---
 layout: layouts/article.njk
 id: plan-first-or-lose-control
-title: "Plan First or Lose Control: Why AI Coding Requires Deliberate Planning"
+title: 'Plan First or Lose Control: Why AI Coding Requires Deliberate Planning'
 intro: |
   <p>AI coding tools are not neutral executors. They interpret intent, fill gaps, and make confident decisions when instructions are incomplete. That makes them powerful—but it also means skipping a planning step does not save time. It transfers authority.</p>
   <p>Plan mode is how developers keep design decisions explicit, reviewable, and human-owned before code locks them in.</p>

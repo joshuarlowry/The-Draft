@@ -4,6 +4,7 @@
   "description": "A structured content system using Eleventy for assembling articles from reusable blocks",
   "scripts": {
     "build": "eleventy",
+    "lint": "prettier --check \"eleventy.config.js\" \"package.json\" \"src/**/*.{css,js,json,md,yml,yaml}\"",
     "start": "eleventy --serve",
     "clean": "rm -rf dist"
   },
@@ -17,6 +18,7 @@
   "license": "MIT",
   "devDependencies": {
     "@11ty/eleventy": "^3.1.2",
-    "js-yaml": "^4.1.1"
+    "js-yaml": "^4.1.1",
+    "prettier": "^3.3.3"
   }
 }

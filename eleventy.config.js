@@ -1,35 +1,35 @@
 const yaml = require('js-yaml');
 
-module.exports = function(eleventyConfig) {
+module.exports = function (eleventyConfig) {
   // Add YAML support for data files
-  eleventyConfig.addDataExtension('yml', contents => yaml.load(contents));
+  eleventyConfig.addDataExtension('yml', (contents) => yaml.load(contents));
 
   // Pass through static assets
   eleventyConfig.addPassthroughCopy('src/styles');
 
   // Collection: All argument blocks
-  eleventyConfig.addCollection('argumentBlocks', function(collectionApi) {
+  eleventyConfig.addCollection('argumentBlocks', function (collectionApi) {
     return collectionApi.getFilteredByGlob('src/blocks/argument/*.md');
   });
 
   // Collection: All concepts
-  eleventyConfig.addCollection('concepts', function(collectionApi) {
+  eleventyConfig.addCollection('concepts', function (collectionApi) {
     return collectionApi.getFilteredByGlob('src/concepts/*.md');
   });
 
   // Collection: All articles
-  eleventyConfig.addCollection('articles', function(collectionApi) {
+  eleventyConfig.addCollection('articles', function (collectionApi) {
     return collectionApi.getFilteredByGlob('src/articles/*.md');
   });
 
   // Filter: Get a block by ID from collections
-  eleventyConfig.addFilter('getBlockById', function(blocks, id) {
-    return blocks.find(block => block.data.id === id);
+  eleventyConfig.addFilter('getBlockById', function (blocks, id) {
+    return blocks.find((block) => block.data.id === id);
   });
 
   // Filter: Get a citation by ID from citations data
-  eleventyConfig.addFilter('getCitationById', function(citations, id) {
-    return citations.find(citation => citation.id === id);
+  eleventyConfig.addFilter('getCitationById', function (citations, id) {
+    return citations.find((citation) => citation.id === id);
   });
 
   // Filter: Get a source by ID from sources data
@@ -38,13 +38,13 @@ module.exports = function(eleventyConfig) {
   });
 
   // Filter: Get a reading bundle by ID
-  eleventyConfig.addFilter('getBundleById', function(bundles, id) {
-    return bundles.find(bundle => bundle.id === id);
+  eleventyConfig.addFilter('getBundleById', function (bundles, id) {
+    return bundles.find((bundle) => bundle.id === id);
   });
 
   // Filter: Get a concept by ID
-  eleventyConfig.addFilter('getConceptById', function(concepts, id) {
-    return concepts.find(concept => concept.data.id === id);
+  eleventyConfig.addFilter('getConceptById', function (concepts, id) {
+    return concepts.find((concept) => concept.data.id === id);
   });
 
   const renderCitation = (citation, sources = []) => {
@@ -76,8 +76,8 @@ ${metaList}
     if (!content || !citations) return content;
 
     // Replace [[cite:ID]] placeholders with rendered citation blockquotes
-    return content.replace(/\[\[cite:([^\]]+)\]\]/g, function(match, citationId) {
-      const citation = citations.find(c => c.id === citationId.trim());
+    return content.replace(/\[\[cite:([^\]]+)\]\]/g, function (match, citationId) {
+      const citation = citations.find((c) => c.id === citationId.trim());
       if (citation) {
         return renderCitation(citation, sources);
       }
@@ -104,10 +104,10 @@ ${metaList}
       input: 'src',
       output: 'dist',
       includes: '_includes',
-      data: '_data'
+      data: '_data',
     },
     templateFormats: ['md', 'njk', 'html'],
     markdownTemplateEngine: 'njk',
-    htmlTemplateEngine: 'njk'
+    htmlTemplateEngine: 'njk',
   };
 };

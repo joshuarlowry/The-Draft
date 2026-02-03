@@ -4,6 +4,7 @@ title: "Planning first improves the engineer's judgment, not just the outcome of
 citations:
   - ericsson_deliberate_practice_quote
 ---
+
 The main benefit of planning first is not that the plans improve over time. Each plan is tied to a specific unit of work and is largely disposable.
 
 What improves is the engineer.
