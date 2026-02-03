@@ -3,4 +3,5 @@
   <div class="block-content">
     {{ block.templateContent | renderWithCitations(citations, sources) | safe }}
   </div>
+  {{ block.data.citations | renderCitationSection(citations, sources) | safe }}
 </section>

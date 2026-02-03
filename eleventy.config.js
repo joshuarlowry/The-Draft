@@ -47,35 +47,48 @@ module.exports = function (eleventyConfig) {
     return concepts.find((concept) => concept.data.id === id);
   });
 
+  const getSourceFromCitation = (citation, sources = []) =>
+    sources.find((item) => item.id === citation.source_id) || {};
+
+  const getApaAuthorInline = (source = {}) => {
+    const author = source.author || source.publisher || source.repository || 'Unknown';
+    if (author.includes(',')) {
+      const firstAuthor = author.split(',')[0].trim();
+      return `${firstAuthor} et al.`;
+    }
+    return author;
+  };
+
+  const getApaInlineCitation = (source = {}) => {
+    const author = getApaAuthorInline(source);
+    const year = source.published || 'n.d.';
+    return `${author}, ${year}`;
+  };
+
+  const formatApaReference = (source = {}) => {
+    const author = source.author || source.publisher || source.repository || 'Unknown';
+    const year = source.published || 'n.d.';
+    const title = source.title || 'Untitled source';
+    const container = source.journal || source.publisher || source.repository;
+    const url = source.url;
+    const parts = [`${author}. (${year}). <em>${title}</em>.`];
+
+    if (container && container !== author) {
+      parts.push(`${container}.`);
+    }
+
+    if (url) {
+      parts.push(`<a href="${url}">${url}</a>`);
+    }
+
+    return parts.join(' ');
+  };
+
   const renderCitation = (citation, sources = []) => {
-    const source = sources.find((item) => item.id === citation.source_id) || {};
-    const title = citation.title || source.title || citation.attribution || 'Untitled source';
-    const url = citation.url || source.url;
-    const linkedTitle = url ? `<a href="${url}">${title}</a>` : title;
-    const metaItems = [
-      citation.author || source.author ? `Author: ${citation.author || source.author}` : null,
-      citation.publisher || source.publisher
-        ? `Publisher: ${citation.publisher || source.publisher}`
-        : null,
-      citation.journal || source.journal ? `Journal: ${citation.journal || source.journal}` : null,
-      citation.repository || source.repository
-        ? `Repository: ${citation.repository || source.repository}`
-        : null,
-      citation.published || source.published
-        ? `Published: ${citation.published || source.published}`
-        : null,
-      citation.accessed || source.accessed
-        ? `Accessed: ${citation.accessed || source.accessed}`
-        : null,
-      url ? `URL: <a href="${url}">${url}</a>` : null,
-    ].filter(Boolean);
-    const metaList = metaItems.length
-      ? `<ul class="citation-meta">${metaItems.map((item) => `<li>${item}</li>`).join('')}</ul>`
-      : '';
-    return `<blockquote>
-<p class="citation-quote"><strong>"${citation.quote}"</strong></p>
-<p class="citation-title">— <em>${linkedTitle}</em></p>
-${metaList}
+    const source = getSourceFromCitation(citation, sources);
+    const inlineCitation = getApaInlineCitation(source);
+    return `<blockquote class="citation-block">
+<p class="citation-quote">“${citation.quote}” <span class="citation-inline">(${inlineCitation})</span></p>
 </blockquote>`;
   };
 
@@ -105,6 +118,33 @@ ${metaList}
     if (!citation) return `<!-- Citation ${citationId} not found -->`;
     return renderCitation(citation, sourceList);
   });
+
+  eleventyConfig.addFilter(
+    'renderCitationSection',
+    function (citationIds = [], citations = [], sources = []) {
+      if (!Array.isArray(citationIds) || citationIds.length === 0) return '';
+
+      const sourceIds = citationIds
+        .map((id) => citations.find((citation) => citation.id === id))
+        .filter(Boolean)
+        .map((citation) => citation.source_id);
+      const uniqueSourceIds = [...new Set(sourceIds)];
+      const entries = uniqueSourceIds
+        .map((id) => sources.find((source) => source.id === id))
+        .filter(Boolean)
+        .map((source) => `<li class="citation-item">${formatApaReference(source)}</li>`)
+        .join('');
+
+      if (!entries) return '';
+
+      return `<section class="citation-section">
+<h3>Citations</h3>
+<ol class="citation-list">
+${entries}
+</ol>
+</section>`;
+    },
+  );
 
   return {
     pathPrefix: '/The-Draft/',
