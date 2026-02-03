@@ -1,0 +1,26 @@
+---
+permalink: "/feeds/articles.xml"
+eleventyExcludeFromCollections: true
+---
+{% set feedItems = collections.articles | reverse %}
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>{{ site.title }} Articles</title>
+    <link>{{ site.url }}{{ '/' | url }}</link>
+    <description>{{ site.description }}</description>
+    <language>{{ site.language }}</language>
+    {% for article in feedItems %}
+      {% set itemUrl = site.url ~ (article.url | url) %}
+      <item>
+        <title>{{ article.data.title }}</title>
+        <link>{{ itemUrl }}</link>
+        <guid>{{ itemUrl }}</guid>
+        <pubDate>{{ article.date | rssDate }}</pubDate>
+        {% if article.data.intro %}
+          <description><![CDATA[{{ article.data.intro | safe }}]]></description>
+        {% endif %}
+      </item>
+    {% endfor %}
+  </channel>
+</rss>

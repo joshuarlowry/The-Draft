@@ -99,6 +99,12 @@ module.exports = function (eleventyConfig) {
   };
 
   const urlFilter = eleventyConfig.getFilter('url');
+  const parseDateValue = (value) => {
+    if (!value) return null;
+    const parsed = new Date(value);
+    if (Number.isNaN(parsed.getTime())) return null;
+    return parsed;
+  };
 
   const renderCitation = (citation, sources = [], summaries = []) => {
     const source = getSourceFromCitation(citation, sources);
@@ -184,6 +190,27 @@ ${entries}
 </section>`;
     },
   );
+
+  eleventyConfig.addFilter('rssDate', function (value) {
+    const parsed = parseDateValue(value);
+    if (!parsed) return '';
+    return parsed.toUTCString();
+  });
+
+  eleventyConfig.addFilter('sortSummariesBySourceDate', function (summaries = [], sources = []) {
+    return [...summaries].sort((summaryA, summaryB) => {
+      const sourceA = sources.find((source) => source.id === summaryA.source_id) || {};
+      const sourceB = sources.find((source) => source.id === summaryB.source_id) || {};
+      const dateA = parseDateValue(sourceA.published || sourceA.accessed) || new Date(0);
+      const dateB = parseDateValue(sourceB.published || sourceB.accessed) || new Date(0);
+
+      if (dateA.getTime() !== dateB.getTime()) {
+        return dateB - dateA;
+      }
+
+      return (sourceA.title || '').localeCompare(sourceB.title || '');
+    });
+  });
 
   return {
     pathPrefix: '/The-Draft/',
