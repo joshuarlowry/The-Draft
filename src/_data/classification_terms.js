@@ -16,6 +16,9 @@ const FIELD_MAP = {
 
 module.exports = function (data) {
   const summaries = Array.isArray(data.source_summaries) ? data.source_summaries : [];
+  const argumentBlocks = Array.isArray(data.collections?.argumentBlocks)
+    ? data.collections.argumentBlocks
+    : [];
   const terms = [];
   const seen = new Set();
 
@@ -37,6 +40,13 @@ module.exports = function (data) {
     (summary.tags || []).forEach((tag) => addTerm('tag', tag));
     (summary.topics || []).forEach((topic) => addTerm('topic', topic));
     (summary.categories || []).forEach((category) => addTerm('category', category));
+  });
+
+  argumentBlocks.forEach((block) => {
+    const blockData = block?.data || {};
+    (blockData.tags || []).forEach((tag) => addTerm('tag', tag));
+    (blockData.topics || []).forEach((topic) => addTerm('topic', topic));
+    (blockData.categories || []).forEach((category) => addTerm('category', category));
   });
 
   return terms.sort((a, b) => {
