@@ -12,7 +12,14 @@
     <ul class="source-list">
       {% for source in group.sources %}
       <li class="source-item">
-        <strong>{% if source.author %}{{ source.author }} — {% endif %}{{ source.title }}</strong>
+        <strong>
+          {% if source.author %}{{ source.author }} — {% endif %}
+          {% if source.url %}
+            <a href="{{ source.url }}">{{ source.title }}</a>
+          {% else %}
+            {{ source.title }}
+          {% endif %}
+        </strong>
         {% if source.description %}
         <p>{{ source.description }}</p>
         {% endif %}
