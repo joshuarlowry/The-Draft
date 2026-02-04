@@ -212,3 +212,64 @@
   links:
     - label: 'Combining TSL and LLM to Automate REST API Testing: A Comparative Study'
       url: 'https://arxiv.org/abs/2509.05540'
+
+- id: aol_staff
+  name: 'AOL Staff'
+  links:
+    - label: 'Ex-Tesla AI head has seen a "phase shift in software engineering" using Claude Code — and his manual skills slowly "atrophy"'
+      url: 'https://www.aol.com/articles/ex-tesla-ai-head-seen-093701714.html'
+    - label: 'Top engineers at Anthropic, OpenAI say AI now writes 100% of their code—with big implications for the future of software development jobs'
+      url: 'https://www.aol.com/finance/top-engineers-anthropic-openai-ai-194731259.html'
+
+- id: andrej_karpathy
+  name: 'Andrej Karpathy'
+  links:
+    - label: '"A few random notes from Claude Coding" (X thread)'
+      url: 'https://x.com/karpathy/status/2015883857489522876'
+    - label: 'Ex-Tesla AI boss notices "atrophy" of manual coding skills as AI gains'
+      url: 'https://www.businessinsider.com/andrej-karpathy-claude-code-manual-skills-atrophy-software-engineering-tesla-2026-1'
+
+- id: boris_cherny
+  name: 'Boris Cherny'
+  title: 'Head of Claude Code at Anthropic'
+  links:
+    - label: 'Boris Cherny | LinkedIn'
+      url: 'https://www.linkedin.com/in/bcherny'
+    - label: '"I''m Boris and I created Claude Code" (X post)'
+      url: 'https://x.com/bcherny/status/2007179832300581177?lang=en'
+
+- id: felix_rieseberg
+  name: 'Felix Rieseberg'
+  links:
+    - label: "Anthropic's Claude Cowork was built in under two weeks using Claude Code to write the code"
+      url: 'https://the-decoder.com/anthropics-claude-cowork-was-built-in-under-two-weeks-using-claude-code-to-write-the-code/'
+
+- id: henry_chandonnet
+  name: 'Henry Chandonnet'
+  links:
+    - label: 'Ex-Tesla AI boss notices "atrophy" of manual coding skills as AI gains'
+      url: 'https://www.businessinsider.com/andrej-karpathy-claude-code-manual-skills-atrophy-software-engineering-tesla-2026-1'
+
+- id: lee_chong_ming
+  name: 'Lee Chong Ming'
+  links:
+    - label: "Why Claude Code's creator says vibe coding has limits"
+      url: 'https://www.businessinsider.com/claude-code-creator-vibe-coding-limits-boris-cherny-anthropic-2025-12'
+
+- id: matthias_bastian
+  name: 'Matthias Bastian'
+  links:
+    - label: "Anthropic's Claude Cowork was built in under two weeks using Claude Code to write the code"
+      url: 'https://the-decoder.com/anthropics-claude-cowork-was-built-in-under-two-weeks-using-claude-code-to-write-the-code/'
+
+- id: ryan_l_peterman
+  name: 'Ryan Peterman'
+  links:
+    - label: 'Boris Cherny created Claude Code (LinkedIn post)'
+      url: 'https://www.linkedin.com/posts/ryanlpeterman_boris-cherny-created-claude-code-but-few-activity-7406334718981345280-L7UK'
+
+- id: with_attitude
+  name: 'With Attitude'
+  links:
+    - label: 'How Boris Cherny, builder of Claude Code, uses it — and why that should change how you think about AI'
+      url: 'https://dev.to/with_attitude/how-boris-cherny-builder-of-claude-code-uses-it-and-why-that-should-change-how-you-think-about-173g'
