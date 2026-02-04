@@ -41,6 +41,8 @@
       url: 'https://www.youtube.com/watch?v=WpH3g3kjFus'
     - label: 'Personal website'
       url: 'https://www.cianclarke.com/'
+    - label: 'GitHub'
+      url: 'https://github.com/cianclarke'
   links:
     - label: 'From Vibe Coding to Spec-Driven Development'
       url: 'https://tessl.io/blog/from-vibe-coding-to-spec-driven-development/'
