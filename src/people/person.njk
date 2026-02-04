@@ -11,6 +11,40 @@ eleventyComputed:
 
 <h1>{{ person.name }}</h1>
 
+{% if person.profile_image or person.title or person.summary %}
+  <section class="person-profile">
+    <div class="person-profile__header">
+      {% if person.profile_image %}
+        <img
+          class="person-profile__photo"
+          src="{{ person.profile_image }}"
+          alt="{{ person.name }} profile photo"
+          loading="lazy"
+        >
+      {% endif %}
+      <div>
+        {% if person.title %}
+          <p class="person-profile__title">{{ person.title }}</p>
+        {% endif %}
+        {% if person.summary %}
+          <p class="person-profile__summary">{{ person.summary }}</p>
+        {% endif %}
+      </div>
+    </div>
+  </section>
+{% endif %}
+
+{% if person.social_links %}
+  <section>
+    <h2>Profiles</h2>
+    <ul class="meta-list">
+      {%- for link in person.social_links %}
+        <li><a href="{{ link.url }}">{{ link.label }}</a></li>
+      {%- endfor %}
+    </ul>
+  </section>
+{% endif %}
+
 {% if person.links %}
   <section>
     <h2>Links</h2>

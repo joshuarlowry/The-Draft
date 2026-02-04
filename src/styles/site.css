@@ -461,6 +461,49 @@ a:hover {
   font-style: italic;
 }
 
+/* People profiles */
+.person-profile {
+  margin: calc(var(--spacing) * 2) 0;
+}
+
+.person-profile__header {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.person-profile__photo {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid var(--color-border);
+  background: var(--color-accent-soft);
+}
+
+.person-profile__title {
+  margin: 0 0 0.5rem;
+  font-weight: 600;
+}
+
+.person-profile__summary {
+  margin: 0;
+  color: var(--color-text-muted);
+  max-width: 60ch;
+}
+
+@media (max-width: 720px) {
+  .person-profile__header {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .person-profile__photo {
+    margin: 0 auto;
+  }
+}
+
 .summary-grid {
   display: grid;
   gap: 1.5rem;
