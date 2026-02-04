@@ -53,17 +53,20 @@ eleventyExcludeFromCollections: true
 
 {%- set feedItems = feedItems | sortFeedItemsByDate -%}
 {%- set feedTitle = "The Draft: " ~ term.label ~ " (" ~ term.type | capitalize ~ ")" -%}
-{%- set feedUrl = "/topics/" ~ term.type ~ "/" ~ term.slug ~ "/" -%}
+{%- set feedPath = "/topics/" ~ term.type ~ "/" ~ term.slug ~ "/" -%}
+{%- set feedUrl = site.url ~ feedPath -%}
+{%- set feedSelfUrl = site.url ~ "/feeds/topics/" ~ term.type ~ "/" ~ term.slug ~ ".xml" -%}
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>{{ feedTitle }}</title>
-    <link>{{ feedUrl | url }}</link>
+    <link>{{ feedUrl }}</link>
+    <atom:link href="{{ feedSelfUrl }}" rel="self" type="application/rss+xml" />
     <description>RSS feed for {{ term.label }} {{ term.type }} updates across articles and sources.</description>
     {% for item in feedItems %}
       <item>
         <title>{{ item.title }}</title>
-        <link>{{ item.url | url }}</link>
+        <link>{{ site.url ~ item.url }}</link>
         {% if item.description %}
           <description>{{ item.description }}</description>
         {% endif %}

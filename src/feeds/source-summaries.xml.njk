@@ -3,16 +3,18 @@ permalink: "/feeds/source-summaries.xml"
 eleventyExcludeFromCollections: true
 ---
 {%- set feedItems = source_summaries | sortSummariesBySourceDate(sources) -%}
+{%- set feedUrl = site.url ~ "/feeds/source-summaries.xml" -%}
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>{{ site.title }} Source Summaries</title>
-    <link>{{ site.url }}{{ '/' | url }}</link>
+    <link>{{ site.url }}/</link>
+    <atom:link href="{{ feedUrl }}" rel="self" type="application/rss+xml" />
     <description>{{ site.description }}</description>
     <language>{{ site.language }}</language>
     {% for summary in feedItems %}
       {% set source = sources | getSourceById(summary.source_id) %}
-      {% set itemPath = ("/summaries/" ~ summary.source_id ~ "/") | url %}
+      {% set itemPath = "/summaries/" ~ summary.source_id ~ "/" %}
       {% set itemUrl = site.url ~ itemPath %}
       <item>
         <title>{{ source.title }} Summary</title>
