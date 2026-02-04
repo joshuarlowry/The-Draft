@@ -55,14 +55,14 @@ This repository uses structured content in `src/` with shared data in `src/_data
 - **Notes:** Each `id` in a bundle must match a source in `sources.yml`.
 
 ## Artifact metadata (domain classification)
-Every artifact (article, block, concept) MUST declare:
+Every content artifact (article, block, concept) MUST declare:
 - `primary_domain`: one of `[architecture, ia, ux, agentic]`
 - `secondary_domains`: array (0+)
 - `perspective`: short descriptor (e.g., architect, ux practitioner, technologist, hybrid)
 - `overlap_angle`: optional string explaining cross-domain relevance
 - `classification_rationale`: 1–2 sentence explanation of placement
 
-Artifacts exist once; all domain views are derived from metadata.
+Artifacts exist once; all domain views are derived from metadata. Meta content (e.g. blocks about the site platform itself) may omit domain fields; such artifacts do not appear on domain pages.
 
 ## Articles
 - **Location:** `src/articles/`
