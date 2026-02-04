@@ -19,7 +19,7 @@ eleventyComputed:
       {% if profileImage %}
         <img
           class="person-profile__photo"
-          src="{{ profileImage }}"
+          src="{{ profileImage | url }}"
           alt="{{ person.name }} profile photo"
           loading="lazy"
         >
