@@ -479,3 +479,9 @@
     - planning-and-structure
   reading_descriptions:
     planning-and-structure: 'Kiro highlights how spec-driven development and upfront structure improve outcomes before coding begins.'
+
+- id: github_cian_clarke_profile
+  title: 'Cian Clarke GitHub profile'
+  publisher: 'GitHub'
+  accessed: '2026-02-04'
+  url: 'https://github.com/cianclarke'

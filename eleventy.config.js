@@ -6,6 +6,7 @@ module.exports = function (eleventyConfig) {
 
   // Pass through static assets
   eleventyConfig.addPassthroughCopy('src/styles');
+  eleventyConfig.addPassthroughCopy('src/images');
 
   // Collection: All argument blocks
   eleventyConfig.addCollection('argumentBlocks', function (collectionApi) {

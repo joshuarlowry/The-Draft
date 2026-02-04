@@ -457,3 +457,10 @@
     - workflow
   categories:
     - planning-and-structure
+
+- source_id: github_cian_clarke_profile
+  summary: 'GitHub profile page used to retrieve Cian Clarke’s public avatar for the people directory.'
+  long_summary: 'This GitHub profile page provides the public avatar image associated with Cian Clarke’s account. The avatar was downloaded to store a local copy for the people profile image in The Draft site.'
+  tags: []
+  topics: []
+  categories: []
