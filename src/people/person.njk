@@ -11,13 +11,15 @@ eleventyComputed:
 
 <h1>{{ person.name }}</h1>
 
-{% if person.profile_image or person.title or person.summary %}
+{% set profileImage = person | resolveProfileImage %}
+
+{% if profileImage or person.title or person.summary %}
   <section class="person-profile">
     <div class="person-profile__header">
-      {% if person.profile_image %}
+      {% if profileImage %}
         <img
           class="person-profile__photo"
-          src="{{ person.profile_image }}"
+          src="{{ profileImage }}"
           alt="{{ person.name }} profile photo"
           loading="lazy"
         >
