@@ -4,14 +4,17 @@ A structured content system built with Eleventy for assembling articles from reu
 
 ## Content Model
 
-This system uses five content types:
+This system uses eight content types:
 
 | Type | Format | Location | Purpose |
 |------|--------|----------|---------|
 | **Concept** | Markdown | `src/concepts/` | Reusable definitions and key terms |
 | **ArgumentBlock** | Markdown | `src/blocks/argument/` | Self-contained arguments with citations |
+| **Source** | YAML | `src/_data/sources.yml` | Canonical metadata for every source (used by citations and reading bundles) |
+| **SourceSummary** | YAML | `src/_data/source_summaries.yml` | Short and long summaries tied to sources |
 | **Citation** | YAML | `src/_data/citations.yml` | Quoted statements stored once, referenced by ID |
 | **ReadingBundle** | YAML | `src/_data/reading_bundles.yml` | Grouped references organized by theme |
+| **Person** | Nunjucks/Markdown | `src/people/` | Profiles for notable people referenced in sources and articles |
 | **Article** | Markdown | `src/articles/` | Assembly that references blocks in order |
 
 ## Repository Structure
@@ -26,8 +29,10 @@ This system uses five content types:
 │       └── pages.yml          # GitHub Pages deployment
 └── src/
     ├── _data/
-    │   ├── citations.yml      # Shared citations
-    │   └── reading_bundles.yml # Reading list bundles
+    │   ├── citations.yml       # Shared citations
+    │   ├── reading_bundles.yml # Reading list bundles
+    │   ├── source_summaries.yml # Source summaries
+    │   └── sources.yml         # Canonical source records
     ├── _includes/
     │   ├── layouts/
     │   │   ├── base.njk       # Base HTML template
@@ -38,6 +43,7 @@ This system uses five content types:
     ├── blocks/
     │   └── argument/          # Argument block content
     ├── concepts/              # Concept definitions
+    ├── people/                # People profiles
     ├── articles/              # Article assemblies
     ├── styles/
     │   └── site.css
@@ -61,6 +67,34 @@ The development server runs at `http://localhost:8080` by default.
 
 ## How Authoring Works
 
+### Adding a New Source
+
+1. Open `src/_data/sources.yml`
+2. Add a new entry with required fields:
+
+```yaml
+- id: your_source_id
+  title: "Source Title"
+  url: "https://example.com/source"
+  author: "Author Name"
+  publisher: "Publisher Name"
+  published: "2024-01-01"
+  accessed: "2024-01-15"
+```
+
+### Adding a New Source Summary
+
+1. Open `src/_data/source_summaries.yml`
+2. Add a summary linked to the source:
+
+```yaml
+- source_id: your_source_id
+  summary: "Short summary."
+  long_summary: "Longer summary with more context."
+  tags:
+    - research
+```
+
 ### Adding a New Citation
 
 1. Open `src/_data/citations.yml`
@@ -69,7 +103,7 @@ The development server runs at `http://localhost:8080` by default.
 ```yaml
 - id: your_citation_id
   quote: "The exact quote text, verbatim."
-  attribution: "Author Name, Source Title"
+  source_id: your_source_id
 ```
 
 ### Adding a New Argument Block
@@ -104,6 +138,19 @@ title: Your Concept Name
 The definition or explanation of the concept.
 ```
 
+### Adding a New Person Profile
+
+1. Create a new file in `src/people/`, e.g., `your-person.md`
+2. Add front matter with ID and name:
+
+```markdown
+---
+id: your-person
+title: "Person Name"
+---
+Short bio or context for why they are relevant to sources and articles.
+```
+
 ### Adding a New Reading Bundle
 
 1. Open `src/_data/reading_bundles.yml`
@@ -116,8 +163,7 @@ The definition or explanation of the concept.
     - title: "Group Title"
       description: "Optional description of this group."
       sources:
-        - author: "Author Name"
-          title: "Source Title"
+        - id: your_source_id
           description: "Brief description of the source."
 ```
 
