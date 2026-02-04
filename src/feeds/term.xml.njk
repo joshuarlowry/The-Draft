@@ -6,7 +6,7 @@ pagination:
 permalink: "/feeds/topics/{{ term.type }}/{{ term.slug }}.xml"
 eleventyExcludeFromCollections: true
 ---
-{% set matchingSources = [] %}
+{%- set matchingSources = [] -%}
 {%- for source in sources %}
   {%- set summary = source_summaries | getSourceSummaryById(source.id) %}
   {%- if summary and summary[term.field] and term.label in summary[term.field] %}
@@ -17,7 +17,7 @@ eleventyExcludeFromCollections: true
   {%- endif %}
 {%- endfor %}
 
-{% set matchingArticles = [] %}
+{%- set matchingArticles = [] -%}
 {%- for article in collections.articles %}
   {%- set matched = false %}
   {%- for blockId in article.data.blocks %}
@@ -31,7 +31,7 @@ eleventyExcludeFromCollections: true
   {%- endif %}
 {%- endfor %}
 
-{% set feedItems = [] %}
+{%- set feedItems = [] -%}
 {%- for article in matchingArticles %}
   {%- set feedItems = feedItems.concat([{
     "title": article.data.title,
@@ -51,10 +51,10 @@ eleventyExcludeFromCollections: true
   }]) %}
 {%- endfor %}
 
-{% set feedItems = feedItems | sortFeedItemsByDate %}
-{% set feedTitle = "The Draft: " ~ term.label ~ " (" ~ term.type | capitalize ~ ")" %}
-{% set feedUrl = "/topics/" ~ term.type ~ "/" ~ term.slug ~ "/" %}
-
+{%- set feedItems = feedItems | sortFeedItemsByDate -%}
+{%- set feedTitle = "The Draft: " ~ term.label ~ " (" ~ term.type | capitalize ~ ")" -%}
+{%- set feedUrl = "/topics/" ~ term.type ~ "/" ~ term.slug ~ "/" -%}
+<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
     <title>{{ feedTitle }}</title>
