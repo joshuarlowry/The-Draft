@@ -29,3 +29,7 @@
 - id: usability-inspection
   title: 'Usability Inspection and Heuristic Evaluation'
   description: 'References that define heuristic evaluation and other inspection methods used to catch usability issues before user testing.'
+
+- id: cross-domain-calibration
+  title: 'Cross-Domain Calibration: UX and Agentic AI'
+  description: 'Articles that bridge UX research and agentic AI, exploring how design principles and user experience models must adapt when systems act with greater autonomy.'

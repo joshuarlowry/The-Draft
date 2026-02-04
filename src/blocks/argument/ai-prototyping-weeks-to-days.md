@@ -1,6 +1,11 @@
 ---
 id: ai-prototyping-weeks-to-days
 title: 'AI prototyping can shrink time-to-first-build'
+primary_domain: agentic
+secondary_domains:
+  - ux
+perspective: technologist
+classification_rationale: 'AI-enabled rapid prototyping. UX for learning instruments and user feedback.'
 categories:
   - rapid-prototyping
 topics:

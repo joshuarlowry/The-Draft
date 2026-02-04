@@ -1,6 +1,11 @@
 ---
 id: engineer-judgment
 title: "Planning first improves the engineer's judgment, not just the outcome of one task"
+primary_domain: agentic
+secondary_domains:
+  - architecture
+perspective: technologist
+classification_rationale: 'Deliberate practice and planning in AI-assisted work. Architecture for design discipline.'
 categories:
   - engineering-judgment
 topics:

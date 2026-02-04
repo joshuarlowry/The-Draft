@@ -616,3 +616,34 @@
   url: 'https://x.com/karpathy/status/2015883857489522876'
   mentioned_people_ids:
     - andrej_karpathy
+
+# Cross-domain calibration (UX + Agentic)
+- id: uxmatters_designing_for_autonomy
+  title: 'Designing for Autonomy: UX Principles for Agentic AI'
+  publisher: 'UXmatters'
+  published: '2025-12'
+  url: 'https://www.uxmatters.com/mt/archives/2025/12/designing-for-autonomy-ux-principles-for-agentic-ai.php'
+  tags:
+    - cross-domain-calibration
+  reading_descriptions:
+    cross-domain-calibration: 'Outlines UX principles for systems where AI acts with greater autonomy, addressing how design must adapt when users delegate to agents.'
+
+- id: designative_flows_age_agentic_ai
+  title: 'Flows in the Age of Agentic AI'
+  publisher: 'Designative'
+  published: '2025-11'
+  url: 'https://www.designative.info/2025/11/20/flows-age-agentic-ai-what-if-our-core-ux-models-no-longer-apply/'
+  tags:
+    - cross-domain-calibration
+  reading_descriptions:
+    cross-domain-calibration: 'Questions whether established UX flow models remain valid when agentic AI can interrupt, parallelize, or reshape traditional linear flows.'
+
+- id: etcjournal_critical_ux_differences_ai_agentic
+  title: 'Critical UX Differences Between AI and Agentic-AI'
+  publisher: 'ETC Journal'
+  published: '2025-11'
+  url: 'https://etcjournal.com/2025/11/18/critical-ux-differences-between-ai-and-agentic-ai/'
+  tags:
+    - cross-domain-calibration
+  reading_descriptions:
+    cross-domain-calibration: 'Identifies key UX distinctions between conventional AI (assistive, reactive) and agentic AI (autonomous, proactive).'

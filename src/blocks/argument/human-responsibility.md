@@ -1,6 +1,11 @@
 ---
 id: human-responsibility
 title: 'Plan mode keeps humans responsible for system design instead of reviewing it after the fact'
+primary_domain: agentic
+secondary_domains:
+  - architecture
+perspective: technologist
+classification_rationale: 'Human-AI responsibility and design authority. Architecture for system design ownership.'
 categories:
   - responsibility-oversight
 topics:

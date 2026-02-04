@@ -596,3 +596,42 @@
     - ai-assisted-development
     - tooling
   categories: []
+
+- source_id: uxmatters_designing_for_autonomy
+  summary: 'UXmatters article on UX principles for agentic AI systems.'
+  long_summary: 'This article bridges UX and agentic AI by outlining design principles for systems where AI acts with greater autonomy. It addresses how traditional UX models must adapt when users delegate tasks to agents, and what autonomy, transparency, and control mean in agentic contexts.'
+  tags:
+    - agentic-ai
+    - ux-principles
+    - autonomy
+  topics:
+    - ux-design
+    - agentic-systems
+  categories:
+    - cross-domain-calibration
+
+- source_id: designative_flows_age_agentic_ai
+  summary: 'Designative explores whether core UX flow models still apply in the age of agentic AI.'
+  long_summary: 'This piece questions whether established UX models for flows and user journeys remain valid when agentic AI can interrupt, parallelize, or reshape traditional linear flows. It examines the tension between flow-based design and agent-driven interaction.'
+  tags:
+    - agentic-ai
+    - flows
+    - ux-models
+  topics:
+    - ux-design
+    - agentic-systems
+  categories:
+    - cross-domain-calibration
+
+- source_id: etcjournal_critical_ux_differences_ai_agentic
+  summary: 'ETC Journal distinguishes critical UX differences between AI and agentic AI.'
+  long_summary: 'This article identifies key UX distinctions between conventional AI (assistive, reactive) and agentic AI (autonomous, proactive). It argues that design patterns, feedback mechanisms, and user expectations must differ when systems take initiative and execute multi-step tasks.'
+  tags:
+    - agentic-ai
+    - ux-differences
+    - design-patterns
+  topics:
+    - ux-design
+    - agentic-systems
+  categories:
+    - cross-domain-calibration

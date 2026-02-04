@@ -1,6 +1,10 @@
 ---
 id: guardrail-agent-patterns
 title: 'Multi-agent patterns turn guardrails into workflow'
+primary_domain: agentic
+secondary_domains: []
+perspective: technologist
+classification_rationale: 'Core agentic pattern: multi-agent workflows and guardrail design.'
 categories:
   - tooling-guardrails
 topics:

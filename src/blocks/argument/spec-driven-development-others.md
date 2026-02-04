@@ -1,6 +1,11 @@
 ---
 id: spec-driven-development-others
 title: 'Other practitioners define spec-driven development as spec-first, decision-explicit work'
+primary_domain: agentic
+secondary_domains:
+  - architecture
+perspective: technologist
+classification_rationale: 'Spec-driven development practice. Architecture for explicit decisions.'
 categories:
   - planning-and-structure
 topics:

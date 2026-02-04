@@ -1,6 +1,11 @@
 ---
 id: oversight-governance
 title: 'Governance is about gates, not exhaustive comprehension'
+primary_domain: agentic
+secondary_domains:
+  - architecture
+perspective: technologist
+classification_rationale: 'AI governance and review gates. Architecture for policy and system design.'
 categories:
   - governance-guardrails
 topics:

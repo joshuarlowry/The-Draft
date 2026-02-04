@@ -14,8 +14,21 @@
     <nav aria-label="Primary">
       <a class="site-logo" href="{{ '/' | url }}">The Draft</a>
       <div class="site-nav-links">
+        <form class="header-search" action="{{ '/search/' | url }}" method="get" role="search">
+          <label for="header-search-input" class="visually-hidden">Search</label>
+          <input
+            id="header-search-input"
+            type="search"
+            name="q"
+            placeholder="Search"
+            aria-label="Search"
+          >
+          <button type="submit">Search</button>
+        </form>
+        <a href="{{ '/domains/' | url }}">Domains</a>
         <a href="{{ '/sources/' | url }}">Sources</a>
         <a href="{{ '/people/' | url }}">People</a>
+        <a href="{{ '/search/' | url }}">Search</a>
       </div>
     </nav>
   </header>

@@ -1,6 +1,11 @@
 ---
 id: spec-driven-development-clarke
 title: 'Cian Clarke argues spec-driven development removes the ceiling of vibe coding'
+primary_domain: agentic
+secondary_domains:
+  - architecture
+perspective: technologist
+classification_rationale: 'Spec-driven development as agentic workflow. Architecture for intent and boundaries.'
 categories:
   - planning-and-structure
 topics:

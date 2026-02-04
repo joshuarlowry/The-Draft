@@ -1,6 +1,10 @@
 ---
 id: eleventy-3-feature-opportunities
 title: 'Eleventy 3 features worth considering for The Draft'
+primary_domain: ia
+secondary_domains: []
+perspective: technologist
+classification_rationale: 'Platform and build tooling for a knowledge repository; IA for site structure and content pipeline.'
 categories:
   - platform-tooling
 topics:

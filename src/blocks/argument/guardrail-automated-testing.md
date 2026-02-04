@@ -1,6 +1,10 @@
 ---
 id: guardrail-automated-testing
 title: 'Automated testing is the fastest guardrail you can add'
+primary_domain: agentic
+secondary_domains: []
+perspective: technologist
+classification_rationale: 'Guardrails for AI-assisted development; testing as agentic workflow gate.'
 categories:
   - tooling-guardrails
 topics:

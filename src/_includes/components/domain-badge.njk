@@ -1,0 +1,9 @@
+{% if domainId %}
+{% set domain = domainId | getDomainById %}
+{% if domain %}
+<span class="domain-badge domain-badge--{{ primary | default(false) ? 'primary' : 'secondary' }}" title="{{ domain.label }}">
+  <span class="domain-badge__symbol" aria-hidden="true">{{ domain.symbol }}</span>
+  <span class="domain-badge__label">{{ domain.label }}</span>
+</span>
+{% endif %}
+{% endif %}

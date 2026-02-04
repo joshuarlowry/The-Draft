@@ -1,0 +1,24 @@
+{% if primary_domain or (secondary_domains and secondary_domains.length) %}
+<div class="domain-badges" aria-label="Domain classification">
+  {% if primary_domain %}
+  {% set domain = primary_domain | getDomainById %}
+  {% if domain %}
+  <span class="domain-badge domain-badge--primary" title="{{ domain.label }}">
+    <span class="domain-badge__symbol" aria-hidden="true">{{ domain.symbol }}</span>
+    <span class="domain-badge__label">{{ domain.label }}</span>
+  </span>
+  {% endif %}
+  {% endif %}
+  {% if secondary_domains and secondary_domains.length %}
+  {% for domainId in secondary_domains %}
+  {% set domain = domainId | getDomainById %}
+  {% if domain %}
+  <span class="domain-badge domain-badge--secondary" title="{{ domain.label }}">
+    <span class="domain-badge__symbol" aria-hidden="true">{{ domain.symbol }}</span>
+    <span class="domain-badge__label">{{ domain.label }}</span>
+  </span>
+  {% endif %}
+  {% endfor %}
+  {% endif %}
+</div>
+{% endif %}

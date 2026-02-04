@@ -1,6 +1,11 @@
 ---
 id: ai-coding-speed-prototype
 title: 'AI code assistance compresses build cycles'
+primary_domain: agentic
+secondary_domains:
+  - ux
+perspective: technologist
+classification_rationale: 'AI coding speed and prototyping. UX for validation and iteration.'
 categories:
   - rapid-prototyping
 topics:

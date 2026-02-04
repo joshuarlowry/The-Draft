@@ -4,35 +4,38 @@ pagination:
   data: people
   size: 1
   alias: person
-permalink: "/people/{{ person.id }}/"
+permalink: "/people/{{ person | getPersonSlug }}/"
 eleventyComputed:
   title: "{{ person.name }}"
 ---
 
-<h1>{{ person.name }}</h1>
+<header class="person-header">
+  <h1>{{ person.name }}</h1>
+  {% if person.primary_domain or (person.secondary_domains and person.secondary_domains.length) %}
+  {% set primary_domain = person.primary_domain %}
+  {% set secondary_domains = person.secondary_domains %}
+  {% include "components/domain-badges.njk" %}
+  {% endif %}
+</header>
 
 {% set profileImage = person | resolveProfileImage %}
+{% set profileSummary = person.profile_summary or person.summary %}
+{% set featuredWorks = person.featured_works or person.links %}
 
-{% if profileImage or person.title or person.summary %}
+{% if profileImage %}
   <section class="person-profile">
-    <div class="person-profile__header">
-      {% if profileImage %}
-        <img
-          class="person-profile__photo"
-          src="{{ profileImage | url }}"
-          alt="{{ person.name }} profile photo"
-          loading="lazy"
-        >
-      {% endif %}
-      <div>
-        {% if person.title %}
-          <p class="person-profile__title">{{ person.title }}</p>
-        {% endif %}
-        {% if person.summary %}
-          <p class="person-profile__summary">{{ person.summary }}</p>
-        {% endif %}
-      </div>
-    </div>
+    <img
+      class="person-profile__photo"
+      src="{{ profileImage | url }}"
+      alt="{{ person.profile_image_alt or (person.name ~ ' profile photo') }}"
+      loading="lazy"
+    >
+  </section>
+{% endif %}
+
+{% if profileSummary %}
+  <section class="person-profile-summary">
+    <p class="person-profile__summary">{{ profileSummary }}</p>
   </section>
 {% endif %}
 
@@ -47,12 +50,21 @@ eleventyComputed:
   </section>
 {% endif %}
 
-{% if person.links %}
+{% if featuredWorks %}
   <section>
-    <h2>Links</h2>
-    <ul>
-      {%- for link in person.links %}
-        <li><a href="{{ link.url }}">{{ link.label }}</a></li>
+    <h2>Featured works</h2>
+    <ul class="article-list">
+      {%- for work in featuredWorks %}
+        <li>
+          {% if work.url %}
+            <a href="{{ work.url }}">{{ work.title or work.label }}</a>
+          {% else %}
+            {{ work.title or work.label }}
+          {% endif %}
+          {% if work.year %}
+            <span class="meta-muted">({{ work.year }})</span>
+          {% endif %}
+        </li>
       {%- endfor %}
     </ul>
   </section>
@@ -60,9 +72,27 @@ eleventyComputed:
 
 {% set personSources = sources | getSourcesByPersonId(person.id) %}
 
-{% if personSources.length %}
+{% if person.recent_items and person.recent_items.length %}
   <section>
-    <h2>Sources</h2>
+    <h2>Recent publications</h2>
+    <ul class="article-list">
+      {%- for item in person.recent_items %}
+        <li>
+          {% if item.url %}
+            <a href="{{ item.url }}">{{ item.title }}</a>
+          {% else %}
+            {{ item.title }}
+          {% endif %}
+          {% if item.published_date %}
+            <span class="meta-muted">({{ item.published_date }})</span>
+          {% endif %}
+        </li>
+      {%- endfor %}
+    </ul>
+  </section>
+{% elseif personSources.length %}
+  <section>
+    <h2>Recent publications</h2>
     <ul class="article-list">
       {%- for source in personSources %}
         {% set summary = source_summaries | getSourceSummaryById(source.id) %}
@@ -99,7 +129,7 @@ eleventyComputed:
 
 {% if relatedArticles.length %}
   <section>
-    <h2>Related articles</h2>
+    <h2>Related Draft artifacts</h2>
     <ul class="article-list">
       {%- for article in relatedArticles %}
         <li>

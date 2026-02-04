@@ -1,0 +1,112 @@
+---
+layout: layouts/base.njk
+pagination:
+  data: domains.domainIds
+  size: 1
+  alias: domainId
+permalink: "/domains/{{ domainId }}/"
+eleventyComputed:
+  title: "{{ (domainId | getDomainById).label }}"
+---
+
+{% set domain = domainId | getDomainById %}
+
+<article class="domain-page">
+  <header class="domain-header">
+    <h1><span class="domain-symbol" aria-hidden="true">{{ domain.symbol }}</span> {{ domain.label }}</h1>
+    <p class="domain-description">{{ domain.description }}</p>
+  </header>
+
+  {% set primaryArticles = collections.articles | filterByPrimaryDomain(domainId) %}
+  {% set secondaryArticles = collections.articles | filterBySecondaryDomain(domainId) %}
+  {% set primaryBlocks = collections.argumentBlocks | filterByPrimaryDomain(domainId) %}
+  {% set secondaryBlocks = collections.argumentBlocks | filterBySecondaryDomain(domainId) %}
+  {% set primaryConcepts = collections.concepts | filterByPrimaryDomain(domainId) %}
+  {% set secondaryConcepts = collections.concepts | filterBySecondaryDomain(domainId) %}
+
+  {% if primaryArticles.length %}
+  <section class="domain-section domain-section--primary">
+    <h2>Primary artifacts</h2>
+    <p class="section-intro">Articles where this domain is primary.</p>
+    <ul class="article-list">
+      {%- for article in primaryArticles %}
+        <li>
+          <a href="{{ article.url | url }}">{{ article.data.title }}</a>
+          {% if article.data.summary %}
+            <p class="article-summary">{{ article.data.summary }}</p>
+          {% endif %}
+        </li>
+      {%- endfor %}
+    </ul>
+  </section>
+  {% endif %}
+
+  {% if primaryBlocks.length %}
+  <section class="domain-section domain-section--primary">
+    <h2>Argument blocks</h2>
+    <ul class="article-list">
+      {%- for block in primaryBlocks %}
+        <li>
+          <a href="{{ block.url | url }}">{{ block.data.title }}</a>
+        </li>
+      {%- endfor %}
+    </ul>
+  </section>
+  {% endif %}
+
+  {% if primaryConcepts.length %}
+  <section class="domain-section domain-section--primary">
+    <h2>Concepts</h2>
+    <ul class="article-list">
+      {%- for concept in primaryConcepts %}
+        <li>
+          <a href="{{ concept.url | url }}">{{ concept.data.title }}</a>
+        </li>
+      {%- endfor %}
+    </ul>
+  </section>
+  {% endif %}
+
+  {% if secondaryArticles.length or secondaryBlocks.length or secondaryConcepts.length %}
+  <section class="domain-section domain-section--secondary">
+    <h2>Secondary overlap</h2>
+    <p class="section-intro">Artifacts where this domain appears as secondary.</p>
+    {% if secondaryArticles.length %}
+    <ul class="article-list">
+      {%- for article in secondaryArticles %}
+        <li>
+          <a href="{{ article.url | url }}">{{ article.data.title }}</a>
+          {% if article.data.summary %}
+            <p class="article-summary">{{ article.data.summary }}</p>
+          {% endif %}
+        </li>
+      {%- endfor %}
+    </ul>
+    {% endif %}
+    {% if secondaryBlocks.length %}
+    <ul class="article-list">
+      {%- for block in secondaryBlocks %}
+        <li>
+          <a href="{{ block.url | url }}">{{ block.data.title }}</a>
+        </li>
+      {%- endfor %}
+    </ul>
+    {% endif %}
+    {% if secondaryConcepts.length %}
+    <ul class="article-list">
+      {%- for concept in secondaryConcepts %}
+        <li>
+          <a href="{{ concept.url | url }}">{{ concept.data.title }}</a>
+        </li>
+      {%- endfor %}
+    </ul>
+    {% endif %}
+  </section>
+  {% endif %}
+
+  {% if not primaryArticles.length and not secondaryArticles.length and not primaryBlocks.length and not secondaryBlocks.length and not primaryConcepts.length and not secondaryConcepts.length %}
+  <p class="summary-intro">No artifacts have been classified for this domain yet.</p>
+  {% endif %}
+</article>
+
+<p><a href="{{ '/domains/' | url }}">Back to domains</a></p>

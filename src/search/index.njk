@@ -1,0 +1,142 @@
+---
+layout: layouts/base.njk
+title: Search
+---
+
+<h1>Search</h1>
+<p class="summary-intro">Search across articles, blocks, concepts, people, and sources.</p>
+
+<div class="search-page">
+  <div class="search-controls">
+    <div class="search-field">
+      <label for="global-search">Search</label>
+      <input
+        id="global-search"
+        type="search"
+        placeholder="Search by title, summary, or tag"
+        data-search-input
+        autofocus
+      >
+    </div>
+    <div class="search-domain-filter" data-domain-filter hidden>
+      <fieldset>
+        <legend>Filter by domain</legend>
+        <div class="domain-checkboxes">
+          <label><input type="checkbox" value="architecture" data-domain-cb> ■ Architecture</label>
+          <label><input type="checkbox" value="ia" data-domain-cb> ⬡ IA</label>
+          <label><input type="checkbox" value="ux" data-domain-cb> ○ UX</label>
+          <label><input type="checkbox" value="agentic" data-domain-cb> ▶ Agentic</label>
+        </div>
+      </fieldset>
+    </div>
+  </div>
+
+  <div id="search-results" class="search-results" data-search-results>
+    <p class="search-hint" data-search-hint>Enter a search term or use domain filters.</p>
+    <ul class="article-list" data-results-list hidden></ul>
+    <p class="search-empty" data-search-empty hidden>No results match your search.</p>
+  </div>
+</div>
+
+<script>
+  (function () {
+    const params = new URLSearchParams(location.search);
+    const initialQ = params.get('q') || '';
+    const searchInput = document.getElementById('global-search');
+    const resultsList = document.querySelector('[data-results-list]');
+    const searchHint = document.querySelector('[data-search-hint]');
+    const searchEmpty = document.querySelector('[data-search-empty]');
+    const domainFilter = document.querySelector('[data-domain-filter]');
+    const domainCheckboxes = document.querySelectorAll('[data-domain-cb]');
+
+    let index = { items: [] };
+    const indexPath = '{{ "/search-index.json" | url }}';
+
+    const loadIndex = async () => {
+      try {
+        const res = await fetch(indexPath);
+        index = await res.json();
+        domainFilter.hidden = false;
+      } catch (e) {
+        console.warn('Search index not available:', e);
+      }
+    };
+
+    const searchableText = (item) => {
+      const parts = [
+        item.title || '',
+        item.summary || '',
+        (item.people_slugs || []).join(' '),
+        (item.tags || []).join(' '),
+        item.primary_domain || '',
+        (item.secondary_domains || []).join(' '),
+      ];
+      return parts.join(' ').toLowerCase();
+    };
+
+    const matchesDomain = (item, selectedDomains) => {
+      if (selectedDomains.length === 0) return true;
+      const domains = [item.primary_domain, ...(item.secondary_domains || [])].filter(Boolean);
+      return selectedDomains.some((d) => domains.includes(d));
+    };
+
+    const runSearch = () => {
+      const term = (searchInput?.value || '').trim().toLowerCase();
+      const selectedDomains = Array.from(domainCheckboxes)
+        .filter((cb) => cb.checked)
+        .map((cb) => cb.value);
+
+      const filtered = index.items.filter((item) => {
+        const textMatch = !term || searchableText(item).includes(term);
+        const domainMatch = matchesDomain(item, selectedDomains);
+        return textMatch && domainMatch;
+      });
+
+      searchHint.hidden = filtered.length > 0 || term || selectedDomains.length > 0;
+      searchEmpty.hidden = filtered.length > 0 || (!term && selectedDomains.length === 0);
+      resultsList.hidden = filtered.length === 0;
+
+      if (resultsList) {
+        resultsList.innerHTML = filtered
+          .slice(0, 50)
+          .map(
+            (item) =>
+              `<li><a href="${item.url}">${escapeHtml(item.title)}</a>` +
+              (item.summary ? `<p class="article-summary">${escapeHtml(item.summary.slice(0, 120))}${item.summary.length > 120 ? '…' : ''}</p>` : '') +
+              (item.primary_domain ? ` <span class="domain-badge domain-badge--secondary">${item.primary_domain}</span>` : '') +
+              `</li>`
+          )
+          .join('');
+      }
+    };
+
+    const escapeHtml = (s) => {
+      const div = document.createElement('div');
+      div.textContent = s;
+      return div.innerHTML;
+    };
+
+    const updateUrl = () => {
+      const q = searchInput?.value?.trim() || '';
+      const url = new URL(location.href);
+      if (q) url.searchParams.set('q', q);
+      else url.searchParams.delete('q');
+      history.replaceState({}, '', url);
+    };
+
+    loadIndex().then(() => {
+      if (initialQ) {
+        searchInput.value = initialQ;
+        runSearch();
+      }
+      searchInput?.addEventListener('input', () => {
+        runSearch();
+        updateUrl();
+      });
+      searchInput?.addEventListener('keydown', (e) => {
+        if (e.key === 'Enter') runSearch();
+      });
+      domainCheckboxes.forEach((cb) => cb.addEventListener('change', runSearch));
+    });
+  })();
+</script>

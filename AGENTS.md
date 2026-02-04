@@ -54,16 +54,26 @@ This repository uses structured content in `src/` with shared data in `src/_data
 - **Structure:** Bundles contain `groups`, each group contains `sources` with `id` and optional `description`.
 - **Notes:** Each `id` in a bundle must match a source in `sources.yml`.
 
+## Artifact metadata (domain classification)
+Every artifact (article, block, concept) MUST declare:
+- `primary_domain`: one of `[architecture, ia, ux, agentic]`
+- `secondary_domains`: array (0+)
+- `perspective`: short descriptor (e.g., architect, ux practitioner, technologist, hybrid)
+- `overlap_angle`: optional string explaining cross-domain relevance
+- `classification_rationale`: 1–2 sentence explanation of placement
+
+Artifacts exist once; all domain views are derived from metadata.
+
 ## Articles
 - **Location:** `src/articles/`
 - **Purpose:** Long-form content pages.
-- **Front matter:** Use `reading_bundle` to reference a bundle by id when needed.
+- **Front matter:** Use `reading_bundle` to reference a bundle by id when needed. Include artifact metadata.
 
 ## Blocks
 - **Location:** `src/blocks/`
 - **Purpose:** Reusable argument blocks used within articles.
-- **Citations:** Use `[[cite:your_quote_id]]` placeholders to embed quotes from `citations.yml`.
+- **Citations:** Use `[[cite:your_quote_id]]` placeholders to embed quotes from `citations.yml`. Include artifact metadata.
 
 ## Concepts
 - **Location:** `src/concepts/`
-- **Purpose:** Definitions or conceptual reference pages.
+- **Purpose:** Definitions or conceptual reference pages. Include artifact metadata.

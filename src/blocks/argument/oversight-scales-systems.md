@@ -1,6 +1,11 @@
 ---
 id: oversight-scales-systems
 title: 'Oversight scales when it is designed into the system'
+primary_domain: agentic
+secondary_domains:
+  - architecture
+perspective: technologist
+classification_rationale: 'Scaling AI oversight via system design. Architecture for process and verification.'
 categories:
   - ai-production-scale
   - governance-guardrails

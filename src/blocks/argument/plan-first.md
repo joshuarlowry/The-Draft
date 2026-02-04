@@ -1,6 +1,11 @@
 ---
 id: plan-first
 title: "If you don't plan first, the AI will make design decisions for you"
+primary_domain: agentic
+secondary_domains:
+  - architecture
+perspective: technologist
+classification_rationale: 'Core argument about AI coding and design authority. Architecture secondary for boundaries and constraints.'
 categories:
   - planning-and-structure
 topics:

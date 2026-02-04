@@ -1,6 +1,11 @@
 ---
 id: oversight-leadership-implication
 title: 'The leadership implication is uncomfortable but unavoidable'
+primary_domain: agentic
+secondary_domains:
+  - architecture
+perspective: technologist
+classification_rationale: 'Oversight as skill in AI-assisted development. Architecture for organizational change.'
 categories:
   - responsibility-oversight
 topics:

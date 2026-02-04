@@ -1,6 +1,11 @@
 ---
 id: oversight-guardrails
 title: 'Research points to guardrails, not manual inspection'
+primary_domain: agentic
+secondary_domains:
+  - architecture
+perspective: technologist
+classification_rationale: 'AI oversight and guardrails. Architecture for system constraints and verification.'
 categories:
   - governance-guardrails
 topics:

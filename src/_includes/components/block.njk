@@ -1,5 +1,12 @@
 <section class="block argument-block" id="{{ block.data.id }}">
   <h2>{{ block.data.title }}</h2>
+  {% if block.data.primary_domain or (block.data.secondary_domains and block.data.secondary_domains.length) %}
+  <div class="block-domain-badges">
+    {% set primary_domain = block.data.primary_domain %}
+    {% set secondary_domains = block.data.secondary_domains %}
+    {% include "components/domain-badges.njk" %}
+  </div>
+  {% endif %}
   {% if block.data.tags or block.data.topics or block.data.categories %}
   <div class="block-meta">
     {% if block.data.categories %}

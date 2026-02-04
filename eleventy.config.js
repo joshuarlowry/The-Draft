@@ -1,6 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 const yaml = require('js-yaml');
+const { domains, getDomainById: getDomain } = require('./src/_data/domains.js');
 
 module.exports = function (eleventyConfig) {
   // Add YAML support for data files
@@ -39,6 +40,42 @@ module.exports = function (eleventyConfig) {
       .trim()
       .replace(/[^a-z0-9]+/g, '-')
       .replace(/(^-|-$)+/g, '');
+  });
+
+  // Filter: Get domain config by ID
+  eleventyConfig.addFilter('getDomainById', function (id) {
+    return getDomain(id);
+  });
+
+  // Filter: Get domain symbol
+  eleventyConfig.addFilter('domainSymbol', function (id) {
+    const domain = getDomain(id);
+    return domain ? domain.symbol : '';
+  });
+
+  // Filter: Get domain label
+  eleventyConfig.addFilter('domainLabel', function (id) {
+    const domain = getDomain(id);
+    return domain ? domain.label : '';
+  });
+
+  // Filter: Filter collection by primary domain
+  eleventyConfig.addFilter('filterByPrimaryDomain', function (items = [], domainId) {
+    if (!domainId || !Array.isArray(items)) return [];
+    return items.filter((item) => {
+      const data = item.data || item;
+      return data.primary_domain === domainId;
+    });
+  });
+
+  // Filter: Filter collection by secondary domain
+  eleventyConfig.addFilter('filterBySecondaryDomain', function (items = [], domainId) {
+    if (!domainId || !Array.isArray(items)) return [];
+    return items.filter((item) => {
+      const data = item.data || item;
+      const secondary = data.secondary_domains || [];
+      return Array.isArray(secondary) && secondary.includes(domainId);
+    });
   });
 
   // Filter: Get a citation by ID from citations data
@@ -81,6 +118,29 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addFilter('getPeopleByIds', function (people = [], ids = []) {
     if (!Array.isArray(ids) || ids.length === 0) return [];
     return people.filter((person) => ids.includes(person.id));
+  });
+
+  // Filter: Get person slug (slug field or derived from id)
+  eleventyConfig.addFilter('getPersonSlug', function (person = {}) {
+    if (person.slug) return person.slug;
+    if (person.id) {
+      return person.id
+        .toString()
+        .toLowerCase()
+        .replace(/_/g, '-')
+        .replace(/[^a-z0-9-]+/g, '-')
+        .replace(/(^-|-$)+/g, '');
+    }
+    return '';
+  });
+
+  // Filter: Get person by slug
+  eleventyConfig.addFilter('getPersonBySlug', function (people = [], slug) {
+    if (!slug) return null;
+    return people.find((p) => {
+      const pSlug = p.slug || (p.id || '').toString().toLowerCase().replace(/_/g, '-');
+      return pSlug === slug;
+    });
   });
 
   // Filter: Get people for a single source

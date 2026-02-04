@@ -1,6 +1,11 @@
 ---
 id: spec-driven-development-kiro
 title: 'Kiro positions spec-driven development as structure before code'
+primary_domain: agentic
+secondary_domains:
+  - architecture
+perspective: technologist
+classification_rationale: 'Spec-driven development tooling. Architecture for structure and intent.'
 categories:
   - planning-and-structure
 topics:

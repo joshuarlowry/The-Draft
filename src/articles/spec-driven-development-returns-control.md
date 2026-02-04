@@ -3,6 +3,12 @@ layout: layouts/article.njk
 id: spec-driven-development-returns-control
 title: 'Spec-Driven Development Returns Control to the Team'
 summary: 'Spec-driven development re-centers decisions and intent by turning specs into the shared source of truth before AI implementation begins.'
+primary_domain: agentic
+secondary_domains:
+  - architecture
+perspective: technologist
+overlap_angle: 'Specs as source of truth are an architectural pattern: shared boundaries and intent before implementation.'
+classification_rationale: 'Primary focus is spec-driven AI workflows. Architecture secondary for control systems and shared intent.'
 intro: |
   <p>Spec-driven development reframes AI coding as a planning-first workflow. Instead of letting code shape requirements retroactively, teams capture intent, tradeoffs, and constraints before the model starts writing.</p>
   <p>That shift is as much about oversight as it is about speed: a spec makes decisions explicit, reviewable, and owned by the people accountable for the system.</p>

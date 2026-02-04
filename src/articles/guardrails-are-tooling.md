@@ -3,6 +3,12 @@ layout: layouts/article.njk
 id: guardrails-are-tooling
 title: 'Guardrails Are Tooling, Not Meetings'
 summary: 'Effective AI oversight scales when guardrails are embedded in tests, analysis, and workflow tooling instead of policy alone.'
+primary_domain: agentic
+secondary_domains:
+  - architecture
+perspective: technologist
+overlap_angle: 'Guardrails as tooling are an architectural pattern: oversight embedded in system structure rather than process.'
+classification_rationale: 'Core focus is agentic guardrails and technical oversight. Architecture secondary for governance and system design.'
 intro: |
   <p>Guardrails for AI-assisted development are often described as policy. In practice, they work best when they are embedded in the tooling and workflows that shape every change.</p>
   <p>Static analysis, automated tests, and multi-agent workflows turn oversight into repeatable checks that scale with output.</p>

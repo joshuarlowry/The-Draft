@@ -3,6 +3,12 @@ layout: layouts/article.njk
 id: oversight-is-the-real-skill
 title: 'Oversight Is the Real Skill AI Demands From Engineers'
 summary: 'As AI output scales, oversight shifts from line-by-line review to systems, governance, and guardrails that preserve accountability.'
+primary_domain: agentic
+secondary_domains:
+  - architecture
+perspective: technologist
+overlap_angle: 'Oversight at scale is an architectural concern: systems, governance, and boundaries that preserve accountability.'
+classification_rationale: 'Primary focus is AI-assisted development and oversight. Architecture secondary for governance and scalable systems.'
 intro: |
   <p>A common rule of thumb in AI-assisted development is that engineers must read and understand every line of code produced by an AI. That rule sounds prudent. It is also increasingly unrealistic.</p>
   <p>As AI systems move beyond autocomplete into multi-file changes, refactors, and agent-driven workflows, the volume and abstraction level of generated code exceed what line-by-line review can reasonably guarantee.</p>

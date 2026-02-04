@@ -1,6 +1,11 @@
 ---
 id: heuristic-evaluation-fast-pass
 title: 'Heuristic evaluation is a fast usability filter before user tests'
+primary_domain: ux
+secondary_domains:
+  - agentic
+perspective: ux practitioner
+classification_rationale: 'Core focus is UX method (heuristic evaluation). Agentic secondary for AI-assisted scalability.'
 categories:
   - usability-inspection
 topics:

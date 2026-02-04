@@ -1,0 +1,22 @@
+---
+layout: layouts/base.njk
+title: Domains
+---
+
+<h1>Domains</h1>
+<p class="summary-intro">The Draft organizes knowledge across four core domains. Each domain has a stable ID and text symbol. Artifacts declare primary and secondary domain membership.</p>
+
+<div class="domain-grid">
+  {%- for domain in domains.domains %}
+  <article class="domain-card">
+    <h2>
+      <a href="{{ ('/domains/' ~ domain.id ~ '/') | url }}">
+        <span class="domain-symbol" aria-hidden="true">{{ domain.symbol }}</span>
+        {{ domain.label }}
+      </a>
+    </h2>
+    <p>{{ domain.description }}</p>
+    <p><a href="{{ ('/domains/' ~ domain.id ~ '/') | url }}">Browse {{ domain.label }}</a></p>
+  </article>
+  {%- endfor %}
+</div>

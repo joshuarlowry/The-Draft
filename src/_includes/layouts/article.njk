@@ -4,6 +4,9 @@ layout: layouts/base.njk
 <article class="article">
   <header class="article-header">
     <h1>{{ title }}</h1>
+    {% if primary_domain or (secondary_domains and secondary_domains.length) %}
+    {% include "components/domain-badges.njk" %}
+    {% endif %}
   </header>
 
   {% if intro %}
@@ -42,7 +45,7 @@ layout: layouts/base.njk
     <h2>People referenced</h2>
     <ul class="meta-list">
       {%- for person in articlePeople %}
-        <li><a href="{{ ('/people/' ~ person.id ~ '/') | url }}">{{ person.name }}</a></li>
+        <li><a href="{{ ('/people/' ~ (person | getPersonSlug) ~ '/') | url }}">{{ person.name }}</a></li>
       {%- endfor %}
     </ul>
   </section>
