@@ -329,6 +329,117 @@
   reading_descriptions:
     planning-and-structure: 'Cian Clarke argues that spec-driven development removes the ceiling of vibe coding by grounding AI work in explicit specs.'
 
+- id: nearform_ai_powered_design_cx_2025
+  title: 'How AI-powered Design will transform Customer Experience in 2025'
+  publisher: 'Nearform'
+  published: '2024-10-22'
+  accessed: '2026-02-04'
+  url: 'https://nearform.com/how-ai-powered-design-will-transform-customer-experience-in-2025/'
+  tags:
+    - ai-production-scale
+  mentioned_people_ids:
+    - cian_clarke
+    - tey_bannerman
+    - aliza_dzik
+  reading_descriptions:
+    ai-production-scale: 'Nearform’s webinar page highlights AI-powered design trends like sentient design and hyper-personalisation for customer experience.'
+
+- id: nearform_ai_business_impact_action
+  title: 'Maximising AI’s business impact: Turning talk into action and experience into success'
+  publisher: 'Nearform'
+  published: '2024-11-07'
+  accessed: '2026-02-04'
+  url: 'https://nearform.com/insights/maximising-ais-business-impact-turning-talk-into-action-and-experience-into-success/'
+  tags:
+    - ai-production-scale
+  mentioned_people_ids:
+    - cian_clarke
+  reading_descriptions:
+    ai-production-scale: 'Nearform outlines how to move from AI experimentation to business impact by identifying high-value, low-friction projects.'
+
+- id: ainativedev_podcast_rework
+  title: 'Why Faster AI Development Often Increases Rework'
+  publisher: 'AI Native Dev'
+  published: '2025-12-23'
+  accessed: '2026-02-04'
+  url: 'https://ainativedev.io/podcast/why-faster-ai-development-often-increases-rework-cian-clarke'
+  tags:
+    - planning-and-structure
+  mentioned_people_ids:
+    - cian_clarke
+    - simon_maple
+  reading_descriptions:
+    planning-and-structure: 'Podcast discussion on why spec-first workflows reduce rework compared to fast, unstructured AI development.'
+
+- id: ainativedev_talk_spec_driven_enterprise
+  author: 'Cian Clarke'
+  author_ids:
+    - cian_clarke
+  title: 'From Vibe Coding to Spec-Driven Development: Building AI-Native Software In The Enterprise'
+  publisher: 'AI Native Dev'
+  accessed: '2026-02-04'
+  url: 'https://ainativedev.io/talk/from-vibe-coding-to-spec-driven-development-building-ai-native-software-in-the-enterprise'
+  tags:
+    - planning-and-structure
+  reading_descriptions:
+    planning-and-structure: 'Talk describing how spec-driven development improves predictability and completeness for enterprise AI-native software.'
+
+- id: youtube_ai_native_dev_rework
+  title: 'Why Faster AI Development Often Increases Rework'
+  publisher: 'YouTube'
+  accessed: '2026-02-04'
+  url: 'https://www.youtube.com/watch?v=WpH3g3kjFus'
+  tags:
+    - planning-and-structure
+  mentioned_people_ids:
+    - cian_clarke
+    - simon_maple
+  reading_descriptions:
+    planning-and-structure: 'YouTube recording of the AI Native Dev episode on rework and spec-driven development.'
+
+- id: linkedin_nearform_ai_internal_tools
+  author: 'Cian Clarke'
+  author_ids:
+    - cian_clarke
+  title: 'Under the hood: How Nearform uses AI to work smarter'
+  publisher: 'LinkedIn'
+  published: '2025-06-12'
+  accessed: '2026-02-04'
+  url: 'https://www.linkedin.com/posts/cianclarke_got-a-rare-bit-of-dev-time-late-last-year-activity-7338946170125185025--FJi'
+  tags:
+    - ai-production-scale
+  mentioned_people_ids:
+    - peri_kadaster
+  reading_descriptions:
+    ai-production-scale: 'Cian Clarke shares how Nearform built internal AI tools like Wilde and Beckett to automate sales workflows.'
+
+- id: linkedin_spec_driven_development_post
+  author: 'Cian Clarke'
+  author_ids:
+    - cian_clarke
+  title: 'Spec Driven Development'
+  publisher: 'LinkedIn'
+  published: '2025-09-04'
+  accessed: '2026-02-04'
+  url: 'https://www.linkedin.com/posts/cianclarke_spec-driven-development-activity-7369393540893663234-NF9M'
+  tags:
+    - planning-and-structure
+  reading_descriptions:
+    planning-and-structure: 'Cian Clarke reflects on the shift from vibe coding to spec-driven development and its impact on predictability and completeness.'
+
+- id: x_ainativedev_cian_clarke_thread
+  author: 'AI Native Dev'
+  title: 'AI Native Dev thread referencing Cian Clarke’s work'
+  publisher: 'X'
+  accessed: '2026-02-04'
+  url: 'https://x.com/ainativedev/status/2009180825854550214'
+  tags:
+    - planning-and-structure
+  mentioned_people_ids:
+    - cian_clarke
+  reading_descriptions:
+    planning-and-structure: 'Secondary reference thread pointing to Cian Clarke’s spec-driven development work.'
+
 - id: microsoft_spec_kit_blog
   author: 'Den Delimarsky'
   author_ids:
