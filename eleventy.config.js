@@ -281,6 +281,19 @@ ${entries}
     return parsed.toUTCString();
   });
 
+  eleventyConfig.addFilter('sortFeedItemsByDate', function (items = []) {
+    return [...items].sort((itemA, itemB) => {
+      const dateA = parseDateValue(itemA.date) || new Date(0);
+      const dateB = parseDateValue(itemB.date) || new Date(0);
+
+      if (dateA.getTime() !== dateB.getTime()) {
+        return dateB - dateA;
+      }
+
+      return (itemA.title || '').localeCompare(itemB.title || '');
+    });
+  });
+
   eleventyConfig.addFilter('sortSummariesBySourceDate', function (summaries = [], sources = []) {
     return [...summaries].sort((summaryA, summaryB) => {
       const sourceA = sources.find((source) => source.id === summaryA.source_id) || {};

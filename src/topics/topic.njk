@@ -10,7 +10,10 @@ eleventyComputed:
 ---
 
 <h1>{{ term.label }}</h1>
-<p class="summary-intro">Browse sources and articles associated with this {{ term.type }}.</p>
+<p class="summary-intro">
+  Browse sources and articles associated with this {{ term.type }}.
+  <a class="rss-link" href="{{ ('/feeds/topics/' ~ term.type ~ '/' ~ term.slug ~ '.xml') | url }}">RSS feed</a>
+</p>
 
 {% set matchingSources = [] %}
 {%- for source in sources %}

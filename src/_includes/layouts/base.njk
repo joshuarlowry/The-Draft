@@ -23,7 +23,11 @@
     {{ content | safe }}
   </main>
   <footer class="site-footer">
-    <p>Built with Eleventy</p>
+    <nav class="footer-feeds" aria-label="RSS feeds">
+      <span class="footer-label">RSS:</span>
+      <a href="{{ '/feeds/articles.xml' | url }}">Articles</a>
+      <a href="{{ '/feeds/source-summaries.xml' | url }}">Source summaries</a>
+    </nav>
   </footer>
 </body>
 </html>
