@@ -3,15 +3,17 @@ permalink: "/feeds/articles.xml"
 eleventyExcludeFromCollections: true
 ---
 {%- set feedItems = collections.articles | reverse -%}
+{%- set feedUrl = site.url ~ "/feeds/articles.xml" -%}
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>{{ site.title }} Articles</title>
-    <link>{{ site.url }}{{ '/' | url }}</link>
+    <link>{{ site.url }}/</link>
+    <atom:link href="{{ feedUrl }}" rel="self" type="application/rss+xml" />
     <description>{{ site.description }}</description>
     <language>{{ site.language }}</language>
     {% for article in feedItems %}
-      {% set itemUrl = site.url ~ (article.url | url) %}
+      {% set itemUrl = site.url ~ article.url %}
       <item>
         <title>{{ article.data.title }}</title>
         <link>{{ itemUrl }}</link>
