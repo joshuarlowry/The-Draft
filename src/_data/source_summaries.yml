@@ -458,6 +458,13 @@
   categories:
     - planning-and-structure
 
+- source_id: github_cian_clarke_profile
+  summary: 'GitHub profile page used to retrieve Cian Clarke’s public avatar for the people directory.'
+  long_summary: 'This GitHub profile page provides the public avatar image associated with Cian Clarke’s account. The avatar was downloaded to store a local copy for the people profile image in The Draft site.'
+  tags: []
+  topics: []
+  categories: []
+
 - source_id: x_boris_cherny_claude_code_setup
   summary: 'Boris Cherny introduces himself as the creator of Claude Code and shares setup and workflow notes in a short X post.'
   long_summary: 'This X post from Boris Cherny includes a brief self-introduction and a description of his Claude Code setup and workflow tips. It serves as a primary, first-person social update about how he works with Claude Code and why the setup matters.'

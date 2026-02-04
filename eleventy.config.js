@@ -1,3 +1,5 @@
+const fs = require('fs');
+const path = require('path');
 const yaml = require('js-yaml');
 
 module.exports = function (eleventyConfig) {
@@ -6,6 +8,7 @@ module.exports = function (eleventyConfig) {
 
   // Pass through static assets
   eleventyConfig.addPassthroughCopy('src/styles');
+  eleventyConfig.addPassthroughCopy('src/images');
 
   // Collection: All argument blocks
   eleventyConfig.addCollection('argumentBlocks', function (collectionApi) {
@@ -51,6 +54,19 @@ module.exports = function (eleventyConfig) {
   // Filter: Get a source summary by source ID
   eleventyConfig.addFilter('getSourceSummaryById', function (summaries, id) {
     return summaries.find((summary) => summary.source_id === id);
+  });
+
+  // Filter: Resolve profile image with local fallback
+  eleventyConfig.addFilter('resolveProfileImage', function (person = {}) {
+    const localPath = person.profile_image_local;
+    if (localPath) {
+      const normalizedPath = localPath.replace(/^\/+/, '');
+      const filePath = path.join(__dirname, 'src', normalizedPath);
+      if (fs.existsSync(filePath)) {
+        return localPath;
+      }
+    }
+    return person.profile_image_remote || '';
   });
 
   const collectPeopleIdsForSource = (source = {}) => {
