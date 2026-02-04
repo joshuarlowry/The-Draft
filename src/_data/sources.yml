@@ -479,3 +479,134 @@
     - planning-and-structure
   reading_descriptions:
     planning-and-structure: 'Kiro highlights how spec-driven development and upfront structure improve outcomes before coding begins.'
+
+- id: x_boris_cherny_claude_code_setup
+  author: 'Boris Cherny'
+  author_ids:
+    - boris_cherny
+  title: '"I''m Boris and I created Claude Code" (X post)'
+  publisher: 'X'
+  accessed: '2026-02-04'
+  url: 'https://x.com/bcherny/status/2007179832300581177?lang=en'
+  mentioned_people_ids:
+    - boris_cherny
+
+- id: businessinsider_karpathy_manual_skills_atrophy
+  author: 'Henry Chandonnet'
+  author_ids:
+    - henry_chandonnet
+  title: 'Ex-Tesla AI boss notices "atrophy" of manual coding skills as AI gains'
+  publisher: 'Business Insider'
+  published: '2026-01-29'
+  accessed: '2026-02-04'
+  url: 'https://www.businessinsider.com/andrej-karpathy-claude-code-manual-skills-atrophy-software-engineering-tesla-2026-1'
+  mentioned_people_ids:
+    - andrej_karpathy
+
+- id: decoder_claude_cowork_built_two_weeks
+  author: 'Matthias Bastian'
+  author_ids:
+    - matthias_bastian
+  title: "Anthropic's Claude Cowork was built in under two weeks using Claude Code to write the code"
+  publisher: 'The Decoder'
+  published: '2026-01-13'
+  accessed: '2026-02-04'
+  url: 'https://the-decoder.com/anthropics-claude-cowork-was-built-in-under-two-weeks-using-claude-code-to-write-the-code/'
+  mentioned_people_ids:
+    - boris_cherny
+    - felix_rieseberg
+
+- id: linkedin_boris_cherny_profile
+  author: 'Boris Cherny'
+  author_ids:
+    - boris_cherny
+  title: 'Boris Cherny | LinkedIn'
+  publisher: 'LinkedIn'
+  accessed: '2026-02-04'
+  url: 'https://www.linkedin.com/in/bcherny'
+
+- id: medium_boris_cherny_100_prs_setup
+  title: "Claude Code's creator: 100 PRs a week, his setup will surprise you"
+  publisher: 'Medium'
+  accessed: '2026-02-04'
+  url: 'https://medium.com/vibe-coding/claude-codes-creator-100-prs-a-week-his-setup-will-surprise-you-7d6939c99f2b'
+  mentioned_people_ids:
+    - boris_cherny
+
+- id: linkedin_ryan_peterman_boris_cherny_interview
+  author: 'Ryan Peterman'
+  author_ids:
+    - ryan_l_peterman
+  title: 'Boris Cherny created Claude Code (LinkedIn post)'
+  publisher: 'LinkedIn'
+  accessed: '2026-02-04'
+  url: 'https://www.linkedin.com/posts/ryanlpeterman_boris-cherny-created-claude-code-but-few-activity-7406334718981345280-L7UK'
+  mentioned_people_ids:
+    - boris_cherny
+
+- id: devto_boris_cherny_claude_code_use
+  author: 'With Attitude'
+  author_ids:
+    - with_attitude
+  title: 'How Boris Cherny, builder of Claude Code, uses it — and why that should change how you think about AI'
+  publisher: 'DEV Community'
+  published: '2026-01-07'
+  accessed: '2026-02-04'
+  url: 'https://dev.to/with_attitude/how-boris-cherny-builder-of-claude-code-uses-it-and-why-that-should-change-how-you-think-about-173g'
+  mentioned_people_ids:
+    - boris_cherny
+
+- id: aol_karpathy_phase_shift_claude_code
+  author: 'AOL Staff'
+  author_ids:
+    - aol_staff
+  title: 'Ex-Tesla AI head has seen a "phase shift in software engineering" using Claude Code — and his manual skills slowly "atrophy"'
+  publisher: 'AOL'
+  published: '2026-01-29'
+  accessed: '2026-02-04'
+  url: 'https://www.aol.com/articles/ex-tesla-ai-head-seen-093701714.html'
+  mentioned_people_ids:
+    - andrej_karpathy
+
+- id: instagram_claude_cowork_built_with_claude_code
+  title: 'Boris Cherny quote on Claude Cowork being built with Claude Code (Instagram post)'
+  publisher: 'Instagram'
+  accessed: '2026-02-04'
+  url: 'https://www.instagram.com/p/DQw00moES-R/'
+  mentioned_people_ids:
+    - boris_cherny
+
+- id: businessinsider_boris_cherny_vibe_coding_limits
+  author: 'Lee Chong Ming'
+  author_ids:
+    - lee_chong_ming
+  title: "Why Claude Code's creator says vibe coding has limits"
+  publisher: 'Business Insider'
+  published: '2025-12-16'
+  accessed: '2026-02-04'
+  url: 'https://www.businessinsider.com/claude-code-creator-vibe-coding-limits-boris-cherny-anthropic-2025-12'
+  mentioned_people_ids:
+    - boris_cherny
+
+- id: aol_top_engineers_ai_writes_code
+  author: 'AOL Staff'
+  author_ids:
+    - aol_staff
+  title: 'Top engineers at Anthropic, OpenAI say AI now writes 100% of their code—with big implications for the future of software development jobs'
+  publisher: 'AOL'
+  published: '2026-01-29'
+  accessed: '2026-02-04'
+  url: 'https://www.aol.com/finance/top-engineers-anthropic-openai-ai-194731259.html'
+  mentioned_people_ids:
+    - boris_cherny
+
+- id: x_karpathy_claude_coding_notes
+  author: 'Andrej Karpathy'
+  author_ids:
+    - andrej_karpathy
+  title: '"A few random notes from Claude Coding" (X thread)'
+  publisher: 'X'
+  accessed: '2026-02-04'
+  url: 'https://x.com/karpathy/status/2015883857489522876'
+  mentioned_people_ids:
+    - andrej_karpathy

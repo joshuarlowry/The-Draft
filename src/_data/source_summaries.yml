@@ -457,3 +457,135 @@
     - workflow
   categories:
     - planning-and-structure
+
+- source_id: x_boris_cherny_claude_code_setup
+  summary: 'Boris Cherny introduces himself as the creator of Claude Code and shares setup and workflow notes in a short X post.'
+  long_summary: 'This X post from Boris Cherny includes a brief self-introduction and a description of his Claude Code setup and workflow tips. It serves as a primary, first-person social update about how he works with Claude Code and why the setup matters.'
+  tags:
+    - claude-code
+    - workflow
+  topics:
+    - ai-assisted-development
+    - tooling
+  categories: []
+
+- source_id: businessinsider_karpathy_manual_skills_atrophy
+  summary: 'Business Insider reports on Andrej Karpathy’s reflections about AI-driven coding and the atrophy of manual coding skills.'
+  long_summary: 'This Business Insider article summarizes Andrej Karpathy’s comments about using Claude Code and the effects of agent-led coding on traditional manual skills. It frames his observations as a broader discussion about how software engineering practices are changing with AI tools.'
+  tags:
+    - ai-coding
+    - skills
+  topics:
+    - ai-assisted-development
+    - engineering-practice
+  categories: []
+
+- source_id: decoder_claude_cowork_built_two_weeks
+  summary: 'The Decoder reports that Anthropic’s Claude Cowork project was built in under two weeks using Claude Code.'
+  long_summary: 'This article from The Decoder covers a claim that Claude Cowork was built in roughly ten days, with references to Claude Code’s role in generating the software. It includes references to comments attributed to Boris Cherny and Felix Rieseberg about the build process.'
+  tags:
+    - claude-code
+    - product-build
+  topics:
+    - ai-assisted-development
+    - tooling
+  categories: []
+
+- source_id: linkedin_boris_cherny_profile
+  summary: 'Boris Cherny’s LinkedIn profile lists his professional background and role leading the Claude Code team.'
+  long_summary: 'This LinkedIn profile page provides biographical and career details for Boris Cherny, including his association with Claude Code at Anthropic. The page serves as a canonical reference for his role and professional history.'
+  tags:
+    - biography
+    - claude-code
+  topics:
+    - people
+    - ai-assisted-development
+  categories: []
+
+- source_id: medium_boris_cherny_100_prs_setup
+  summary: 'A Medium article recounts Boris Cherny’s viral Claude Code workflow posts and community reactions.'
+  long_summary: 'This Medium retrospective discusses the attention around Boris Cherny’s Claude Code workflow posts, including references to his reported pace and setup. It frames the story as a community reaction to how Claude Code is being used in practice.'
+  tags:
+    - claude-code
+    - workflow
+  topics:
+    - ai-assisted-development
+    - community
+  categories: []
+
+- source_id: linkedin_ryan_peterman_boris_cherny_interview
+  summary: 'A LinkedIn post by Ryan Peterman shares an interview snippet about Boris Cherny’s work on Claude Code.'
+  long_summary: 'This LinkedIn post summarizes a short interview-style exchange with Boris Cherny about his career and the creation of Claude Code. It is a social post intended to highlight his background and perspectives.'
+  tags:
+    - claude-code
+    - interview
+  topics:
+    - people
+    - ai-assisted-development
+  categories: []
+
+- source_id: devto_boris_cherny_claude_code_use
+  summary: 'A DEV Community article analyzes how Boris Cherny uses Claude Code and what that implies for AI-assisted development.'
+  long_summary: 'This DEV Community post explores Boris Cherny’s reported Claude Code workflows and connects them to broader ideas about prompt usage, feedback loops, and developer habits. It positions his practice as a case study for how engineers might integrate agentic coding tools.'
+  tags:
+    - claude-code
+    - workflow
+  topics:
+    - ai-assisted-development
+    - tooling
+  categories: []
+
+- source_id: aol_karpathy_phase_shift_claude_code
+  summary: 'AOL republishes a story about Andrej Karpathy’s comments on a “phase shift” in software engineering while using Claude Code.'
+  long_summary: 'This AOL article summarizes Andrej Karpathy’s remarks about Claude Code and the shift toward AI-driven development. It echoes claims about manual skills atrophying and positions the commentary within a broader narrative about changes in software engineering workflows.'
+  tags:
+    - ai-coding
+    - skills
+  topics:
+    - ai-assisted-development
+    - engineering-practice
+  categories: []
+
+- source_id: instagram_claude_cowork_built_with_claude_code
+  summary: 'An Instagram post quotes Boris Cherny on Claude Cowork being built with Claude Code.'
+  long_summary: 'This Instagram post shares a quote attributed to Boris Cherny about Claude Cowork being built using Claude Code. It functions as a social-media amplification of the Claude Cowork build narrative.'
+  tags:
+    - claude-code
+    - social-post
+  topics:
+    - ai-assisted-development
+    - community
+  categories: []
+
+- source_id: businessinsider_boris_cherny_vibe_coding_limits
+  summary: 'Business Insider reports on Boris Cherny’s comments about the limits of “vibe coding.”'
+  long_summary: 'This Business Insider article covers Boris Cherny’s views on the limits of vibe coding and the need for structure when using Claude Code. It frames his comments as guidance on where AI-driven coding does and does not work well.'
+  tags:
+    - claude-code
+    - vibe-coding
+  topics:
+    - ai-assisted-development
+    - engineering-practice
+  categories: []
+
+- source_id: aol_top_engineers_ai_writes_code
+  summary: 'AOL reports on statements from AI engineering leaders about AI writing most of their code.'
+  long_summary: 'This AOL article summarizes claims from AI engineering leaders, including references to Anthropic and OpenAI, about AI systems writing a large share of their code. It highlights potential implications for software development roles and workflows.'
+  tags:
+    - ai-coding
+    - industry-claims
+  topics:
+    - ai-assisted-development
+    - industry
+  categories: []
+
+- source_id: x_karpathy_claude_coding_notes
+  summary: 'Andrej Karpathy shares a short thread of notes from Claude Coding on X.'
+  long_summary: 'This X thread from Andrej Karpathy contains informal observations about using Claude Code, sometimes referred to as “notes from Claude Coding.” It is a primary source for his personal take on AI-assisted coding practices.'
+  tags:
+    - claude-code
+    - notes
+  topics:
+    - ai-assisted-development
+    - tooling
+  categories: []
