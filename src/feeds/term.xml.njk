@@ -1,0 +1,76 @@
+---
+pagination:
+  data: classification_terms
+  size: 1
+  alias: term
+permalink: "/feeds/topics/{{ term.type }}/{{ term.slug }}.xml"
+eleventyExcludeFromCollections: true
+---
+{% set matchingSources = [] %}
+{%- for source in sources %}
+  {%- set summary = source_summaries | getSourceSummaryById(source.id) %}
+  {%- if summary and summary[term.field] and term.label in summary[term.field] %}
+    {%- set matchingSources = matchingSources.concat([{
+      "source": source,
+      "summary": summary
+    }]) %}
+  {%- endif %}
+{%- endfor %}
+
+{% set matchingArticles = [] %}
+{%- for article in collections.articles %}
+  {%- set matched = false %}
+  {%- for blockId in article.data.blocks %}
+    {%- set block = collections.argumentBlocks | getBlockById(blockId) %}
+    {%- if block and block.data[term.field] and term.label in block.data[term.field] %}
+      {%- set matched = true %}
+    {%- endif %}
+  {%- endfor %}
+  {%- if matched %}
+    {%- set matchingArticles = matchingArticles.concat([article]) %}
+  {%- endif %}
+{%- endfor %}
+
+{% set feedItems = [] %}
+{%- for article in matchingArticles %}
+  {%- set feedItems = feedItems.concat([{
+    "title": article.data.title,
+    "description": article.data.summary,
+    "url": article.url,
+    "date": article.date
+  }]) %}
+{%- endfor %}
+
+{%- for item in matchingSources %}
+  {%- set sourceDate = item.source.published or item.source.accessed %}
+  {%- set feedItems = feedItems.concat([{
+    "title": "Source: " ~ item.source.title,
+    "description": item.summary.summary,
+    "url": "/summaries/" ~ item.source.id ~ "/",
+    "date": sourceDate
+  }]) %}
+{%- endfor %}
+
+{% set feedItems = feedItems | sortFeedItemsByDate %}
+{% set feedTitle = "The Draft: " ~ term.label ~ " (" ~ term.type | capitalize ~ ")" %}
+{% set feedUrl = "/topics/" ~ term.type ~ "/" ~ term.slug ~ "/" %}
+
+<rss version="2.0">
+  <channel>
+    <title>{{ feedTitle }}</title>
+    <link>{{ feedUrl | url }}</link>
+    <description>RSS feed for {{ term.label }} {{ term.type }} updates across articles and sources.</description>
+    {% for item in feedItems %}
+      <item>
+        <title>{{ item.title }}</title>
+        <link>{{ item.url | url }}</link>
+        {% if item.description %}
+          <description>{{ item.description }}</description>
+        {% endif %}
+        {% if item.date %}
+          <pubDate>{{ item.date | rssDate }}</pubDate>
+        {% endif %}
+      </item>
+    {% endfor %}
+  </channel>
+</rss>

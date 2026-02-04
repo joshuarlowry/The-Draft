@@ -110,6 +110,28 @@ main {
   font-family: var(--font-sans);
 }
 
+.footer-feeds {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: calc(var(--spacing) * 0.75);
+  flex-wrap: wrap;
+}
+
+.footer-feeds a {
+  color: var(--color-accent);
+  text-decoration: none;
+}
+
+.footer-feeds a:hover {
+  text-decoration: underline;
+}
+
+.rss-link {
+  margin-left: calc(var(--spacing) * 0.5);
+  font-size: 0.9rem;
+}
+
 @media (max-width: 720px) {
   main {
     padding: calc(var(--spacing) * 1.5);
