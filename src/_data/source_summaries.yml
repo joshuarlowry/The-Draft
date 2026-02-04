@@ -325,6 +325,101 @@
   categories:
     - planning-and-structure
 
+- source_id: nearform_ai_powered_design_cx_2025
+  summary: 'Nearform’s on-demand webinar page frames AI-powered design as a driver of customer experience transformation, highlighting trends like sentient design and hyper-personalisation.'
+  long_summary: 'This Nearform webinar landing page describes an on-demand session about how AI and design are reshaping customer experience. It introduces topics such as sentient design and hyper-personalisation, and positions AI-powered design as a way to create more personalized and engaging customer interactions. The page lists speakers and provides access to the webinar recording, emphasizing practical stories about applying AI to CX.'
+  tags:
+    - customer-experience
+    - ai-design
+  topics:
+    - ai-strategy
+    - experience-design
+  categories:
+    - ai-production-scale
+
+- source_id: nearform_ai_business_impact_action
+  summary: 'Nearform’s insight article argues that AI programs should start with clear, high-impact use cases rather than pressure-driven experimentation.'
+  long_summary: 'This Nearform article focuses on turning AI ambition into measurable business impact. It stresses that executive pressure can lead to poorly scoped AI projects and that teams should instead identify opportunities with high impact and manageable complexity. The piece highlights the need for deliberate prioritization, practical questions, and experience-led execution to move from talk to sustained results.'
+  tags:
+    - business-impact
+    - ai-strategy
+  topics:
+    - ai-programs
+    - prioritization
+  categories:
+    - ai-production-scale
+
+- source_id: ainativedev_podcast_rework
+  summary: 'In this AI Native Dev podcast episode, Cian Clarke and host Simon Maple discuss why faster AI development can increase rework and how spec-first workflows mitigate it.'
+  long_summary: 'This AI Native Dev podcast episode features Cian Clarke in conversation with Simon Maple about the risks of moving too fast with AI-assisted development. The discussion introduces spec-driven or spec-first workflows, describing how upfront specification of intent, constraints, and behaviors can reduce rework. The episode frames early specification as a way to improve predictability and avoid downstream corrections when AI output outpaces validation.'
+  tags:
+    - spec-driven-development
+    - rework
+  topics:
+    - ai-native-development
+    - process-discipline
+  categories:
+    - planning-and-structure
+
+- source_id: ainativedev_talk_spec_driven_enterprise
+  summary: 'Cian Clarke’s AI Native DevCon talk presents spec-driven development as a blueprint for predictable, enterprise AI-native delivery.'
+  long_summary: 'This AI Native Dev conference talk positions spec-driven development as a structured alternative to vibe coding for enterprise software teams. The session outlines how explicit specs improve predictability, completeness, and context-aware outputs, and describes practices such as agentic role definition, explicit QA steps, and multi-human-in-the-loop coordination via git. It also notes how connectivity tooling (including MCP) can integrate spec-driven workflows into enterprise delivery cycles.'
+  tags:
+    - spec-driven-development
+    - enterprise-delivery
+  topics:
+    - ai-native-development
+    - team-coordination
+  categories:
+    - planning-and-structure
+
+- source_id: youtube_ai_native_dev_rework
+  summary: 'YouTube recording of the AI Native Dev episode on why faster AI development can lead to more rework.'
+  long_summary: 'This YouTube video hosts the AI Native Dev discussion with Cian Clarke on the relationship between speed and rework in AI-assisted development. The recording mirrors the podcast content, focusing on spec-first workflows as a way to avoid churn and reduce rework when building with AI.'
+  tags:
+    - spec-driven-development
+    - rework
+  topics:
+    - ai-native-development
+    - podcast
+  categories:
+    - planning-and-structure
+
+- source_id: linkedin_nearform_ai_internal_tools
+  summary: 'Cian Clarke’s LinkedIn post highlights Nearform’s internal AI tools, including Wilde for knowledge retrieval and Beckett for automating CRM updates.'
+  long_summary: 'In this LinkedIn post, Cian Clarke describes building internal AI tools at Nearform to streamline sales workflows. He highlights Wilde, an in-house knowledge assistant for RFPs and case studies, and Beckett, a tool that turns unstructured sales chatter into structured CRM updates. The post positions these tools as operational systems already delivering measurable value rather than experimental prototypes.'
+  tags:
+    - internal-tools
+    - ai-operations
+  topics:
+    - enterprise-ai
+    - workflow-automation
+  categories:
+    - ai-production-scale
+
+- source_id: linkedin_spec_driven_development_post
+  summary: 'Cian Clarke’s LinkedIn post reflects on a shift from vibe coding to spec-driven development and the improvements in predictability and completeness it promises.'
+  long_summary: 'This LinkedIn post argues that recent tooling releases from major vendors signal a move away from vibe coding toward spec-driven development. Clarke notes that spec-driven approaches address common AI-assisted engineering issues such as predictability, completeness, and context-window limitations, and invites discussion on whether the shift represents a lasting change in software development.'
+  tags:
+    - spec-driven-development
+    - industry-shift
+  topics:
+    - ai-assisted-development
+    - tooling
+  categories:
+    - planning-and-structure
+
+- source_id: x_ainativedev_cian_clarke_thread
+  summary: 'An AI Native Dev X thread that points readers toward Cian Clarke’s work on spec-driven development.'
+  long_summary: 'This AI Native Dev post on X serves as a secondary reference to Cian Clarke’s spec-driven development material, directing audiences to his writing or talks. It is included as a social amplification source rather than a primary research artifact.'
+  tags:
+    - social-reference
+  topics:
+    - ai-native-development
+    - community
+  categories:
+    - planning-and-structure
+
 - source_id: microsoft_spec_kit_blog
   summary: 'Den Delimarsky’s Microsoft Developer blog post frames SDD as a lightweight way to make technical decisions explicit and evolve them over time.'
   long_summary: 'This Microsoft Developer article introduces spec-driven development through the lens of GitHub Spec Kit. It emphasizes that SDD is not about heavy bureaucracy or exhaustive documentation, but about capturing technical decisions and the reasoning behind them in a form that can be reviewed and evolved. The post connects explicit specifications to better alignment across teams and stronger context for AI agents. It also outlines how Spec Kit operationalizes this workflow with templates and a CLI.'

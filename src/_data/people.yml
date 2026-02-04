@@ -4,6 +4,12 @@
     - label: 'Combining TSL and LLM to Automate REST API Testing: A Comparative Study'
       url: 'https://arxiv.org/abs/2509.05540'
 
+- id: aliza_dzik
+  name: 'Aliza Dzik'
+  links:
+    - label: 'How AI-powered Design will transform Customer Experience in 2025'
+      url: 'https://nearform.com/how-ai-powered-design-will-transform-customer-experience-in-2025/'
+
 - id: barry_w_boehm
   name: 'Barry W. Boehm'
   links:
@@ -106,6 +112,12 @@
     - label: 'Context Engineering for Multi-Agent LLM Code Assistants Using Elicit, NotebookLM, ChatGPT, and Claude Code'
       url: 'https://arxiv.org/abs/2508.08322'
 
+- id: peri_kadaster
+  name: 'Peri Kadaster'
+  links:
+    - label: 'Under the hood: How Nearform uses AI to work smarter'
+      url: 'https://www.linkedin.com/posts/cianclarke_got-a-rare-bit-of-dev-time-late-last-year-activity-7338946170125185025--FJi'
+
 - id: ralf_t_krampe
   name: 'Ralf T. Krampe'
   links:
@@ -148,11 +160,23 @@
     - label: 'Security Degradation in Iterative AI Code Generation -- A Systematic Analysis of the Paradox'
       url: 'https://arxiv.org/abs/2506.11022'
 
+- id: simon_maple
+  name: 'Simon Maple'
+  links:
+    - label: 'Why Faster AI Development Often Increases Rework'
+      url: 'https://ainativedev.io/podcast/why-faster-ai-development-often-increases-rework-cian-clarke'
+
 - id: taylor_herzlich
   name: 'Taylor Herzlich'
   links:
     - label: 'Microsoft CEO Satya Nadella says 30% of code now written by AI'
       url: 'https://nypost.com/2025/04/30/business/microsoft-ceo-satya-nadella-says-30-of-code-now-written-by-ai/'
+
+- id: tey_bannerman
+  name: 'Tey Bannerman'
+  links:
+    - label: 'How AI-powered Design will transform Customer Experience in 2025'
+      url: 'https://nearform.com/how-ai-powered-design-will-transform-customer-experience-in-2025/'
 
 - id: thiago_barradas
   name: 'Thiago Barradas'
