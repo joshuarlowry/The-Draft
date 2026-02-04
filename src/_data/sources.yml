@@ -92,6 +92,20 @@
   reading_descriptions:
     engineering-judgment: 'A foundational text on why detecting problems earlier in the lifecycle is cheaper and more effective than fixing them later.'
 
+- id: boehm_spiral_model
+  author: 'Barry W. Boehm'
+  author_ids:
+    - barry_w_boehm
+  title: 'A Spiral Model of Software Development and Enhancement'
+  journal: 'Computer, Vol. 21, No. 5'
+  published: '1988'
+  accessed: '2026-02-04'
+  url: 'https://ieeexplore.ieee.org/document/59'
+  tags:
+    - engineering-judgment
+  reading_descriptions:
+    engineering-judgment: 'Introduces the spiral model, emphasizing iterative risk assessment and early validation in the development lifecycle.'
+
 - id: ericsson_deliberate_practice
   author: 'K. Anders Ericsson, Ralf T. Krampe, Clemens Tesch-Römer'
   author_ids:
@@ -107,6 +121,20 @@
     - engineering-judgment
   reading_descriptions:
     engineering-judgment: 'Classic research on how expert judgment improves through focused, reflective practice rather than repetition alone.'
+
+- id: ericsson_peak_book
+  author: 'Anders Ericsson, Robert Pool'
+  author_ids:
+    - k_anders_ericsson
+  title: 'Peak: Secrets from the New Science of Expertise'
+  publisher: 'Houghton Mifflin Harcourt'
+  published: '2016'
+  accessed: '2026-02-04'
+  url: 'https://www.hmhbooks.com/shop/books/peak/9780544456230'
+  tags:
+    - engineering-judgment
+  reading_descriptions:
+    engineering-judgment: 'Synthesizes research on deliberate practice, highlighting how structured feedback and goal-setting build expertise over time.'
 
 - id: dora_ai_assisted_report
   title: '2025 DORA State of AI-Assisted Software Development report'
@@ -134,6 +162,30 @@
     - ai-production-scale
   reading_descriptions:
     ai-production-scale: 'Reporting on Satya Nadella’s remarks about the share of Microsoft code written by AI.'
+
+- id: nadella_hit_refresh
+  author: 'Satya Nadella'
+  author_ids:
+    - satya_nadella
+  title: 'Hit Refresh: The Quest to Rediscover Microsoft’s Soul and Imagine a Better Future for Everyone'
+  publisher: 'Harper Business'
+  published: '2017'
+  accessed: '2026-02-04'
+  url: 'https://www.harpercollins.com/products/hit-refresh-satya-nadella'
+  tags:
+    - ai-production-scale
+  reading_descriptions:
+    ai-production-scale: 'Nadella’s memoir covering Microsoft’s cultural shift and technology strategy as the company moved deeper into cloud and AI.'
+
+- id: taylor_herzlich_pepsico_prices
+  author: 'Taylor Herzlich'
+  author_ids:
+    - taylor_herzlich
+  title: 'PepsiCo to slash prices up to 15% on Doritos, Cheetos and Lay’s chips'
+  publisher: 'New York Post'
+  published: '2026-02-03'
+  accessed: '2026-02-04'
+  url: 'https://nypost.com/2026/02/03/business/pepsico-to-slash-prices-up-to-15-on-doritos-cheetos-and-lays-chips/'
 
 - id: adtmag_ai_coding_oversight
   title: 'Tech Leaders Embrace AI Coding Tools While Demanding Strict Oversight'

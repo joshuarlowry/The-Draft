@@ -78,6 +78,19 @@
   categories:
     - engineering-judgment
 
+- source_id: boehm_spiral_model
+  summary: 'Boehm’s spiral model article frames software development as an iterative, risk-driven cycle that emphasizes early validation and stakeholder feedback.'
+  long_summary: 'In this IEEE Computer article, Barry Boehm introduces the spiral model as a risk-driven process that combines iterative development with continuous risk assessment. The model integrates prototyping, evaluation, and planning into each cycle so teams can surface problems early and adjust course before committing to large-scale implementation. It highlights why iterative validation and explicit risk checkpoints improve outcomes in complex software projects.'
+  tags:
+    - risk-management
+    - iterative-development
+    - lifecycle-models
+  topics:
+    - software-process
+    - engineering-judgment
+  categories:
+    - engineering-judgment
+
 - source_id: ericsson_deliberate_practice
   summary: 'Ericsson and colleagues show that expert performance grows from deliberate practice—focused feedback loops rather than repetition—supporting the case for reflective engineering habits.'
   long_summary: 'Ericsson, Krampe, and Tesch-Römer’s study on deliberate practice argues that expertise develops through focused, feedback-rich practice rather than simple repetition. The paper emphasizes structured goals, coaching, and reflection as the core ingredients of improvement. In an engineering context, this supports the idea that planning and review are not just process steps—they are how professionals build judgment over time. The research provides a cognitive foundation for why reflective workflows improve performance.'
@@ -88,6 +101,19 @@
   topics:
     - skill-development
     - judgment
+  categories:
+    - engineering-judgment
+
+- source_id: ericsson_peak_book
+  summary: 'Ericsson and Pool’s book summarizes deliberate practice research, emphasizing structured feedback, coaching, and targeted goals as the pathway to expertise.'
+  long_summary: 'Peak distills decades of research on how people build expert-level performance through deliberate practice. The book highlights the role of well-defined goals, feedback loops, and structured training in improving complex skills. For engineering teams, the book reinforces that systematic practice and reflection—not just time spent coding—drive the growth of judgment and mastery.'
+  tags:
+    - deliberate-practice
+    - expertise
+    - skill-building
+  topics:
+    - performance
+    - learning
   categories:
     - engineering-judgment
 
@@ -114,6 +140,32 @@
   topics:
     - ai-production
     - industry-signals
+  categories:
+    - ai-production-scale
+
+- source_id: nadella_hit_refresh
+  summary: 'Satya Nadella’s memoir covers Microsoft’s cultural and strategic shift toward cloud-first and AI-era priorities.'
+  long_summary: 'Hit Refresh recounts Satya Nadella’s perspective on Microsoft’s transformation, blending personal narrative with a discussion of the company’s shift to cloud services and emerging AI priorities. The book highlights leadership decisions that reshaped Microsoft’s culture, emphasizing growth mindset and organizational learning. It provides context on how executive strategy and cultural change underpin technology adoption at scale.'
+  tags:
+    - leadership
+    - organizational-change
+    - strategy
+  topics:
+    - technology-leadership
+    - enterprise-transformation
+  categories:
+    - ai-production-scale
+
+- source_id: taylor_herzlich_pepsico_prices
+  summary: 'Taylor Herzlich reports on PepsiCo’s decision to reduce prices for major snack brands amid shifting consumer price sensitivity.'
+  long_summary: 'This New York Post article covers PepsiCo’s pricing changes for Doritos, Cheetos, and Lay’s, positioning the move as a response to consumer pressure and competitive dynamics. It summarizes the company’s pricing adjustments and market context, offering a window into how large brands react to pricing and demand signals in a volatile economy.'
+  tags:
+    - business-reporting
+    - pricing
+    - consumer-goods
+  topics:
+    - market-dynamics
+    - corporate-strategy
   categories:
     - ai-production-scale
 
