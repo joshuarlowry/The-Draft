@@ -22,7 +22,7 @@ const DOMAINS = {
   },
   agentic: {
     id: 'agentic',
-    symbol: '▶',
+    symbol: '◇',
     label: 'Agentic Technology & AI Systems',
     description:
       'How autonomous or semi-autonomous systems behave, are controlled, and fail over time. Includes agentic workflows and planning, tool use and delegation, observability, evaluation, guardrails, oversight, alignment, and risk containment.',
