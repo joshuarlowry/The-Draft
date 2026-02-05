@@ -7,7 +7,7 @@ title: The Draft
 
 The Draft is powered by a private, request-only research feed. I ask, the agent hunts, and the site records what matters—summarized, tagged, and linked back to the original sources.
 
-Use the feed to jump into [[Sources]({{ '/sources/' | url }})] when you want every citation and summary in one place.
+Use the feed to jump into [Sources]({{ '/sources/' | url }}) when you want every citation and summary in one place. Browse by [Domains]({{ '/domains/' | url }}), explore [People]({{ '/people/' | url }}), or [Search]({{ '/search/' | url }}) across the site.
 
 ## Articles
 

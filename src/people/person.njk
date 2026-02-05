@@ -9,35 +9,31 @@ eleventyComputed:
   title: "{{ person.name }}"
 ---
 
-<header class="person-header">
-  <h1>{{ person.name }}</h1>
-  {% if person.primary_domain or (person.secondary_domains and person.secondary_domains.length) %}
-  {% set primary_domain = person.primary_domain %}
-  {% set secondary_domains = person.secondary_domains %}
-  {% include "components/domain-badges.njk" %}
-  {% endif %}
-</header>
-
 {% set profileImage = person | resolveProfileImage %}
 {% set profileSummary = person.profile_summary or person.summary %}
 {% set featuredWorks = person.featured_works or person.links %}
 
-{% if profileImage %}
-  <section class="person-profile">
-    <img
-      class="person-profile__photo"
-      src="{{ profileImage | url }}"
-      alt="{{ person.profile_image_alt or (person.name ~ ' profile photo') }}"
-      loading="lazy"
-    >
-  </section>
-{% endif %}
-
-{% if profileSummary %}
-  <section class="person-profile-summary">
+<header class="person-header person-profile__header{% if not profileImage %} person-header--no-photo{% endif %}">
+  {% if profileImage %}
+  <img
+    class="person-profile__photo"
+    src="{{ profileImage | url }}"
+    alt="{{ person.profile_image_alt or (person.name ~ ' profile photo') }}"
+    loading="lazy"
+  >
+  {% endif %}
+  <div class="person-header__content">
+    <h1>{{ person.name }}</h1>
+    {% if person.primary_domain or (person.secondary_domains and person.secondary_domains.length) %}
+    {% set primary_domain = person.primary_domain %}
+    {% set secondary_domains = person.secondary_domains %}
+    {% include "components/domain-badges.njk" %}
+    {% endif %}
+    {% if profileSummary %}
     <p class="person-profile__summary">{{ profileSummary }}</p>
-  </section>
-{% endif %}
+    {% endif %}
+  </div>
+</header>
 
 {% if person.social_links %}
   <section>
@@ -143,4 +139,4 @@ eleventyComputed:
   </section>
 {% endif %}
 
-<p><a href="{{ '/people/' | url }}">Back to people</a></p>
+<p><a class="back-link" href="{{ '/people/' | url }}">← Back to people</a></p>

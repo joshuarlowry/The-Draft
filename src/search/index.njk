@@ -103,7 +103,7 @@ title: Search
             (item) =>
               `<li><a href="${item.url}">${escapeHtml(item.title)}</a>` +
               (item.summary ? `<p class="article-summary">${escapeHtml(item.summary.slice(0, 120))}${item.summary.length > 120 ? '…' : ''}</p>` : '') +
-              (item.primary_domain ? ` <span class="domain-badge domain-badge--secondary">${item.primary_domain}</span>` : '') +
+              (item.primary_domain ? ` <span class="domain-badge domain-badge--secondary" title="${domainLabel(item.primary_domain)}">${domainLabel(item.primary_domain)}</span>` : '') +
               `</li>`
           )
           .join('');
@@ -115,6 +115,9 @@ title: Search
       div.textContent = s;
       return div.innerHTML;
     };
+
+    const domainLabels = { architecture: 'Architecture', ia: 'IA', ux: 'UX', agentic: 'Agentic' };
+    const domainLabel = (id) => domainLabels[id] || id;
 
     const updateUrl = () => {
       const q = searchInput?.value?.trim() || '';
