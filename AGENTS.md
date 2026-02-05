@@ -28,10 +28,47 @@ This repository uses structured content in `src/` with shared data in `src/_data
 
 ## Source summaries
 - **Location:** `src/_data/source_summaries.yml`
-- **Purpose:** Short and long summaries plus tags for each source.
-- **Required fields:** `source_id`, `summary`, `long_summary`
-- **Optional fields:** `tags`, `topics`, `categories`
+- **Purpose:** Structured summaries with key insights, relevance context, and notable quotes for each source.
+- **Required fields:** `source_id`, `summary`, `long_summary`, `source_type`, `key_takeaways`, `relevance`
+- **Optional fields:** `tags`, `topics`, `categories`, `notable_quotes`
 - **Notes:** `source_id` must match a valid `id` in `sources.yml`.
+
+### Source summary fields
+
+**`source_type`** (required): Categorizes the source format. Use one of:
+- `article` — blog posts, online articles, guides
+- `book` — published books
+- `paper` — academic papers, research reports, whitepapers
+- `video` — YouTube videos, recorded talks
+- `podcast` — podcast episodes, audio content
+- `social_post` — LinkedIn posts, X/Twitter threads
+- `documentation` — technical docs, API references
+- `profile` — GitHub profiles, LinkedIn profiles, author pages
+
+**`key_takeaways`** (required): A list of 3–5 bullet points capturing the main insights. Guidelines:
+- Start each takeaway with an action verb or concrete claim
+- Focus on what the reader should remember or apply
+- Avoid generic statements; be specific to the source
+- Example:
+  ```yaml
+  key_takeaways:
+    - Upfront task framing reduces downstream rework in AI-assisted coding
+    - Explicit constraints help AI generate code that matches system intent
+    - Review loops catch drift before it compounds into technical debt
+  ```
+
+**`relevance`** (required): 1–2 sentences explaining why this source matters for The Draft's themes (planning, oversight, guardrails, engineering judgment, rapid prototyping). Connect the source to the site's perspective on AI-assisted development.
+
+**`notable_quotes`** (optional): A list of verbatim quotes worth extracting. These can seed `citations.yml` entries. Guidelines:
+- Copy text exactly as it appears in the source
+- Include enough context to stand alone
+- Aim for 1–3 quotes per source (skip if none are compelling)
+- Example:
+  ```yaml
+  notable_quotes:
+    - 'The AI should be treated like a collaborator that needs context, examples, and clear acceptance criteria.'
+    - 'Planning and oversight are not optional add-ons—they are the inputs that keep AI output aligned with real system goals.'
+  ```
 
 ## Quotations (inline citations)
 - **Location:** `src/_data/citations.yml`

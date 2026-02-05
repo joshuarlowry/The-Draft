@@ -10,7 +10,12 @@ eleventyComputed:
 ---
 {% set source = sources | getSourceById(summary.source_id) %}
 
-<h1>{{ source.title }}</h1>
+<header class="summary-header">
+  <h1>{{ source.title }}</h1>
+  {%- if summary.source_type %}
+    <span class="source-type-badge source-type-badge--{{ summary.source_type }}">{{ summary.source_type }}</span>
+  {%- endif %}
+</header>
 <p class="summary-intro">A human-readable summary curated by the agentic feed.</p>
 
 <section class="summary-card">
@@ -18,6 +23,33 @@ eleventyComputed:
   {%- if summary.long_summary %}
     <p>{{ summary.long_summary }}</p>
   {%- endif %}
+
+  {%- if summary.relevance %}
+  <div class="summary-relevance">
+    <strong>Why it matters:</strong> {{ summary.relevance }}
+  </div>
+  {%- endif %}
+
+  {%- if summary.key_takeaways and summary.key_takeaways.length %}
+  <div class="summary-takeaways">
+    <h3>Key Takeaways</h3>
+    <ul>
+      {%- for takeaway in summary.key_takeaways %}
+        <li>{{ takeaway }}</li>
+      {%- endfor %}
+    </ul>
+  </div>
+  {%- endif %}
+
+  {%- if summary.notable_quotes and summary.notable_quotes.length %}
+  <div class="summary-quotes">
+    <h3>Notable Quotes</h3>
+    {%- for quote in summary.notable_quotes %}
+      <blockquote class="notable-quote">{{ quote }}</blockquote>
+    {%- endfor %}
+  </div>
+  {%- endif %}
+
   <div class="summary-meta">
     {%- for tag in summary.tags %}
       <a class="tag-pill" href="{{ ('/topics/tag/' ~ (tag | slugifyTerm) ~ '/') | url }}">{{ tag }}</a>

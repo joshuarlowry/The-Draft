@@ -1,6 +1,34 @@
 - source_id: google_cloud_best_practices
-  summary: 'Google Cloud outlines practical habits for getting better AI coding results, emphasizing upfront planning, clear constraints, and tight review loops so generated code reflects real system intent rather than generic patterns.'
-  long_summary: 'Google Cloud presents a set of concrete practices for using AI coding assistants responsibly, starting with clear task framing and explicit constraints. The guidance stresses that the AI should be treated like a collaborator that needs context, examples, and clear acceptance criteria to deliver useful results. It also highlights the importance of reviewing output, iterating with intent, and using automation (tests and checks) to validate AI-generated changes. The through-line is that planning and oversight are not optional add-ons—they are the inputs that keep AI output aligned with real system goals.'
+  source_type: article
+  summary: Google Cloud outlines practical habits for getting better AI coding results,
+    emphasizing upfront planning, clear constraints, and tight review loops so generated
+    code reflects real system intent rather than generic patterns.
+  long_summary: Google Cloud presents a set of concrete practices for using AI coding
+    assistants responsibly, starting with clear task framing and explicit constraints.
+    The guidance stresses that the AI should be treated like a collaborator that needs
+    context, examples, and clear acceptance criteria to deliver useful results. It
+    also highlights the importance of reviewing output, iterating with intent, and
+    using automation (tests and checks) to validate AI-generated changes. The through-line
+    is that planning and oversight are not optional add-ons—they are the inputs that
+    keep AI output aligned with real system goals.
+  key_takeaways:
+    - Choose the right AI tool for each task—inline generation for small functions,
+      agentic tools for multi-file changes
+    - Document the codebase first to improve AI comprehension and generation quality
+    - Build and revise an execution plan with the AI before generating code
+    - Create a context file (like GEMINI.md) at the end of each session to maintain
+      continuity
+    - Always request AI approval before executing on new plan milestones to keep humans
+      in control
+  relevance: Directly supports The Draft's emphasis on planning-first workflows and
+    human oversight. Demonstrates that industry leaders view structured context and
+    review loops as essential inputs, not optional extras.
+  notable_quotes:
+    - Access to a tool doesn't guarantee proficiency. To get the results you're looking
+      for, you need to learn the right techniques.
+    - Spending extra time with AI tools to build and revise an execution plan generally
+      gives you better code output on complex tasks.
+    - The key to creating usable code is giving models the right context.
   tags:
     - planning
     - prompting
@@ -12,10 +40,36 @@
     - quality-control
   categories:
     - planning-and-structure
-
 - source_id: infoq_pdca_cycle
-  summary: 'InfoQ describes applying the Plan-Do-Check-Act cycle to AI code generation, arguing that iterative planning and verification keeps AI output aligned with engineering discipline and measurable outcomes.'
-  long_summary: 'This InfoQ article adapts the Plan-Do-Check-Act (PDCA) quality framework to AI code generation. It argues that teams should not treat AI output as a one-shot artifact, but rather as part of a disciplined loop that starts with a plan, proceeds to generation, and then validates results before acting on them. The piece emphasizes that verification and reflection are necessary to prevent AI-driven velocity from eroding quality, and it provides a process lens for integrating AI into established engineering practices.'
+  source_type: article
+  summary: InfoQ describes applying the Plan-Do-Check-Act cycle to AI code generation,
+    arguing that iterative planning and verification keeps AI output aligned with
+    engineering discipline and measurable outcomes.
+  long_summary: This InfoQ article adapts the Plan-Do-Check-Act (PDCA) quality framework
+    to AI code generation. It argues that teams should not treat AI output as a one-shot
+    artifact, but rather as part of a disciplined loop that starts with a plan, proceeds
+    to generation, and then validates results before acting on them. The piece emphasizes
+    that verification and reflection are necessary to prevent AI-driven velocity from
+    eroding quality, and it provides a process lens for integrating AI into established
+    engineering practices.
+  key_takeaways:
+    - Every 25% increase in AI adoption correlates with a 7.2% decrease in delivery
+      stability according to DORA research
+    - Structured prompting outperforms ad-hoc methods by 1-74% depending on approach
+      and complexity
+    - PDCA cycles reduced software defects by 61% in controlled studies
+    - TDD discipline with AI achieves better success rates than unstructured approaches
+    - Daily micro-retrospectives (5-10 minutes) improve prompts and human-AI interactions
+      over time
+  relevance: Provides a concrete, research-backed framework for applying engineering
+    discipline to AI-assisted coding. Directly aligns with The Draft's thesis that
+    oversight and planning are force multipliers, not bottlenecks.
+  notable_quotes:
+    - The industry is not achieving productivity gains and quality improvements because
+      both AI tools and their use need to evolve.
+    - Detailed planning provides a road map and contract between humans and AI, fostering
+      more engaged and accountable coding sessions.
+    - AI does not substitute for organizational maturity—it makes it more visible.
   tags:
     - pdca
     - iteration
@@ -25,10 +79,18 @@
     - continuous-improvement
   categories:
     - planning-and-structure
-
 - source_id: graphite_ai_pair_programming
-  summary: 'Graphite’s guide frames AI pair programming as a collaboration that improves when developers provide explicit context, constraints, and expectations, reducing rework and misaligned output.'
-  long_summary: 'Graphite positions AI pair programming as a partnership that benefits from explicit direction. The guide underscores that the most effective results come from carefully scoped prompts, clear guardrails, and shared definitions of “done.” It encourages developers to provide surrounding context, highlight constraints, and review the output as they would a human collaborator’s work. The takeaway is that the quality of AI output depends on the quality of the context and the feedback loop that shapes it.'
+  source_type: article
+  summary: Graphite’s guide frames AI pair programming as a collaboration that improves
+    when developers provide explicit context, constraints, and expectations, reducing
+    rework and misaligned output.
+  long_summary: Graphite positions AI pair programming as a partnership that benefits
+    from explicit direction. The guide underscores that the most effective results
+    come from carefully scoped prompts, clear guardrails, and shared definitions of
+    “done.” It encourages developers to provide surrounding context, highlight constraints,
+    and review the output as they would a human collaborator’s work. The takeaway
+    is that the quality of AI output depends on the quality of the context and the
+    feedback loop that shapes it.
   tags:
     - pairing
     - constraints
@@ -36,12 +98,54 @@
   topics:
     - ai-collaboration
     - developer-workflow
+  key_takeaways:
+    - Establish clear roles—human as navigator (strategy, architecture, review), AI
+      as driver (implementation, suggestions)
+    - Always provide contextual information including project architecture, coding standards,
+      and constraints
+    - Use iterative development—start rough, refine through feedback rather than expecting
+      perfection immediately
+    - Critical code review remains essential; AI may generate security vulnerabilities,
+      miss edge cases, or introduce inefficiencies
+    - Effective prompts are specific, include examples, specify edge cases, and reference
+      existing codebase patterns
+  relevance: Reinforces The Draft's position that AI collaboration quality depends
+    on human-provided structure and oversight. Offers practical patterns for role
+    clarity and review workflows that prevent AI drift.
+  notable_quotes:
+    - AI assistants have broader language and framework knowledge but lack domain-specific
+      understanding.
+    - You should always review AI-generated code before implementation.
   categories:
     - planning-and-structure
-
 - source_id: techradar_ai_security
-  summary: 'TechRadar Pro reports that faster AI-generated code can introduce security risk when shipped without adequate review, highlighting the need for tighter oversight as velocity increases.'
-  long_summary: 'This TechRadar Pro article focuses on the security tradeoffs of AI-accelerated software delivery. It notes that rapid AI-generated code can increase the pace of vulnerabilities if security review and testing do not keep up. The piece highlights that teams adopting AI need to strengthen oversight, introduce security gates, and treat AI output as potentially riskier until it is validated. The broader message is that speed must be paired with explicit safeguards to avoid scaling weaknesses alongside productivity.'
+  source_type: article
+  summary: TechRadar Pro reports that faster AI-generated code can introduce security
+    risk when shipped without adequate review, highlighting the need for tighter oversight
+    as velocity increases.
+  long_summary: This TechRadar Pro article focuses on the security tradeoffs of AI-accelerated
+    software delivery. It notes that rapid AI-generated code can increase the pace
+    of vulnerabilities if security review and testing do not keep up. The piece highlights
+    that teams adopting AI need to strengthen oversight, introduce security gates,
+    and treat AI output as potentially riskier until it is validated. The broader
+    message is that speed must be paired with explicit safeguards to avoid scaling
+    weaknesses alongside productivity.
+  key_takeaways:
+    - AI-assisted developers write 3-4x more code but introduce 10x more security findings
+    - Syntax errors dropped 76% and logic bugs fell 60%, but privilege escalation paths
+      surged 322%
+    - Architectural design flaws rose 153%—issues human reviewers struggle to spot
+    - AI-assisted developers exposed sensitive keys nearly twice as often as unassisted
+      peers
+    - Major companies like Coinbase and Citi are mandating AI coding, making oversight
+      critical
+  relevance: Provides concrete evidence for The Draft's emphasis on guardrails and
+    oversight. Quantifies the security tradeoffs of AI velocity, reinforcing that
+    speed without safeguards scales vulnerabilities alongside productivity.
+  notable_quotes:
+    - AI is fixing the typos but creating the timebombs.
+    - Because assistants generate large, multi-file changes, a single credential can
+      be propagated across multiple services or configs before anyone notices.
   tags:
     - security-risk
     - velocity
@@ -51,10 +155,27 @@
     - software-security
   categories:
     - responsibility-oversight
-
 - source_id: arxiv_human_centered_practices
-  summary: 'This arXiv paper surveys human-centered practices for responsible AI development, stressing the importance of structured inputs, supervision, and accountability mechanisms.'
-  long_summary: 'The paper surveys research on human-centered AI development practices, emphasizing that clear problem framing and structured inputs significantly affect AI system outcomes. It highlights the need for supervision and accountability mechanisms that keep humans in the loop throughout the lifecycle. Rather than treating AI as autonomous, the paper argues for processes that clarify intent, make decision points visible, and establish responsibility for outcomes. These practices are presented as core to building reliable and trustworthy AI systems.'
+  source_type: paper
+  summary: This arXiv paper surveys human-centered practices for responsible AI development,
+    stressing the importance of structured inputs, supervision, and accountability
+    mechanisms.
+  long_summary: The paper surveys research on human-centered AI development practices,
+    emphasizing that clear problem framing and structured inputs significantly affect
+    AI system outcomes. It highlights the need for supervision and accountability
+    mechanisms that keep humans in the loop throughout the lifecycle. Rather than
+    treating AI as autonomous, the paper argues for processes that clarify intent,
+    make decision points visible, and establish responsibility for outcomes. These
+    practices are presented as core to building reliable and trustworthy AI systems.
+  key_takeaways:
+    - Structured inputs and clear problem framing significantly affect AI system outcomes
+    - Supervision and accountability mechanisms must keep humans in the loop throughout
+      the lifecycle
+    - Decision points should be made visible to establish responsibility for outcomes
+    - AI should be treated as a tool requiring guidance, not an autonomous agent
+  relevance: Provides academic grounding for The Draft's emphasis on human oversight
+    and accountability. Shows that responsible AI development requires explicit processes
+    for intent clarification and visible decision points.
   tags:
     - human-centered
     - supervision
@@ -64,10 +185,18 @@
     - governance
   categories:
     - responsibility-oversight
-
 - source_id: boehm_software_engineering_economics
-  summary: 'Barry Boehm’s classic text demonstrates that catching defects early is dramatically cheaper than fixing them later, reinforcing why upfront rigor pays off.'
-  long_summary: 'Barry Boehm’s foundational book on software engineering economics shows that the cost of fixing defects rises sharply as projects progress. By quantifying the savings of early detection, the text makes a long-standing case for planning, review, and early validation. The work is often cited for demonstrating why upstream rigor—clear requirements, design evaluation, and early testing—reduces downstream cost and risk. It remains a key reference for understanding why proactive engineering disciplines matter.'
+  source_type: book
+  summary: Barry Boehm’s classic text demonstrates that catching defects early is
+    dramatically cheaper than fixing them later, reinforcing why upfront rigor pays
+    off.
+  long_summary: Barry Boehm’s foundational book on software engineering economics
+    shows that the cost of fixing defects rises sharply as projects progress. By quantifying
+    the savings of early detection, the text makes a long-standing case for planning,
+    review, and early validation. The work is often cited for demonstrating why upstream
+    rigor—clear requirements, design evaluation, and early testing—reduces downstream
+    cost and risk. It remains a key reference for understanding why proactive engineering
+    disciplines matter.
   tags:
     - cost-of-defects
     - lifecycle
@@ -75,12 +204,29 @@
   topics:
     - engineering-economics
     - quality-assurance
+  key_takeaways:
+    - The cost of fixing defects rises exponentially as projects progress through lifecycle
+      phases
+    - Early detection through planning, review, and validation is dramatically cheaper
+      than late fixes
+    - Upstream rigor—clear requirements, design evaluation, early testing—reduces downstream
+      cost and risk
+    - Quantifies the economic case for proactive engineering disciplines
+  relevance: Foundational reference for The Draft's emphasis on planning and upfront
+    rigor. Provides economic justification for why oversight and review pay dividends
+    throughout the project lifecycle.
   categories:
     - engineering-judgment
-
 - source_id: boehm_spiral_model
-  summary: 'Boehm’s spiral model article frames software development as an iterative, risk-driven cycle that emphasizes early validation and stakeholder feedback.'
-  long_summary: 'In this IEEE Computer article, Barry Boehm introduces the spiral model as a risk-driven process that combines iterative development with continuous risk assessment. The model integrates prototyping, evaluation, and planning into each cycle so teams can surface problems early and adjust course before committing to large-scale implementation. It highlights why iterative validation and explicit risk checkpoints improve outcomes in complex software projects.'
+  source_type: paper
+  summary: Boehm’s spiral model article frames software development as an iterative,
+    risk-driven cycle that emphasizes early validation and stakeholder feedback.
+  long_summary: In this IEEE Computer article, Barry Boehm introduces the spiral model
+    as a risk-driven process that combines iterative development with continuous risk
+    assessment. The model integrates prototyping, evaluation, and planning into each
+    cycle so teams can surface problems early and adjust course before committing
+    to large-scale implementation. It highlights why iterative validation and explicit
+    risk checkpoints improve outcomes in complex software projects.
   tags:
     - risk-management
     - iterative-development
@@ -88,12 +234,28 @@
   topics:
     - software-process
     - engineering-judgment
+  key_takeaways:
+    - Software development works best as an iterative, risk-driven cycle
+    - Prototyping, evaluation, and planning should be integrated into each iteration
+    - Explicit risk checkpoints allow teams to surface problems early and adjust course
+    - Iterative validation improves outcomes in complex software projects
+  relevance: The spiral model anticipates modern iterative AI workflows. Supports
+    The Draft's argument that planning and validation cycles—not one-shot generation—produce
+    better outcomes.
   categories:
     - engineering-judgment
-
 - source_id: ericsson_deliberate_practice
-  summary: 'Ericsson and colleagues show that expert performance grows from deliberate practice—focused feedback loops rather than repetition—supporting the case for reflective engineering habits.'
-  long_summary: 'Ericsson, Krampe, and Tesch-Römer’s study on deliberate practice argues that expertise develops through focused, feedback-rich practice rather than simple repetition. The paper emphasizes structured goals, coaching, and reflection as the core ingredients of improvement. In an engineering context, this supports the idea that planning and review are not just process steps—they are how professionals build judgment over time. The research provides a cognitive foundation for why reflective workflows improve performance.'
+  source_type: paper
+  summary: Ericsson and colleagues show that expert performance grows from deliberate
+    practice—focused feedback loops rather than repetition—supporting the case for
+    reflective engineering habits.
+  long_summary: Ericsson, Krampe, and Tesch-Römer’s study on deliberate practice argues
+    that expertise develops through focused, feedback-rich practice rather than simple
+    repetition. The paper emphasizes structured goals, coaching, and reflection as
+    the core ingredients of improvement. In an engineering context, this supports
+    the idea that planning and review are not just process steps—they are how professionals
+    build judgment over time. The research provides a cognitive foundation for why
+    reflective workflows improve performance.
   tags:
     - deliberate-practice
     - feedback
@@ -101,12 +263,26 @@
   topics:
     - skill-development
     - judgment
+  key_takeaways:
+    - Expertise develops through focused, feedback-rich practice rather than simple
+      repetition
+    - Structured goals, coaching, and reflection are the core ingredients of improvement
+    - Planning and review build professional judgment over time
+    - Deliberate practice requires immediate feedback and opportunities for correction
+  relevance: Provides cognitive science foundation for The Draft's emphasis on reflective
+    workflows. Shows that engineering judgment—not just tool access—improves through
+    structured practice and review.
   categories:
     - engineering-judgment
-
 - source_id: ericsson_peak_book
-  summary: 'Ericsson and Pool’s book summarizes deliberate practice research, emphasizing structured feedback, coaching, and targeted goals as the pathway to expertise.'
-  long_summary: 'Peak distills decades of research on how people build expert-level performance through deliberate practice. The book highlights the role of well-defined goals, feedback loops, and structured training in improving complex skills. For engineering teams, the book reinforces that systematic practice and reflection—not just time spent coding—drive the growth of judgment and mastery.'
+  source_type: book
+  summary: Ericsson and Pool’s book summarizes deliberate practice research, emphasizing
+    structured feedback, coaching, and targeted goals as the pathway to expertise.
+  long_summary: Peak distills decades of research on how people build expert-level
+    performance through deliberate practice. The book highlights the role of well-defined
+    goals, feedback loops, and structured training in improving complex skills. For
+    engineering teams, the book reinforces that systematic practice and reflection—not
+    just time spent coding—drive the growth of judgment and mastery.
   tags:
     - deliberate-practice
     - expertise
@@ -114,12 +290,29 @@
   topics:
     - performance
     - learning
+  key_takeaways:
+    - Expert performance results from deliberate practice, not innate talent or time
+      alone
+    - Well-defined goals, feedback loops, and structured training are essential
+    - Systematic practice and reflection drive judgment and mastery
+    - Mental representations improve with focused, purposeful training
+  relevance: Reinforces The Draft's position that engineering excellence requires
+    more than tool access. Systematic reflection and structured feedback—core to oversight
+    workflows—are how professionals build lasting expertise.
   categories:
     - engineering-judgment
-
 - source_id: dora_ai_assisted_report
-  summary: 'Google Cloud’s DORA report notes that AI amplifies existing engineering capabilities, so organizational maturity determines whether AI improves outcomes or magnifies weaknesses.'
-  long_summary: 'The 2025 DORA report on AI-assisted software development frames AI as an amplifier of existing organizational capabilities. It suggests that teams with strong practices in place see AI improve outcomes, while weaker practices are magnified just as quickly. The report emphasizes that metrics, tooling, and process discipline are still decisive in determining whether AI adoption yields positive results. Its core message is that AI does not substitute for organizational maturity—it makes it more visible.'
+  source_type: paper
+  summary: Google Cloud’s DORA report notes that AI amplifies existing engineering
+    capabilities, so organizational maturity determines whether AI improves outcomes
+    or magnifies weaknesses.
+  long_summary: The 2025 DORA report on AI-assisted software development frames AI
+    as an amplifier of existing organizational capabilities. It suggests that teams
+    with strong practices in place see AI improve outcomes, while weaker practices
+    are magnified just as quickly. The report emphasizes that metrics, tooling, and
+    process discipline are still decisive in determining whether AI adoption yields
+    positive results. Its core message is that AI does not substitute for organizational
+    maturity—it makes it more visible.
   tags:
     - organizational-maturity
     - capability-amplification
@@ -127,12 +320,28 @@
   topics:
     - ai-adoption
     - productivity
+  key_takeaways:
+    - AI amplifies existing organizational capabilities—both strengths and weaknesses
+    - Every 25% increase in AI adoption correlates with 7.2% decrease in delivery stability
+    - Teams with strong practices see AI improve outcomes; weaker practices are magnified
+    - Metrics, tooling, and process discipline remain decisive for AI adoption success
+  relevance: Critical evidence for The Draft's central thesis. Shows that AI is not
+    a shortcut to organizational maturity—it reveals and amplifies existing capabilities,
+    making oversight and planning more important, not less.
   categories:
     - ai-production-scale
-
 - source_id: microsoft_ai_code_nypost
-  summary: 'This New York Post report covers Satya Nadella’s remarks that a significant portion of Microsoft code is now AI-written, underscoring the scale of AI-assisted development.'
-  long_summary: 'The New York Post reports on comments from Microsoft CEO Satya Nadella about the growing share of AI-written code at Microsoft. The article serves as a signal of how quickly AI-assisted development is scaling inside large organizations. It frames AI coding as more than experimentation, pointing to real production usage at meaningful scale. The takeaway is that oversight and governance approaches must evolve because AI output is no longer a small supplement to human code—it is becoming a sizable portion of it.'
+  source_type: article
+  summary: This New York Post report covers Satya Nadella’s remarks that a significant
+    portion of Microsoft code is now AI-written, underscoring the scale of AI-assisted
+    development.
+  long_summary: The New York Post reports on comments from Microsoft CEO Satya Nadella
+    about the growing share of AI-written code at Microsoft. The article serves as
+    a signal of how quickly AI-assisted development is scaling inside large organizations.
+    It frames AI coding as more than experimentation, pointing to real production
+    usage at meaningful scale. The takeaway is that oversight and governance approaches
+    must evolve because AI output is no longer a small supplement to human code—it
+    is becoming a sizable portion of it.
   tags:
     - adoption
     - scale
@@ -142,10 +351,15 @@
     - industry-signals
   categories:
     - ai-production-scale
-
 - source_id: nadella_hit_refresh
-  summary: 'Satya Nadella’s memoir covers Microsoft’s cultural and strategic shift toward cloud-first and AI-era priorities.'
-  long_summary: 'Hit Refresh recounts Satya Nadella’s perspective on Microsoft’s transformation, blending personal narrative with a discussion of the company’s shift to cloud services and emerging AI priorities. The book highlights leadership decisions that reshaped Microsoft’s culture, emphasizing growth mindset and organizational learning. It provides context on how executive strategy and cultural change underpin technology adoption at scale.'
+  summary: Satya Nadella’s memoir covers Microsoft’s cultural and strategic shift
+    toward cloud-first and AI-era priorities.
+  long_summary: Hit Refresh recounts Satya Nadella’s perspective on Microsoft’s transformation,
+    blending personal narrative with a discussion of the company’s shift to cloud
+    services and emerging AI priorities. The book highlights leadership decisions
+    that reshaped Microsoft’s culture, emphasizing growth mindset and organizational
+    learning. It provides context on how executive strategy and cultural change underpin
+    technology adoption at scale.
   tags:
     - leadership
     - organizational-change
@@ -155,10 +369,15 @@
     - enterprise-transformation
   categories:
     - ai-production-scale
-
+  source_type: book
 - source_id: taylor_herzlich_pepsico_prices
-  summary: 'Taylor Herzlich reports on PepsiCo’s decision to reduce prices for major snack brands amid shifting consumer price sensitivity.'
-  long_summary: 'This New York Post article covers PepsiCo’s pricing changes for Doritos, Cheetos, and Lay’s, positioning the move as a response to consumer pressure and competitive dynamics. It summarizes the company’s pricing adjustments and market context, offering a window into how large brands react to pricing and demand signals in a volatile economy.'
+  summary: Taylor Herzlich reports on PepsiCo’s decision to reduce prices for major
+    snack brands amid shifting consumer price sensitivity.
+  long_summary: This New York Post article covers PepsiCo’s pricing changes for Doritos,
+    Cheetos, and Lay’s, positioning the move as a response to consumer pressure and
+    competitive dynamics. It summarizes the company’s pricing adjustments and market
+    context, offering a window into how large brands react to pricing and demand signals
+    in a volatile economy.
   tags:
     - business-reporting
     - pricing
@@ -168,10 +387,33 @@
     - corporate-strategy
   categories:
     - ai-production-scale
-
+  source_type: article
 - source_id: adtmag_ai_coding_oversight
-  summary: 'ADTMag summarizes survey findings showing leaders are adopting AI coding tools while insisting on strict human review and governance controls.'
-  long_summary: 'ADTMag reports survey results indicating that tech leaders are embracing AI coding tools while simultaneously demanding strict oversight. The survey highlights human review requirements as a common control, reinforcing that adoption is coupled with governance expectations. The article suggests that organizations are willing to move quickly with AI, but only if accountability and review gates remain in place. It provides an industry snapshot of how leaders balance innovation with risk management.'
+  source_type: article
+  summary: ADTMag summarizes survey findings showing leaders are adopting AI coding
+    tools while insisting on strict human review and governance controls.
+  long_summary: ADTMag reports survey results indicating that tech leaders are embracing
+    AI coding tools while simultaneously demanding strict oversight. The survey highlights
+    human review requirements as a common control, reinforcing that adoption is coupled
+    with governance expectations. The article suggests that organizations are willing
+    to move quickly with AI, but only if accountability and review gates remain in
+    place. It provides an industry snapshot of how leaders balance innovation with
+    risk management.
+  key_takeaways:
+    - 92% of technology decision-makers now use AI-assisted coding tools, with 75%+
+      using them daily
+    - 95% of leaders identified significant risks in deploying AI-generated code without
+      adequate review
+    - 93% require AI-generated code to undergo review before production integration
+    - More than half assign oversight responsibility to CTO or CIO level executives
+    - 30% cite over-reliance on AI without accountability as their primary concern
+  relevance: Provides industry survey data validating The Draft's emphasis on governance
+    and oversight. Shows that leaders view review gates not as obstacles but as essential
+    components of responsible AI adoption.
+  notable_quotes:
+    - The engineers who will thrive in this new era are adopting AI to enhance their
+      thinking and output, not replace it.
+    - 95% of technology leaders believe AI coding tools are transforming developer capabilities.
   tags:
     - leadership
     - governance
@@ -181,10 +423,29 @@
     - organizational-controls
   categories:
     - governance-guardrails
-
 - source_id: arxiv_safe_ai_framework
-  summary: 'The SAFE-AI framework proposes guardrails such as sandboxing, runtime verification, and policy gates to reduce AI-driven software failures.'
-  long_summary: 'The SAFE-AI framework paper lays out a structured set of guardrails for AI-driven software engineering. It argues that integrating LLMs into software development introduces risks like insecure code and accountability gaps, and recommends mitigations such as sandboxing, runtime verification, and policy-based gates. The framework positions guardrails as architectural components rather than ad hoc human review. Its goal is to make AI-assisted workflows safer by embedding checks into the system itself.'
+  source_type: paper
+  summary: The SAFE-AI framework proposes guardrails such as sandboxing, runtime verification,
+    and policy gates to reduce AI-driven software failures.
+  long_summary: The SAFE-AI framework paper lays out a structured set of guardrails
+    for AI-driven software engineering. It argues that integrating LLMs into software
+    development introduces risks like insecure code and accountability gaps, and recommends
+    mitigations such as sandboxing, runtime verification, and policy-based gates.
+    The framework positions guardrails as architectural components rather than ad
+    hoc human review. Its goal is to make AI-assisted workflows safer by embedding
+    checks into the system itself.
+  key_takeaways:
+    - LLM integration introduces risks including insecure code, hallucinated outputs,
+      irreversible actions, and accountability gaps
+    - SAFE-AI emphasizes Safety, Auditability, Feedback, and Explainability as core
+      principles
+    - Guardrails should be embedded as architectural components, not ad hoc human review
+    - Proposes taxonomy of AI behaviors—suggestive, generative, autonomous, destructive—to
+      guide oversight
+    - Aligns with emerging regulations like EU AI Act and Canada's AIDA
+  relevance: Provides a systematic framework directly aligned with The Draft's guardrails
+    theme. Positions safety mechanisms as first-class architectural concerns rather
+    than afterthoughts.
   tags:
     - framework
     - sandboxing
@@ -194,10 +455,18 @@
     - risk-mitigation
   categories:
     - governance-guardrails
-
 - source_id: arxiv_security_degradation_ai_code
-  summary: 'This study finds that iterative AI code refinement can degrade security without systematic checks, making a strong case for continuous scanning between AI edits.'
-  long_summary: 'This arXiv study analyzes iterative AI code generation and finds that repeated refinement can introduce security regressions. The research shows that even when changes appear to “improve” code, vulnerabilities can accumulate without strong verification between iterations. The authors argue for continuous scanning and static analysis as mandatory gates when using AI in multi-step coding workflows. The study reinforces the need for tooling-based guardrails that keep security from drifting over time.'
+  source_type: paper
+  summary: This study finds that iterative AI code refinement can degrade security
+    without systematic checks, making a strong case for continuous scanning between
+    AI edits.
+  long_summary: This arXiv study analyzes iterative AI code generation and finds that
+    repeated refinement can introduce security regressions. The research shows that
+    even when changes appear to “improve” code, vulnerabilities can accumulate without
+    strong verification between iterations. The authors argue for continuous scanning
+    and static analysis as mandatory gates when using AI in multi-step coding workflows.
+    The study reinforces the need for tooling-based guardrails that keep security
+    from drifting over time.
   tags:
     - security-regression
     - iterative-generation
@@ -205,12 +474,29 @@
   topics:
     - vulnerability-management
     - ai-risk
+  key_takeaways:
+    - Iterative LLM refinement can increase critical vulnerabilities by 37.6% after
+      just five iterations
+    - Different prompting strategies produce distinct vulnerability patterns
+    - The assumption that iterative refinement improves security is challenged by evidence
+    - Human expertise in the loop remains essential during supposed code improvements
+    - Continuous validation between iterations is required to prevent security degradation
+  relevance: Provides quantitative evidence for The Draft's emphasis on verification
+    guardrails. Challenges the intuition that more AI iteration equals better code,
+    reinforcing the need for systematic checks.
   categories:
     - tooling-guardrails
-
 - source_id: arxiv_context_engineering_multi_agent
-  summary: 'The paper details a multi-agent workflow that uses role decomposition and validation to improve the reliability of LLM-based code assistants.'
-  long_summary: 'This paper explores multi-agent LLM workflows for software engineering and shows that separating roles improves outcomes. By delegating intent capture, retrieval, and validation to distinct agents, the workflow reduces ambiguity and increases adherence to project context. The research highlights that reliability gains come from structured handoffs rather than simply more model capacity. The implication is that “agentic” systems can scale guardrails by design, turning review into an integrated workflow pattern.'
+  source_type: paper
+  summary: The paper details a multi-agent workflow that uses role decomposition and
+    validation to improve the reliability of LLM-based code assistants.
+  long_summary: This paper explores multi-agent LLM workflows for software engineering
+    and shows that separating roles improves outcomes. By delegating intent capture,
+    retrieval, and validation to distinct agents, the workflow reduces ambiguity and
+    increases adherence to project context. The research highlights that reliability
+    gains come from structured handoffs rather than simply more model capacity. The
+    implication is that “agentic” systems can scale guardrails by design, turning
+    review into an integrated workflow pattern.
   tags:
     - multi-agent
     - validation
@@ -218,12 +504,42 @@
   topics:
     - agentic-workflows
     - reliability
+  key_takeaways:
+    - Role decomposition—separating intent capture, retrieval, and validation—improves
+      outcomes
+    - Reliability gains come from structured handoffs rather than simply more model
+      capacity
+    - Multi-agent systems can embed guardrails by design through specialized sub-agents
+    - Intent clarification and retrieval-augmented generation improve context adherence
+    - Higher single-shot success rates achieved vs. baseline single-agent approaches
+  relevance: Shows how agentic architectures can scale oversight by embedding validation
+    into the workflow. Supports The Draft's thesis that guardrails should be structural,
+    not afterthoughts.
   categories:
     - tooling-guardrails
-
 - source_id: arxiv_resttsllm_api_testing
-  summary: 'Researchers combine task specification language with LLMs to automate REST API test generation, demonstrating higher test coverage with less manual effort.'
-  long_summary: 'This study combines Task Specification Language (TSL) with LLMs to automate REST API test generation. It compares automated generation against manual approaches and reports improved coverage with reduced effort. The work demonstrates how AI can be paired with structured specifications to produce more reliable automated tests. It supports the argument that LLMs become safer and more useful when embedded in disciplined testing workflows.'
+  source_type: paper
+  summary: Researchers combine task specification language with LLMs to automate REST
+    API test generation, demonstrating higher test coverage with less manual effort.
+  long_summary: This study combines Task Specification Language (TSL) with LLMs to
+    automate REST API test generation. It compares automated generation against manual
+    approaches and reports improved coverage with reduced effort. The work demonstrates
+    how AI can be paired with structured specifications to produce more reliable automated
+    tests. It supports the argument that LLMs become safer and more useful when embedded
+    in disciplined testing workflows.
+  key_takeaways:
+    - Combining TSL with LLMs automates test scenario creation and appropriate input
+      data definition
+    - Claude 3.5 Sonnet outperformed all other models across success rate, coverage,
+      and mutation score
+    - Exhaustive manual testing of all input combinations is impractical; LLMs help
+      address this
+    - Prompt engineering techniques paired with automated pipelines enable systematic
+      model comparison
+    - LLMs become more reliable when embedded in structured specification-driven workflows
+  relevance: Demonstrates how AI-assisted testing can improve coverage when paired
+    with structured specifications. Supports The Draft's argument that disciplined
+    workflows make AI tools safer and more useful.
   tags:
     - api-testing
     - automation
@@ -233,10 +549,14 @@
     - ai-tooling
   categories:
     - tooling-guardrails
-
 - source_id: eleventy_image_plugin
-  summary: 'Eleventy Image is a plugin that automatically processes image markup so sites can generate responsive images without manual asset pipelines.'
-  long_summary: 'The Eleventy Image documentation explains how the plugin integrates into Eleventy builds to process <img> and <picture> elements. It positions the plugin as an automated way to handle responsive image generation and related output formats, reducing manual steps in managing assets. For The Draft, it represents a drop-in improvement to image handling without building a custom pipeline.'
+  summary: Eleventy Image is a plugin that automatically processes image markup so
+    sites can generate responsive images without manual asset pipelines.
+  long_summary: The Eleventy Image documentation explains how the plugin integrates
+    into Eleventy builds to process <img> and <picture> elements. It positions the
+    plugin as an automated way to handle responsive image generation and related output
+    formats, reducing manual steps in managing assets. For The Draft, it represents
+    a drop-in improvement to image handling without building a custom pipeline.
   tags:
     - images
     - performance
@@ -246,10 +566,15 @@
     - eleventy-plugins
   categories:
     - platform-tooling
-
+  source_type: documentation
 - source_id: eleventy_fetch_plugin
-  summary: 'Eleventy Fetch caches network resources locally and refreshes them at configurable intervals to prevent repeated API calls on every build.'
-  long_summary: 'The Eleventy Fetch documentation describes a caching plugin that retrieves remote resources and stores them locally, refreshing on a schedule instead of per-build. It emphasizes that cached responses keep builds resilient and reduce load on external services. This is relevant for any future data sourcing or automated research ingestion for The Draft.'
+  summary: Eleventy Fetch caches network resources locally and refreshes them at configurable
+    intervals to prevent repeated API calls on every build.
+  long_summary: The Eleventy Fetch documentation describes a caching plugin that retrieves
+    remote resources and stores them locally, refreshing on a schedule instead of
+    per-build. It emphasizes that cached responses keep builds resilient and reduce
+    load on external services. This is relevant for any future data sourcing or automated
+    research ingestion for The Draft.
   tags:
     - caching
     - data
@@ -259,10 +584,15 @@
     - build-performance
   categories:
     - platform-tooling
-
+  source_type: documentation
 - source_id: eleventy_dev_server
-  summary: 'Eleventy ships with a hot-reloading development server for local preview during content and design work.'
-  long_summary: 'The Eleventy Dev Server documentation notes that Eleventy includes its own hot-reloading development server. That built-in server can simplify local previews and reduce dependence on external tooling for live reload. For The Draft, it is a straightforward way to improve authoring feedback loops during design or content changes.'
+  summary: Eleventy ships with a hot-reloading development server for local preview
+    during content and design work.
+  long_summary: The Eleventy Dev Server documentation notes that Eleventy includes
+    its own hot-reloading development server. That built-in server can simplify local
+    previews and reduce dependence on external tooling for live reload. For The Draft,
+    it is a straightforward way to improve authoring feedback loops during design
+    or content changes.
   tags:
     - development
     - preview
@@ -272,10 +602,16 @@
     - live-reload
   categories:
     - platform-tooling
-
+  source_type: documentation
 - source_id: ideo_rapid_prototyping_openai
-  summary: 'IDEO describes building a lightweight LLM prototyping system that enabled usable demos and reduced time to first prototype from weeks to days.'
-  long_summary: 'IDEO details how its team built a lightweight system that allowed designers without technical backgrounds to prototype with LLMs. The article explains that the approach expanded participation in AI-driven product design and compressed the time to reach a first functional prototype from weeks to days. The narrative emphasizes rapid iteration, collaborative experimentation, and the value of getting working demos in front of researchers and stakeholders earlier.'
+  summary: IDEO describes building a lightweight LLM prototyping system that enabled
+    usable demos and reduced time to first prototype from weeks to days.
+  long_summary: IDEO details how its team built a lightweight system that allowed
+    designers without technical backgrounds to prototype with LLMs. The article explains
+    that the approach expanded participation in AI-driven product design and compressed
+    the time to reach a first functional prototype from weeks to days. The narrative
+    emphasizes rapid iteration, collaborative experimentation, and the value of getting
+    working demos in front of researchers and stakeholders earlier.
   tags:
     - rapid-prototyping
     - iteration-speed
@@ -285,10 +621,16 @@
     - functional-demos
   categories:
     - rapid-prototyping
-
+  source_type: article
 - source_id: github_copilot_productivity_research
-  summary: 'GitHub’s research reports that developers using Copilot completed a programming task 55% faster than those who did not, indicating higher coding throughput.'
-  long_summary: 'GitHub’s controlled experiment measured the time developers took to complete a coding task with and without Copilot. The results show a 55% speed improvement for developers using Copilot, with significantly shorter completion times. This provides quantified evidence that AI code assistance can accelerate implementation work, a key enabler for faster functional prototyping and iteration cycles.'
+  summary: GitHub’s research reports that developers using Copilot completed a programming
+    task 55% faster than those who did not, indicating higher coding throughput.
+  long_summary: GitHub’s controlled experiment measured the time developers took to
+    complete a coding task with and without Copilot. The results show a 55% speed
+    improvement for developers using Copilot, with significantly shorter completion
+    times. This provides quantified evidence that AI code assistance can accelerate
+    implementation work, a key enabler for faster functional prototyping and iteration
+    cycles.
   tags:
     - productivity
     - ai-assistance
@@ -298,10 +640,17 @@
     - prototyping-velocity
   categories:
     - rapid-prototyping
-
+  source_type: article
 - source_id: wikipedia_heuristic_evaluation
-  summary: 'Wikipedia defines heuristic evaluation as a usability inspection method where evaluators judge interfaces against recognized usability principles to identify problems.'
-  long_summary: 'The entry explains heuristic evaluation as a structured usability inspection method for identifying user interface problems. Evaluators review the interface and assess it against recognized usability principles (heuristics), which makes the method useful for uncovering issues early and with limited resources. This definition anchors the idea of running fast usability checks before investing in deeper user research or usability testing.'
+  summary: Wikipedia defines heuristic evaluation as a usability inspection method
+    where evaluators judge interfaces against recognized usability principles to identify
+    problems.
+  long_summary: The entry explains heuristic evaluation as a structured usability
+    inspection method for identifying user interface problems. Evaluators review the
+    interface and assess it against recognized usability principles (heuristics),
+    which makes the method useful for uncovering issues early and with limited resources.
+    This definition anchors the idea of running fast usability checks before investing
+    in deeper user research or usability testing.
   tags:
     - usability
     - heuristics
@@ -311,10 +660,17 @@
     - user-experience
   categories:
     - usability-inspection
-
+  source_type: article
 - source_id: cian_clarke_vibe_coding_spec_driven
-  summary: 'Cian Clarke explains why spec-driven development outperforms vibe coding by clarifying requirements, architecture, and task decomposition before AI implementation.'
-  long_summary: 'This Tessl blog post details Cian Clarke’s perspective on the transition from vibe coding to spec-driven development. He argues that once teams move beyond quick one-shot prompting, the gains from spec-driven workflows become measurable and sustainable. The article lays out a spec-first flow that starts with requirements, moves to technical specs, and decomposes work into bounded tasks, emphasizing that clearer specs improve determinism and reduce rework. It positions spec-driven development as a state-of-the-art practice for AI-native engineering.'
+  summary: Cian Clarke explains why spec-driven development outperforms vibe coding
+    by clarifying requirements, architecture, and task decomposition before AI implementation.
+  long_summary: This Tessl blog post details Cian Clarke’s perspective on the transition
+    from vibe coding to spec-driven development. He argues that once teams move beyond
+    quick one-shot prompting, the gains from spec-driven workflows become measurable
+    and sustainable. The article lays out a spec-first flow that starts with requirements,
+    moves to technical specs, and decomposes work into bounded tasks, emphasizing
+    that clearer specs improve determinism and reduce rework. It positions spec-driven
+    development as a state-of-the-art practice for AI-native engineering.
   tags:
     - spec-driven-development
     - requirements
@@ -324,10 +680,17 @@
     - planning
   categories:
     - planning-and-structure
-
+  source_type: article
 - source_id: nearform_ai_powered_design_cx_2025
-  summary: 'Nearform’s on-demand webinar page frames AI-powered design as a driver of customer experience transformation, highlighting trends like sentient design and hyper-personalisation.'
-  long_summary: 'This Nearform webinar landing page describes an on-demand session about how AI and design are reshaping customer experience. It introduces topics such as sentient design and hyper-personalisation, and positions AI-powered design as a way to create more personalized and engaging customer interactions. The page lists speakers and provides access to the webinar recording, emphasizing practical stories about applying AI to CX.'
+  summary: Nearform’s on-demand webinar page frames AI-powered design as a driver
+    of customer experience transformation, highlighting trends like sentient design
+    and hyper-personalisation.
+  long_summary: This Nearform webinar landing page describes an on-demand session
+    about how AI and design are reshaping customer experience. It introduces topics
+    such as sentient design and hyper-personalisation, and positions AI-powered design
+    as a way to create more personalized and engaging customer interactions. The page
+    lists speakers and provides access to the webinar recording, emphasizing practical
+    stories about applying AI to CX.
   tags:
     - customer-experience
     - ai-design
@@ -336,10 +699,16 @@
     - experience-design
   categories:
     - ai-production-scale
-
+  source_type: article
 - source_id: nearform_ai_business_impact_action
-  summary: 'Nearform’s insight article argues that AI programs should start with clear, high-impact use cases rather than pressure-driven experimentation.'
-  long_summary: 'This Nearform article focuses on turning AI ambition into measurable business impact. It stresses that executive pressure can lead to poorly scoped AI projects and that teams should instead identify opportunities with high impact and manageable complexity. The piece highlights the need for deliberate prioritization, practical questions, and experience-led execution to move from talk to sustained results.'
+  summary: Nearform’s insight article argues that AI programs should start with clear,
+    high-impact use cases rather than pressure-driven experimentation.
+  long_summary: This Nearform article focuses on turning AI ambition into measurable
+    business impact. It stresses that executive pressure can lead to poorly scoped
+    AI projects and that teams should instead identify opportunities with high impact
+    and manageable complexity. The piece highlights the need for deliberate prioritization,
+    practical questions, and experience-led execution to move from talk to sustained
+    results.
   tags:
     - business-impact
     - ai-strategy
@@ -348,10 +717,17 @@
     - prioritization
   categories:
     - ai-production-scale
-
+  source_type: article
 - source_id: ainativedev_podcast_rework
-  summary: 'In this AI Native Dev podcast episode, Cian Clarke and host Simon Maple discuss why faster AI development can increase rework and how spec-first workflows mitigate it.'
-  long_summary: 'This AI Native Dev podcast episode features Cian Clarke in conversation with Simon Maple about the risks of moving too fast with AI-assisted development. The discussion introduces spec-driven or spec-first workflows, describing how upfront specification of intent, constraints, and behaviors can reduce rework. The episode frames early specification as a way to improve predictability and avoid downstream corrections when AI output outpaces validation.'
+  summary: In this AI Native Dev podcast episode, Cian Clarke and host Simon Maple
+    discuss why faster AI development can increase rework and how spec-first workflows
+    mitigate it.
+  long_summary: This AI Native Dev podcast episode features Cian Clarke in conversation
+    with Simon Maple about the risks of moving too fast with AI-assisted development.
+    The discussion introduces spec-driven or spec-first workflows, describing how
+    upfront specification of intent, constraints, and behaviors can reduce rework.
+    The episode frames early specification as a way to improve predictability and
+    avoid downstream corrections when AI output outpaces validation.
   tags:
     - spec-driven-development
     - rework
@@ -360,10 +736,17 @@
     - process-discipline
   categories:
     - planning-and-structure
-
+  source_type: podcast
 - source_id: ainativedev_talk_spec_driven_enterprise
-  summary: 'Cian Clarke’s AI Native DevCon talk presents spec-driven development as a blueprint for predictable, enterprise AI-native delivery.'
-  long_summary: 'This AI Native Dev conference talk positions spec-driven development as a structured alternative to vibe coding for enterprise software teams. The session outlines how explicit specs improve predictability, completeness, and context-aware outputs, and describes practices such as agentic role definition, explicit QA steps, and multi-human-in-the-loop coordination via git. It also notes how connectivity tooling (including MCP) can integrate spec-driven workflows into enterprise delivery cycles.'
+  summary: Cian Clarke’s AI Native DevCon talk presents spec-driven development as
+    a blueprint for predictable, enterprise AI-native delivery.
+  long_summary: This AI Native Dev conference talk positions spec-driven development
+    as a structured alternative to vibe coding for enterprise software teams. The
+    session outlines how explicit specs improve predictability, completeness, and
+    context-aware outputs, and describes practices such as agentic role definition,
+    explicit QA steps, and multi-human-in-the-loop coordination via git. It also notes
+    how connectivity tooling (including MCP) can integrate spec-driven workflows into
+    enterprise delivery cycles.
   tags:
     - spec-driven-development
     - enterprise-delivery
@@ -372,10 +755,14 @@
     - team-coordination
   categories:
     - planning-and-structure
-
+  source_type: article
 - source_id: youtube_ai_native_dev_rework
-  summary: 'YouTube recording of the AI Native Dev episode on why faster AI development can lead to more rework.'
-  long_summary: 'This YouTube video hosts the AI Native Dev discussion with Cian Clarke on the relationship between speed and rework in AI-assisted development. The recording mirrors the podcast content, focusing on spec-first workflows as a way to avoid churn and reduce rework when building with AI.'
+  summary: YouTube recording of the AI Native Dev episode on why faster AI development
+    can lead to more rework.
+  long_summary: This YouTube video hosts the AI Native Dev discussion with Cian Clarke
+    on the relationship between speed and rework in AI-assisted development. The recording
+    mirrors the podcast content, focusing on spec-first workflows as a way to avoid
+    churn and reduce rework when building with AI.
   tags:
     - spec-driven-development
     - rework
@@ -384,10 +771,16 @@
     - podcast
   categories:
     - planning-and-structure
-
+  source_type: video
 - source_id: linkedin_nearform_ai_internal_tools
-  summary: 'Cian Clarke’s LinkedIn post highlights Nearform’s internal AI tools, including Wilde for knowledge retrieval and Beckett for automating CRM updates.'
-  long_summary: 'In this LinkedIn post, Cian Clarke describes building internal AI tools at Nearform to streamline sales workflows. He highlights Wilde, an in-house knowledge assistant for RFPs and case studies, and Beckett, a tool that turns unstructured sales chatter into structured CRM updates. The post positions these tools as operational systems already delivering measurable value rather than experimental prototypes.'
+  summary: Cian Clarke’s LinkedIn post highlights Nearform’s internal AI tools, including
+    Wilde for knowledge retrieval and Beckett for automating CRM updates.
+  long_summary: In this LinkedIn post, Cian Clarke describes building internal AI
+    tools at Nearform to streamline sales workflows. He highlights Wilde, an in-house
+    knowledge assistant for RFPs and case studies, and Beckett, a tool that turns
+    unstructured sales chatter into structured CRM updates. The post positions these
+    tools as operational systems already delivering measurable value rather than experimental
+    prototypes.
   tags:
     - internal-tools
     - ai-operations
@@ -396,10 +789,15 @@
     - workflow-automation
   categories:
     - ai-production-scale
-
+  source_type: social_post
 - source_id: linkedin_spec_driven_development_post
-  summary: 'Cian Clarke’s LinkedIn post reflects on a shift from vibe coding to spec-driven development and the improvements in predictability and completeness it promises.'
-  long_summary: 'This LinkedIn post argues that recent tooling releases from major vendors signal a move away from vibe coding toward spec-driven development. Clarke notes that spec-driven approaches address common AI-assisted engineering issues such as predictability, completeness, and context-window limitations, and invites discussion on whether the shift represents a lasting change in software development.'
+  summary: Cian Clarke’s LinkedIn post reflects on a shift from vibe coding to spec-driven
+    development and the improvements in predictability and completeness it promises.
+  long_summary: This LinkedIn post argues that recent tooling releases from major
+    vendors signal a move away from vibe coding toward spec-driven development. Clarke
+    notes that spec-driven approaches address common AI-assisted engineering issues
+    such as predictability, completeness, and context-window limitations, and invites
+    discussion on whether the shift represents a lasting change in software development.
   tags:
     - spec-driven-development
     - industry-shift
@@ -408,10 +806,14 @@
     - tooling
   categories:
     - planning-and-structure
-
+  source_type: social_post
 - source_id: x_ainativedev_cian_clarke_thread
-  summary: 'An AI Native Dev X thread that points readers toward Cian Clarke’s work on spec-driven development.'
-  long_summary: 'This AI Native Dev post on X serves as a secondary reference to Cian Clarke’s spec-driven development material, directing audiences to his writing or talks. It is included as a social amplification source rather than a primary research artifact.'
+  summary: An AI Native Dev X thread that points readers toward Cian Clarke’s work
+    on spec-driven development.
+  long_summary: This AI Native Dev post on X serves as a secondary reference to Cian
+    Clarke’s spec-driven development material, directing audiences to his writing
+    or talks. It is included as a social amplification source rather than a primary
+    research artifact.
   tags:
     - social-reference
   topics:
@@ -419,10 +821,17 @@
     - community
   categories:
     - planning-and-structure
-
+  source_type: social_post
 - source_id: microsoft_spec_kit_blog
-  summary: 'Den Delimarsky’s Microsoft Developer blog post frames SDD as a lightweight way to make technical decisions explicit and evolve them over time.'
-  long_summary: 'This Microsoft Developer article introduces spec-driven development through the lens of GitHub Spec Kit. It emphasizes that SDD is not about heavy bureaucracy or exhaustive documentation, but about capturing technical decisions and the reasoning behind them in a form that can be reviewed and evolved. The post connects explicit specifications to better alignment across teams and stronger context for AI agents. It also outlines how Spec Kit operationalizes this workflow with templates and a CLI.'
+  summary: Den Delimarsky’s Microsoft Developer blog post frames SDD as a lightweight
+    way to make technical decisions explicit and evolve them over time.
+  long_summary: This Microsoft Developer article introduces spec-driven development
+    through the lens of GitHub Spec Kit. It emphasizes that SDD is not about heavy
+    bureaucracy or exhaustive documentation, but about capturing technical decisions
+    and the reasoning behind them in a form that can be reviewed and evolved. The
+    post connects explicit specifications to better alignment across teams and stronger
+    context for AI agents. It also outlines how Spec Kit operationalizes this workflow
+    with templates and a CLI.
   tags:
     - spec-driven-development
     - decision-records
@@ -432,10 +841,18 @@
     - documentation
   categories:
     - planning-and-structure
-
+  source_type: article
 - source_id: martinfowler_sdd_tools
-  summary: 'Birgitta Böckeler surveys SDD tooling and definitions, describing spec-first development as writing specs before AI-generated code and treating specs as a shared source of truth.'
-  long_summary: 'This Martin Fowler article examines the emerging term spec-driven development, compares definitions from several tools, and proposes a taxonomy of spec-first, spec-anchored, and spec-as-source approaches. It frames SDD as a documentation-first workflow where the spec guides AI generation and remains central to human/AI collaboration. The article also provides observations about how different tools implement SDD and highlights open questions about maintaining specs over time.'
+  summary: Birgitta Böckeler surveys SDD tooling and definitions, describing spec-first
+    development as writing specs before AI-generated code and treating specs as a
+    shared source of truth.
+  long_summary: This Martin Fowler article examines the emerging term spec-driven
+    development, compares definitions from several tools, and proposes a taxonomy
+    of spec-first, spec-anchored, and spec-as-source approaches. It frames SDD as
+    a documentation-first workflow where the spec guides AI generation and remains
+    central to human/AI collaboration. The article also provides observations about
+    how different tools implement SDD and highlights open questions about maintaining
+    specs over time.
   tags:
     - spec-driven-development
     - definitions
@@ -445,10 +862,16 @@
     - requirements
   categories:
     - planning-and-structure
-
+  source_type: article
 - source_id: kiro_agentic_ai_development
-  summary: 'Kiro’s homepage emphasizes spec-driven development and upfront structure as a way to improve AI coding outcomes before implementation starts.'
-  long_summary: 'The Kiro homepage positions the product as an agentic AI development environment that centers specs and structure early in the workflow. It includes testimonials that highlight spec-driven development as a way to increase relevance, quality, and speed, and frames Kiro as a tool that brings order to AI-assisted coding before code is written. The page is primarily marketing content but provides direct statements about spec-driven practices and outcomes.'
+  summary: Kiro’s homepage emphasizes spec-driven development and upfront structure
+    as a way to improve AI coding outcomes before implementation starts.
+  long_summary: The Kiro homepage positions the product as an agentic AI development
+    environment that centers specs and structure early in the workflow. It includes
+    testimonials that highlight spec-driven development as a way to increase relevance,
+    quality, and speed, and frames Kiro as a tool that brings order to AI-assisted
+    coding before code is written. The page is primarily marketing content but provides
+    direct statements about spec-driven practices and outcomes.
   tags:
     - spec-driven-development
     - structure-first
@@ -457,17 +880,24 @@
     - workflow
   categories:
     - planning-and-structure
-
+  source_type: article
 - source_id: github_cian_clarke_profile
-  summary: 'GitHub profile page used to retrieve Cian Clarke’s public avatar for the people directory.'
-  long_summary: 'This GitHub profile page provides the public avatar image associated with Cian Clarke’s account. The avatar was downloaded to store a local copy for the people profile image in The Draft site.'
+  summary: GitHub profile page used to retrieve Cian Clarke’s public avatar for the
+    people directory.
+  long_summary: This GitHub profile page provides the public avatar image associated
+    with Cian Clarke’s account. The avatar was downloaded to store a local copy for
+    the people profile image in The Draft site.
   tags: []
   topics: []
   categories: []
-
+  source_type: profile
 - source_id: x_boris_cherny_claude_code_setup
-  summary: 'Boris Cherny introduces himself as the creator of Claude Code and shares setup and workflow notes in a short X post.'
-  long_summary: 'This X post from Boris Cherny includes a brief self-introduction and a description of his Claude Code setup and workflow tips. It serves as a primary, first-person social update about how he works with Claude Code and why the setup matters.'
+  summary: Boris Cherny introduces himself as the creator of Claude Code and shares
+    setup and workflow notes in a short X post.
+  long_summary: This X post from Boris Cherny includes a brief self-introduction and
+    a description of his Claude Code setup and workflow tips. It serves as a primary,
+    first-person social update about how he works with Claude Code and why the setup
+    matters.
   tags:
     - claude-code
     - workflow
@@ -475,10 +905,14 @@
     - ai-assisted-development
     - tooling
   categories: []
-
+  source_type: social_post
 - source_id: businessinsider_karpathy_manual_skills_atrophy
-  summary: 'Business Insider reports on Andrej Karpathy’s reflections about AI-driven coding and the atrophy of manual coding skills.'
-  long_summary: 'This Business Insider article summarizes Andrej Karpathy’s comments about using Claude Code and the effects of agent-led coding on traditional manual skills. It frames his observations as a broader discussion about how software engineering practices are changing with AI tools.'
+  summary: Business Insider reports on Andrej Karpathy’s reflections about AI-driven
+    coding and the atrophy of manual coding skills.
+  long_summary: This Business Insider article summarizes Andrej Karpathy’s comments
+    about using Claude Code and the effects of agent-led coding on traditional manual
+    skills. It frames his observations as a broader discussion about how software
+    engineering practices are changing with AI tools.
   tags:
     - ai-coding
     - skills
@@ -486,10 +920,14 @@
     - ai-assisted-development
     - engineering-practice
   categories: []
-
+  source_type: article
 - source_id: decoder_claude_cowork_built_two_weeks
-  summary: 'The Decoder reports that Anthropic’s Claude Cowork project was built in under two weeks using Claude Code.'
-  long_summary: 'This article from The Decoder covers a claim that Claude Cowork was built in roughly ten days, with references to Claude Code’s role in generating the software. It includes references to comments attributed to Boris Cherny and Felix Rieseberg about the build process.'
+  summary: The Decoder reports that Anthropic’s Claude Cowork project was built in
+    under two weeks using Claude Code.
+  long_summary: This article from The Decoder covers a claim that Claude Cowork was
+    built in roughly ten days, with references to Claude Code’s role in generating
+    the software. It includes references to comments attributed to Boris Cherny and
+    Felix Rieseberg about the build process.
   tags:
     - claude-code
     - product-build
@@ -497,10 +935,13 @@
     - ai-assisted-development
     - tooling
   categories: []
-
+  source_type: article
 - source_id: linkedin_boris_cherny_profile
-  summary: 'Boris Cherny’s LinkedIn profile lists his professional background and role leading the Claude Code team.'
-  long_summary: 'This LinkedIn profile page provides biographical and career details for Boris Cherny, including his association with Claude Code at Anthropic. The page serves as a canonical reference for his role and professional history.'
+  summary: Boris Cherny’s LinkedIn profile lists his professional background and role
+    leading the Claude Code team.
+  long_summary: This LinkedIn profile page provides biographical and career details
+    for Boris Cherny, including his association with Claude Code at Anthropic. The
+    page serves as a canonical reference for his role and professional history.
   tags:
     - biography
     - claude-code
@@ -508,10 +949,14 @@
     - people
     - ai-assisted-development
   categories: []
-
+  source_type: social_post
 - source_id: medium_boris_cherny_100_prs_setup
-  summary: 'A Medium article recounts Boris Cherny’s viral Claude Code workflow posts and community reactions.'
-  long_summary: 'This Medium retrospective discusses the attention around Boris Cherny’s Claude Code workflow posts, including references to his reported pace and setup. It frames the story as a community reaction to how Claude Code is being used in practice.'
+  summary: A Medium article recounts Boris Cherny’s viral Claude Code workflow posts
+    and community reactions.
+  long_summary: This Medium retrospective discusses the attention around Boris Cherny’s
+    Claude Code workflow posts, including references to his reported pace and setup.
+    It frames the story as a community reaction to how Claude Code is being used in
+    practice.
   tags:
     - claude-code
     - workflow
@@ -519,10 +964,13 @@
     - ai-assisted-development
     - community
   categories: []
-
+  source_type: article
 - source_id: linkedin_ryan_peterman_boris_cherny_interview
-  summary: 'A LinkedIn post by Ryan Peterman shares an interview snippet about Boris Cherny’s work on Claude Code.'
-  long_summary: 'This LinkedIn post summarizes a short interview-style exchange with Boris Cherny about his career and the creation of Claude Code. It is a social post intended to highlight his background and perspectives.'
+  summary: A LinkedIn post by Ryan Peterman shares an interview snippet about Boris
+    Cherny’s work on Claude Code.
+  long_summary: This LinkedIn post summarizes a short interview-style exchange with
+    Boris Cherny about his career and the creation of Claude Code. It is a social
+    post intended to highlight his background and perspectives.
   tags:
     - claude-code
     - interview
@@ -530,10 +978,14 @@
     - people
     - ai-assisted-development
   categories: []
-
+  source_type: social_post
 - source_id: devto_boris_cherny_claude_code_use
-  summary: 'A DEV Community article analyzes how Boris Cherny uses Claude Code and what that implies for AI-assisted development.'
-  long_summary: 'This DEV Community post explores Boris Cherny’s reported Claude Code workflows and connects them to broader ideas about prompt usage, feedback loops, and developer habits. It positions his practice as a case study for how engineers might integrate agentic coding tools.'
+  summary: A DEV Community article analyzes how Boris Cherny uses Claude Code and
+    what that implies for AI-assisted development.
+  long_summary: This DEV Community post explores Boris Cherny’s reported Claude Code
+    workflows and connects them to broader ideas about prompt usage, feedback loops,
+    and developer habits. It positions his practice as a case study for how engineers
+    might integrate agentic coding tools.
   tags:
     - claude-code
     - workflow
@@ -541,10 +993,14 @@
     - ai-assisted-development
     - tooling
   categories: []
-
+  source_type: article
 - source_id: aol_karpathy_phase_shift_claude_code
-  summary: 'AOL republishes a story about Andrej Karpathy’s comments on a “phase shift” in software engineering while using Claude Code.'
-  long_summary: 'This AOL article summarizes Andrej Karpathy’s remarks about Claude Code and the shift toward AI-driven development. It echoes claims about manual skills atrophying and positions the commentary within a broader narrative about changes in software engineering workflows.'
+  summary: AOL republishes a story about Andrej Karpathy’s comments on a “phase shift”
+    in software engineering while using Claude Code.
+  long_summary: This AOL article summarizes Andrej Karpathy’s remarks about Claude
+    Code and the shift toward AI-driven development. It echoes claims about manual
+    skills atrophying and positions the commentary within a broader narrative about
+    changes in software engineering workflows.
   tags:
     - ai-coding
     - skills
@@ -552,10 +1008,13 @@
     - ai-assisted-development
     - engineering-practice
   categories: []
-
+  source_type: article
 - source_id: instagram_claude_cowork_built_with_claude_code
-  summary: 'An Instagram post quotes Boris Cherny on Claude Cowork being built with Claude Code.'
-  long_summary: 'This Instagram post shares a quote attributed to Boris Cherny about Claude Cowork being built using Claude Code. It functions as a social-media amplification of the Claude Cowork build narrative.'
+  summary: An Instagram post quotes Boris Cherny on Claude Cowork being built with
+    Claude Code.
+  long_summary: This Instagram post shares a quote attributed to Boris Cherny about
+    Claude Cowork being built using Claude Code. It functions as a social-media amplification
+    of the Claude Cowork build narrative.
   tags:
     - claude-code
     - social-post
@@ -563,10 +1022,13 @@
     - ai-assisted-development
     - community
   categories: []
-
+  source_type: social_post
 - source_id: businessinsider_boris_cherny_vibe_coding_limits
-  summary: 'Business Insider reports on Boris Cherny’s comments about the limits of “vibe coding.”'
-  long_summary: 'This Business Insider article covers Boris Cherny’s views on the limits of vibe coding and the need for structure when using Claude Code. It frames his comments as guidance on where AI-driven coding does and does not work well.'
+  summary: Business Insider reports on Boris Cherny’s comments about the limits of
+    “vibe coding.”
+  long_summary: This Business Insider article covers Boris Cherny’s views on the limits
+    of vibe coding and the need for structure when using Claude Code. It frames his
+    comments as guidance on where AI-driven coding does and does not work well.
   tags:
     - claude-code
     - vibe-coding
@@ -574,10 +1036,14 @@
     - ai-assisted-development
     - engineering-practice
   categories: []
-
+  source_type: article
 - source_id: aol_top_engineers_ai_writes_code
-  summary: 'AOL reports on statements from AI engineering leaders about AI writing most of their code.'
-  long_summary: 'This AOL article summarizes claims from AI engineering leaders, including references to Anthropic and OpenAI, about AI systems writing a large share of their code. It highlights potential implications for software development roles and workflows.'
+  summary: AOL reports on statements from AI engineering leaders about AI writing
+    most of their code.
+  long_summary: This AOL article summarizes claims from AI engineering leaders, including
+    references to Anthropic and OpenAI, about AI systems writing a large share of
+    their code. It highlights potential implications for software development roles
+    and workflows.
   tags:
     - ai-coding
     - industry-claims
@@ -585,10 +1051,12 @@
     - ai-assisted-development
     - industry
   categories: []
-
+  source_type: article
 - source_id: x_karpathy_claude_coding_notes
-  summary: 'Andrej Karpathy shares a short thread of notes from Claude Coding on X.'
-  long_summary: 'This X thread from Andrej Karpathy contains informal observations about using Claude Code, sometimes referred to as “notes from Claude Coding.” It is a primary source for his personal take on AI-assisted coding practices.'
+  summary: Andrej Karpathy shares a short thread of notes from Claude Coding on X.
+  long_summary: This X thread from Andrej Karpathy contains informal observations
+    about using Claude Code, sometimes referred to as “notes from Claude Coding.”
+    It is a primary source for his personal take on AI-assisted coding practices.
   tags:
     - claude-code
     - notes
@@ -596,10 +1064,13 @@
     - ai-assisted-development
     - tooling
   categories: []
-
+  source_type: social_post
 - source_id: uxmatters_designing_for_autonomy
-  summary: 'UXmatters article on UX principles for agentic AI systems.'
-  long_summary: 'This article bridges UX and agentic AI by outlining design principles for systems where AI acts with greater autonomy. It addresses how traditional UX models must adapt when users delegate tasks to agents, and what autonomy, transparency, and control mean in agentic contexts.'
+  summary: UXmatters article on UX principles for agentic AI systems.
+  long_summary: This article bridges UX and agentic AI by outlining design principles
+    for systems where AI acts with greater autonomy. It addresses how traditional
+    UX models must adapt when users delegate tasks to agents, and what autonomy, transparency,
+    and control mean in agentic contexts.
   tags:
     - agentic-ai
     - ux-principles
@@ -609,10 +1080,14 @@
     - agentic-systems
   categories:
     - cross-domain-calibration
-
+  source_type: social_post
 - source_id: designative_flows_age_agentic_ai
-  summary: 'Designative explores whether core UX flow models still apply in the age of agentic AI.'
-  long_summary: 'This piece questions whether established UX models for flows and user journeys remain valid when agentic AI can interrupt, parallelize, or reshape traditional linear flows. It examines the tension between flow-based design and agent-driven interaction.'
+  summary: Designative explores whether core UX flow models still apply in the age
+    of agentic AI.
+  long_summary: This piece questions whether established UX models for flows and user
+    journeys remain valid when agentic AI can interrupt, parallelize, or reshape traditional
+    linear flows. It examines the tension between flow-based design and agent-driven
+    interaction.
   tags:
     - agentic-ai
     - flows
@@ -622,10 +1097,14 @@
     - agentic-systems
   categories:
     - cross-domain-calibration
-
+  source_type: article
 - source_id: etcjournal_critical_ux_differences_ai_agentic
-  summary: 'ETC Journal distinguishes critical UX differences between AI and agentic AI.'
-  long_summary: 'This article identifies key UX distinctions between conventional AI (assistive, reactive) and agentic AI (autonomous, proactive). It argues that design patterns, feedback mechanisms, and user expectations must differ when systems take initiative and execute multi-step tasks.'
+  summary: ETC Journal distinguishes critical UX differences between AI and agentic
+    AI.
+  long_summary: This article identifies key UX distinctions between conventional AI
+    (assistive, reactive) and agentic AI (autonomous, proactive). It argues that design
+    patterns, feedback mechanisms, and user expectations must differ when systems
+    take initiative and execute multi-step tasks.
   tags:
     - agentic-ai
     - ux-differences
@@ -635,3 +1114,253 @@
     - agentic-systems
   categories:
     - cross-domain-calibration
+  source_type: article
+- source_id: conway_committees_invent
+  summary: Melvin Conway's 1968 paper introduced the observation that organizations
+    produce system designs that mirror their communication structure.
+  long_summary: In 'How Do Committees Invent?', Melvin Conway argued that organizations
+    which design systems are constrained to produce designs which are copies of the
+    communication structures of those organizations. The insight, later dubbed Conway's
+    Law, has influenced software architecture, modular design, and how teams think
+    about the relationship between organizational structure and technical artifacts.
+  tags:
+    - conways-law
+    - organizational-design
+  topics:
+    - architecture
+    - systems-design
+  categories:
+    - engineering-judgment
+  source_type: paper
+- source_id: rechtin_systems_architecting
+  summary: Eberhardt Rechtin's work established systems architecting as a discipline,
+    with heuristics for stakeholder analysis and quality attributes.
+  long_summary: Rechtin's 'Systems Architecting of Organizations' and related work
+    developed the discipline of systems architecting. He introduced frameworks for
+    heuristics, stakeholder analysis, and quality attributes that shape how complex
+    systems are designed and evaluated. His experience at JPL and DARPA informed practical
+    methods for structuring and governing large technical systems.
+  tags:
+    - systems-architecting
+    - heuristics
+  topics:
+    - architecture
+    - governance
+  categories:
+    - engineering-judgment
+  source_type: book
+- source_id: simon_sciences_artificial
+  summary: Herbert Simon's classic explores bounded rationality, satisficing, and
+    the structure of ill-structured problems in design and AI.
+  long_summary: "'The Sciences of the Artificial' examines how humans and machines
+    reason about design. Simon introduced bounded rationality, satisficing, and the
+    concept of ill-structured problems. The book argues that a physical symbol system
+    has the necessary and sufficient means for intelligent action, influencing both
+    AI and design theory."
+  tags:
+    - bounded-rationality
+    - design-theory
+  topics:
+    - architecture
+    - ai
+  categories:
+    - engineering-judgment
+  source_type: book
+- source_id: beer_brain_of_the_firm
+  summary: Stafford Beer's Viable System Model describes how organizations must be
+    structured to remain adaptable and responsive.
+  long_summary: In 'Brain of the Firm', Beer developed the Viable System Model (VSM),
+    a cybernetic framework for organizational design. The model describes how organizations
+    need recursive structure, feedback loops, and information flow to remain viable.
+    His work has influenced systems thinking, governance, and the relationship between
+    information systems and organizational adaptability.
+  tags:
+    - viable-system-model
+    - cybernetics
+  topics:
+    - architecture
+    - governance
+  categories:
+    - engineering-judgment
+  source_type: book
+- source_id: wurman_information_anxiety
+  summary: Richard Saul Wurman's 'Information Anxiety' explores how to make complex
+    information understandable.
+  long_summary: Wurman coined the term 'information architecture' and in 'Information
+    Anxiety' examined why people feel overwhelmed by information. The book addresses
+    how to organize, present, and structure information so it becomes comprehensible.
+    His work has shaped IA practice and the design of events, books, and exhibitions
+    for clarity.
+  tags:
+    - information-anxiety
+    - clarity
+  topics:
+    - information-architecture
+  categories:
+    - planning-and-structure
+  source_type: book
+- source_id: morville_rosenfeld_information_architecture_www
+  summary: The foundational IA text for the web, covering findability, navigation,
+    and organizing information for human use.
+  long_summary: Morville and Rosenfeld's 'Information Architecture for the World Wide
+    Web' established IA as a core discipline for web design. It covers findability,
+    navigation, search, and how to structure information so users can find and understand
+    it. The book has influenced how organizations approach content structure, taxonomies,
+    and cross-channel experience design.
+  tags:
+    - findability
+    - navigation
+  topics:
+    - information-architecture
+    - web-design
+  categories:
+    - planning-and-structure
+  source_type: book
+- source_id: covert_how_to_make_sense
+  summary: Abby Covert's guide helps teams align on language, structure, and meaning
+    when tackling information problems.
+  long_summary: "'How to Make Sense of Any Mess' is a practical guide to information
+    architecture for product and design teams. Covert focuses on taxonomies, mental
+    models, and collaborative sense-making. The book helps teams align on language
+    and structure before building, reducing ambiguity and improving outcomes."
+  tags:
+    - sense-making
+    - taxonomies
+  topics:
+    - information-architecture
+  categories:
+    - planning-and-structure
+  source_type: article
+- source_id: goodwin_designing_digital_age
+  summary: Kim Goodwin's comprehensive guide to goal-directed design and translating
+    research into coherent product structure.
+  long_summary: "'Designing for the Digital Age' presents goal-directed design methods
+    developed at Cooper. Goodwin details how to translate research into personas,
+    scenarios, and requirements, and how to structure products for coherent user experience.
+    The book bridges IA, interaction design, and design leadership."
+  tags:
+    - goal-directed-design
+    - personas
+  topics:
+    - information-architecture
+    - interaction-design
+  categories:
+    - planning-and-structure
+  source_type: book
+- source_id: spool_design_maturity
+  summary: Jared Spool's work on design maturity and evidence-based UX has influenced
+    how design teams scale and demonstrate value.
+  long_summary: Spool has advocated for evidence-based design, usability testing,
+    and design maturity in organizations. His work on design ops, design systems,
+    and the business impact of UX has influenced how design teams scale and demonstrate
+    value. Center Centre's articles and programs extend these themes.
+  tags:
+    - design-maturity
+    - evidence-based
+  topics:
+    - ux-research
+    - design-ops
+  categories:
+    - responsibility-oversight
+  source_type: article
+- source_id: chisnell_handbook_usability_testing
+  summary: Dana Chisnell's handbook on usability testing, with emphasis on plain language,
+    accessibility, and inclusive design.
+  long_summary: The 'Handbook of Usability Testing' provides practical guidance on
+    planning, conducting, and interpreting usability tests. Chisnell's work on ballot
+    design, voting systems, and government services extends these principles to civic
+    design. The handbook emphasizes plain language, accessibility, and testing with
+    diverse users.
+  tags:
+    - usability-testing
+    - accessibility
+  topics:
+    - ux-research
+    - civic-design
+  categories:
+    - responsibility-oversight
+  source_type: book
+- source_id: norman_design_everyday_things
+  summary: Don Norman's foundational text on affordances, mental models, and human-centered
+    design.
+  long_summary: "'The Design of Everyday Things' introduced concepts like affordances,
+    signifiers, and mental models that have shaped design thinking. Norman argues
+    that design should make the right action obvious and the wrong action difficult.
+    The book has influenced how we understand human-centered design and the psychology
+    of everyday objects and interfaces."
+  tags:
+    - affordances
+    - mental-models
+  topics:
+    - ux-design
+    - human-factors
+  categories:
+    - responsibility-oversight
+  source_type: book
+- source_id: hall_just_enough_research
+  summary: Erika Hall's guide to research-driven design, inclusive language, and the
+    strategic role of design in organizations.
+  long_summary: "'Just Enough Research' advocates for research-driven design without
+    over-investing. Hall covers research methods, inclusive language, and the strategic
+    role of design. Her work on conversational design and design ethics has influenced
+    UX practice and how teams integrate research into product development."
+  tags:
+    - research-methods
+    - inclusive-design
+  topics:
+    - ux-research
+    - design-ethics
+  categories:
+    - responsibility-oversight
+  source_type: book
+- source_id: amodei_constitutional_ai
+  summary: Anthropic's Constitutional AI paper describes harmlessness from AI feedback,
+    a key approach to AI safety.
+  long_summary: The Constitutional AI paper introduces training AI systems to be helpful,
+    harmless, and honest using AI-generated feedback rather than human labels alone.
+    The approach reduces reliance on human feedback for harmful content and has influenced
+    how frontier labs approach safety and capability. Dario Amodei co-founded Anthropic
+    to build reliable, interpretable, and steerable AI.
+  tags:
+    - constitutional-ai
+    - ai-safety
+  topics:
+    - alignment
+    - oversight
+  categories:
+    - governance-guardrails
+  source_type: article
+- source_id: bengio_deep_learning
+  summary: The foundational deep learning textbook covering neural networks, representation
+    learning, and modern AI.
+  long_summary: "'Deep Learning' by Bengio, Goodfellow, and Courville is the standard
+    reference for deep learning. It covers neural networks, representation learning,
+    optimization, and the theoretical foundations of modern AI. Bengio's work has
+    been foundational to the field, and he now focuses on AI safety and responsible
+    AI development."
+  tags:
+    - deep-learning
+    - neural-networks
+  topics:
+    - ai
+    - machine-learning
+  categories:
+    - governance-guardrails
+  source_type: book
+- source_id: christiano_scalable_oversight
+  summary: Paul Christiano's work on scalable oversight explores how to supervise
+    AI systems that exceed human capability.
+  long_summary: Christiano's research on scalable oversight, RLHF, and iterated amplification
+    has shaped how AI labs approach human feedback and value learning. The 'Scalable
+    Oversight' paper and related work address how to supervise AI systems that may
+    exceed human capability on specific tasks. His work has influenced the technical
+    agenda for AI alignment.
+  tags:
+    - scalable-oversight
+    - alignment
+  topics:
+    - ai-safety
+    - oversight
+  categories:
+    - governance-guardrails
+  source_type: paper

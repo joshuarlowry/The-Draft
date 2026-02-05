@@ -617,6 +617,175 @@
   mentioned_people_ids:
     - andrej_karpathy
 
+# Pre-seeded people canonical works (Architecture)
+- id: conway_committees_invent
+  author: 'Melvin E. Conway'
+  author_ids:
+    - melvin_conway
+  title: 'How Do Committees Invent?'
+  journal: 'Datamation'
+  published: '1968'
+  url: 'https://en.wikipedia.org/wiki/Conway%27s_law'
+  tags:
+    - engineering-judgment
+
+- id: rechtin_systems_architecting
+  author: 'Eberhardt Rechtin'
+  author_ids:
+    - eberhardt_rechtin
+  title: 'Systems Architecting of Organizations'
+  publisher: 'CRC Press'
+  published: '1991'
+  url: 'https://en.wikipedia.org/wiki/Systems_architecting'
+  tags:
+    - engineering-judgment
+
+- id: simon_sciences_artificial
+  author: 'Herbert A. Simon'
+  author_ids:
+    - herbert_a_simon
+  title: 'The Sciences of the Artificial'
+  publisher: 'MIT Press'
+  published: '1969'
+  url: 'https://mitpress.mit.edu/9780262691918/the-sciences-of-the-artificial/'
+  tags:
+    - engineering-judgment
+
+- id: beer_brain_of_the_firm
+  author: 'Stafford Beer'
+  author_ids:
+    - stafford_beer
+  title: 'Brain of the Firm'
+  publisher: 'Allen Lane'
+  published: '1972'
+  url: 'https://en.wikipedia.org/wiki/Brain_of_the_Firm'
+  tags:
+    - engineering-judgment
+
+# Pre-seeded people canonical works (IA)
+- id: wurman_information_anxiety
+  author: 'Richard Saul Wurman'
+  author_ids:
+    - richard_saul_wurman
+  title: 'Information Anxiety'
+  publisher: 'Doubleday'
+  published: '1989'
+  url: 'https://www.goodreads.com/book/show/83366.Information_Anxiety'
+  tags:
+    - planning-and-structure
+
+- id: morville_rosenfeld_information_architecture_www
+  author: 'Peter Morville, Louis Rosenfeld'
+  author_ids:
+    - peter_morville
+  title: 'Information Architecture for the World Wide Web'
+  publisher: "O'Reilly"
+  published: '2006'
+  url: 'https://www.oreilly.com/library/view/information-architecture-for/0596527349/'
+  tags:
+    - planning-and-structure
+
+- id: covert_how_to_make_sense
+  author: 'Abby Covert'
+  author_ids:
+    - abby_covert
+  title: 'How to Make Sense of Any Mess'
+  publisher: 'Abby Covert'
+  published: '2014'
+  url: 'https://abbycovert.com/books/'
+  tags:
+    - planning-and-structure
+
+- id: goodwin_designing_digital_age
+  author: 'Kim Goodwin'
+  author_ids:
+    - kim_goodwin
+  title: 'Designing for the Digital Age'
+  publisher: 'Wiley'
+  published: '2009'
+  url: 'https://www.wiley.com/en-us/Designing+for+the+Digital+Age%3A+How+to+Create+Human-Centered+Products+and+Services-p-9780470229101'
+  tags:
+    - planning-and-structure
+
+# Pre-seeded people canonical works (UX)
+- id: spool_design_maturity
+  author: 'Jared Spool'
+  author_ids:
+    - jared_spool
+  title: 'The Design Maturity Model'
+  publisher: 'Center Centre'
+  published: '2019'
+  url: 'https://articles.centercentre.com/'
+  tags:
+    - responsibility-oversight
+
+- id: chisnell_handbook_usability_testing
+  author: 'Dana Chisnell'
+  author_ids:
+    - dana_chisnell
+  title: 'Handbook of Usability Testing'
+  publisher: 'Wiley'
+  published: '2008'
+  url: 'https://www.wiley.com/en-us/Handbook+of+Usability+Testing%2C+2nd+Edition-p-9780470185483'
+  tags:
+    - responsibility-oversight
+
+- id: norman_design_everyday_things
+  author: 'Don Norman'
+  author_ids:
+    - don_norman
+  title: 'The Design of Everyday Things'
+  publisher: 'Basic Books'
+  published: '2013'
+  url: 'https://jnd.org/books/'
+  tags:
+    - responsibility-oversight
+
+- id: hall_just_enough_research
+  author: 'Erika Hall'
+  author_ids:
+    - erika_hall
+  title: 'Just Enough Research'
+  publisher: 'A Book Apart'
+  published: '2013'
+  url: 'https://abookapart.com/products/just-enough-research'
+  tags:
+    - responsibility-oversight
+
+# Pre-seeded people canonical works (Agentic)
+- id: amodei_constitutional_ai
+  author: 'Dario Amodei, Daniela Amodei, et al.'
+  author_ids:
+    - dario_amodei
+  title: 'Constitutional AI: Harmlessness from AI Feedback'
+  publisher: 'Anthropic'
+  published: '2022'
+  url: 'https://www.anthropic.com/research/constitutional-ai-harmlessness-from-ai-feedback'
+  tags:
+    - governance-guardrails
+
+- id: bengio_deep_learning
+  author: 'Yoshua Bengio, Ian Goodfellow, Aaron Courville'
+  author_ids:
+    - yoshua_bengio
+  title: 'Deep Learning'
+  publisher: 'MIT Press'
+  published: '2016'
+  url: 'https://www.deeplearningbook.org/'
+  tags:
+    - governance-guardrails
+
+- id: christiano_scalable_oversight
+  author: 'Paul Christiano'
+  author_ids:
+    - paul_christiano
+  title: 'Scalable Oversight'
+  repository: 'arXiv'
+  published: '2016'
+  url: 'https://arxiv.org/abs/1606.06565'
+  tags:
+    - governance-guardrails
+
 # Cross-domain calibration (UX + Agentic)
 - id: uxmatters_designing_for_autonomy
   title: 'Designing for Autonomy: UX Principles for Agentic AI'
