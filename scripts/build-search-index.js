@@ -143,46 +143,6 @@ const main = () => {
     }
   }
 
-  // Blocks (process cached blocks)
-  if (blockCache.size > 0) {
-    for (const [blockId, cachedBlock] of blockCache) {
-      const { data } = cachedBlock;
-      const id = data.id || blockId;
-      const url = `${PATH_PREFIX}blocks/argument/${id}/`;
-      const citationIds = data.citations || [];
-      const sourceIds = citationIds
-        .map((cid) => {
-          const citation = citationMap.get(cid);
-          return citation ? citation.source_id : null;
-        })
-        .filter(Boolean);
-      const peopleIds = [...new Set(
-        sourceIds.flatMap(sourceId => {
-          const source = sourceMap.get(sourceId);
-          if (!source) return [];
-          return [...(source.author_ids || []), ...(source.mentioned_people_ids || [])];
-        })
-      )];
-      const peopleSlugs = peopleIds
-        .map((pid) => {
-          const person = peopleMap.get(pid);
-          return person ? getPersonSlug(person) : null;
-        })
-        .filter(Boolean);
-
-      items.push({
-        type: 'block',
-        title: data.title || id,
-        url,
-        summary: '',
-        primary_domain: data.primary_domain || null,
-        secondary_domains: Array.isArray(data.secondary_domains) ? data.secondary_domains : [],
-        people_slugs: peopleSlugs,
-        tags: (data.tags || []).concat(data.topics || []).concat(data.categories || []),
-      });
-    }
-  }
-
   // Concepts
   const conceptsDir = path.join(SRC, 'concepts');
   if (fs.existsSync(conceptsDir)) {
