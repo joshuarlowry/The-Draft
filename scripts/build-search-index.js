@@ -46,11 +46,52 @@ const parseFrontMatter = (content) => {
   }
 };
 
+const checkDuplicateIds = (items, source) => {
+  const ids = items.map(item => item.id).filter(Boolean);
+  const seen = new Set();
+  const duplicates = [];
+  for (const id of ids) {
+    if (seen.has(id)) {
+      duplicates.push(id);
+    }
+    seen.add(id);
+  }
+  if (duplicates.length > 0) {
+    console.warn(`⚠️  Warning: Duplicate IDs found in ${source}: ${duplicates.join(', ')}`);
+  }
+};
+
 const main = () => {
+  const startTime = Date.now();
   const people = loadYaml('people.yml');
   const sources = loadYaml('sources.yml');
   const sourceSummaries = loadYaml('source_summaries.yml');
   const citations = loadYaml('citations.yml');
+
+  // Check for duplicate IDs in data sources
+  checkDuplicateIds(citations, 'citations.yml');
+  checkDuplicateIds(sources, 'sources.yml');
+  checkDuplicateIds(people, 'people.yml');
+  checkDuplicateIds(sourceSummaries, 'source_summaries.yml');
+
+  // Build lookup maps for O(1) access
+  const citationMap = new Map(citations.map(c => [c.id, c]));
+  const sourceMap = new Map(sources.map(s => [s.id, s]));
+  const peopleMap = new Map(people.map(p => [p.id, p]));
+  const sourceSummaryMap = new Map(sourceSummaries.map(s => [s.source_id, s]));
+
+  // Pre-load all blocks to avoid duplicate file reads
+  const blockCache = new Map();
+  const blocksDir = path.join(SRC, 'blocks', 'argument');
+  if (fs.existsSync(blocksDir)) {
+    const blockFiles = fs.readdirSync(blocksDir).filter(f => f.endsWith('.md'));
+    for (const file of blockFiles) {
+      const blockId = file.replace(/\.md$/, '');
+      const content = fs.readFileSync(path.join(blocksDir, file), 'utf8');
+      const data = parseFrontMatter(content);
+      blockCache.set(blockId, { id: blockId, data });
+    }
+  }
 
   const items = [];
 
@@ -65,23 +106,29 @@ const main = () => {
       const url = `${PATH_PREFIX}articles/${id}/`;
       const blockIds = data.blocks || [];
       const articleSourceIds = blockIds.flatMap((blockId) => {
-        const blockFile = path.join(SRC, 'blocks', 'argument', `${blockId}.md`);
-        if (!fs.existsSync(blockFile)) return [];
-        const blockData = parseFrontMatter(fs.readFileSync(blockFile, 'utf8'));
-        const citationIds = blockData.citations || [];
+        const cachedBlock = blockCache.get(blockId);
+        if (!cachedBlock) return [];
+        const citationIds = cachedBlock.data.citations || [];
         return citationIds
-          .map((cid) => (citations.find((c) => c.id === cid) || {}).source_id)
+          .map((cid) => {
+            const citation = citationMap.get(cid);
+            return citation ? citation.source_id : null;
+          })
           .filter(Boolean);
       });
       const articlePeopleIds = [...new Set(
-        (sources || [])
-          .filter((s) => articleSourceIds.includes(s.id))
-          .flatMap((s) => [...(s.author_ids || []), ...(s.mentioned_people_ids || [])])
+        articleSourceIds.flatMap(sourceId => {
+          const source = sourceMap.get(sourceId);
+          if (!source) return [];
+          return [...(source.author_ids || []), ...(source.mentioned_people_ids || [])];
+        })
       )];
       const peopleSlugs = articlePeopleIds
-        .map((pid) => people.find((p) => p.id === pid))
-        .filter(Boolean)
-        .map(getPersonSlug);
+        .map((pid) => {
+          const person = peopleMap.get(pid);
+          return person ? getPersonSlug(person) : null;
+        })
+        .filter(Boolean);
 
       items.push({
         type: 'article',
@@ -96,28 +143,32 @@ const main = () => {
     }
   }
 
-  // Blocks
-  const blocksDir = path.join(SRC, 'blocks', 'argument');
-  if (fs.existsSync(blocksDir)) {
-    const files = fs.readdirSync(blocksDir).filter((f) => f.endsWith('.md'));
-    for (const file of files) {
-      const content = fs.readFileSync(path.join(blocksDir, file), 'utf8');
-      const data = parseFrontMatter(content);
-      const id = data.id || file.replace(/\.md$/, '');
+  // Blocks (process cached blocks)
+  if (blockCache.size > 0) {
+    for (const [blockId, cachedBlock] of blockCache) {
+      const { data } = cachedBlock;
+      const id = data.id || blockId;
       const url = `${PATH_PREFIX}blocks/argument/${id}/`;
       const citationIds = data.citations || [];
       const sourceIds = citationIds
-        .map((cid) => (citations.find((c) => c.id === cid) || {}).source_id)
+        .map((cid) => {
+          const citation = citationMap.get(cid);
+          return citation ? citation.source_id : null;
+        })
         .filter(Boolean);
       const peopleIds = [...new Set(
-        (sources || [])
-          .filter((s) => sourceIds.includes(s.id))
-          .flatMap((s) => [...(s.author_ids || []), ...(s.mentioned_people_ids || [])])
+        sourceIds.flatMap(sourceId => {
+          const source = sourceMap.get(sourceId);
+          if (!source) return [];
+          return [...(source.author_ids || []), ...(source.mentioned_people_ids || [])];
+        })
       )];
       const peopleSlugs = peopleIds
-        .map((pid) => people.find((p) => p.id === pid))
-        .filter(Boolean)
-        .map(getPersonSlug);
+        .map((pid) => {
+          const person = peopleMap.get(pid);
+          return person ? getPersonSlug(person) : null;
+        })
+        .filter(Boolean);
 
       items.push({
         type: 'block',
@@ -174,13 +225,15 @@ const main = () => {
 
   // Sources (with summaries)
   for (const source of sources || []) {
-    const summary = (sourceSummaries || []).find((s) => s.source_id === source.id);
+    const summary = sourceSummaryMap.get(source.id);
     const url = `${PATH_PREFIX}summaries/${source.id}/`;
     const peopleIds = [...(source.author_ids || []), ...(source.mentioned_people_ids || [])];
     const peopleSlugs = peopleIds
-      .map((pid) => people.find((p) => p.id === pid))
-      .filter(Boolean)
-      .map(getPersonSlug);
+      .map((pid) => {
+        const person = peopleMap.get(pid);
+        return person ? getPersonSlug(person) : null;
+      })
+      .filter(Boolean);
 
     items.push({
       type: 'source',
@@ -199,7 +252,8 @@ const main = () => {
   }
   const outPath = path.join(DIST, 'search-index.json');
   fs.writeFileSync(outPath, JSON.stringify({ items }, null, 2), 'utf8');
-  console.log(`Wrote ${items.length} items to ${outPath}`);
+  const duration = Date.now() - startTime;
+  console.log(`Wrote ${items.length} items to ${outPath} in ${duration}ms`);
 };
 
 main();
