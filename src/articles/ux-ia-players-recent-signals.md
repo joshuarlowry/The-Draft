@@ -1,8 +1,8 @@
 ---
 layout: layouts/article.njk
 id: ux-ia-players-recent-signals
-title: 'UX and IA Signals: Strategy, Evidence, and Structure'
-summary: 'A broader UX/IA source mix reinforces the same pattern: use AI to widen coverage, but keep strategic judgment and user-validated structure in control.'
+title: 'Strategic UX and Evidence-Based IA Keep AI Delivery Honest'
+summary: 'AI can speed UX and IA work, but outcomes improve only when teams lead with strategy, measure impact, and validate structure against user evidence.'
 primary_domain: ux
 secondary_domains:
   - ia

@@ -50,7 +50,8 @@ Treat an article as needing revision if you see any of the following:
 
 Use this checklist before committing article changes:
 
-- [ ] Title and summary describe the substantive thesis, not the editing process
+- [ ] Title makes a clear claim (not a vague topic label) and summary states the core thesis
+- [ ] Title/summary language describes the argument, not the editing process
 - [ ] Intro/outro contain synthesis only, not uncited factual expansion
 - [ ] Block order supports a clear argument arc (strategy -> measures -> methods -> structure)
 - [ ] Major argument blocks use multiple supporting sources when available
