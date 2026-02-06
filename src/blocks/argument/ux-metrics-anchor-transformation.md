@@ -17,8 +17,11 @@ tags:
   - ux-governance
 citations:
   - centercentre_strategic_ux_metrics_quote
+  - nngroup_baymard_ai_accuracy_quote
 ---
 
-Transformation work drifts quickly without shared instrumentation. Strategic UX teams reduce that drift by defining top-level metrics tied to concrete experience improvements.
+Transformation work drifts quickly without shared instrumentation. Strategic UX teams reduce that drift by defining top-level metrics tied to concrete experience improvements, then using reliability and accountability standards when evaluating AI-assisted UX tooling.
 
 [[cite:centercentre_strategic_ux_metrics_quote]]
+
+[[cite:nngroup_baymard_ai_accuracy_quote]]

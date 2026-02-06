@@ -17,8 +17,11 @@ tags:
   - ux-careers
 citations:
   - centercentre_experience_strategy_growth_quote
+  - dora_ai_amplifier_quote
 ---
 
-A strong signal from current practice is that experience strategy is no longer niche. Teams need people who can guide priorities and frame decisions, not only produce artifacts.
+Experience strategy is no longer niche work. As organizations increase AI-assisted execution speed, they need practitioners who can set direction, define tradeoffs, and ensure accelerated delivery is matched by stronger organizational capability.
 
 [[cite:centercentre_experience_strategy_growth_quote]]
+
+[[cite:dora_ai_amplifier_quote]]
