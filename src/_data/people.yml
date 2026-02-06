@@ -493,3 +493,33 @@
     - title: 'AI alignment forum'
       url: 'https://www.alignmentforum.org/'
       year: ''
+
+- id: maria_rosala
+  name: 'Maria Rosala'
+  links:
+    - label: 'AI-Moderated Interviews: If, When, and How to Use Them'
+      url: 'https://www.nngroup.com/articles/ai-interviewers/'
+
+- id: kate_moran
+  name: 'Kate Moran'
+  links:
+    - label: 'Demand Accuracy in Your AI Tools: Lessons from Baymard Institute'
+      url: 'https://www.nngroup.com/articles/baymard-ai-tool-accuracy/'
+
+- id: samhita_tankala
+  name: 'Samhita Tankala'
+  links:
+    - label: "Card Sorting: Uncover Users' Mental Models for Better Information Architecture"
+      url: 'https://www.nngroup.com/articles/card-sorting-definition/'
+
+- id: katie_sherwin
+  name: 'Katie Sherwin'
+  links:
+    - label: "Card Sorting: Uncover Users' Mental Models for Better Information Architecture"
+      url: 'https://www.nngroup.com/articles/card-sorting-definition/'
+
+- id: christian_holst
+  name: 'Christian Holst'
+  links:
+    - label: 'Demand Accuracy in Your AI Tools: Lessons from Baymard Institute'
+      url: 'https://www.nngroup.com/articles/baymard-ai-tool-accuracy/'

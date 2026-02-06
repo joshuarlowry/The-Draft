@@ -816,3 +816,102 @@
     - cross-domain-calibration
   reading_descriptions:
     cross-domain-calibration: 'Identifies key UX distinctions between conventional AI (assistive, reactive) and agentic AI (autonomous, proactive).'
+
+- id: nngroup_ai_moderated_interviews
+  author: 'Maria Rosala'
+  author_ids:
+    - maria_rosala
+  title: 'AI-Moderated Interviews: If, When, and How to Use Them'
+  publisher: 'Nielsen Norman Group'
+  published: '2026-01-30'
+  accessed: '2026-02-05'
+  url: 'https://www.nngroup.com/articles/ai-interviewers/'
+  tags:
+    - usability-inspection
+    - responsibility-oversight
+  reading_descriptions:
+    usability-inspection: 'Explains where AI-moderated interviews can accelerate discovery work and where human-led depth remains necessary.'
+    responsibility-oversight: 'Frames AI research facilitation as augmentation rather than replacement, with human accountability for quality.'
+
+- id: nngroup_baymard_ai_tool_accuracy
+  author: 'Kate Moran'
+  author_ids:
+    - kate_moran
+  mentioned_people_ids:
+    - christian_holst
+  title: 'Demand Accuracy in Your AI Tools: Lessons from Baymard Institute'
+  publisher: 'Nielsen Norman Group'
+  published: '2026-01-30'
+  accessed: '2026-02-05'
+  url: 'https://www.nngroup.com/articles/baymard-ai-tool-accuracy/'
+  tags:
+    - responsibility-oversight
+    - governance-guardrails
+  reading_descriptions:
+    responsibility-oversight: 'Argues that UX teams should verify AI research and design outputs instead of accepting vendor claims at face value.'
+    governance-guardrails: 'Encourages procurement and governance standards that require transparency and measured accuracy from AI UX tools.'
+
+- id: nngroup_card_sorting_mental_models
+  author: 'Samhita Tankala, Katie Sherwin'
+  author_ids:
+    - samhita_tankala
+    - katie_sherwin
+  title: "Card Sorting: Uncover Users' Mental Models for Better Information Architecture"
+  publisher: 'Nielsen Norman Group'
+  published: '2024-02-02'
+  accessed: '2026-02-05'
+  url: 'https://www.nngroup.com/articles/card-sorting-definition/'
+  tags:
+    - planning-and-structure
+    - usability-inspection
+  reading_descriptions:
+    planning-and-structure: 'Shows how card sorting grounds IA decisions in user mental models before teams commit to navigation structures.'
+    usability-inspection: 'Defines a practical IA research method that reduces taxonomy drift before usability testing and implementation.'
+
+- id: centercentre_future_must_be_strategic
+  author: 'Jared M. Spool'
+  author_ids:
+    - jared_spool
+  title: 'For UX, the Future Must Be Strategic'
+  publisher: 'Center Centre'
+  published: '2025-05-28'
+  accessed: '2026-02-06'
+  url: 'https://articles.centercentre.com/for-ux-the-future-must-be-strategic/'
+  tags:
+    - responsibility-oversight
+    - planning-and-structure
+  reading_descriptions:
+    responsibility-oversight: 'Argues that UX teams must move from tactical handoff roles to strategic leadership in organizational decisions.'
+    planning-and-structure: 'Defines strategic UX around outcomes, vision, and proactive research instead of output-driven feature factory work.'
+
+- id: centercentre_strategic_ux_upgrade
+  author: 'Jared M. Spool'
+  author_ids:
+    - jared_spool
+  title: 'The Benefits of a Strategic UX Upgrade'
+  publisher: 'Center Centre'
+  published: '2025-11-05'
+  accessed: '2026-02-06'
+  url: 'https://articles.centercentre.com/the-benefits-of-a-strategic-ux-upgrade/'
+  tags:
+    - responsibility-oversight
+    - engineering-judgment
+  reading_descriptions:
+    responsibility-oversight: 'Explains how strategic UX teams become trusted partners for transformation decisions by linking experience improvements to business outcomes.'
+    engineering-judgment: 'Highlights explicit measurement practices that tie user-experience improvements to measurable organizational progress.'
+
+- id: centercentre_experience_strategy_branch
+  author: 'Jared M. Spool'
+  author_ids:
+    - jared_spool
+  title: 'Experience Strategy Is an Emerging Branch of UX'
+  publisher: 'Center Centre'
+  published: '2026-02-05'
+  accessed: '2026-02-06'
+  url: 'https://articles.centercentre.com/experience-strategy-is-an-emerging-branch-of-ux/'
+  tags:
+    - ai-production-scale
+    - planning-and-structure
+  reading_descriptions:
+    ai-production-scale: 'Positions experience strategy as a growing senior UX capability needed for AI-era organizational change.'
+    planning-and-structure: 'Describes proactive strategic behavior in UX: stepping into ambiguous transformation work before formal invitation.'
