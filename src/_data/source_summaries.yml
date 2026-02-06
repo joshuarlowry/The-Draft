@@ -1364,3 +1364,125 @@
   categories:
     - governance-guardrails
   source_type: paper
+
+- source_id: nngroup_ai_moderated_interviews
+  source_type: article
+  summary: NN/g explains that AI-moderated interviews can speed up feedback collection but should not replace human-led qualitative interviewing.
+  long_summary: This article by Maria Rosala discusses when AI-moderated interviews are useful and where they fall short compared with human-led semistructured interviews. It positions AI moderation as a scaling tool for early signal gathering, while emphasizing that nuanced probing, contextual interpretation, and synthesis still require experienced researchers. For The Draft, it reinforces the broader pattern that AI can accelerate process steps, but human judgment remains responsible for quality and meaning.
+  key_takeaways:
+    - Use AI-moderated interviews to gather fast directional feedback across larger participant pools
+    - Preserve human-led semistructured interviews for depth, nuance, and follow-up probing
+    - Treat AI facilitation as a research accelerator rather than a replacement for researcher judgment
+  relevance: This source supports The Draft's UX perspective that speed gains from AI only hold when teams preserve human oversight at interpretation and decision points.
+  tags:
+    - ux-research
+    - ai-moderation
+  topics:
+    - ux
+    - research-operations
+  categories:
+    - usability-inspection
+  notable_quotes:
+    - "AI interviews offer faster feedback at scale, but they're not a replacement for in-depth, human-led semistructured interviews."
+
+- source_id: nngroup_baymard_ai_tool_accuracy
+  source_type: article
+  summary: NN/g urges UX teams to demand transparent, validated accuracy claims from AI tools before relying on them for product decisions.
+  long_summary: >-
+    In this piece, Kate Moran uses Baymard Institute's benchmarking examples to argue that many AI UX tools are marketed with weak evidence. The article encourages teams to evaluate precision, transparency, and reproducibility before adopting AI outputs in design workflows. It reframes procurement as a UX quality decision: if teams cannot verify tool reliability, they should not let those outputs drive user-facing choices.
+  key_takeaways:
+    - Demand evidence-backed accuracy metrics before adopting AI design or research tools
+    - Verify AI outputs against trusted benchmarks instead of relying on vendor messaging
+    - Make transparency and accountability part of UX tooling governance
+  relevance: This source aligns with The Draft's guardrail-oriented approach by connecting UX practice to explicit evaluation criteria, oversight, and governance.
+  tags:
+    - ux-tools
+    - ai-quality
+  topics:
+    - ux
+    - tooling-governance
+  categories:
+    - responsibility-oversight
+  notable_quotes:
+    - "Most AI-powered tools for UX lack reliability and accountability in their outputs. Demand transparency and proven accuracy, or don't buy it."
+
+- source_id: nngroup_card_sorting_mental_models
+  source_type: article
+  summary: NN/g defines card sorting as a method for aligning information architecture with users' mental models.
+  long_summary: This NN/g article explains card sorting as a foundational IA method in which participants organize topics into groups that reflect how they think about information. The method helps teams shape navigation and taxonomy before implementation, reducing misalignment between product structures and user expectations. In The Draft context, it illustrates that IA quality still comes from user-centered framing, even when AI can accelerate downstream execution.
+  key_takeaways:
+    - Use card sorting to expose user mental models before finalizing IA structures
+    - Translate grouped topics into navigation and taxonomy decisions that mirror user expectations
+    - Reduce rework by validating IA assumptions before build and content production phases
+  relevance: This source grounds IA decisions in user evidence, reinforcing The Draft's emphasis on planning-first structure instead of post-hoc correction.
+  tags:
+    - information-architecture
+    - card-sorting
+  topics:
+    - ia
+    - ux-research
+  categories:
+    - planning-and-structure
+  notable_quotes:
+    - "In a card-sorting study, users organize topics into groups. Use this research method to create an information architecture that suits your users' expectations."
+
+- source_id: centercentre_future_must_be_strategic
+  source_type: article
+  summary: Jared Spool argues that UX must shift from tactical output production to strategic leadership focused on outcomes.
+  long_summary: In this Center Centre article, Spool contrasts tactical UX teams (deliverable and handoff oriented) with strategic UX teams that lead organizational direction through research-informed vision and outcome ownership. He frames strategic UX as a response to current volatility and AI-era pressure, where shipping faster is insufficient without intentional outcome governance. The article gives concrete language for repositioning UX from service bureau to strategic contributor.
+  key_takeaways:
+    - Reframe UX success around outcomes delivered for users and organizations instead of output volume
+    - Position UX as a proactive strategic partner rather than a reactive delivery function
+    - Anchor design direction in deep understanding of user experiences across the transformation lifecycle
+  relevance: This source maps directly to The Draft's emphasis on guardrails and planning-first practice by showing that strategic framing must come before accelerated AI execution.
+  tags:
+    - strategic-ux
+    - outcomes-over-outputs
+  topics:
+    - ux
+    - leadership
+  categories:
+    - responsibility-oversight
+  notable_quotes:
+    - 'For UX, something must change. UX must become strategic.'
+
+- source_id: centercentre_strategic_ux_upgrade
+  source_type: article
+  summary: Spool details how strategic UX teams contribute to enterprise transformation by defining outcome metrics tied to lived user experience.
+  long_summary: Using a large transformation scenario, this article explains why strategic UX teams are invited into executive decision loops while tactical teams are not. Spool highlights practices such as proactive research, long-horizon vision, and top-level measurement systems that connect UX improvements to business progress. The piece is useful for teams building cross-functional trust because it shows how UX can become a measurable strategic capability.
+  key_takeaways:
+    - Establish organization-level UX metrics that track meaningful experience improvements over time
+    - Connect each UX improvement to both user outcomes and business objectives
+    - Elevate UX credibility by providing strategic evidence before major implementation programs begin
+  relevance: >-
+    This supports The Draft's argument that oversight is operational, not rhetorical: teams need measurable guardrails that connect user impact to strategic execution.
+  tags:
+    - strategic-ux
+    - measurement
+  topics:
+    - ux
+    - transformation
+  categories:
+    - engineering-judgment
+  notable_quotes:
+    - 'The strategic UX teams also establish the organization’s top-level metrics, tracking the improvements each team deploys during the transformation.'
+
+- source_id: centercentre_experience_strategy_branch
+  source_type: article
+  summary: Spool positions experience strategy as a fast-growing branch of UX driven by practitioners stepping into strategic work without formal permission.
+  long_summary: This article describes the rise of experience strategy and the behavioral shift it requires from UX practitioners. Spool argues that strategists focus on organizational priorities, opportunity discovery, and proactive influence rather than waiting for project assignments. For The Draft, the source is valuable because it links AI-era uncertainty with the need for leadership behaviors that keep teams oriented around user-centered outcomes.
+  key_takeaways:
+    - Recognize experience strategy as a growing UX specialization with increasing organizational demand
+    - Step into strategic opportunities proactively instead of waiting for role formalization
+    - Build strategist capability through deliberate skill development in influence, research, and decision framing
+  relevance: This source reinforces The Draft's planning-and-oversight lens by showing that role clarity and proactive leadership are prerequisites to responsible AI-accelerated delivery.
+  tags:
+    - experience-strategy
+    - career-paths
+  topics:
+    - ux
+    - organizational-design
+  categories:
+    - planning-and-structure
+  notable_quotes:
+    - 'Experience strategy is definitely a growing branch of UX.'

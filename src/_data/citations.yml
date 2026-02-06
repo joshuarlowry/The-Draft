@@ -89,3 +89,27 @@
 - id: kiro_spec_driven_weekend_quote
   quote: 'Thanks to Kiro’s spec-driven development, I was able to go from concept to working prototype in a single weekend.'
   source_id: kiro_agentic_ai_development
+
+- id: nngroup_ai_moderated_interviews_quote
+  quote: "AI interviews offer faster feedback at scale, but they're not a replacement for in-depth, human-led semistructured interviews."
+  source_id: nngroup_ai_moderated_interviews
+
+- id: nngroup_baymard_ai_accuracy_quote
+  quote: "Most AI-powered tools for UX lack reliability and accountability in their outputs. Demand transparency and proven accuracy, or don't buy it."
+  source_id: nngroup_baymard_ai_tool_accuracy
+
+- id: nngroup_card_sorting_ia_quote
+  quote: "In a card-sorting study, users organize topics into groups. Use this research method to create an information architecture that suits your users' expectations."
+  source_id: nngroup_card_sorting_mental_models
+
+- id: centercentre_future_must_be_strategic_quote
+  quote: 'For UX, something must change. UX must become strategic.'
+  source_id: centercentre_future_must_be_strategic
+
+- id: centercentre_strategic_ux_metrics_quote
+  quote: 'The strategic UX teams also establish the organization’s top-level metrics, tracking the improvements each team deploys during the transformation.'
+  source_id: centercentre_strategic_ux_upgrade
+
+- id: centercentre_experience_strategy_growth_quote
+  quote: 'Experience strategy is definitely a growing branch of UX.'
+  source_id: centercentre_experience_strategy_branch
