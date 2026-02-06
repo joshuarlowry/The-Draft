@@ -22,11 +22,15 @@ A good article in this repo should:
    - Use argument blocks with explicit citations rather than ad hoc article prose.
    - Ensure factual claims are anchored to quotes/sources already cataloged in `_data`.
 
-4. **Keep framing concise and non-defensive**
+4. **Triangulate major claims with more than one source voice**
+   - For substantive argument blocks, prefer 2+ supporting sources when available.
+   - Avoid blocks that merely restate one source's wording without added synthesis.
+
+5. **Keep framing concise and non-defensive**
    - Intro/outro should orient the reader and synthesize implications.
    - Avoid awkward language that apologizes for prior drafts or calls out internal process.
 
-5. **Preserve separation of concerns**
+6. **Preserve separation of concerns**
    - Source cataloging happens first (`sources.yml`, `source_summaries.yml`).
    - Articles then assemble validated blocks and reading context.
 
@@ -38,6 +42,7 @@ Treat an article as needing revision if you see any of the following:
   - Example pattern: "The earlier draft was too focused on..."
 - **Novel claims in intro/outro without supporting blocks/citations**
 - **Single-source perspective presented as broad consensus**
+- **Single-quote blocks that paraphrase one source without triangulation**
 - **Time-window framing ('recent signals') that weakens evergreen value** unless recency is the core thesis
 - **Repeated prose where a reusable block should be used**
 
@@ -48,6 +53,7 @@ Use this checklist before committing article changes:
 - [ ] Title and summary describe the substantive thesis, not the editing process
 - [ ] Intro/outro contain synthesis only, not uncited factual expansion
 - [ ] Block order supports a clear argument arc (strategy -> measures -> methods -> structure)
+- [ ] Major argument blocks use multiple supporting sources when available
 - [ ] Sources reflect reasonable diversity for the claim scope
 - [ ] Citations and reading references resolve to canonical source IDs
 - [ ] `npm run lint` passes

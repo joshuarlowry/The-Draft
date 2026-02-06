@@ -18,8 +18,11 @@ tags:
   - outcomes-over-outputs
 citations:
   - centercentre_future_must_be_strategic_quote
+  - dora_ai_amplifier_quote
 ---
 
-When UX teams operate only as a handoff function, they lose strategic influence and default to output metrics. A better model is to lead with user-outcome direction before deciding what to ship.
+When UX teams operate only as a handoff function, they lose strategic influence and default to output metrics. A stronger posture pairs strategic UX leadership with organizational capability-building so AI acceleration improves outcomes instead of just increasing throughput.
 
 [[cite:centercentre_future_must_be_strategic_quote]]
+
+[[cite:dora_ai_amplifier_quote]]
