@@ -212,6 +212,10 @@ The workflow in `.github/workflows/pages.yml` will:
 3. Build with Eleventy
 4. Deploy the `dist/` output to GitHub Pages
 
+## Article Quality Standards
+
+For article-writing expectations (including a good-vs-bad rubric and pre-merge checklist), see `docs/article-quality-guide.md`.
+
 ## Design Principles
 
 - **Single source of truth**: Citations and reading sources are stored once
