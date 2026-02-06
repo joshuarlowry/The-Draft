@@ -1,8 +1,8 @@
 ---
 layout: layouts/article.njk
-id: ux-ia-players-recent-signals
-title: 'Strategic UX and Evidence-Based IA Keep AI Delivery Honest'
-summary: 'AI can speed UX and IA work, but outcomes improve only when teams lead with strategy, measure impact, and validate structure against user evidence.'
+id: ai-ux-ia-strategy-over-speed
+title: 'AI UX/IA Success Comes from Strategy and Evidence, Not Speed Alone'
+summary: 'This article argues that AI improves UX/IA outcomes only when teams combine strategic UX leadership, measurable experience goals, and evidence-backed IA validation.'
 primary_domain: ux
 secondary_domains:
   - ia
@@ -11,8 +11,8 @@ perspective: hybrid
 overlap_angle: 'UX practice and IA structure share one challenge: integrating AI acceleration without surrendering evidence quality or strategic direction.'
 classification_rationale: 'Primary domain is UX because the article centers on research and leadership decisions. IA and agentic are secondary because structure design and AI operations are tightly coupled in implementation.'
 intro: |
-  <p>Strong UX and IA practice depends on a balanced evidence base: strategic leadership perspectives, method-level usability guidance, and structure-level IA validation.</p>
-  <p>The synthesis across these sources is consistent: strategic UX direction first, explicit measurement second, scalable AI methods third.</p>
+  <p>This article makes one claim: AI-accelerated UX and IA work produces better outcomes only when strategy and evidence stay in charge of execution.</p>
+  <p>Across the included sources, the same sequence appears repeatedly: set strategic UX direction, track impact with explicit metrics, then scale AI-assisted methods while validating IA structure with users.</p>
 blocks:
   - strategic-ux-over-tactical-output
   - ux-metrics-anchor-transformation
@@ -24,7 +24,7 @@ reading_tags:
   - engineering-judgment
   - planning-and-structure
   - usability-inspection
-reading_intro: 'These readings combine strategic UX leadership perspectives with practical method guidance on interview depth and IA structure.'
+reading_intro: 'These readings support the core thesis by combining strategic UX leadership, measurement discipline, AI-method limits, and user-validated IA practice.'
 outro: |
   <p class="reading-conclusion">AI can accelerate UX and IA execution, but teams still need strategic leadership, measurement discipline, and user-centered IA evidence to keep speed aligned with outcomes.</p>
 ---
