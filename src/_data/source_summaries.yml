@@ -1486,3 +1486,119 @@
     - planning-and-structure
   notable_quotes:
     - 'Experience strategy is definitely a growing branch of UX.'
+
+- source_id: give_your_llm_a_terminal
+  source_type: article
+  summary: Matt Westcott argues that terminal access with a persistent filesystem
+    is a uniquely powerful tool for LLMs, outperforming pixel-based computer use by
+    aligning with text- and code-centric strengths.
+  long_summary: Westcott traces the evolution of LLM tooling from chat to code execution
+    and computer-use interfaces, then makes the case that a shell plus filesystem
+    is a more effective interface for agentic work. He highlights how command-line
+    tools enable durable memory via files, rich text manipulation, and repeatable
+    workflows without bespoke tool integrations. He contrasts terminal access with
+    pixel-based interfaces, which remain slow and error-prone for text-heavy tasks.
+  key_takeaways:
+    - Argue that command-line access is the most powerful tool available to LLMs today
+    - Emphasize persistent files as a practical memory substrate for longer workflows
+    - Highlight Unix text tools as a natural fit for LLM-driven manipulation and search
+    - Contrast terminal workflows with pixel-based computer use that struggles with
+      precision and scale
+  relevance: Reinforces The Draft’s focus on structured, tool-driven agent workflows
+    by showing why text-native interfaces can outperform GUI automation for reliability
+    and speed.
+  tags:
+    - terminal
+    - agentic-tools
+    - tooling
+  topics:
+    - cli
+    - terminal-ui
+    - agent-workflows
+  categories:
+    - terminal-interfaces
+
+- source_id: learn_to_love_cli_agentic_llms
+  source_type: article
+  summary: David Eastman positions the command line as the center of agentic LLM
+    workflows, arguing that the CLI’s structured tasks and clear outcomes match how
+    LLMs operate best.
+  long_summary: In this New Stack article, Eastman reports a shift in developer tooling
+    toward CLI-first agent workflows, highlighting products like Claude Code, Codex,
+    Gemini CLI, and Warp. He argues that the command line is the most effective place
+    for LLM interaction because tasks there are defined, outcomes are clear, and the
+    interface rewards precise execution. The piece frames the CLI as the heart of
+    an “agentic development environment.”
+  key_takeaways:
+    - Position the CLI as the center of the LLM workbench rather than the IDE
+    - Argue that defined tasks with clear outcomes make CLI environments LLM-friendly
+    - Cite a growing set of agentic tools competing in the terminal workflow space
+    - Frame terminal-first workflows as a practical response to agentic development
+      trends
+  relevance: Supports The Draft’s emphasis on workflow design by showing that CLI
+    surfaces provide structured guardrails and clearer intent for agentic execution.
+  tags:
+    - developer-tools
+    - agentic-workflows
+    - terminal
+  topics:
+    - cli
+    - agentic-development
+    - devtools
+  categories:
+    - terminal-interfaces
+
+- source_id: nvidia_cli_agent_training
+  source_type: article
+  summary: NVIDIA’s developer blog outlines how to train a computer-use agent to
+    operate a new CLI safely using synthetic data and reinforcement learning with
+    verifiable rewards.
+  long_summary: The post describes a follow-on tutorial that teaches a reasoning model
+    to operate the LangGraph Platform CLI, focusing on safe, verifiable command execution.
+    It explains why synthetic data generation and reinforcement learning are suited
+    to CLI command accuracy, and presents a human-in-the-loop pattern for confirming
+    actions. The piece positions CLI-specific training as a path to specialized,
+    dependable agent behavior.
+  key_takeaways:
+    - Demonstrate how LLM agents can be specialized to operate new CLI tools safely
+    - Use human-in-the-loop confirmation as a guardrail for command execution
+    - Emphasize synthetic data and verifiable rewards to improve command accuracy
+    - Frame CLI specialization as a repeatable path for enterprise tooling adoption
+  relevance: Shows how agent training is converging on CLI interfaces with built-in
+    verification, reinforcing The Draft’s focus on guardrails and reliable execution.
+  tags:
+    - training
+    - reinforcement-learning
+    - cli
+  topics:
+    - agent-training
+    - command-interfaces
+    - safety
+  categories:
+    - terminal-interfaces
+
+- source_id: llm_cli_tool_docs
+  source_type: documentation
+  summary: The LLM documentation presents a CLI-first toolchain for running prompts
+    and tool calls across multiple model providers from the terminal.
+  long_summary: The docs introduce LLM as both a CLI utility and Python library for
+    interacting with a wide range of hosted and local models. It highlights command-line
+    prompt execution, logging, embeddings, and tool support, reinforcing the terminal
+    as a practical interface for multi-model workflows and automation.
+  key_takeaways:
+    - Provide a CLI tool that unifies access to multiple LLM providers
+    - Enable direct prompt execution from the command line as a primary workflow
+    - Support tool execution and logging to make terminal sessions reproducible
+    - Position the terminal as a flexible surface for LLM experimentation
+  relevance: Demonstrates the growing ecosystem of CLI-first LLM tooling, aligning
+    with The Draft’s focus on structured interfaces that make agent workflows repeatable.
+  tags:
+    - documentation
+    - tooling
+    - cli
+  topics:
+    - llm-tools
+    - terminal-ui
+    - developer-experience
+  categories:
+    - terminal-interfaces

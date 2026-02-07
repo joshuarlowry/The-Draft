@@ -33,3 +33,7 @@
 - id: cross-domain-calibration
   title: 'Cross-Domain Calibration: UX and Agentic AI'
   description: 'Articles that bridge UX research and agentic AI, exploring how design principles and user experience models must adapt when systems act with greater autonomy.'
+
+- id: terminal-interfaces
+  title: 'Terminal Interfaces for Agentic Work'
+  description: 'Sources that argue command-line and terminal interfaces are becoming a primary surface for LLM and agent workflows.'

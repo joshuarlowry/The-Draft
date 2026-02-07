@@ -523,3 +523,29 @@
   links:
     - label: 'Demand Accuracy in Your AI Tools: Lessons from Baymard Institute'
       url: 'https://www.nngroup.com/articles/baymard-ai-tool-accuracy/'
+
+- id: david_eastman
+  name: 'David Eastman'
+  links:
+    - label: 'Learn To Love the Command-Line Interface With Agentic LLMs'
+      url: 'https://thenewstack.io/learn-to-love-the-command-line-interface-with-agentic-llms/'
+
+- id: matt_westcott
+  name: 'Matt Westcott'
+  links:
+    - label: 'Give your LLM a terminal'
+      url: 'https://mattwestcott.org/blog/give-your-llm-a-terminal'
+
+- id: simon_willison
+  name: 'Simon Willison'
+  links:
+    - label: 'LLM documentation'
+      url: 'https://llm.datasette.io/en/stable/'
+    - label: 'Language models on the command-line'
+      url: 'https://simonwillison.net/2024/Jun/17/cli-language-models/'
+
+- id: zach_lloyd
+  name: 'Zach Lloyd'
+  links:
+    - label: 'Q&A: How Warp 2.0 compares to Claude Code and Gemini CLI'
+      url: 'https://thenewstack.io/qa-how-warp-2-0-compares-to-claude-code-and-gemini-cli/'

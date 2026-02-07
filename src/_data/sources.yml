@@ -915,3 +915,54 @@
   reading_descriptions:
     ai-production-scale: 'Positions experience strategy as a growing senior UX capability needed for AI-era organizational change.'
     planning-and-structure: 'Describes proactive strategic behavior in UX: stepping into ambiguous transformation work before formal invitation.'
+
+- id: give_your_llm_a_terminal
+  author: 'Matt Westcott'
+  author_ids:
+    - matt_westcott
+  title: 'Give your LLM a terminal'
+  published: '2025-05-28'
+  accessed: '2026-02-06'
+  url: 'https://mattwestcott.org/blog/give-your-llm-a-terminal'
+  tags:
+    - terminal-interfaces
+  reading_descriptions:
+    terminal-interfaces: 'Explains why command-line access with a persistent filesystem is a powerful, text-native workspace for LLMs.'
+
+- id: learn_to_love_cli_agentic_llms
+  author: 'David Eastman'
+  author_ids:
+    - david_eastman
+  title: 'Learn To Love the Command-Line Interface With Agentic LLMs'
+  publisher: 'The New Stack'
+  published: '2025-07-19'
+  accessed: '2026-02-06'
+  url: 'https://thenewstack.io/learn-to-love-the-command-line-interface-with-agentic-llms/'
+  tags:
+    - terminal-interfaces
+  reading_descriptions:
+    terminal-interfaces: 'Positions the CLI as the center of agentic development workflows and explains why structured tasks suit LLMs.'
+
+- id: nvidia_cli_agent_training
+  title: 'How to Train an AI Agent for Command-Line Tasks with Synthetic Data and Reinforcement Learning'
+  publisher: 'NVIDIA Developer Blog'
+  published: '2026-01-15'
+  accessed: '2026-02-06'
+  url: 'https://developer.nvidia.com/blog/how-to-train-an-ai-agent-for-command-line-tasks-with-synthetic-data-and-reinforcement-learning/'
+  tags:
+    - terminal-interfaces
+  reading_descriptions:
+    terminal-interfaces: 'Describes how agent training is adapting to CLI workflows with verifiable, human-in-the-loop command interfaces.'
+
+- id: llm_cli_tool_docs
+  author: 'Simon Willison'
+  author_ids:
+    - simon_willison
+  title: 'A CLI utility and Python library for interacting with Large Language Models'
+  publisher: 'LLM Documentation'
+  accessed: '2026-02-06'
+  url: 'https://llm.datasette.io/en/stable/'
+  tags:
+    - terminal-interfaces
+  reading_descriptions:
+    terminal-interfaces: 'Documents a CLI-first LLM toolchain that treats the terminal as a primary interface for model workflows.'

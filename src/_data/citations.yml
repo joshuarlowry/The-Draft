@@ -38,6 +38,38 @@
   quote: 'We demonstrate that this method significantly improves the accuracy and reliability of code assistants in real-world repositories, yielding higher single-shot success rates and better adherence to project context than baseline single-agent approaches.'
   source_id: arxiv_context_engineering_multi_agent
 
+- id: give_your_llm_a_terminal_power_quote
+  quote: 'Command-line access is the most powerful tool for LLMs'
+  source_id: give_your_llm_a_terminal
+
+- id: give_your_llm_a_terminal_filesystem_quote
+  quote: "But there's an overlooked toolset that might be more powerful than all of these: a terminal with a persistent filesystem."
+  source_id: give_your_llm_a_terminal
+
+- id: give_your_llm_a_terminal_pixel_quote
+  quote: "But pixel-based computer use is currently slow, error-prone, and struggles with tasks that require reading lots of text or precise interactions. It doesn't play to the strengths of LLMs, which excel at understanding and generating text and code."
+  source_id: give_your_llm_a_terminal
+
+- id: learn_to_love_cli_workbench_quote
+  quote: 'By all means let the IDE be where you let your code flow, but make the command-line interface (CLI) the centre of your LLM workbench.'
+  source_id: learn_to_love_cli_agentic_llms
+
+- id: learn_to_love_cli_defined_tasks_quote
+  quote: 'The CLI is where we do defined tasks. There is one desirable outcome, and probably one sensible way to achieve it.'
+  source_id: learn_to_love_cli_agentic_llms
+
+- id: nvidia_cli_agent_new_cli_quote
+  quote: 'What if your computer-use agent could learn a _new_ Command Line Interface (CLI)—and operate it safely without ever writing files or free-typing shell commands?'
+  source_id: nvidia_cli_agent_training
+
+- id: nvidia_cli_agent_human_loop_quote
+  quote: 'Instead of simple file operations, our new agent will learn to start local servers, build containers, and generate Dockerfiles—entirely through a _verifiable_, _human-in-the-loop_ command interface.'
+  source_id: nvidia_cli_agent_training
+
+- id: llm_cli_tool_docs_overview_quote
+  quote: 'A CLI tool and Python library for interacting with OpenAI, Anthropic’s Claude, Google’s Gemini, Meta’s Llama and dozens of other Large Language Models, both via remote APIs and with models that can be installed and run on your own machine.'
+  source_id: llm_cli_tool_docs
+
 - id: resttsllm_api_testing_quote
   quote: 'Exhaustive testing of all input combinations is impractical, often resulting in undetected failures, high manual effort, and limited test coverage.'
   source_id: arxiv_resttsllm_api_testing
