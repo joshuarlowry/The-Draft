@@ -966,3 +966,23 @@
     - terminal-interfaces
   reading_descriptions:
     terminal-interfaces: 'Documents a CLI-first LLM toolchain that treats the terminal as a primary interface for model workflows.'
+
+- id: anthropic_prompting_best_practices
+  title: 'Claude prompting best practices'
+  publisher: 'Anthropic'
+  accessed: '2026-02-08'
+  url: 'https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/claude-prompting-best-practices'
+  tags:
+    - planning-and-structure
+  reading_descriptions:
+    planning-and-structure: 'Anthropic guidance on explicit instructions, added context, and structured workflows for better agent outputs.'
+
+- id: promptingguide_general_tips
+  title: 'General Tips for Designing Prompts'
+  publisher: 'DAIR.AI'
+  accessed: '2026-02-08'
+  url: 'https://www.promptingguide.ai/introduction/tips'
+  tags:
+    - planning-and-structure
+  reading_descriptions:
+    planning-and-structure: 'Prompt Engineering Guide advice on specificity, iteration, and formatting to reduce ambiguity in model outputs.'
