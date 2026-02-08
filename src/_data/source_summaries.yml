@@ -1602,3 +1602,59 @@
     - developer-experience
   categories:
     - terminal-interfaces
+
+- source_id: anthropic_prompting_best_practices
+  source_type: documentation
+  summary: Anthropic’s Claude prompting guidance emphasizes explicit instructions,
+    added context, and structured workflows to improve model outputs.
+  long_summary: This Anthropic documentation page outlines prompt engineering
+    practices for Claude, stressing that clear, explicit instructions and contextual
+    motivation lead to more targeted results. It also discusses multi-context
+    workflows, suggesting structured state tracking and incremental progress so
+    longer tasks remain aligned with expectations over multiple iterations.
+  key_takeaways:
+    - Specify instructions explicitly to reduce ambiguity in model behavior
+    - Add context and motivation so the model understands intent and priorities
+    - Structure long tasks with incremental progress and state tracking
+    - Provide verification tooling guidance for longer autonomous runs
+  relevance: Reinforces The Draft’s focus on planning and oversight by showing how
+    explicit instructions and structured iteration reduce uncertainty in agentic
+    coding workflows.
+  tags:
+    - prompt-engineering
+    - instructions
+    - context
+  topics:
+    - ai-assisted-development
+    - workflow-design
+    - agent-oversight
+  categories:
+    - planning-and-structure
+
+- source_id: promptingguide_general_tips
+  source_type: article
+  summary: The Prompt Engineering Guide’s general tips stress specificity, iterative
+    refinement, and clear formatting to improve LLM responses.
+  long_summary: This guide advises practitioners to start with simple prompts and
+    iteratively add elements as needed, emphasizing that specificity and relevant
+    context typically yield better outcomes. It highlights the importance of
+    direct, descriptive instructions and recommends formatting techniques (such
+    as separators) to clarify intent and reduce ambiguity.
+  key_takeaways:
+    - Start with simple prompts and iteratively refine with added context
+    - Emphasize specificity and descriptive detail to improve output quality
+    - Use clear formatting and separators to distinguish instructions from context
+    - Experiment with wording and context to find the most reliable results
+  relevance: Connects directly to The Draft’s planning-first perspective by
+    showing how specificity and iterative refinement uncover hidden assumptions
+    and reduce ambiguity in AI-assisted development.
+  tags:
+    - prompt-engineering
+    - specificity
+    - iteration
+  topics:
+    - prompt-design
+    - requirements-clarity
+    - communication
+  categories:
+    - planning-and-structure
