@@ -145,3 +145,19 @@
 - id: centercentre_experience_strategy_growth_quote
   quote: 'Experience strategy is definitely a growing branch of UX.'
   source_id: centercentre_experience_strategy_branch
+
+- id: nngroup_ai_work_study_guide_quote
+  quote: 'Should you use AI in your work? Yes. The question is no longer if it can be helpful, but when? And how?'
+  source_id: nngroup_ai_work_study_guide
+
+- id: arxiv_genai_ux_research_trust_gap_quote
+  quote: 'UX researchers expressed limited trust in AI-generated results, while product managers often overestimated AI capabilities, amplifying organizational pressures to accelerate research within agile workflows.'
+  source_id: arxiv_genai_ux_research_challenges_opportunities
+
+- id: arxiv_vibe_coding_four_stage_workflow_quote
+  quote: 'Drawing on interviews with 22 product team members across enterprises, startups, and academia, we show how vibe coding follows a four-stage workflow of ideation, generation, debugging, and review.'
+  source_id: arxiv_vibe_coding_product_design
+
+- id: arxiv_vibe_coding_reflection_tension_quote
+  quote: 'We find tensions between efficiency-driven prototyping ("intending the right design") and reflection ("designing the right intention"), introducing new asymmetries in trust, responsibility, and social stigma within teams.'
+  source_id: arxiv_vibe_coding_product_design

@@ -37,3 +37,7 @@
 - id: terminal-interfaces
   title: 'Terminal Interfaces for Agentic Work'
   description: 'Sources that argue command-line and terminal interfaces are becoming a primary surface for LLM and agent workflows.'
+
+- id: ai-ux-role-shifts
+  title: 'AI Role Shifts in UX Research, Design, and Strategy'
+  description: 'Sources examining whether AI is replacing UX roles or augmenting them by reshaping collaboration, trust, and strategic responsibilities.'

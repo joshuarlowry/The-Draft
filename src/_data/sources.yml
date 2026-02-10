@@ -986,3 +986,150 @@
     - planning-and-structure
   reading_descriptions:
     planning-and-structure: 'Prompt Engineering Guide advice on specificity, iteration, and formatting to reduce ambiguity in model outputs.'
+
+- id: sandra_schaus_collaboration_gap_2026
+  author: 'Sandra Schaus'
+  author_ids:
+    - sandra_schaus
+  title: 'When UX Teams Slow Down and AI Speeds Up: The Collaboration Gap of 2026'
+  publisher: 'Muzli / Medium'
+  published: '2026'
+  accessed: '2026-02-10'
+  url: 'https://medium.muz.li/when-ux-teams-slow-down-and-ai-speeds-up-the-collaboration-gap-of-2026-a916da2e7b7e'
+  tags:
+    - cross-domain-calibration
+    - responsibility-oversight
+  reading_descriptions:
+    cross-domain-calibration: 'Frames how AI acceleration can outpace team collaboration rhythms in UX practice.'
+    responsibility-oversight: 'Highlights leadership and workflow tensions when implementation speed exceeds shared decision-making capacity.'
+
+- id: sandra_schaus_empathy_first_leader_2026
+  author: 'Sandra Schaus'
+  author_ids:
+    - sandra_schaus
+  title: 'The Empathy-First Leader in an AI-First World: 5 Skills You Need to Survive 2026'
+  publisher: 'Design Bootcamp / Medium'
+  published: '2026'
+  accessed: '2026-02-10'
+  url: 'https://medium.com/design-bootcamp/the-empathy-first-leader-in-an-ai-first-world-5-skills-you-need-to-survive-2026-59891e8ed8fb'
+  tags:
+    - cross-domain-calibration
+  reading_descriptions:
+    cross-domain-calibration: 'Positions empathy-centered leadership as a counterbalance to AI-first delivery pressure in design organizations.'
+
+- id: nngroup_ai_work_study_guide
+  author: 'Tanner Kohler'
+  author_ids:
+    - tanner_kohler
+  title: 'Using AI for UX Work: Study Guide'
+  publisher: 'Nielsen Norman Group'
+  published: '2025-10-21'
+  accessed: '2026-02-10'
+  url: 'https://www.nngroup.com/articles/ai-work-study-guide/'
+  tags:
+    - cross-domain-calibration
+    - planning-and-structure
+  reading_descriptions:
+    cross-domain-calibration: 'Curated NN/g map of AI-in-UX methods, risks, and role shifts across research, design, and writing workflows.'
+    planning-and-structure: 'Provides structured pathways for learning where AI helps UX work and where human judgment remains critical.'
+
+- id: jakob_nielsen_2025_predictions_revisited_linkedin
+  author: 'Jakob Nielsen'
+  author_ids:
+    - jakob_nielsen
+  title: "Jakob's 2025 Predictions Revisited"
+  publisher: 'LinkedIn'
+  published: '2026'
+  accessed: '2026-02-10'
+  url: 'https://www.linkedin.com/posts/jakobnielsenphd_jakobs-2025-predictions-revisited-activity-7410293021700702208-QcPj'
+  tags:
+    - cross-domain-calibration
+  reading_descriptions:
+    cross-domain-calibration: 'A practitioner discussion revisiting earlier UX/AI predictions and their implications for design practice.'
+
+- id: uxmag_real_impact_ai_designers
+  author: 'Oleh Osadchyi'
+  author_ids:
+    - oleh_osadchyi
+  title: 'The Real Impact of AI on Designers’ Day-To-Day and Interfaces: What Still Matters'
+  publisher: 'UX Magazine'
+  published: '2025-07-31'
+  accessed: '2026-02-10'
+  url: 'https://uxmag.com/articles/the-real-impact-of-ai-on-designers-day-to-day-and-interfaces-what-still-matters'
+  tags:
+    - cross-domain-calibration
+    - rapid-prototyping
+  reading_descriptions:
+    cross-domain-calibration: 'Explores where AI helps day-to-day design work and where design craft and strategy still require human ownership.'
+    rapid-prototyping: 'Discusses practical AI use in research, prototyping, and testing workflows.'
+
+- id: uxdesign_silicon_clay_ai_reshaping_ux
+  title: 'Silicon Clay: How AI Is Reshaping UX Design'
+  publisher: 'UX Collective / uxdesign.cc'
+  published: '2026'
+  accessed: '2026-02-10'
+  url: 'https://uxdesign.cc/silicon-clay-how-ai-is-reshaping-ux-design-42cb0de93680'
+  tags:
+    - cross-domain-calibration
+  reading_descriptions:
+    cross-domain-calibration: 'Examines AI as a malleable design material that is changing UX workflow expectations.'
+
+- id: jonathan_montalvo_ux_ai_journal
+  author: 'Jonathan Montalvo'
+  author_ids:
+    - jonathan_montalvo
+  title: "A practitioner's journal on navigating UX in the age of AI"
+  publisher: 'UX Collective / uxdesign.cc'
+  published: '2026'
+  accessed: '2026-02-10'
+  url: 'https://uxdesign.cc/a-practitioners-journal-on-navigating-ux-in-the-age-of-ai-97f0a11e8319'
+  tags:
+    - cross-domain-calibration
+  reading_descriptions:
+    cross-domain-calibration: 'Practitioner reflection on adapting UX practice under accelerating AI capabilities.'
+
+- id: arxiv_genai_ux_research_challenges_opportunities
+  author: 'Heloisa Candello, Werner Geyer, Siya Kunde, Michael Muller, Daita Sarkar, Jessica He, Mariela Claudia Lanza, Carlos Rosemberg, Gord Davison, Lisa Pelletier'
+  author_ids:
+    - heloisa_candello
+    - werner_geyer
+    - siya_kunde
+    - michael_muller
+    - daita_sarkar
+    - jessica_he
+    - mariela_claudia_lanza
+    - carlos_rosemberg
+    - gord_davison
+    - lisa_pelletier
+  title: 'The Emerging Use of GenAI for UX Research in Software Development: Challenges and Opportunities'
+  repository: 'arXiv'
+  published: '2025-12-17'
+  accessed: '2026-02-10'
+  url: 'https://arxiv.org/abs/2512.15944'
+  tags:
+    - cross-domain-calibration
+    - responsibility-oversight
+  reading_descriptions:
+    cross-domain-calibration: 'Field research on how GenAI is changing qualitative UX research in software teams.'
+    responsibility-oversight: 'Documents trust gaps and role tensions that appear when AI analysis is introduced into research workflows.'
+
+- id: arxiv_vibe_coding_product_design
+  author: 'Jie Li, Youyang Hou, Laura Lin, Ruihao Zhu, Hancheng Cao, Abdallah El Ali'
+  author_ids:
+    - jie_li
+    - youyang_hou
+    - laura_lin
+    - ruihao_zhu
+    - hancheng_cao
+    - abdallah_el_ali
+  title: "Vibe Coding for Product Design: Understanding Product Team Members' Perceptions of AI-Assisted Design and Development"
+  repository: 'arXiv'
+  published: '2025-09-12'
+  accessed: '2026-02-10'
+  url: 'https://arxiv.org/abs/2509.10652'
+  tags:
+    - cross-domain-calibration
+    - rapid-prototyping
+  reading_descriptions:
+    cross-domain-calibration: 'Empirical study of how vibe coding alters collaboration, responsibility, and trust in product teams.'
+    rapid-prototyping: 'Shows how AI-assisted generation speeds ideation while introducing integration and reliability concerns.'
