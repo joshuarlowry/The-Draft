@@ -1658,3 +1658,211 @@
     - communication
   categories:
     - planning-and-structure
+
+- source_id: sandra_schaus_collaboration_gap_2026
+  source_type: article
+  summary: >-
+    Sandra Schaus argues that AI delivery speed is creating a collaboration gap for UX teams when organizational rituals, decision loops, and alignment practices do not adapt as quickly.
+  long_summary: >-
+    This piece frames a practical coordination problem inside UX organizations. As AI accelerates output, collaboration practices that once kept teams aligned can lag behind, creating friction between speed and shared understanding. The framing is useful for The Draft because it treats AI adoption as an operating-model shift, not only a tooling shift.
+  key_takeaways:
+    - Identify collaboration bottlenecks that appear when AI accelerates delivery cadence
+    - Rework team rituals so review and alignment keep pace with increased output volume
+    - Treat workflow design as a strategic response to AI acceleration pressures
+  relevance: >-
+    Supports The Draft's emphasis that faster generation requires stronger coordination systems and explicit oversight loops. Connects UX collaboration dynamics to broader AI governance concerns.
+  tags:
+    - ux-collaboration
+    - leadership
+    - workflow
+  topics:
+    - ai-in-ux
+    - team-operations
+  categories:
+    - cross-domain-calibration
+
+- source_id: sandra_schaus_empathy_first_leader_2026
+  source_type: article
+  summary: >-
+    Sandra Schaus positions empathy-centered leadership as a durable capability in AI-first organizations where speed can otherwise crowd out context and human understanding.
+  long_summary: >-
+    This article emphasizes leadership behaviors needed when teams adopt AI at scale, highlighting empathy and human-centered communication as stabilizers during rapid change. For The Draft, it offers a people-and-practice perspective that complements more technical discussions of prompts, tools, and guardrails.
+  key_takeaways:
+    - Prioritize empathy as a leadership practice when AI changes team workflows
+    - Balance automation gains with attention to team trust and communication quality
+    - Build human-centered management habits that preserve context and accountability
+  relevance: >-
+    Reinforces The Draft's perspective that AI transformation is organizational as much as technical. Leadership practices act as guardrails for how speed is absorbed.
+  tags:
+    - leadership
+    - empathy
+    - change-management
+  topics:
+    - ai-in-ux
+    - organizational-design
+  categories:
+    - cross-domain-calibration
+
+- source_id: nngroup_ai_work_study_guide
+  source_type: article
+  summary: >-
+    NN/g's guide curates practical AI-for-UX resources and states that AI is useful today but not ready to replace end-to-end UX practice.
+  long_summary: >-
+    The study guide organizes NN/g's AI and UX material into a learning pathway across strategy, research, design, and writing. It encourages adoption while clarifying limits: AI can support productivity, but teams still need judgment, method choice, and quality review. This makes it a strong bridge source for The Draft's argument that augmentation is real while replacement claims are overstated.
+  key_takeaways:
+    - Use curated guidance to match AI tools to specific UX tasks instead of broad replacement assumptions
+    - Recognize that AI can help workflows now without being ready to replace complete UX practice
+    - Preserve human method selection and quality judgment in AI-assisted UX delivery
+  relevance: >-
+    Directly supports The Draft's augmentation-over-replacement stance and provides a practical on-ramp for teams seeking disciplined AI adoption in UX.
+  notable_quotes:
+    - 'Should you use AI in your work? Yes. The question is no longer if it can be helpful, but when? And how?'
+  tags:
+    - ux-practice
+    - adoption
+    - guidance
+  topics:
+    - ai-in-ux
+    - workflow-design
+  categories:
+    - cross-domain-calibration
+
+- source_id: jakob_nielsen_2025_predictions_revisited_linkedin
+  source_type: social_post
+  summary: >-
+    Jakob Nielsen revisits earlier AI/UX predictions in a public discussion format, offering a snapshot of how expectations are being recalibrated.
+  long_summary: >-
+    This LinkedIn post captures an in-progress practitioner conversation rather than a formal report. Its value is directional: prediction revisits surface where AI impact assumptions held up, where they drifted, and where UX leaders may need to update planning assumptions.
+  key_takeaways:
+    - Revisit AI predictions periodically to prevent planning against outdated assumptions
+    - Use public practitioner dialogue as an early signal for role and workflow shifts
+    - Translate forecast revisions into concrete changes in UX operating models
+  relevance: >-
+    Useful for The Draft as a calibration input: AI planning quality improves when teams revisit assumptions as evidence changes.
+  tags:
+    - forecasts
+    - calibration
+    - ux-leadership
+  topics:
+    - ai-in-ux
+    - strategic-planning
+  categories:
+    - cross-domain-calibration
+
+- source_id: uxmag_real_impact_ai_designers
+  source_type: article
+  summary: >-
+    UX Magazine presents a practitioner view that AI is helping day-to-day design tasks, while user insight, design craft, and strategic thinking remain human-critical.
+  long_summary: >-
+    The article focuses on practical workflow impact in research, prototyping, and testing. It argues for selective collaboration with AI rather than blanket automation, emphasizing that teams should keep user understanding and strategic intent at the center.
+  key_takeaways:
+    - Use AI selectively in design workflows where it speeds execution without eroding quality
+    - Protect user insight and strategic framing as non-delegable design responsibilities
+    - Evaluate AI contribution by practical outcomes rather than novelty or hype
+  relevance: >-
+    Aligns with The Draft's claim-driven approach by framing AI as a workflow multiplier that still depends on human judgment and design intent.
+  notable_quotes:
+    - 'AI is speeding up design workflows and reshaping how we build digital products, but are we really using it wisely?'
+  tags:
+    - design-practice
+    - workflow
+    - strategy
+  topics:
+    - ai-in-ux
+    - product-design
+  categories:
+    - cross-domain-calibration
+
+- source_id: uxdesign_silicon_clay_ai_reshaping_ux
+  source_type: article
+  summary: >-
+    The "Silicon Clay" framing positions AI as a flexible but imperfect medium that is changing how UX artifacts are explored and iterated.
+  long_summary: >-
+    Although platform access is limited in this environment, the source framing is useful for cataloging because it reflects an emerging perspective: AI as malleable design material that can accelerate exploration while still requiring human curation and intent.
+  key_takeaways:
+    - Treat AI outputs as draft material that requires active shaping by designers
+    - Leverage faster iteration while retaining human control over product direction
+    - Separate generative speed from final quality accountability
+  relevance: >-
+    Supports The Draft's broader thesis that augmentation changes workflow mechanics but does not remove responsibility for design quality.
+  tags:
+    - design-materials
+    - iteration
+    - practice
+  topics:
+    - ai-in-ux
+    - design-methods
+  categories:
+    - cross-domain-calibration
+
+- source_id: jonathan_montalvo_ux_ai_journal
+  source_type: article
+  summary: >-
+    Jonathan Montalvo's practitioner journal documents how UX practice evolves under AI pressure, with emphasis on adaptation and reflective learning.
+  long_summary: >-
+    This source contributes a first-person practice lens on navigating UX in the AI era. While not a formal research report, it is valuable for capturing on-the-ground tradeoffs, mindset shifts, and practical adaptation patterns.
+  key_takeaways:
+    - Document practitioner experiments to surface repeatable AI-in-UX patterns
+    - Use reflective journaling to evaluate what AI changes improve or harm practice
+    - Adapt roles incrementally rather than assuming one-step replacement
+  relevance: >-
+    Complements formal studies in The Draft by adding a lived-practice perspective on role adaptation and workflow redesign.
+  tags:
+    - practitioner-notes
+    - adaptation
+    - role-evolution
+  topics:
+    - ai-in-ux
+    - practice-change
+  categories:
+    - cross-domain-calibration
+
+- source_id: arxiv_genai_ux_research_challenges_opportunities
+  source_type: paper
+  summary: >-
+    This arXiv paper reports two studies showing that GenAI can assist UX research, but trust, role alignment, and interpretive quality remain major barriers.
+  long_summary: >-
+    The authors studied how UX researchers, designers, and product managers use GenAI in qualitative software research. They found opportunities to streamline insight production, but also persistent tensions: researchers showed limited trust in AI-generated analysis while managers often overestimated AI capabilities. The paper proposes interaction patterns and design guidelines for responsible integration.
+  key_takeaways:
+    - Surface trust gaps between researchers and managers when introducing AI analysis into UX research
+    - Align AI workflows with interpretive and collaborative research practices instead of forcing purely efficiency-driven models
+    - Apply interaction patterns that mirror human analysis steps to improve trust and adoption
+    - Treat responsible integration as a socio-technical design problem, not only a tooling decision
+  relevance: >-
+    Strong evidence for The Draft's oversight lens: AI can accelerate research workflows, but governance and role clarity determine whether outputs are usable.
+  notable_quotes:
+    - UX researchers expressed limited trust in AI-generated results, while product managers often overestimated AI capabilities, amplifying organizational pressures to accelerate research within agile workflows.
+  tags:
+    - ux-research
+    - trust
+    - human-ai-collaboration
+  topics:
+    - qualitative-research
+    - ai-in-ux
+  categories:
+    - cross-domain-calibration
+
+- source_id: arxiv_vibe_coding_product_design
+  source_type: paper
+  summary: >-
+    This arXiv study identifies a four-stage vibe-coding workflow in product teams and documents both acceleration benefits and accountability risks.
+  long_summary: >-
+    Based on interviews with 22 product team members, the paper maps vibe coding into ideation, generation, debugging, and review. Participants report faster iteration and broader participation, but also code reliability issues, integration friction, and over-reliance risks. The authors describe a tension between prototyping efficiency and reflective intention-setting.
+  key_takeaways:
+    - Map vibe-coding work explicitly into ideation, generation, debugging, and review stages
+    - Capture reliability and integration risks early when AI-generated artifacts move toward production
+    - Balance efficiency gains with reflective practices that preserve design intent
+    - Address emerging trust and responsibility asymmetries across product roles
+  relevance: >-
+    Directly supports The Draft's argument that AI speed is real but must be paired with explicit review and ownership models.
+  notable_quotes:
+    - Drawing on interviews with 22 product team members across enterprises, startups, and academia, we show how vibe coding follows a four-stage workflow of ideation, generation, debugging, and review.
+  tags:
+    - vibe-coding
+    - product-design
+    - workflow
+  topics:
+    - ai-assisted-design
+    - collaboration
+  categories:
+    - cross-domain-calibration

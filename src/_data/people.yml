@@ -549,3 +549,131 @@
   links:
     - label: 'Q&A: How Warp 2.0 compares to Claude Code and Gemini CLI'
       url: 'https://thenewstack.io/qa-how-warp-2-0-compares-to-claude-code-and-gemini-cli/'
+
+- id: sandra_schaus
+  name: 'Sandra Schaus'
+  links:
+    - label: 'When UX Teams Slow Down and AI Speeds Up: The Collaboration Gap of 2026'
+      url: 'https://medium.muz.li/when-ux-teams-slow-down-and-ai-speeds-up-the-collaboration-gap-of-2026-a916da2e7b7e'
+    - label: 'The Empathy-First Leader in an AI-First World: 5 Skills You Need to Survive 2026'
+      url: 'https://medium.com/design-bootcamp/the-empathy-first-leader-in-an-ai-first-world-5-skills-you-need-to-survive-2026-59891e8ed8fb'
+
+- id: tanner_kohler
+  name: 'Tanner Kohler'
+  links:
+    - label: 'Using AI for UX Work: Study Guide'
+      url: 'https://www.nngroup.com/articles/ai-work-study-guide/'
+
+- id: jakob_nielsen
+  name: 'Jakob Nielsen'
+  links:
+    - label: "Jakob's 2025 Predictions Revisited"
+      url: 'https://www.linkedin.com/posts/jakobnielsenphd_jakobs-2025-predictions-revisited-activity-7410293021700702208-QcPj'
+
+- id: oleh_osadchyi
+  name: 'Oleh Osadchyi'
+  links:
+    - label: 'The Real Impact of AI on Designers’ Day-To-Day and Interfaces: What Still Matters'
+      url: 'https://uxmag.com/articles/the-real-impact-of-ai-on-designers-day-to-day-and-interfaces-what-still-matters'
+
+- id: jonathan_montalvo
+  name: 'Jonathan Montalvo'
+  links:
+    - label: "A practitioner's journal on navigating UX in the age of AI"
+      url: 'https://uxdesign.cc/a-practitioners-journal-on-navigating-ux-in-the-age-of-ai-97f0a11e8319'
+
+- id: heloisa_candello
+  name: 'Heloisa Candello'
+  links:
+    - label: 'The Emerging Use of GenAI for UX Research in Software Development: Challenges and Opportunities'
+      url: 'https://arxiv.org/abs/2512.15944'
+
+- id: werner_geyer
+  name: 'Werner Geyer'
+  links:
+    - label: 'The Emerging Use of GenAI for UX Research in Software Development: Challenges and Opportunities'
+      url: 'https://arxiv.org/abs/2512.15944'
+
+- id: siya_kunde
+  name: 'Siya Kunde'
+  links:
+    - label: 'The Emerging Use of GenAI for UX Research in Software Development: Challenges and Opportunities'
+      url: 'https://arxiv.org/abs/2512.15944'
+
+- id: michael_muller
+  name: 'Michael Muller'
+  links:
+    - label: 'The Emerging Use of GenAI for UX Research in Software Development: Challenges and Opportunities'
+      url: 'https://arxiv.org/abs/2512.15944'
+
+- id: daita_sarkar
+  name: 'Daita Sarkar'
+  links:
+    - label: 'The Emerging Use of GenAI for UX Research in Software Development: Challenges and Opportunities'
+      url: 'https://arxiv.org/abs/2512.15944'
+
+- id: jessica_he
+  name: 'Jessica He'
+  links:
+    - label: 'The Emerging Use of GenAI for UX Research in Software Development: Challenges and Opportunities'
+      url: 'https://arxiv.org/abs/2512.15944'
+
+- id: mariela_claudia_lanza
+  name: 'Mariela Claudia Lanza'
+  links:
+    - label: 'The Emerging Use of GenAI for UX Research in Software Development: Challenges and Opportunities'
+      url: 'https://arxiv.org/abs/2512.15944'
+
+- id: carlos_rosemberg
+  name: 'Carlos Rosemberg'
+  links:
+    - label: 'The Emerging Use of GenAI for UX Research in Software Development: Challenges and Opportunities'
+      url: 'https://arxiv.org/abs/2512.15944'
+
+- id: gord_davison
+  name: 'Gord Davison'
+  links:
+    - label: 'The Emerging Use of GenAI for UX Research in Software Development: Challenges and Opportunities'
+      url: 'https://arxiv.org/abs/2512.15944'
+
+- id: lisa_pelletier
+  name: 'Lisa Pelletier'
+  links:
+    - label: 'The Emerging Use of GenAI for UX Research in Software Development: Challenges and Opportunities'
+      url: 'https://arxiv.org/abs/2512.15944'
+
+- id: jie_li
+  name: 'Jie Li'
+  links:
+    - label: "Vibe Coding for Product Design: Understanding Product Team Members' Perceptions of AI-Assisted Design and Development"
+      url: 'https://arxiv.org/abs/2509.10652'
+
+- id: youyang_hou
+  name: 'Youyang Hou'
+  links:
+    - label: "Vibe Coding for Product Design: Understanding Product Team Members' Perceptions of AI-Assisted Design and Development"
+      url: 'https://arxiv.org/abs/2509.10652'
+
+- id: laura_lin
+  name: 'Laura Lin'
+  links:
+    - label: "Vibe Coding for Product Design: Understanding Product Team Members' Perceptions of AI-Assisted Design and Development"
+      url: 'https://arxiv.org/abs/2509.10652'
+
+- id: ruihao_zhu
+  name: 'Ruihao Zhu'
+  links:
+    - label: "Vibe Coding for Product Design: Understanding Product Team Members' Perceptions of AI-Assisted Design and Development"
+      url: 'https://arxiv.org/abs/2509.10652'
+
+- id: hancheng_cao
+  name: 'Hancheng Cao'
+  links:
+    - label: "Vibe Coding for Product Design: Understanding Product Team Members' Perceptions of AI-Assisted Design and Development"
+      url: 'https://arxiv.org/abs/2509.10652'
+
+- id: abdallah_el_ali
+  name: 'Abdallah El Ali'
+  links:
+    - label: "Vibe Coding for Product Design: Understanding Product Team Members' Perceptions of AI-Assisted Design and Development"
+      url: 'https://arxiv.org/abs/2509.10652'
