@@ -18,6 +18,7 @@ tags:
   - context-setting
 citations:
   - google_cloud_best_practices_quote
+  - infoq_pdca_planning_contract_quote
 ---
 
 There is no such thing as "just implementation."
@@ -27,6 +28,8 @@ When you ask an AI to write code without a plan, it still has to decide how the 
 This behavior is well documented:
 
 [[cite:google_cloud_best_practices_quote]]
+
+[[cite:infoq_pdca_planning_contract_quote]]
 
 The implication is straightforward. If planning improves output, skipping it guarantees that decisions will be made without your input. The result may work, but it reflects choices you never reviewed and might not agree with.
 

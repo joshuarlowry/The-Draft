@@ -161,3 +161,19 @@
 - id: arxiv_vibe_coding_reflection_tension_quote
   quote: 'We find tensions between efficiency-driven prototyping ("intending the right design") and reflection ("designing the right intention"), introducing new asymmetries in trust, responsibility, and social stigma within teams.'
   source_id: arxiv_vibe_coding_product_design
+
+- id: infoq_pdca_planning_contract_quote
+  quote: 'Detailed planning provides a road map and contract between humans and AI, fostering more engaged and accountable coding sessions.'
+  source_id: infoq_pdca_cycle
+
+- id: graphite_ai_review_required_quote
+  quote: 'You should always review AI-generated code before implementation.'
+  source_id: graphite_ai_pair_programming
+
+- id: techradar_timebombs_quote
+  quote: 'AI is fixing the typos but creating the timebombs.'
+  source_id: techradar_ai_security
+
+- id: uxmag_use_ai_wisely_quote
+  quote: 'AI is speeding up design workflows and reshaping how we build digital products, but are we really using it wisely?'
+  source_id: uxmag_real_impact_ai_designers

@@ -18,6 +18,7 @@ tags:
   - skill-growth
 citations:
   - ericsson_deliberate_practice_quote
+  - infoq_pdca_planning_contract_quote
 ---
 
 The main benefit of planning first is not that the plans improve over time. Each plan is tied to a specific unit of work and is largely disposable.
@@ -29,6 +30,10 @@ Writing a plan forces articulation of intent, constraints, and tradeoffs before 
 This aligns with what we know about how expertise develops:
 
 [[cite:ericsson_deliberate_practice_quote]]
+
+And practical AI engineering guidance reinforces the same mechanism: planning creates an explicit contract between human intent and model execution.
+
+[[cite:infoq_pdca_planning_contract_quote]]
 
 Plan mode creates that reflective loop. The AI does not need to remember anything for this to work. The learning happens on the human side.
 
