@@ -4,6 +4,7 @@
   "description": "A structured content system using Eleventy for assembling articles from reusable blocks",
   "scripts": {
     "prepare-profile-images": "node scripts/prepare-profile-images.js",
+    "audit:content": "node scripts/content-audit.js",
     "build:search": "node scripts/build-search-index.js",
     "build": "npm run build:search && eleventy",
     "lint": "prettier --check \"eleventy.config.js\" \"package.json\" \"src/**/*.{css,js,json,md,yml,yaml}\"",
