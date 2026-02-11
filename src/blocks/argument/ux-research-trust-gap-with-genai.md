@@ -19,8 +19,11 @@ tags:
   - qualitative-research
 citations:
   - arxiv_genai_ux_research_trust_gap_quote
+  - nngroup_ai_moderated_interviews_quote
 ---
 
 In qualitative UX research, speed gains are less important than confidence in interpretation. Evidence now shows that researchers and managers often evaluate AI analysis differently, which creates a coordination and governance challenge.
 
 [[cite:arxiv_genai_ux_research_trust_gap_quote]]
+
+[[cite:nngroup_ai_moderated_interviews_quote]]

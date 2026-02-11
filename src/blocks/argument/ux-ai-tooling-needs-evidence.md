@@ -18,8 +18,11 @@ tags:
   - transparency
 citations:
   - nngroup_baymard_ai_accuracy_quote
+  - uxmag_use_ai_wisely_quote
 ---
 
 Not every AI tool that promises UX acceleration is trustworthy enough to guide product decisions. Teams should require accuracy evidence, transparent limitations, and accountability before integrating outputs into design workflows.
 
 [[cite:nngroup_baymard_ai_accuracy_quote]]
+
+[[cite:uxmag_use_ai_wisely_quote]]

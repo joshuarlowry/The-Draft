@@ -18,6 +18,7 @@ tags:
   - functional-prototypes
 citations:
   - github_copilot_productivity_quote
+  - infoq_pdca_planning_contract_quote
 ---
 
 Rapid prototyping still depends on how quickly teams can translate ideas into working software. AI code assistance materially shortens that build loop.
@@ -26,4 +27,6 @@ In a controlled experiment, GitHub found that developers using Copilot completed
 
 [[cite:github_copilot_productivity_quote]]
 
-For prototyping, that translates into faster cycles between concept, build, and review—especially when the goal is to validate interaction flows rather than perfect architecture.
+For prototyping, that translates into faster cycles between concept, build, and review—especially when the goal is to validate interaction flows rather than perfect architecture. Teams still need planning discipline to convert raw speed into quality outcomes.
+
+[[cite:infoq_pdca_planning_contract_quote]]
