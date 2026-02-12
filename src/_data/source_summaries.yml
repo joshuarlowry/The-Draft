@@ -1866,3 +1866,37 @@
     - collaboration
   categories:
     - cross-domain-calibration
+
+- source_id: stack_overflow_developer_survey_2024_ai
+  source_type: article
+  summary: >-
+    Stack Overflow's 2024 AI survey results show broad developer adoption and
+    interest, while sentiment cooled versus the prior year, signaling that
+    capability gains have not removed trust and quality concerns.
+  long_summary: >-
+    The 2024 Stack Overflow Developer Survey AI section provides large-sample
+    sentiment and usage signals from practicing developers and technology
+    professionals. A key pattern is coexistence: developers are actively using
+    AI tools and expect them to remain part of modern workflows, yet favorability
+    dropped from the prior year. This suggests that while AI is becoming
+    operationally normal, expectations are rising faster than outcomes. For
+    engineering leaders, the implication is that enablement now depends less
+    on tool access and more on workflow design, review quality, and organizational
+    support that helps teams convert AI output into reliable production results.
+  key_takeaways:
+    - Show that AI adoption and AI skepticism can increase at the same time in developer workflows
+    - Track year-over-year sentiment changes instead of assuming steady enthusiasm as capabilities improve
+    - Treat declining favorability as a signal to strengthen review loops, context quality, and guardrails
+    - Use survey data to recalibrate enablement strategy toward system reliability rather than raw generation speed
+  relevance: This source helps The Draft ground AI-assisted development discussions in current practitioner sentiment rather than only vendor claims. It supports the site's focus on planning, oversight, and guardrails as the real determinants of production value.
+  notable_quotes:
+    - 72% of all respondents are favorable or very favorable of AI tools for development. This is lower than last year's favorability of 77%; a decline in favorability could be due to disappointing results from usage.
+  tags:
+    - developer-survey
+    - ai-adoption
+    - sentiment
+  topics:
+    - ai-assisted-coding
+    - developer-enablement
+  categories:
+    - ai-production-scale
