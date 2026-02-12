@@ -1900,3 +1900,886 @@
     - developer-enablement
   categories:
     - ai-production-scale
+
+# AI-driven team org structure research (Nov 2025 – Feb 2026)
+- source_id: mckinsey_agentic_organization
+  source_type: article
+  summary: >-
+    McKinsey proposes a comprehensive framework for the agentic organization,
+    defining new workforce archetypes and operating models built around
+    human-AI collaboration rather than traditional functional hierarchies.
+  long_summary: >-
+    McKinsey outlines a five-pillar framework for redesigning enterprises
+    around AI: business model, operating model, governance, workforce and
+    culture, and technology. The paper introduces three workforce archetypes:
+    M-shaped supervisors (broad generalists fluent in AI who orchestrate agents
+    and hybrid teams across domains), T-shaped experts (deep specialists who
+    reimagine workflows, handle exceptions, and safeguard quality), and
+    AI-augmented frontline workers. It emphasizes agile operating models with
+    small, cross-functional teams and notes that 90% of companies invest in AI
+    but fewer than 40% report meaningful bottom-line impact—suggesting the gap
+    is organizational, not technical.
+  key_takeaways:
+    - Organizations need M-shaped supervisors who orchestrate AI agents across domains, not just deep specialists
+    - Small cross-functional teams outperform traditional departmental structures in agentic workflows
+    - 90% of companies invest in AI but fewer than 40% see meaningful bottom-line impact
+    - The gap between AI investment and results is organizational design, not technology
+    - Workflow redesign has the biggest effect on EBIT impact from generative AI
+  relevance: >-
+    Directly relevant to The Draft's architecture and agentic domains. The
+    framework connects organizational structure to AI effectiveness, supporting
+    the site's emphasis on planning and oversight as prerequisites to AI value.
+  tags:
+    - org-structure
+    - workforce-archetypes
+    - operating-model
+  topics:
+    - team-restructuring
+    - agentic-ai
+  categories:
+    - ai-production-scale
+
+- source_id: mckinsey_redesign_work_for_ai
+  source_type: article
+  summary: >-
+    McKinsey Global Institute calls on leaders to make workflow redesign their
+    top AI priority, arguing that restructuring work around human-AI
+    partnerships produces far greater impact than adding AI to existing
+    processes.
+  long_summary: >-
+    Published January 2026, this McKinsey Global Institute piece argues that
+    the biggest EBIT impact from generative AI comes from redesigning workflows
+    rather than automating them in place. Leaders are urged to treat 2026 as a
+    year of organizational redesign, rethinking team composition, decision
+    rights, and collaboration patterns. The piece notes that 32% of
+    organizations expect workforce decreases due to AI, 43% expect no change,
+    and 13% expect increases—indicating divergent strategies.
+  key_takeaways:
+    - Workflow redesign produces the biggest EBIT impact from generative AI
+    - Leaders should treat 2026 as a year of organizational redesign, not just AI adoption
+    - 32% of organizations expect workforce decreases, 43% no change, 13% increases due to AI
+    - Adding AI to unchanged processes yields diminishing returns
+  relevance: >-
+    Reinforces The Draft's position that planning and structure determine AI
+    outcomes. Workforce redesign is the organizational equivalent of
+    spec-driven development—intentional structure before execution.
+  tags:
+    - workforce-redesign
+    - workflow
+    - strategy
+  topics:
+    - team-restructuring
+    - leadership
+  categories:
+    - ai-production-scale
+
+- source_id: pwc_no_more_pyramids
+  source_type: article
+  summary: >-
+    PwC describes a fundamental shift from pyramid to diamond organizational
+    structures as AI handles entry-level tasks, compresses middle management,
+    and creates a new layer of skilled human orchestrators.
+  long_summary: >-
+    PwC argues that the traditional organizational pyramid—with a large base
+    of entry-level workers, a mid-layer of managers, and a small leadership
+    top—is giving way to a diamond shape. AI agents take on many entry-level
+    tasks (data gathering, processing, reporting), reducing the pyramid base.
+    The middle tier is repurposed from information routing to skilled
+    orchestration. PwC calls this the "rise of the generalist": a move toward
+    broader, outcome-focused roles that blend what were previously separate
+    functions. The result is a small leadership team, a strong middle layer,
+    and a narrow base of new talent.
+  key_takeaways:
+    - Organizational structures are shifting from pyramids to diamonds as AI compresses the entry-level base
+    - Middle management roles are transforming from information routing to AI orchestration
+    - The "rise of the generalist" means broader, outcome-focused roles replacing narrow functional ones
+    - Entry-level tasks like data gathering and reporting are the first to be absorbed by AI agents
+  relevance: >-
+    This structural analysis connects to The Draft's architecture domain. The
+    pyramid-to-diamond shift is a concrete example of how AI tooling forces
+    organizational redesign, supporting the site's broader argument that
+    structure must precede effective AI adoption.
+  tags:
+    - org-structure
+    - pyramid-to-diamond
+    - generalist-roles
+  topics:
+    - team-restructuring
+    - workforce-architecture
+  categories:
+    - ai-production-scale
+
+- source_id: deloitte_agentic_reality_check
+  source_type: article
+  summary: >-
+    Deloitte's December 2025 analysis finds that only 11% of organizations
+    actively use agentic AI in production and most are trying to automate
+    existing processes without redesigning their operations.
+  long_summary: >-
+    Deloitte surveyed enterprises on their agentic AI readiness and found a
+    significant gap between ambition and execution. While 30% of organizations
+    are exploring agentic options and 38% are piloting solutions, only 14%
+    have deployment-ready solutions and merely 11% are in production. The core
+    finding is that organizations hitting a wall are typically trying to layer
+    agents onto existing processes rather than reimagining how the work should
+    be done. Leading organizations are discovering that true value comes from
+    redesigning operations, not just automating them.
+  key_takeaways:
+    - Only 11% of organizations actively use agentic AI in production
+    - Most organizations try to automate existing processes rather than redesigning them
+    - 30% are exploring, 38% piloting, 14% deployment-ready, 11% in production
+    - True value requires redesigning operations, not layering agents onto old workflows
+  relevance: >-
+    Validates The Draft's emphasis on intentional design before execution. The
+    gap between AI piloting and production mirrors the gap between vibe coding
+    and spec-driven development—structure and redesign unlock the real value.
+  tags:
+    - agentic-ai
+    - enterprise-readiness
+    - operations-redesign
+  topics:
+    - ai-adoption
+    - organizational-change
+  categories:
+    - ai-production-scale
+
+- source_id: deloitte_great_rebuild_ai_tech_org
+  source_type: article
+  summary: >-
+    Deloitte's Tech Trends 2026 report examines how technology organizations
+    are being rebuilt around AI, with 78% of tech leaders expecting broad
+    agent integration and AI budgets rising from 8% to 13%.
+  long_summary: >-
+    This Deloitte Tech Trends 2026 report focuses on the structural
+    transformation of technology organizations. Key data points include: 78%
+    of tech leaders anticipate broad integration of AI agents into architecture
+    workflows; 64% plan to increase AI investments over the next two years;
+    tech budget allocation to AI is expected to rise from 8% to 13% on
+    average; 70% of tech leaders plan to grow teams in direct response to
+    generative AI; and 34% of organizations are using AI for deep
+    transformation including new products/services and reinventing core
+    processes. The report identifies that 37% are still at surface-level usage
+    with little process change, while 30% are redesigning key processes.
+  key_takeaways:
+    - 78% of tech leaders anticipate broad AI agent integration into architecture workflows
+    - Tech AI budgets expected to rise from 8% to 13% on average
+    - 70% of tech leaders plan to grow teams in response to generative AI
+    - Only 34% are using AI for deep transformation; 37% remain at surface level
+    - 30% are actively redesigning key processes around AI
+  relevance: >-
+    Provides quantitative grounding for The Draft's claims about AI-driven
+    organizational change. The split between surface-level and deep
+    transformation usage aligns with the site's argument that intentional
+    planning separates effective AI adoption from superficial tool usage.
+  tags:
+    - tech-trends
+    - ai-budgets
+    - enterprise-transformation
+  topics:
+    - team-restructuring
+    - technology-strategy
+  categories:
+    - ai-production-scale
+
+- source_id: brandon_hall_smaller_teams_smarter_systems
+  source_type: article
+  summary: >-
+    Brandon Hall Group provides concrete data on 3-5 person teams with AI
+    agents replacing 25-person departments while maintaining equivalent quality
+    metrics across customer service and marketing operations.
+  long_summary: >-
+    Brandon Hall Group documents how compact teams of 3-5 people can now
+    dynamically deploy AI agents across multiple functions that previously
+    required separate departments. The headline case study: a three-person
+    customer service team in Tulsa, Oklahoma, handles 10,000 support tickets
+    monthly—the same volume that previously required a 25-person department,
+    with equivalent response times, customer satisfaction scores, and
+    resolution rates. The article frames this as smaller teams plus right
+    systems plus people plus AI agents equals exponential productivity gains.
+  key_takeaways:
+    - A 3-person team can handle 10,000 monthly tickets previously requiring 25 people
+    - Quality metrics (response time, CSAT, resolution) remain equivalent at compressed team sizes
+    - The formula is smaller teams + right systems + right people + AI agents = exponential gains
+    - Companies from tech startups to financial services are adopting this model
+  relevance: >-
+    The most concrete evidence in this research set for The Draft's themes.
+    It shows that team compression requires deliberate system design and the
+    right people—not just AI tools—echoing the site's emphasis on planning,
+    oversight, and engineering judgment.
+  tags:
+    - team-size
+    - workforce-efficiency
+    - case-study
+  topics:
+    - team-restructuring
+    - agentic-ai
+  categories:
+    - ai-production-scale
+
+- source_id: fortune_ai_corporate_org_chart
+  source_type: article
+  summary: >-
+    Fortune reports real-world examples from Amazon, Moderna, and McKinsey of
+    AI-driven org chart changes including middle management compression,
+    department mergers, and team size reductions.
+  long_summary: >-
+    Fortune documents several concrete organizational restructurings driven by
+    AI adoption. Amazon CEO Andy Jassy mandated increasing the ratio of
+    individual contributors to managers by at least 15% by Q1 2025. Moderna
+    merged its technology and HR departments into a single function driven by
+    its OpenAI partnership. An AI-first healthcare company replaced a
+    10-engineer team with a 3-person unit overseeing AI agents. McKinsey is
+    deploying thousands of AI agents to support consultants with tasks such as
+    building decks, summarizing research, and verifying argument logic.
+  key_takeaways:
+    - Amazon mandated 15% increase in individual contributor to manager ratio
+    - Moderna merged technology and HR departments into a single function
+    - A healthcare company replaced 10 engineers with 3 people overseeing AI agents
+    - McKinsey deploys thousands of AI agents for deck building, research, and logic verification
+  relevance: >-
+    Provides the real-world case studies that ground The Draft's claims about
+    AI-driven organizational change. These are not predictions but documented
+    restructurings at named companies.
+  tags:
+    - case-study
+    - middle-management
+    - team-compression
+  topics:
+    - team-restructuring
+    - corporate-strategy
+  categories:
+    - ai-production-scale
+
+- source_id: cio_microsoft_ai_agents_org_charts
+  source_type: article
+  summary: >-
+    Microsoft predicts organizations will shift from function-based structures
+    to goal-based ones, with 28% of managers already planning to hire hybrid
+    human-AI team leads and a new "human-agent ratio" metric emerging.
+  long_summary: >-
+    CIO reports on Microsoft's predictions for how AI agents will reshape
+    organizational structures. Key findings: organizations previously organized
+    around functions (finance, marketing, engineering) are likely to reorganize
+    around goals and projects; 28% of managers are already planning to hire
+    someone to lead hybrid human-AI teams; a new organizational metric—the
+    "human-agent ratio"—may emerge to optimize the appropriate mix of agents
+    and people; and Microsoft envisions a three-person team launching a global
+    campaign in days, with AI handling data, content, and personalization.
+  key_takeaways:
+    - Organizations will shift from function-based to goal-based structures
+    - 28% of managers plan to hire hybrid human-AI team leads
+    - Human-agent ratio will emerge as a new organizational design metric
+    - A 3-person team could launch a global campaign with AI handling execution
+  relevance: >-
+    Connects to The Draft's themes of intentional organizational design. The
+    shift from functions to goals mirrors the shift from role-based to
+    outcome-based thinking that the site advocates.
+  tags:
+    - microsoft
+    - org-charts
+    - human-agent-ratio
+  topics:
+    - team-restructuring
+    - organizational-design
+  categories:
+    - ai-production-scale
+
+- source_id: hbr_mckinsey_faces_ai_future
+  source_type: article
+  summary: >-
+    Harvard Business Review examines how McKinsey is restructuring its own
+    organization around AI, shifting to outcomes-based work with roughly
+    one-third of revenue from underwriting outcomes.
+  long_summary: >-
+    Published December 2025, this HBR deep dive examines McKinsey's own
+    organizational transformation in response to AI. The firm is shifting from
+    traditional time-and-materials consulting toward outcomes-based work, with
+    roughly one-third of revenue now coming from underwriting outcomes. This
+    requires blending human judgment with AI agents and fundamentally changes
+    team composition, delivery models, and how consultants are evaluated and
+    promoted. The piece offers a rare inside look at how one of the world's
+    most influential consulting firms is practicing what it preaches about
+    AI-driven organizational change.
+  key_takeaways:
+    - McKinsey is shifting to outcomes-based work with roughly one-third of revenue from underwriting outcomes
+    - The shift requires blending human judgment with AI agents in delivery teams
+    - Team composition and promotion criteria are changing alongside delivery models
+    - Consulting firms are restructuring their own organizations, not just advising others
+  relevance: >-
+    A powerful case study for The Draft: when even the firms advising on
+    AI transformation must transform themselves, it validates that structural
+    change is not optional. The emphasis on human judgment alongside AI mirrors
+    the site's core themes.
+  tags:
+    - mckinsey
+    - consulting
+    - outcomes-based
+  topics:
+    - organizational-transformation
+    - business-model
+  categories:
+    - ai-production-scale
+
+- source_id: hbr_sternfels_make_ourselves_better
+  source_type: article
+  summary: >-
+    McKinsey managing partner Bob Sternfels discusses in a January 2026 HBR
+    interview how AI is reshaping team composition and delivery models at
+    McKinsey, providing a first-person account of organizational restructuring.
+  long_summary: >-
+    In this January/February 2026 Harvard Business Review interview, McKinsey
+    managing partner Bob Sternfels discusses the firm's AI-era transformation.
+    He describes how consulting teams are being restructured to integrate AI
+    agents into delivery, how new roles are emerging, and how the firm is
+    balancing AI-driven efficiency with the human judgment that clients value.
+    The interview provides a leadership perspective on navigating
+    organizational change when AI capabilities are advancing rapidly.
+  key_takeaways:
+    - Leadership must actively redesign team composition, not just adopt tools
+    - New roles emerge when AI takes over execution tasks traditionally done by junior consultants
+    - Balancing AI efficiency with human judgment is a deliberate organizational design choice
+  relevance: >-
+    Provides a senior leadership perspective on AI-driven team restructuring
+    that connects to The Draft's emphasis on intentional planning and oversight
+    as the foundation for effective AI integration.
+  tags:
+    - leadership
+    - mckinsey
+    - first-person
+  topics:
+    - organizational-transformation
+    - consulting
+  categories:
+    - ai-production-scale
+
+- source_id: wef_ai_new_work_colleague
+  source_type: article
+  summary: >-
+    The World Economic Forum's January 2026 analysis finds that early AI
+    adopters experience loss of connection to co-workers and diminished
+    productivity perceptions, highlighting the human cost of rapid AI team
+    integration.
+  long_summary: >-
+    Published January 2026, this World Economic Forum piece examines the
+    human impact of AI integration into teams. While AI is increasingly
+    playing the role of a true teammate—capable of complex workflows, aided
+    decision-making, and adaptability—early adopters report unexpected side
+    effects: loss of connection to co-workers and a diminished sense of
+    productivity. The article argues that rather than treating AI as just a
+    tool, organizations must deliberately design for human collaboration
+    alongside AI collaboration to maintain team cohesion and wellbeing.
+  key_takeaways:
+    - Early AI adopters report loss of connection to co-workers alongside productivity gains
+    - AI is shifting from tool to teammate, capable of complex workflows and decision support
+    - Organizations must deliberately design for human collaboration alongside AI collaboration
+    - The human cost of rapid AI team integration needs explicit organizational attention
+  relevance: >-
+    A critical counterpoint for The Draft: AI integration has a human
+    dimension that pure efficiency arguments miss. This supports the site's
+    emphasis on oversight and intentional design as safeguards against
+    unintended organizational consequences.
+  tags:
+    - human-impact
+    - collaboration
+    - wellbeing
+  topics:
+    - team-dynamics
+    - organizational-change
+  categories:
+    - ai-production-scale
+
+- source_id: bcg_ai_workforce_strategy
+  source_type: article
+  summary: >-
+    BCG argues that AI is redefining work by taking over execution and freeing
+    teams for strategy and oversight, with functional lines disappearing and
+    agent-led orchestration on the horizon.
+  long_summary: >-
+    Published October 2025, BCG describes how work is being redefined: AI
+    takes over execution, freeing human teams to focus on strategy, design,
+    and oversight. Roles are broadening and blending, and traditional
+    functional lines are disappearing. The next horizon is agent-led
+    orchestration where AI handles end-to-end execution and humans steer
+    strategy. BCG predicts that what feels advanced today will be table stakes
+    by 2030.
+  key_takeaways:
+    - AI is taking over execution, freeing teams for strategy, design, and oversight
+    - Functional lines between departments are dissolving
+    - Agent-led orchestration—AI executes, humans steer strategy—is the next horizon
+    - Current advanced practices will be table stakes by 2030
+  relevance: >-
+    Supports The Draft's framing of AI as an execution accelerator that
+    increases rather than decreases the need for human planning, oversight,
+    and strategic judgment.
+  tags:
+    - workforce-strategy
+    - execution-vs-strategy
+    - agent-orchestration
+  topics:
+    - team-restructuring
+    - leadership
+  categories:
+    - ai-production-scale
+
+- source_id: ibm_agentic_ai_operating_model
+  source_type: article
+  summary: >-
+    IBM's survey of 800 C-suite executives across 20 countries reveals key
+    elements of autonomous AI operating models, from management mindset shifts
+    to workforce evolution and changing team structures.
+  long_summary: >-
+    IBM Institute for Business Value surveyed 800 C-suite executives in 20
+    countries across 19 industries on agentic AI operating models. The
+    research reveals key elements of an autonomous AI operating model including
+    shifts in management mindset, workforce evolution, and specific operating
+    model transformations in progress. The report emphasizes that agentic AI
+    is shifting operations from incremental efficiency gains to net-new
+    business impact, requiring fundamentally different organizational
+    structures and leadership approaches.
+  key_takeaways:
+    - 800 C-suite executives across 20 countries see agentic AI as a structural shift
+    - Autonomous AI operating models require management mindset changes, not just tech upgrades
+    - The shift is from incremental efficiency gains to net-new business impact
+    - Operating model transformations are already in progress across industries
+  relevance: >-
+    Provides C-suite perspective and global scope that The Draft can reference
+    when discussing how AI-driven structural changes are not hypothetical but
+    actively being planned at the executive level across industries.
+  tags:
+    - c-suite
+    - global-survey
+    - operating-model
+  topics:
+    - organizational-transformation
+    - leadership
+  categories:
+    - ai-production-scale
+
+- source_id: databricks_ai_company_structures
+  source_type: article
+  summary: >-
+    Databricks examines how AI agents automate and augment organizational
+    processes, featuring Bayer AG's radical restructuring that cut nearly half
+    of management positions through a Dynamic Shared Ownership model.
+  long_summary: >-
+    This Databricks blog post analyzes how making processes explicit enables
+    the design of AI agents that automate and augment parts of organizational
+    workflows. The standout case study is Bayer AG, which cut nearly half of
+    management and executive positions and adopted a Dynamic Shared Ownership
+    model aimed at eliminating hierarchies and accelerating decision-making.
+    The post also discusses increasing focus on how to chain, orchestrate, and
+    combine multiple smaller, specialized agents rather than relying on single
+    monolithic AI systems.
+  key_takeaways:
+    - Making processes explicit is prerequisite to designing effective AI agents
+    - Bayer AG cut nearly half of management and executive positions
+    - Dynamic Shared Ownership eliminates hierarchies and accelerates decision-making
+    - Multi-agent orchestration is replacing monolithic AI system approaches
+  relevance: >-
+    The Bayer case study is one of the most dramatic documented examples of
+    AI-driven org restructuring. The emphasis on explicit process design
+    before automation connects directly to The Draft's planning-first
+    approach.
+  tags:
+    - bayer
+    - case-study
+    - process-design
+  topics:
+    - team-restructuring
+    - organizational-design
+  categories:
+    - ai-production-scale
+
+- source_id: forethought_agentic_ai_small_teams
+  source_type: article
+  summary: >-
+    Forethought's research shows small teams using agentic AI outperform
+    larger teams on key metrics: 71% improvement in deflection, 89% CSAT
+    (highest of any cohort), and $9 cost per resolution versus $18-$23.
+  long_summary: >-
+    Forethought published research comparing team performance across different
+    sizes and AI tool types. Small teams using agentic AI consistently
+    outperformed: 71% improvement in deflection compared to non-agentic tools,
+    the highest CSAT of any cohort at 89% (higher than enterprise teams with
+    hundreds of agents), and the lowest cost per resolution at $9 compared to
+    $18-$23 for other groups. The findings challenge the assumption that
+    larger teams or more agents always produce better results, instead
+    suggesting that the right architecture and tooling matter more than
+    headcount.
+  key_takeaways:
+    - Small teams with agentic AI saw 71% improvement in deflection versus non-agentic tools
+    - 89% CSAT—highest of any cohort, beating enterprise teams with hundreds of agents
+    - $9 cost per resolution versus $18-$23 for other groups
+    - Architecture and tooling matter more than headcount for customer support outcomes
+  relevance: >-
+    Hard data connecting team size, AI tooling, and quality outcomes. Directly
+    supports The Draft's argument that intentional design with the right tools
+    outperforms brute-force scaling.
+  tags:
+    - metrics
+    - small-teams
+    - customer-support
+  topics:
+    - team-restructuring
+    - agentic-ai
+  categories:
+    - ai-production-scale
+
+- source_id: bain_building_foundation_agentic_ai
+  source_type: article
+  summary: >-
+    Bain describes agentic AI as a structural shift in enterprise technology,
+    with AI agents that reason, coordinate, and execute complex workflows,
+    including a banking case study showing 50%+ time and effort reduction.
+  long_summary: >-
+    Bain & Company positions agentic AI as a structural shift reshaping
+    enterprise technology. AI agents are poised to transform how engineering
+    teams operate, taking on day-to-day development, testing, deployment, and
+    system operations—freeing engineers to focus on architecture, strategy,
+    and innovation. A highlighted case study describes a major bank
+    modernizing a legacy system of 400 interconnected applications by placing
+    human workers in supervisory roles with coordinated squads of AI agents,
+    cutting time and effort by more than 50%.
+  key_takeaways:
+    - Agentic AI is a structural shift, not an incremental improvement to existing processes
+    - AI agents take on development, testing, deployment, and operations tasks
+    - A major bank cut time and effort by 50%+ using human-supervised AI agent squads
+    - Engineers shift from execution to architecture, strategy, and innovation roles
+  relevance: >-
+    The banking case study demonstrates exactly the kind of human-supervisory
+    model that The Draft advocates: humans focus on architecture and strategy
+    while AI handles execution under structured oversight.
+  tags:
+    - banking
+    - case-study
+    - agent-squads
+  topics:
+    - team-restructuring
+    - enterprise-transformation
+  categories:
+    - ai-production-scale
+
+- source_id: marketing_agent_replacing_ops_teams
+  source_type: article
+  summary: >-
+    Documents five real marketing job transitions in 2026 where AI agents are
+    replacing traditional marketing operations roles, with one human now
+    supervising work that previously required 3-5 administrators.
+  long_summary: >-
+    Published January 2026, this article documents five concrete marketing
+    job transitions happening in real time as AI agents reshape marketing
+    operations. Platforms like Salesforce and HubSpot increasingly support
+    agent-driven workflows, enabling one human to supervise what used to
+    require 3-5 marketing administrators. The transitions cover campaign
+    management, analytics, content operations, CRM management, and marketing
+    automation—each showing how the role shifts from hands-on execution to
+    AI oversight and strategic direction.
+  key_takeaways:
+    - Five documented marketing role transitions from execution to AI oversight
+    - One human now supervises work previously requiring 3-5 marketing admins
+    - Salesforce and HubSpot are building agent-driven workflow support natively
+    - The shift is from hands-on execution to strategic direction and AI oversight
+  relevance: >-
+    Concrete domain-specific evidence of AI-driven team restructuring.
+    Marketing ops shows the pattern that The Draft argues applies broadly:
+    AI handles execution while humans shift to planning, oversight, and
+    strategy.
+  tags:
+    - marketing-ops
+    - job-transitions
+    - real-world
+  topics:
+    - team-restructuring
+    - role-evolution
+  categories:
+    - ai-production-scale
+
+- source_id: imd_2026_ai_trends_leaders
+  source_type: article
+  summary: >-
+    IMD predicts 10-20% reduction in traditional middle-management positions
+    by end of 2026, particularly roles organized around information routing,
+    basic coordination, and document summarization.
+  long_summary: >-
+    IMD's 2026 AI trends analysis projects significant structural changes in
+    organizational hierarchies. The key prediction is a 10-20% reduction in
+    traditional middle-management positions by end of 2026, specifically
+    targeting roles organized around information routing, basic coordination,
+    and document summarization—tasks that AI agents now handle effectively.
+    The article positions this not as job elimination but as role
+    transformation, with middle managers needing to shift toward strategic
+    oversight, exception handling, and hybrid team leadership.
+  key_takeaways:
+    - 10-20% reduction in traditional middle-management positions predicted by end of 2026
+    - Roles focused on information routing, coordination, and summarization are most affected
+    - Middle managers must shift toward strategic oversight and hybrid team leadership
+    - This is role transformation rather than simple elimination
+  relevance: >-
+    Provides a specific, time-bound prediction that The Draft can track
+    against reality. The shift from information routing to strategic oversight
+    mirrors the site's core argument about where human value lies in
+    AI-augmented work.
+  tags:
+    - middle-management
+    - predictions
+    - role-transformation
+  topics:
+    - team-restructuring
+    - organizational-change
+  categories:
+    - ai-production-scale
+
+- source_id: mckinsey_ai_upskilling_change_imperative
+  source_type: article
+  summary: >-
+    McKinsey frames AI upskilling not as a training initiative but as an
+    organizational change imperative requiring new structures, roles, and
+    management approaches.
+  long_summary: >-
+    Published December 2025, this McKinsey piece argues that organizations
+    treating AI upskilling as a traditional training program are missing the
+    point. Effective AI adoption requires changing how teams are organized, how
+    decisions are made, and how work flows between people and AI systems. The
+    upskilling challenge is fundamentally an organizational design challenge
+    that demands new structures and leadership approaches.
+  key_takeaways:
+    - AI upskilling is an organizational change initiative, not a training program
+    - Effective AI adoption requires redesigning team structures and decision processes
+    - Leadership must treat capability building as integral to organizational redesign
+  relevance: >-
+    Connects to The Draft's argument that tool adoption without structural
+    change fails. Upskilling in AI-assisted workflows requires the same
+    planning and oversight emphasis the site advocates.
+  tags:
+    - upskilling
+    - change-management
+    - organizational-design
+  topics:
+    - team-restructuring
+    - leadership
+  categories:
+    - ai-production-scale
+
+- source_id: pwc_ai_agents_reimagine_work
+  source_type: article
+  summary: >-
+    PwC recommends redesigning value chains and core business processes to
+    leverage hybrid AI-human teams, arguing the real challenge is
+    organizational reinvention rather than technology adoption.
+  long_summary: >-
+    PwC outlines how organizations should redesign value chains, core business
+    processes, and workflows to leverage the efficiency and innovation that
+    hybrid AI-human teams can deliver. The core argument is that the real
+    challenge is not technology adoption but organizational reinvention:
+    rethinking the nature of work, workforce, and workers. Getting this
+    organizational redesign right can accelerate ROI from AI investments.
+  key_takeaways:
+    - Redesigning value chains around hybrid AI-human teams unlocks real efficiency gains
+    - The challenge is organizational reinvention, not technology adoption
+    - Getting organizational redesign right accelerates AI ROI
+  relevance: >-
+    Supports The Draft's emphasis on structure before execution. PwC frames
+    organizational design as the primary lever for AI value, not the
+    technology itself.
+  tags:
+    - value-chain
+    - hybrid-teams
+    - organizational-reinvention
+  topics:
+    - team-restructuring
+    - business-process
+  categories:
+    - ai-production-scale
+
+- source_id: bcg_reinvention_chro_ai
+  source_type: article
+  summary: >-
+    BCG analyzes how the CHRO role is being reinvented as AI transforms
+    workforce architecture, shifting from personnel management to designing
+    hybrid human-AI organizational structures.
+  long_summary: >-
+    Published 2026, BCG examines how the Chief Human Resources Officer role
+    is transforming in response to AI-driven organizational change. CHROs are
+    becoming architects of hybrid workforces that integrate people with AI
+    agents, advancing organizational redesign and cultural evolution. The role
+    is shifting from traditional personnel management toward strategic
+    workforce architecture, with CHROs needing to understand AI capabilities,
+    team design, and change management at a deeper level.
+  key_takeaways:
+    - CHROs are becoming architects of hybrid human-AI workforces
+    - The role is shifting from personnel management to strategic workforce architecture
+    - Cultural evolution and change management are central to the new CHRO mandate
+  relevance: >-
+    Shows how AI-driven org restructuring is reaching the C-suite level,
+    supporting The Draft's argument that structural change requires
+    leadership commitment, not just tool adoption.
+  tags:
+    - chro
+    - c-suite
+    - workforce-architecture
+  topics:
+    - leadership
+    - organizational-transformation
+  categories:
+    - ai-production-scale
+
+- source_id: cio_new_org_chart_ai_native_roles
+  source_type: article
+  summary: >-
+    CIO analyzes emerging AI-native organizational roles as IT professionals
+    move from reactive troubleshooting toward architecture, strategy, and
+    managing a hybrid ecosystem of human and AI agents.
+  long_summary: >-
+    Published September 2025, this CIO analysis examines how the agentic
+    economy demands a strategic pivot from simply managing technology to
+    architecting a high-performing ecosystem of human and AI agents. The
+    impact of agentic AI extends beyond creating new roles—it reshapes
+    responsibilities across the enterprise, with IT professionals moving
+    from reactive tasks like troubleshooting toward architecture and strategy.
+  key_takeaways:
+    - IT roles are shifting from reactive troubleshooting to architecture and strategy
+    - The agentic economy requires architecting ecosystems of human and AI agents
+    - AI-native roles reshape responsibilities across the entire enterprise, not just IT
+  relevance: >-
+    Connects to The Draft's architecture domain. The shift from reactive to
+    strategic IT work mirrors the site's emphasis on planning and oversight
+    as prerequisites to effective AI integration.
+  tags:
+    - ai-native-roles
+    - it-strategy
+    - ecosystem-architecture
+  topics:
+    - role-evolution
+    - organizational-design
+  categories:
+    - ai-production-scale
+
+- source_id: org_physics_ai_company_structure
+  source_type: article
+  summary: >-
+    Organizational Physics argues the real AI-driven change is not in
+    replacing people but in augmenting them, requiring leaders to redesign
+    strategy, structure, process, and people to align with AI capabilities.
+  long_summary: >-
+    Published September 2025, this analysis argues that the change from AI
+    won't come from shiny tools or runaway agents—it will come from how
+    leaders redesign strategy, structure, process, and people to align with
+    an AI-powered foundation. The real change isn't replacing people but
+    augmenting them: every human is now an augmented human with AI
+    super-intelligence at their fingertips. The challenge is organizational
+    design that harnesses this augmentation effectively.
+  key_takeaways:
+    - AI change comes from organizational redesign, not from the tools themselves
+    - The real shift is augmenting every human with AI, not replacing humans
+    - Leaders must redesign strategy, structure, process, and people together
+  relevance: >-
+    Reinforces The Draft's core argument that AI effectiveness depends on
+    deliberate organizational design. Augmentation without structure produces
+    noise, not value.
+  tags:
+    - augmentation
+    - organizational-design
+    - leadership
+  topics:
+    - team-restructuring
+    - strategy
+  categories:
+    - ai-production-scale
+
+- source_id: microsoft_ai_trends_2026
+  source_type: article
+  summary: >-
+    Microsoft's 2026 AI trends report envisions AI agents as digital
+    coworkers, predicting traditional org charts will give way to
+    task-focused work charts organized around goals and projects.
+  long_summary: >-
+    Microsoft's annual AI trends report for 2026 outlines seven key trends
+    including the vision of AI agents as digital coworkers that fundamentally
+    change organizational structure. The report predicts that traditional org
+    charts organized around functions will give way to task-focused work
+    charts organized around goals and projects. This structural shift requires
+    new leadership approaches, new metrics (like human-agent ratios), and new
+    ways of measuring team effectiveness.
+  key_takeaways:
+    - AI agents are becoming digital coworkers, not just tools
+    - Traditional org charts will give way to task-focused work charts
+    - New metrics like human-agent ratios will emerge for organizational design
+  relevance: >-
+    Microsoft's platform perspective adds weight to The Draft's claims about
+    organizational restructuring. The shift from org charts to work charts
+    parallels the shift from role-based to outcome-based thinking.
+  tags:
+    - microsoft
+    - trends
+    - work-charts
+  topics:
+    - organizational-design
+    - ai-agents
+  categories:
+    - ai-production-scale
+
+- source_id: springer_genai_collective_intelligence
+  source_type: paper
+  summary: >-
+    Academic paper examining AI as a coordination technology versus individual
+    production technology in teams, with implications for how organizational
+    design should adapt to generative AI capabilities.
+  long_summary: >-
+    Published in the Journal of Organization Design, this paper examines
+    generative AI through the lens of collective intelligence and team
+    coordination. Rather than treating AI solely as a productivity tool for
+    individual workers, the paper analyzes how AI functions as a coordination
+    technology that can reshape how teams collaborate, share information, and
+    make decisions. The implications for organizational design are significant:
+    if AI changes coordination costs, optimal team sizes and structures may
+    need to change accordingly.
+  key_takeaways:
+    - AI functions as both individual production technology and team coordination technology
+    - Changes in coordination costs require changes in optimal team sizes and structures
+    - Collective intelligence dynamics shift when AI participates in team coordination
+  relevance: >-
+    Provides academic grounding for The Draft's claims about team
+    restructuring. The coordination-vs-production framing adds analytical
+    depth to discussions of why AI changes team structure, not just individual
+    productivity.
+  tags:
+    - academic
+    - coordination
+    - collective-intelligence
+  topics:
+    - organizational-design
+    - team-theory
+  categories:
+    - org-structure
+
+- source_id: insead_genai_organizational_networks
+  source_type: paper
+  summary: >-
+    INSEAD field experiment with 316 employees studying how generative AI
+    adoption reshapes interaction patterns within organizational networks,
+    providing empirical evidence for structural change claims.
+  long_summary: >-
+    This INSEAD working paper reports on a field experiment with 316 employees
+    studying how GenAI adoption changes organizational interaction patterns.
+    The research provides empirical evidence for how AI reshapes who talks to
+    whom, how often, and about what—the fundamental social network structure
+    of organizations. The findings have implications for organizational
+    design, suggesting that AI adoption doesn't just change individual work
+    but alters the connective tissue of how organizations function.
+  key_takeaways:
+    - Field experiment with 316 employees provides empirical evidence for AI-driven network changes
+    - AI adoption alters who interacts with whom, how often, and about what
+    - Organizational interaction patterns—not just individual tasks—change with AI adoption
+  relevance: >-
+    Empirical evidence that AI adoption changes organizational structure at
+    the network level, not just the task level. Supports The Draft's argument
+    that AI integration requires deliberate organizational design.
+  tags:
+    - academic
+    - field-experiment
+    - network-analysis
+  topics:
+    - organizational-networks
+    - ai-adoption
+  categories:
+    - org-structure

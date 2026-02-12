@@ -677,3 +677,24 @@
   links:
     - label: "Vibe Coding for Product Design: Understanding Product Team Members' Perceptions of AI-Assisted Design and Development"
       url: 'https://arxiv.org/abs/2509.10652'
+
+# AI-driven team org structure research people
+- id: bob_sternfels
+  name: 'Bob Sternfels'
+  links:
+    - label: '"We Want to Make Ourselves Better" (HBR interview)'
+      url: 'https://hbr.org/2026/01/we-want-to-make-ourselves-better'
+    - label: 'McKinsey Faces Its AI Future'
+      url: 'https://hbr.org/2025/12/mckinsey-faces-its-ai-future'
+
+- id: andy_jassy
+  name: 'Andy Jassy'
+  links:
+    - label: 'AI Is Already Changing the Corporate Org Chart'
+      url: 'https://fortune.com/2025/08/07/ai-corporate-org-chart-workplace-agents-flattening/'
+
+- id: evan_spiegel
+  name: 'Evan Spiegel'
+  links:
+    - label: 'Startup-Inspired Org Design: The Most Misunderstood Playbook'
+      url: 'https://www.huntclub.com/blog/startup-inspired-org-design-the-most-misunderstood-playbook-in-business-right-now'
