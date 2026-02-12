@@ -177,3 +177,7 @@
 - id: uxmag_use_ai_wisely_quote
   quote: 'AI is speeding up design workflows and reshaping how we build digital products, but are we really using it wisely?'
   source_id: uxmag_real_impact_ai_designers
+
+- id: stackoverflow_2024_ai_favorability_quote
+  quote: "72% of all respondents are favorable or very favorable of AI tools for development. This is lower than last year's favorability of 77%; a decline in favorability could be due to disappointing results from usage."
+  source_id: stack_overflow_developer_survey_2024_ai
