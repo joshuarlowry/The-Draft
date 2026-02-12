@@ -2,6 +2,7 @@
 layout: layouts/article.njk
 id: ai-in-ux-augmentation-and-role-shifts
 title: 'AI in UX: Augmentation First, Role Shifts Already'
+date: 2026-02-10
 summary: 'Recent UX writing and research suggests AI is augmenting practice, while trust, review, and strategy responsibilities become more important—not less.'
 primary_domain: ux
 secondary_domains:

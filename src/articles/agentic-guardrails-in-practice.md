@@ -2,6 +2,7 @@
 layout: layouts/article.njk
 id: agentic-guardrails-in-practice
 title: 'Agentic Guardrails in Practice'
+date: 2026-02-03
 summary: 'Multi-agent workflows turn oversight into a repeatable system by dividing intent, retrieval, and validation across roles.'
 primary_domain: agentic
 secondary_domains:

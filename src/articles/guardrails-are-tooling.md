@@ -2,6 +2,7 @@
 layout: layouts/article.njk
 id: guardrails-are-tooling
 title: 'Guardrails Are Tooling, Not Meetings'
+date: 2026-02-03
 summary: 'Effective AI oversight scales when guardrails are embedded in tests, analysis, and workflow tooling instead of policy alone.'
 primary_domain: agentic
 secondary_domains:

@@ -12,7 +12,7 @@ Use the feed to jump into [Sources]({{ '/sources/' | url }}) when you want every
 ## Articles
 
 <ul class="article-list">
-{%- for article in collections.articles %}
+{%- for article in collections.articles | reverse %}
   <li>
     <a href="{{ article.url | url }}">{{ article.data.title }}</a>
     {% if article.data.primary_domain or (article.data.secondary_domains and article.data.secondary_domains.length) %}
