@@ -1146,3 +1146,332 @@
   reading_descriptions:
     ai-production-scale: 'Large-sample developer sentiment and usage data on AI tools in software development.'
     responsibility-oversight: 'Highlights how adoption can rise while confidence and perceived quality remain mixed, reinforcing the need for oversight.'
+
+# AI-driven team org structure research (Nov 2025 – Feb 2026)
+- id: mckinsey_agentic_organization
+  title: 'The Agentic Organization: Contours of the Next Paradigm for the AI Era'
+  publisher: 'McKinsey & Company'
+  published: '2025-09'
+  accessed: '2026-02-12'
+  url: 'https://www.mckinsey.com/capabilities/people-and-organizational-performance/our-insights/the-agentic-organization-contours-of-the-next-paradigm-for-the-ai-era'
+  tags:
+    - ai-production-scale
+    - org-structure
+  reading_descriptions:
+    ai-production-scale: 'Comprehensive framework for redesigning enterprises around human-AI collaboration, proposing new workforce archetypes and agile operating models.'
+    org-structure: 'Defines M-shaped supervisors, T-shaped experts, and AI-augmented frontline workers as the core of the agentic organization.'
+
+- id: mckinsey_redesign_work_for_ai
+  title: "A New Year's Resolution for Leaders: Redesign Work for People and AI"
+  publisher: 'McKinsey Global Institute'
+  published: '2026-01'
+  accessed: '2026-02-12'
+  url: 'https://www.mckinsey.com/mgi/media-center/a-new-years-resolution-for-leaders-redesign-work-for-people-and-ai'
+  tags:
+    - ai-production-scale
+    - org-structure
+  reading_descriptions:
+    ai-production-scale: 'Call to action for leaders to redesign workflows around human-AI partnerships rather than layering AI onto existing processes.'
+    org-structure: 'Argues that workflow redesign has the biggest effect on EBIT impact from generative AI.'
+
+- id: mckinsey_ai_upskilling_change_imperative
+  title: 'Redefine AI Upskilling as a Change Imperative'
+  publisher: 'McKinsey & Company'
+  published: '2025-12'
+  accessed: '2026-02-12'
+  url: 'https://www.mckinsey.com/capabilities/people-and-organizational-performance/our-insights/the-organization-blog/redefine-ai-upskilling-as-a-change-imperative'
+  tags:
+    - ai-production-scale
+    - org-structure
+  reading_descriptions:
+    ai-production-scale: 'Frames AI upskilling not as training but as organizational change management requiring new structures and roles.'
+
+- id: pwc_no_more_pyramids
+  title: 'No More Pyramids: Rethinking Your Workforce for the Agentic AI Era'
+  publisher: 'PwC'
+  published: '2026'
+  accessed: '2026-02-12'
+  url: 'https://www.pwc.com/us/en/tech-effect/ai-analytics/agentic-ai-workforce-redesign.html'
+  tags:
+    - ai-production-scale
+    - org-structure
+  reading_descriptions:
+    ai-production-scale: 'Describes the structural shift from pyramid to diamond org shapes as AI handles entry-level tasks and the middle layer becomes skilled orchestrators.'
+    org-structure: 'Introduces the rise of the generalist and outcome-focused roles as AI compresses traditional job hierarchies.'
+
+- id: pwc_ai_agents_reimagine_work
+  title: 'AI Agents Can Reimagine the Future of Work, Your Workforce and Workers'
+  publisher: 'PwC'
+  accessed: '2026-02-12'
+  url: 'https://www.pwc.com/us/en/tech-effect/ai-analytics/ai-agents.html'
+  tags:
+    - ai-production-scale
+    - org-structure
+  reading_descriptions:
+    ai-production-scale: 'Recommends redesigning value chains and core business processes to leverage hybrid AI-human teams for accelerated ROI.'
+
+- id: deloitte_agentic_reality_check
+  title: 'The Agentic Reality Check: Preparing for a Silicon-Based Workforce'
+  publisher: 'Deloitte'
+  published: '2025-12'
+  accessed: '2026-02-12'
+  url: 'https://www.deloitte.com/us/en/insights/topics/technology-management/tech-trends/2026/agentic-ai-strategy.html'
+  tags:
+    - ai-production-scale
+    - org-structure
+  reading_descriptions:
+    ai-production-scale: 'Reports that only 11% of organizations actively use agentic AI in production and most are trying to automate existing processes without redesigning work.'
+    org-structure: 'Argues that true value from agentic AI requires redesigning operations, not just layering agents onto old workflows.'
+
+- id: deloitte_great_rebuild_ai_tech_org
+  title: 'The Great Rebuild: Architecting an AI-Native Tech Organization'
+  publisher: 'Deloitte'
+  published: '2026'
+  accessed: '2026-02-12'
+  url: 'https://www.deloitte.com/us/en/insights/topics/technology-management/tech-trends/2026/ai-future-it-function.html'
+  tags:
+    - ai-production-scale
+    - org-structure
+  reading_descriptions:
+    ai-production-scale: 'Tech Trends 2026 report on restructuring the technology organization around AI, with data on budget allocation and team growth.'
+    org-structure: '78% of tech leaders anticipate broad integration of AI agents into architecture workflows; tech budgets for AI expected to rise from 8% to 13%.'
+
+- id: bcg_ai_workforce_strategy
+  title: 'AI Is Moving Faster Than Your Workforce Strategy. Are You Ready?'
+  publisher: 'Boston Consulting Group'
+  published: '2025-10'
+  accessed: '2026-02-12'
+  url: 'https://www.bcg.com/publications/2025/ai-is-outpacing-your-workforce-strategy-are-you-ready'
+  tags:
+    - ai-production-scale
+    - org-structure
+  reading_descriptions:
+    ai-production-scale: 'Describes how AI is taking over execution and freeing teams to focus on strategy, design, and oversight, with functional lines disappearing.'
+    org-structure: 'Predicts agent-led orchestration where AI handles end-to-end execution and humans steer strategy.'
+
+- id: bcg_reinvention_chro_ai
+  title: 'Reinvention of the CHRO in an AI-Driven Enterprise'
+  publisher: 'Boston Consulting Group'
+  published: '2026'
+  accessed: '2026-02-12'
+  url: 'https://www.bcg.com/publications/2026/reinvention-of-the-chro-in-an-ai-driven-enterprise'
+  tags:
+    - ai-production-scale
+    - org-structure
+  reading_descriptions:
+    ai-production-scale: 'Analyzes how CHROs are becoming architects of hybrid workforces integrating people with AI agents.'
+    org-structure: 'Describes the CHRO role transformation from personnel management to organizational redesign and cultural evolution for AI.'
+
+- id: ibm_agentic_ai_operating_model
+  title: "Agentic AI's Strategic Ascent: Shifting Operations from Incremental Gains to Net-New Impact"
+  publisher: 'IBM Institute for Business Value'
+  accessed: '2026-02-12'
+  url: 'https://www.ibm.com/thought-leadership/institute-business-value/en-us/report/agentic-ai-operating-model'
+  tags:
+    - ai-production-scale
+    - org-structure
+  reading_descriptions:
+    ai-production-scale: 'Survey of 800 C-suite executives across 20 countries on agentic AI operating models and workforce evolution.'
+    org-structure: 'Reveals key elements of autonomous AI operating models including management mindset shifts and team structure changes.'
+
+- id: hbr_mckinsey_faces_ai_future
+  author: 'Harvard Business Review'
+  title: 'McKinsey Faces Its AI Future'
+  publisher: 'Harvard Business Review'
+  published: '2025-12'
+  accessed: '2026-02-12'
+  url: 'https://hbr.org/2025/12/mckinsey-faces-its-ai-future'
+  tags:
+    - ai-production-scale
+    - org-structure
+  reading_descriptions:
+    ai-production-scale: 'Deep dive into how McKinsey is restructuring its own organization around AI, shifting to outcomes-based work.'
+    org-structure: 'Reports that roughly one-third of McKinsey revenue now comes from underwriting outcomes, blending human judgment with AI agents.'
+
+- id: hbr_sternfels_make_ourselves_better
+  author: 'Bob Sternfels'
+  author_ids:
+    - bob_sternfels
+  title: '"We Want to Make Ourselves Better"'
+  publisher: 'Harvard Business Review'
+  published: '2026-01'
+  accessed: '2026-02-12'
+  url: 'https://hbr.org/2026/01/we-want-to-make-ourselves-better'
+  tags:
+    - ai-production-scale
+    - org-structure
+  reading_descriptions:
+    ai-production-scale: 'McKinsey managing partner discusses AI-era organizational restructuring and the shift toward outcomes-based consulting.'
+    org-structure: 'First-person account of how AI is reshaping team composition and delivery models at a major consulting firm.'
+
+- id: fortune_ai_corporate_org_chart
+  title: 'AI Is Already Changing the Corporate Org Chart'
+  publisher: 'Fortune'
+  published: '2025-08-07'
+  accessed: '2026-02-12'
+  url: 'https://fortune.com/2025/08/07/ai-corporate-org-chart-workplace-agents-flattening/'
+  tags:
+    - ai-production-scale
+    - org-structure
+  reading_descriptions:
+    ai-production-scale: 'Real-world examples from Amazon, Moderna, and McKinsey of AI-driven org chart changes including team compression and department mergers.'
+    org-structure: 'Reports a healthcare company replacing a 10-engineer team with a 3-person unit overseeing AI agents.'
+
+- id: cio_microsoft_ai_agents_org_charts
+  title: 'Microsoft Sees AI Agents Shaking Up Org Charts, Eliminating Traditional Functions'
+  publisher: 'CIO'
+  published: '2025-04'
+  accessed: '2026-02-12'
+  url: 'https://www.cio.com/article/3972714/ms-ai-agents-become-teammates-a-new-enterprise-form-emerges.html'
+  tags:
+    - ai-production-scale
+    - org-structure
+  reading_descriptions:
+    ai-production-scale: 'Microsoft predicts organizations will reorganize from functions to goals and projects, with 28% of managers planning to hire hybrid human-AI team leads.'
+    org-structure: 'Introduces the human-agent ratio as a new organizational design metric.'
+
+- id: cio_new_org_chart_ai_native_roles
+  title: 'The New Org Chart: Unlocking Value with AI-Native Roles in the Agentic Era'
+  publisher: 'CIO'
+  published: '2025-09'
+  accessed: '2026-02-12'
+  url: 'https://www.cio.com/article/4060162/the-new-org-chart-unlocking-value-with-ai-native-roles-in-the-agentic-era.html'
+  tags:
+    - ai-production-scale
+    - org-structure
+  reading_descriptions:
+    ai-production-scale: 'Analysis of emerging AI-native organizational roles as IT moves from reactive troubleshooting toward architecture and strategy.'
+
+- id: wef_ai_new_work_colleague
+  title: "AI Is Becoming Your New Work Colleague. But Let's Not Forget Your Human Ones"
+  publisher: 'World Economic Forum'
+  published: '2026-01'
+  accessed: '2026-02-12'
+  url: 'https://www.weforum.org/stories/2026/01/ai-agentic-workplace-human-resources/'
+  tags:
+    - ai-production-scale
+    - org-structure
+    - responsibility-oversight
+  reading_descriptions:
+    ai-production-scale: 'January 2026 analysis of AI as teammate, noting early adopters experience loss of connection to co-workers and diminished sense of productivity.'
+    org-structure: 'Highlights the human cost of rapid AI team integration and the need for deliberate organizational design around collaboration.'
+
+- id: brandon_hall_smaller_teams_smarter_systems
+  title: 'Smaller Teams, Smarter Systems: How Agentic AI Is Redefining Workforce Efficiency — And What It Means for L&D'
+  publisher: 'Brandon Hall Group'
+  published: '2025-07'
+  accessed: '2026-02-12'
+  url: 'https://brandonhall.com/smaller-teams-smarter-systems-how-agentic-ai-is-redefining-workforce-efficiency-and-what-it-means-for-ld/'
+  tags:
+    - ai-production-scale
+    - org-structure
+  reading_descriptions:
+    ai-production-scale: 'Data showing 3-5 person teams with AI agents replacing 25-person departments with equivalent quality metrics.'
+    org-structure: 'Concrete case study of a 3-person customer service team handling 10,000 monthly tickets previously requiring 25 people.'
+
+- id: bain_building_foundation_agentic_ai
+  title: 'Building the Foundation for Agentic AI'
+  publisher: 'Bain & Company'
+  published: '2025'
+  accessed: '2026-02-12'
+  url: 'https://www.bain.com/insights/building-the-foundation-for-agentic-ai-technology-report-2025/'
+  tags:
+    - ai-production-scale
+    - org-structure
+  reading_descriptions:
+    ai-production-scale: 'Describes agentic AI as a structural shift reshaping companies with agents that reason, coordinate, and execute complex workflows.'
+    org-structure: 'Reports a major bank cutting time and effort by more than 50% by placing humans in supervisory roles with coordinated AI agent squads.'
+
+- id: databricks_ai_company_structures
+  title: 'The Role of AI in Changing Company Structures and Dynamics'
+  publisher: 'Databricks'
+  accessed: '2026-02-12'
+  url: 'https://www.databricks.com/blog/role-ai-changing-company-structures-and-dynamics'
+  tags:
+    - ai-production-scale
+    - org-structure
+  reading_descriptions:
+    ai-production-scale: 'Analysis of how AI agents automate and augment parts of processes, including Bayer AG cutting nearly half of management positions.'
+    org-structure: 'Case study of Bayer adopting Dynamic Shared Ownership to cut hierarchies and accelerate decision-making.'
+
+- id: org_physics_ai_company_structure
+  title: 'AI Will Change How We Structure Our Companies — But How?'
+  publisher: 'Organizational Physics'
+  published: '2025-09-14'
+  accessed: '2026-02-12'
+  url: 'https://organizationalphysics.com/2025/09/14/ai-will-change-how-we-structure-our-companies-but-how/'
+  tags:
+    - ai-production-scale
+    - org-structure
+  reading_descriptions:
+    ai-production-scale: 'Argues the real change is in augmenting every human with AI super-intelligence, not replacing people.'
+    org-structure: 'Focuses on how leaders must redesign strategy, structure, process, and people to align with an AI-powered foundation.'
+
+- id: marketing_agent_replacing_ops_teams
+  title: 'How AI Agents Are Replacing Marketing Ops Teams In 2026: 5 Real Job Transitions Happening Right Now'
+  publisher: 'Marketing Agent Blog'
+  published: '2026-01-28'
+  accessed: '2026-02-12'
+  url: 'https://marketingagent.blog/2026/01/28/how-ai-agents-are-replacing-marketing-ops-teams-in-2026-5-real-job-transitions-happening-right-now/'
+  tags:
+    - ai-production-scale
+    - org-structure
+  reading_descriptions:
+    ai-production-scale: 'Documents 5 real marketing job transitions where one human now supervises what used to require 3-5 admins.'
+    org-structure: 'Shows how Salesforce and HubSpot agent-driven workflows are restructuring marketing operations teams.'
+
+- id: forethought_agentic_ai_small_teams
+  title: 'Research Shows Agentic AI Helps Small Teams Scale'
+  publisher: 'Forethought'
+  accessed: '2026-02-12'
+  url: 'https://forethought.ai/blog/research-shows-agentic-ai-helps-small-teams'
+  tags:
+    - ai-production-scale
+    - org-structure
+  reading_descriptions:
+    ai-production-scale: 'Small teams using agentic AI saw 71% improvement in deflection, 89% CSAT (highest of any cohort), and lowest cost per resolution at $9.'
+
+- id: imd_2026_ai_trends_leaders
+  title: '2026 AI Trends: What Leaders Need to Know'
+  publisher: 'IMD'
+  accessed: '2026-02-12'
+  url: 'https://www.imd.org/ibyimd/artificial-intelligence/2026-ai-trends-what-leaders-need-to-know-to-stay-competitive/'
+  tags:
+    - ai-production-scale
+    - org-structure
+  reading_descriptions:
+    ai-production-scale: 'Predicts 10-20% reduction in traditional middle-management positions by end of 2026, particularly roles organized around information routing.'
+
+- id: springer_genai_collective_intelligence
+  title: 'Generative AI and Collaboration: Opportunities for Cultivating Collective Intelligence'
+  publisher: 'Journal of Organization Design (Springer)'
+  published: '2025'
+  accessed: '2026-02-12'
+  url: 'https://link.springer.com/article/10.1007/s41469-025-00199-z'
+  tags:
+    - org-structure
+  reading_descriptions:
+    org-structure: 'Academic paper on AI as coordination technology versus individual production technology in teams, with implications for organizational design.'
+
+- id: insead_genai_organizational_networks
+  title: 'The Impact of Generative AI Adoption on Organizational Networks'
+  publisher: 'INSEAD'
+  published: '2025'
+  accessed: '2026-02-12'
+  url: 'https://sites.insead.edu/facultyresearch/research/doc.cfm?did=74966'
+  tags:
+    - org-structure
+  reading_descriptions:
+    org-structure: 'Field experiment with 316 employees studying how GenAI adoption reshapes interaction patterns within organizational networks.'
+
+- id: microsoft_ai_trends_2026
+  title: "What's Next in AI: 7 Trends to Watch in 2026"
+  publisher: 'Microsoft'
+  published: '2026'
+  accessed: '2026-02-12'
+  url: 'https://news.microsoft.com/source/features/ai/whats-next-in-ai-7-trends-to-watch-in-2026'
+  tags:
+    - ai-production-scale
+    - org-structure
+  reading_descriptions:
+    ai-production-scale: "Microsoft's vision for AI agents as digital coworkers, predicting traditional org charts will give way to task-focused work charts."

@@ -181,3 +181,44 @@
 - id: stackoverflow_2024_ai_favorability_quote
   quote: "72% of all respondents are favorable or very favorable of AI tools for development. This is lower than last year's favorability of 77%; a decline in favorability could be due to disappointing results from usage."
   source_id: stack_overflow_developer_survey_2024_ai
+
+# AI-driven team org structure research citations
+- id: mckinsey_agentic_org_90_percent_quote
+  quote: '90% of companies report investing in AI, but fewer than 40% report meaningful bottom-line impact.'
+  source_id: mckinsey_agentic_organization
+
+- id: pwc_no_more_pyramids_generalist_quote
+  quote: 'The result is a diamond-shaped structure: a small leadership team, a strong middle layer, and a narrow base of new talent.'
+  source_id: pwc_no_more_pyramids
+
+- id: deloitte_agentic_11_percent_production_quote
+  quote: 'Only 11% of organizations are actively using agentic AI in production; 14% have solutions ready to deploy.'
+  source_id: deloitte_agentic_reality_check
+
+- id: brandon_hall_3_person_team_quote
+  quote: 'A three-person customer service team could handle 10,000 support tickets monthly—the same volume that previously required a 25-person department, with the same response times, customer satisfaction scores, and resolution rates.'
+  source_id: brandon_hall_smaller_teams_smarter_systems
+
+- id: cio_microsoft_human_agent_ratio_quote
+  quote: '28% of managers are already planning to hire someone to lead hybrid human-AI teams.'
+  source_id: cio_microsoft_ai_agents_org_charts
+
+- id: fortune_moderna_merged_departments_quote
+  quote: 'Moderna merged its technology and HR departments into a single function, driven in part by its partnership with OpenAI.'
+  source_id: fortune_ai_corporate_org_chart
+
+- id: imd_middle_management_reduction_quote
+  quote: 'IMD projects a 10-20% reduction in traditional middle-management positions by end of 2026, particularly roles organized around information routing, basic coordination, and document summarization.'
+  source_id: imd_2026_ai_trends_leaders
+
+- id: forethought_small_teams_csat_quote
+  quote: 'Small teams using agentic AI saw a 71% improvement in deflection compared to those using non-agentic tools. These same teams reported the highest CSAT of any cohort—89%.'
+  source_id: forethought_agentic_ai_small_teams
+
+- id: bain_bank_50_percent_reduction_quote
+  quote: 'A major bank placed human workers in supervisory roles and deployed coordinated squads of AI agents. Early teams using this structure cut time and effort by more than 50%.'
+  source_id: bain_building_foundation_agentic_ai
+
+- id: databricks_bayer_half_management_quote
+  quote: 'Bayer AG cut nearly half of management and executive positions, adopting a Dynamic Shared Ownership model aimed at cutting hierarchies and accelerating decision-making.'
+  source_id: databricks_ai_company_structures
