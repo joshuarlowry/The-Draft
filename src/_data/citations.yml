@@ -222,3 +222,23 @@
 - id: databricks_bayer_half_management_quote
   quote: 'Bayer AG cut nearly half of management and executive positions, adopting a Dynamic Shared Ownership model aimed at cutting hierarchies and accelerating decision-making.'
   source_id: databricks_ai_company_structures
+
+- id: sourcetms_isolate_scope_quote
+  quote: 'Isolate scope — Have the agent interview you to narrow scope before executing'
+  source_id: sourcetms_agent_driven_development
+
+- id: sourcetms_optimize_for_agents_quote
+  quote: 'Optimize for agents — Split big files, add NAV_MAP.md files, reduce context window spend'
+  source_id: sourcetms_agent_driven_development
+
+- id: sourcetms_claude_md_structure_quote
+  quote: 'Create a CLAUDE.md file in each project directory you use - these provide useful structure for the LLM and context or instructions that load automatically when Claude works in that folder (It can be useful for creating guides on how to make certain features or make changes)'
+  source_id: sourcetms_claude_code_setup
+
+- id: sourcetms_soft_skills_direction_quote
+  quote: 'The vast majority of work is done by AI, with humans providing the direction through strategic or creative prompting and additional context.'
+  source_id: sourcetms_soft_skills_renaissance
+
+- id: sourcetms_builder_middle_class_quote
+  quote: "AI is acting as both the great equalizer, creating a 'builder middle class' for every domain, and at the same time a divider."
+  source_id: sourcetms_soft_skills_renaissance

@@ -1475,3 +1475,51 @@
     - org-structure
   reading_descriptions:
     ai-production-scale: "Microsoft's vision for AI agents as digital coworkers, predicting traditional org charts will give way to task-focused work charts."
+
+- id: sourcetms_agent_driven_development
+  author: 'Thomas Schlossmacher'
+  author_ids:
+    - thomas_schlossmacher
+  title: '9 Things You Can Do for More Effective Agent-Driven Development'
+  publisher: 'SourceTMS'
+  published: '2026-02-03'
+  accessed: '2026-02-14'
+  url: 'https://sourcetms.com/notes/agent-driven-development'
+  tags:
+    - planning-and-structure
+    - governance-guardrails
+  reading_descriptions:
+    planning-and-structure: 'Practitioner checklist for running agent-driven coding with explicit scope, role definition, and architecture context.'
+    governance-guardrails: 'Recommends concrete operating controls such as error escalation rules and sub-agent specialization to reduce drift.'
+
+- id: sourcetms_claude_code_setup
+  author: 'Thomas Schlossmacher'
+  author_ids:
+    - thomas_schlossmacher
+  title: 'Claude Code Setup 101'
+  publisher: 'SourceTMS'
+  published: '2025-07-23'
+  accessed: '2026-02-14'
+  url: 'https://sourcetms.com/notes/claude-code-setup-101'
+  tags:
+    - planning-and-structure
+    - responsibility-oversight
+  reading_descriptions:
+    planning-and-structure: 'A tactical setup guide emphasizing persistent project instructions and context hygiene for CLI agents.'
+    responsibility-oversight: 'Frames effective prompting as disciplined operator behavior, not autonomous model capability.'
+
+- id: sourcetms_soft_skills_renaissance
+  author: 'Thomas Schlossmacher'
+  author_ids:
+    - thomas_schlossmacher
+  title: 'The Soft Skills Renaissance'
+  publisher: 'SourceTMS'
+  published: '2025-03-06'
+  accessed: '2026-02-14'
+  url: 'https://sourcetms.com/notes/outsourcing-knowledge'
+  tags:
+    - engineering-judgment
+    - ai-production-scale
+  reading_descriptions:
+    engineering-judgment: 'Argues that as execution shifts to AI, human differentiators become taste, intuition, and direction quality.'
+    ai-production-scale: 'Describes AI as both equalizer and divider, suggesting outcomes compound around operator skill.'

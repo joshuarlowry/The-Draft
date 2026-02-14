@@ -2783,3 +2783,100 @@
     - ai-adoption
   categories:
     - org-structure
+
+- source_id: sourcetms_agent_driven_development
+  source_type: article
+  summary: >-
+    Thomas Schlossmacher shares a nine-point operating playbook for
+    agent-driven development, centered on scoped tasks, explicit context, and
+    repeatable multi-agent workflows.
+  long_summary: >-
+    In this SourceTMS post, Schlossmacher outlines practical habits for
+    improving coding-agent reliability: cross-referencing related repositories,
+    splitting work across focused agents, constraining scope before execution,
+    and documenting reusable patterns. The guidance treats agent performance as
+    an operations problem where architecture visibility, routing rules, and
+    escalation discipline determine outcomes more than one-shot prompts.
+  key_takeaways:
+    - Define architecture context up front so agents can navigate related repositories correctly
+    - Isolate scope before execution to reduce ambiguity and rework loops
+    - Operationalize repeatable patterns with sub-agent configs and navigation maps
+  relevance: >-
+    Directly supports The Draft's planning-first stance: agentic speed only
+    scales when intent, boundaries, and review mechanics are made explicit.
+  tags:
+    - agent-driven-development
+    - claude-code
+    - workflow-design
+  topics:
+    - planning
+    - context-engineering
+  categories:
+    - planning-and-structure
+    - governance-guardrails
+  notable_quotes:
+    - 'Isolate scope — Have the agent interview you to narrow scope before executing'
+    - 'Optimize for agents — Split big files, add NAV_MAP.md files, reduce context window spend'
+
+- source_id: sourcetms_claude_code_setup
+  source_type: article
+  summary: >-
+    A tactical checklist for running Claude Code effectively, emphasizing
+    project-level instruction files and precise operator prompts.
+  long_summary: >-
+    Schlossmacher's setup guide focuses on environment hygiene and operator
+    habits: create CLAUDE.md files per project, use file tagging for context,
+    clear stale sessions, and prioritize specific prompts. The post frames
+    coding agents as tools that improve with clearer structure and explicit
+    interaction patterns.
+  key_takeaways:
+    - Create persistent project instruction files so agent behavior is grounded in local context
+    - Use explicit prompts and targeted file references to improve output quality
+    - Reset context aggressively to avoid drift and token waste across tasks
+  relevance: >-
+    Reinforces the idea that oversight and context management are core skills
+    in AI-assisted development, not optional workflow polish.
+  tags:
+    - claude-code
+    - prompting
+    - context-hygiene
+  topics:
+    - operator-discipline
+    - developer-workflow
+  categories:
+    - planning-and-structure
+    - responsibility-oversight
+  notable_quotes:
+    - 'Be really specific - Using clear, detailed requests gets way better results than the vague ones (this also applies to queued messages)'
+
+- source_id: sourcetms_soft_skills_renaissance
+  source_type: article
+  summary: >-
+    Schlossmacher argues that as AI performs more implementation work,
+    differentiating value shifts toward human soft skills and judgment.
+  long_summary: >-
+    This opinion note presents "vibe coding" as a broader pattern for future
+    knowledge work, where AI handles increasing portions of execution and
+    humans steer outcomes through intent, taste, and strategic framing. It also
+    highlights distributional effects: widespread access can broaden who can
+    build, but top operators still compound advantage.
+  key_takeaways:
+    - Shift human focus from syntax execution to direction, framing, and product taste
+    - Treat soft skills as performance multipliers in AI-mediated development work
+    - Anticipate widening capability gaps as stronger operators leverage AI faster
+  relevance: >-
+    Aligns with The Draft's engineering-judgment lens by emphasizing that human
+    discernment remains the control point even when implementation is delegated.
+  tags:
+    - vibe-coding
+    - soft-skills
+    - ai-augmentation
+  topics:
+    - judgment
+    - workforce-shift
+  categories:
+    - engineering-judgment
+    - ai-production-scale
+  notable_quotes:
+    - 'The vast majority of work is done by AI, with humans providing the direction through strategic or creative prompting and additional context.'
+    - "AI is acting as both the great equalizer, creating a 'builder middle class' for every domain, and at the same time a divider."
