@@ -242,3 +242,27 @@
 - id: sourcetms_builder_middle_class_quote
   quote: "AI is acting as both the great equalizer, creating a 'builder middle class' for every domain, and at the same time a divider."
   source_id: sourcetms_soft_skills_renaissance
+
+- id: anthropic_usage_concentration_quote
+  quote: 'Today, usage is concentrated in software development and technical writing tasks. Over one-third of occupations (roughly 36%) see AI use in at least a quarter of their associated tasks, while approximately 4% of occupations use it across three-quarters of their associated tasks.'
+  source_id: anthropic_economic_index_2025
+
+- id: anthropic_augmentation_57_quote
+  quote: 'AI use leans more toward augmentation (57%), where AI collaborates with and enhances human capabilities, compared to automation (43%), where AI directly performs tasks.'
+  source_id: anthropic_economic_index_2025
+
+- id: goldman_gdp_7_percent_quote
+  quote: 'Generative AI could raise global GDP by 7%.'
+  source_id: goldman_sachs_genai_gdp_disruption
+
+- id: reuters_software_stocks_slump_quote
+  quote: 'US software stocks slump as AI disruption fears take over.'
+  source_id: reuters_us_software_stocks_slump_ai_fears
+
+- id: reuters_amazon_30000_cuts_quote
+  quote: 'Exclusive: Amazon targets as many as 30,000 corporate job cuts, sources say.'
+  source_id: reuters_amazon_targets_30000_corporate_cuts
+
+- id: hrdive_entry_level_pipeline_quote
+  quote: 'If AI kills the entry-level job, employers may not be ready for what comes next.'
+  source_id: hrdive_ai_entry_level_talent_pipeline_2025

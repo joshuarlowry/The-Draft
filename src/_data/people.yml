@@ -719,3 +719,39 @@
       url: 'https://sourcetms.com/notes/claude-code-setup-101'
     - label: 'The Soft Skills Renaissance'
       url: 'https://sourcetms.com/notes/outsourcing-knowledge'
+
+- id: kristalina_georgieva
+  name: 'Kristalina Georgieva'
+  links:
+    - label: 'Gen-AI: Artificial Intelligence and the Future of Work'
+      url: 'https://www.imf.org/en/Blogs/Articles/2024/01/14/gen-ai-artificial-intelligence-and-the-future-of-work'
+
+- id: molly_kinder
+  name: 'Molly Kinder'
+  links:
+    - label: 'Generative AI, the American Worker, and the Future of Work'
+      url: 'https://www.brookings.edu/articles/generative-ai-the-american-worker-and-the-future-of-work/'
+
+- id: ross_tilchin
+  name: 'Ross Tilchin'
+  links:
+    - label: 'Generative AI, the American Worker, and the Future of Work'
+      url: 'https://www.brookings.edu/articles/generative-ai-the-american-worker-and-the-future-of-work/'
+
+- id: vidit_doshi
+  name: 'Vidit Doshi'
+  links:
+    - label: 'Generative AI, the American Worker, and the Future of Work'
+      url: 'https://www.brookings.edu/articles/generative-ai-the-american-worker-and-the-future-of-work/'
+
+- id: joseph_briggs
+  name: 'Joseph Briggs'
+  links:
+    - label: 'The Potentially Large Effects of Artificial Intelligence on Economic Growth'
+      url: 'https://www.goldmansachs.com/insights/articles/generative-ai-could-raise-global-gdp-by-7-percent'
+
+- id: devesh_kodnani
+  name: 'Devesh Kodnani'
+  links:
+    - label: 'The Potentially Large Effects of Artificial Intelligence on Economic Growth'
+      url: 'https://www.goldmansachs.com/insights/articles/generative-ai-could-raise-global-gdp-by-7-percent'
