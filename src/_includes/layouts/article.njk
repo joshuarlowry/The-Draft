@@ -4,6 +4,7 @@ layout: layouts/base.njk
 <article class="article">
   <header class="article-header">
     <h1>{{ title }}</h1>
+    <p class="article-date">Authored {{ (date or page.date) | formatAuthorDate }}</p>
     {% if primary_domain or (secondary_domains and secondary_domains.length) %}
     {% include "components/domain-badges.njk" %}
     {% endif %}

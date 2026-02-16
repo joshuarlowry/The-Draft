@@ -259,12 +259,49 @@ module.exports = function (eleventyConfig) {
   };
 
   const urlFilter = eleventyConfig.getFilter('url');
+  const DATE_ONLY_PATTERN = /^(\d{4})-(\d{2})-(\d{2})$/;
+
   const parseDateValue = (value) => {
     if (!value) return null;
-    const parsed = new Date(value);
+
+    if (value instanceof Date) {
+      return Number.isNaN(value.getTime()) ? null : value;
+    }
+
+    const normalizedValue = value.toString().trim();
+    const dateOnlyMatch = normalizedValue.match(DATE_ONLY_PATTERN);
+    if (dateOnlyMatch) {
+      const [, year, month, day] = dateOnlyMatch;
+      const parsed = new Date(Date.UTC(Number(year), Number(month) - 1, Number(day)));
+      return Number.isNaN(parsed.getTime()) ? null : parsed;
+    }
+
+    const parsed = new Date(normalizedValue);
     if (Number.isNaN(parsed.getTime())) return null;
     return parsed;
   };
+
+  eleventyConfig.addFilter('sortByDateDesc', function (items = []) {
+    if (!Array.isArray(items)) return [];
+
+    return [...items].sort((a, b) => {
+      const aDate = parseDateValue(a?.data?.date) || parseDateValue(a?.date) || new Date(0);
+      const bDate = parseDateValue(b?.data?.date) || parseDateValue(b?.date) || new Date(0);
+      return bDate - aDate;
+    });
+  });
+
+  eleventyConfig.addFilter('formatAuthorDate', function (value) {
+    const date = parseDateValue(value);
+    if (!date) return '';
+
+    return new Intl.DateTimeFormat('en-US', {
+      year: 'numeric',
+      month: 'long',
+      day: 'numeric',
+      timeZone: 'UTC',
+    }).format(date);
+  });
 
   const renderCitation = (citation, sources = [], summaries = []) => {
     const source = getSourceFromCitation(citation, sources);
