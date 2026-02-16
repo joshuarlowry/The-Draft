@@ -12,9 +12,10 @@ Use the feed to jump into [Sources]({{ '/sources/' | url }}) when you want every
 ## Articles
 
 <ul class="article-list">
-{%- for article in collections.articles %}
+{%- for article in collections.articles | sortByDateDesc %}
   <li>
     <a href="{{ article.url | url }}">{{ article.data.title }}</a>
+    <p class="article-date">Authored {{ (article.data.date or article.date) | formatAuthorDate }}</p>
     {% if article.data.primary_domain or (article.data.secondary_domains and article.data.secondary_domains.length) %}
     <div class="domain-badges domain-badges--inline">
       {% if article.data.primary_domain %}

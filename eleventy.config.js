@@ -266,6 +266,27 @@ module.exports = function (eleventyConfig) {
     return parsed;
   };
 
+  eleventyConfig.addFilter('sortByDateDesc', function (items = []) {
+    if (!Array.isArray(items)) return [];
+
+    return [...items].sort((a, b) => {
+      const aDate = parseDateValue(a?.data?.date) || parseDateValue(a?.date) || new Date(0);
+      const bDate = parseDateValue(b?.data?.date) || parseDateValue(b?.date) || new Date(0);
+      return bDate - aDate;
+    });
+  });
+
+  eleventyConfig.addFilter('formatAuthorDate', function (value) {
+    const date = parseDateValue(value);
+    if (!date) return '';
+
+    return new Intl.DateTimeFormat('en-US', {
+      year: 'numeric',
+      month: 'long',
+      day: 'numeric',
+    }).format(date);
+  });
+
   const renderCitation = (citation, sources = [], summaries = []) => {
     const source = getSourceFromCitation(citation, sources);
     const inlineCitation = getApaInlineCitation(source);
