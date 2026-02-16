@@ -266,3 +266,11 @@
 - id: hrdive_entry_level_pipeline_quote
   quote: 'If AI kills the entry-level job, employers may not be ready for what comes next.'
   source_id: hrdive_ai_entry_level_talent_pipeline_2025
+
+- id: tiktok_mvp_workflow_not_tool_quote
+  quote: "So what you do is you say this awesome, but let's not MVP the tool. Let's MVP the workflow."
+  source_id: tiktok_mvp_workflow_not_tool
+
+- id: tiktok_80_percent_not_shippable_quote
+  quote: "Because 80% built fast is not the same as 100% shipable. And it definitely doesn't mean maintainable."
+  source_id: tiktok_mvp_workflow_not_tool

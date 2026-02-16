@@ -755,3 +755,11 @@
   links:
     - label: 'The Potentially Large Effects of Artificial Intelligence on Economic Growth'
       url: 'https://www.goldmansachs.com/insights/articles/generative-ai-could-raise-global-gdp-by-7-percent'
+
+- id: anthony_goto
+  name: 'Anthony Goto'
+  links:
+    - label: 'Beacons profile'
+      url: 'https://beacons.ai/anthonygoto'
+    - label: "Don't MVP the tool, MVP the workflow"
+      url: 'https://www.tiktok.com/t/ZThC1vjTt/'
