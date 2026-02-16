@@ -259,9 +259,24 @@ module.exports = function (eleventyConfig) {
   };
 
   const urlFilter = eleventyConfig.getFilter('url');
+  const DATE_ONLY_PATTERN = /^(\d{4})-(\d{2})-(\d{2})$/;
+
   const parseDateValue = (value) => {
     if (!value) return null;
-    const parsed = new Date(value);
+
+    if (value instanceof Date) {
+      return Number.isNaN(value.getTime()) ? null : value;
+    }
+
+    const normalizedValue = value.toString().trim();
+    const dateOnlyMatch = normalizedValue.match(DATE_ONLY_PATTERN);
+    if (dateOnlyMatch) {
+      const [, year, month, day] = dateOnlyMatch;
+      const parsed = new Date(Date.UTC(Number(year), Number(month) - 1, Number(day)));
+      return Number.isNaN(parsed.getTime()) ? null : parsed;
+    }
+
+    const parsed = new Date(normalizedValue);
     if (Number.isNaN(parsed.getTime())) return null;
     return parsed;
   };
@@ -284,6 +299,7 @@ module.exports = function (eleventyConfig) {
       year: 'numeric',
       month: 'long',
       day: 'numeric',
+      timeZone: 'UTC',
     }).format(date);
   });
 
