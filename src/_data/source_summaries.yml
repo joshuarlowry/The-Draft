@@ -2880,3 +2880,449 @@
   notable_quotes:
     - 'The vast majority of work is done by AI, with humans providing the direction through strategic or creative prompting and additional context.'
     - "AI is acting as both the great equalizer, creating a 'builder middle class' for every domain, and at the same time a divider."
+
+- source_id: wef_future_of_jobs_report_2025
+  source_type: paper
+  summary: >-
+    World Economic Forum survey data on how employers expect AI and other
+    macro forces to reshape roles, skills, and net employment through 2030.
+  long_summary: >-
+    The Future of Jobs Report 2025 synthesizes global employer survey responses
+    to estimate job creation, job displacement, and the scale of workforce
+    transition expected over the next five years. It presents a mixed picture:
+    some roles decline as automation expands, while others grow around
+    analytics, AI, and human-centered capabilities. The report is useful for
+    separating headline fear from role-level transition planning.
+  key_takeaways:
+    - Quantifies projected job creation and displacement rather than treating AI impact as a single-direction story
+    - Identifies role categories with the highest transition pressure, especially routine information-processing work
+    - Shows rising demand for blended skill profiles that combine technical fluency with human judgment
+    - Frames reskilling speed as a primary determinant of whether disruption becomes unemployment or mobility
+  relevance: >-
+    Directly supports The Draft's planning lens by treating workforce change as
+    an execution problem: design transitions early, or absorb them later as
+    organizational and social friction.
+  tags:
+    - labor-market
+    - reskilling
+    - employer-survey
+  topics:
+    - workforce-transition
+    - role-redesign
+  categories:
+    - workforce-strategy
+    - ai-production-scale
+
+- source_id: imf_gen_ai_future_of_work_2024
+  source_type: article
+  summary: >-
+    IMF leadership perspective on how generative AI could raise productivity
+    while also increasing inequality risk without policy and organizational
+    guardrails.
+  long_summary: >-
+    In this IMF analysis, Kristalina Georgieva argues that generative AI is
+    likely to affect a substantial share of jobs, with advanced economies often
+    seeing higher exposure because of task composition. The piece emphasizes
+    that the central question is distribution: who captures AI gains and who
+    bears transition costs. It calls for proactive policy on social protection,
+    reskilling, and labor market adaptation to avoid demand-side erosion where
+    productivity rises but household purchasing power weakens.
+  key_takeaways:
+    - Warns that AI can boost output while still widening inequality if gains are narrowly captured
+    - Distinguishes job exposure from deterministic job loss, highlighting task-level transformation
+    - Prioritizes reskilling and social policy as mechanisms to preserve broad-based purchasing power
+    - Connects labor transitions to macroeconomic stability, not just firm-level efficiency
+  relevance: >-
+    Highly relevant to The Draft's guardrail stance: technical acceleration is
+    insufficient if institutions and operating models fail to protect human
+    agency and economic participation.
+  tags:
+    - imf
+    - inequality
+    - policy
+  topics:
+    - macroeconomics
+    - labor-market
+  categories:
+    - workforce-strategy
+    - governance-guardrails
+
+- source_id: ilo_generative_ai_jobs_global_analysis_2023
+  source_type: paper
+  summary: >-
+    ILO report concluding that generative AI is more likely to transform jobs
+    than eliminate them outright, with risks concentrated in clerical work and
+    uneven effects across regions and gender.
+  long_summary: >-
+    The ILO's global analysis models occupational exposure to generative AI and
+    finds that full automation remains limited relative to partial task
+    transformation. Administrative and clerical occupations show the highest
+    exposure, while many roles are expected to be reconfigured rather than
+    removed. The report also flags distributional concerns, including gendered
+    exposure patterns and the quality of work under AI-mediated management.
+  key_takeaways:
+    - Estimates that most occupations face task transformation rather than full replacement
+    - Identifies clerical and administrative roles as the highest-risk clusters for displacement pressure
+    - Highlights uneven exposure across countries, sectors, and demographic groups
+    - Recommends social dialogue and labor protections to shape transition quality
+  relevance: >-
+    Adds empirical grounding to The Draft's claim that implementation choices
+    decide outcomes: augmentation can improve work, but unmanaged rollout can
+    degrade job quality and stability.
+  tags:
+    - ilo
+    - occupational-exposure
+    - job-quality
+  topics:
+    - job-transformation
+    - labor-policy
+  categories:
+    - workforce-strategy
+    - responsibility-oversight
+
+- source_id: brookings_genai_american_worker_future_of_work
+  source_type: article
+  summary: >-
+    Brookings maps generative AI exposure across occupations and income bands,
+    showing that knowledge-work disruption is broad but uneven.
+  long_summary: >-
+    This Brookings analysis examines occupational task exposure in the United
+    States and argues that generative AI changes are likely to concentrate in
+    cognitive and information-centric work rather than manual sectors in the
+    near term. It emphasizes that higher-wage and college-educated workers can
+    also face substantial task disruption, complicating the assumption that AI
+    risk is limited to low-wage jobs. The article is useful for role-level
+    framing when discussing how jobs may "linger" by being re-bundled rather
+    than fully eliminated.
+  key_takeaways:
+    - Quantifies occupation-level AI exposure instead of treating disruption as uniform
+    - Identify knowledge-work categories with high task-level automation pressure
+    - Reframe workforce risk as task rebundling and role redesign, not only job elimination
+    - Highlight uneven transition burden across education and wage segments
+  relevance: >-
+    Supports The Draft's argument that planning needs role-level specificity.
+    Good AI strategy requires explicit transition design for exposed task
+    clusters, not blanket optimism or blanket fear.
+  tags:
+    - labor-market
+    - occupational-analysis
+    - us-economy
+  topics:
+    - task-exposure
+    - role-redesign
+  categories:
+    - workforce-strategy
+    - responsibility-oversight
+
+- source_id: anthropic_economic_index_2025
+  source_type: article
+  summary: >-
+    Anthropic's Economic Index provides usage-based evidence of where AI is
+    augmenting versus automating work tasks across occupations.
+  long_summary: >-
+    The index analyzes real-world model interactions to estimate which kinds of
+    work are most affected by AI tools. Rather than relying only on hypothetical
+    exposure models, it uses observed behavior to show adoption concentration in
+    software, writing, and analysis-heavy task domains. It also distinguishes
+    augmentation from automation, which helps evaluate whether headcount risk is
+    immediate replacement or progressive role compression.
+  key_takeaways:
+    - Use observed AI task data to ground workforce claims in actual usage patterns
+    - Distinguish augmentation-heavy usage from fully automated task execution
+    - Identify early-adopting occupations where role redesign pressure is highest
+    - Track adoption concentration to prioritize targeted reskilling investments
+  relevance: >-
+    Strengthens The Draft's evidence posture by adding telemetry-driven insight
+    to complement forecasts. This helps separate narrative hype from measurable
+    workflow change.
+  tags:
+    - telemetry
+    - adoption-patterns
+    - task-data
+  topics:
+    - augmentation-vs-automation
+    - occupational-usage
+  categories:
+    - workforce-strategy
+    - ai-production-scale
+
+- source_id: goldman_sachs_genai_gdp_disruption
+  source_type: article
+  summary: >-
+    Goldman Sachs estimates large productivity upside from generative AI while
+    warning that significant shares of work activities are exposed to
+    automation.
+  long_summary: >-
+    This analysis became a widely cited benchmark for the "AI boom" narrative,
+    pairing optimistic GDP projections with substantial labor-task exposure
+    estimates. It is useful because it captures the central tension in your
+    question: markets price productivity gains quickly, while labor transitions
+    and purchasing-power effects are slower and distribution-dependent.
+  key_takeaways:
+    - Quantify productivity upside and labor-task exposure in the same framework
+    - Contrast aggregate GDP gains with uneven worker-level transition costs
+    - Explain why equity optimism can coexist with local employment anxiety
+    - Emphasize distribution and transition speed as key determinants of demand outcomes
+  relevance: >-
+    Helps The Draft articulate the macro paradox: efficiency can rise while
+    social stability weakens unless transition mechanisms keep pace.
+  tags:
+    - macroeconomics
+    - productivity
+    - distribution
+  topics:
+    - gdp-vs-employment
+    - demand-risk
+  categories:
+    - workforce-strategy
+    - ai-production-scale
+
+- source_id: challenger_job_cut_announcements_tracker
+  source_type: article
+  summary: >-
+    Challenger's monthly job-cut announcements provide ongoing signal on the
+    scale and sector distribution of corporate layoff activity.
+  long_summary: >-
+    Challenger, Gray & Christmas publishes recurring layoff-announcement
+    tallies that are frequently cited in business reporting. While announcements
+    are not identical to realized unemployment, they provide a timely window
+    into management intent, sector stress, and restructuring cycles. This is
+    especially useful when evaluating claims that AI and efficiency programs are
+    accelerating headcount reductions.
+  key_takeaways:
+    - Track announced layoffs as a leading indicator of restructuring pressure
+    - Compare sector-level cuts over time to detect concentration risk
+    - Separate announcement momentum from realized labor-market outcomes
+    - Use recurring monthly cadence to test one-off headline narratives
+  relevance: >-
+    Gives The Draft a practical monitoring source for whether workforce
+    disruption claims are intensifying or normalizing over time.
+  tags:
+    - layoffs
+    - monthly-tracker
+    - corporate-restructuring
+  topics:
+    - labor-indicators
+    - downsizing
+  categories:
+    - workforce-strategy
+    - org-structure
+
+- source_id: layoffs_fyi_tech_layoffs_tracker
+  source_type: article
+  summary: >-
+    Layoffs.fyi tracks announced tech layoffs over time, offering quick
+    directional context for hiring and downsizing cycles in software markets.
+  long_summary: >-
+    This tracker compiles public layoff announcements for technology companies
+    and presents a running aggregate that is widely referenced in industry
+    commentary. It should be treated as directional rather than definitive, but
+    it is useful for checking whether anecdotal reports of repeated cuts are
+    isolated incidents or part of a broader pattern.
+  key_takeaways:
+    - Aggregate public tech layoff announcements into a single trend view
+    - Validate anecdotal layoff claims against broader market patterns
+    - Use directional data to frame timing and magnitude of restructuring cycles
+    - Pair tracker trends with higher-rigor labor and macro sources for balance
+  relevance: >-
+    Useful as a rapid signal layer in The Draft's research stack when paired
+    with stronger institutional datasets for interpretation.
+  tags:
+    - tech-sector
+    - layoffs
+    - trend-signal
+  topics:
+    - market-cycle
+    - employment-pressure
+  categories:
+    - workforce-strategy
+    - ai-production-scale
+
+- source_id: conference_board_consumer_confidence
+  source_type: article
+  summary: >-
+    Conference Board consumer confidence data provides demand-side context for
+    whether labor disruption is translating into weaker household sentiment.
+  long_summary: >-
+    The consumer confidence series tracks household assessments of current
+    conditions and near-term expectations. For AI-transition analysis, this is
+    critical because demand resilience depends on income security and
+    expectations about jobs. If automation-led restructuring accelerates without
+    clear pathways to replacement income, confidence deterioration can signal
+    risks to consumption and therefore to the business case for productivity
+    gains.
+  key_takeaways:
+    - Monitor household sentiment as an early signal of demand-side fragility
+    - Link labor insecurity expectations to potential consumption slowdowns
+    - Pair productivity narratives with confidence trends to test macro balance
+    - Use expectations components to detect recessionary risk perception shifts
+  relevance: >-
+    Directly supports your "who buys if incomes weaken" question by adding a
+    demand-side lens to a mostly supply-side AI productivity conversation.
+  tags:
+    - consumer-demand
+    - macro-sentiment
+    - household-expectations
+  topics:
+    - demand-side-risk
+    - consumption
+  categories:
+    - workforce-strategy
+    - governance-guardrails
+
+- source_id: reuters_us_software_stocks_slump_ai_fears
+  source_type: article
+  summary: >-
+    Reuters reports a broad selloff in software equities as investors reassess
+    AI disruption risk to traditional SaaS growth and pricing models.
+  long_summary: >-
+    This market report captures how quickly sentiment can shift when investors
+    believe AI-native products may compress moats in established software
+    companies. For labor analysis, valuation pressure matters because it often
+    drives executive urgency around efficiency, margin defense, and headcount
+    discipline. It helps connect capital-market narratives to downstream
+    workforce decisions.
+  key_takeaways:
+    - Link equity repricing to operational pressure for faster productivity gains
+    - Show how AI disruption narratives can accelerate restructuring plans
+    - Connect valuation stress to management focus on cost and headcount efficiency
+    - Ground workforce conversations in market context, not only HR signals
+  relevance: >-
+    Useful for The Draft's systems view: labor outcomes are shaped by both
+    technology capability and financial-market incentives acting on leadership
+    decisions.
+  tags:
+    - markets
+    - saas
+    - ai-disruption
+  topics:
+    - valuation-pressure
+    - restructuring-incentives
+  categories:
+    - workforce-strategy
+    - ai-production-scale
+
+- source_id: reuters_amazon_targets_30000_corporate_cuts
+  source_type: article
+  summary: >-
+    Reuters reporting on large planned Amazon corporate cuts provides concrete
+    evidence of continued white-collar restructuring during AI-era efficiency
+    pushes.
+  long_summary: >-
+    The report documents another major corporate headcount reduction cycle at
+    Amazon, illustrating that AI-era operating changes are not just conceptual.
+    It is useful as a company-level anchor for claims about persistent
+    restructuring and the pressure on mid- and entry-path roles. It also helps
+    frame the user's demand-side concern by linking employment reductions to
+    potential household income effects.
+  key_takeaways:
+    - Use company-specific cuts to validate broader workforce-transition claims
+    - Treat repeated restructuring rounds as structural signals rather than one-off events
+    - Connect white-collar downsizing to potential weakening of income growth
+    - Pair firm-level events with macro demand indicators for balanced analysis
+  relevance: >-
+    Adds concrete case evidence to The Draft's planning and guardrail themes:
+    rapid efficiency moves need transition design, not only cost targets.
+  tags:
+    - amazon
+    - layoffs
+    - corporate-restructuring
+  topics:
+    - headcount-reduction
+    - demand-side-risk
+  categories:
+    - workforce-strategy
+    - org-structure
+
+- source_id: imf_wp_generative_ai_future_of_work_2024
+  source_type: paper
+  summary: >-
+    IMF working paper quantifying job exposure, productivity upside, and
+    inequality risk from generative AI across countries and occupations.
+  long_summary: >-
+    This IMF working paper extends high-level discussion by modeling both
+    exposure and potential gains, then layering distribution outcomes across
+    advanced and emerging economies. The paper is especially relevant to
+    pipeline concerns because it emphasizes that transition quality depends on
+    institutional response: training systems, labor protections, and inclusive
+    adoption strategies. It supports argumentation that "new modes of working"
+    require deliberate workforce architecture.
+  key_takeaways:
+    - Quantify occupational exposure with cross-country comparability
+    - Balance productivity upside against inequality and transition risk
+    - Emphasize institutions as core determinants of labor-market outcomes
+    - Frame adoption as a design problem, not a purely technical inevitability
+  relevance: >-
+    Reinforces The Draft's thesis that oversight and operating design determine
+    whether AI transition produces broad capability growth or exclusion.
+  tags:
+    - imf
+    - global-analysis
+    - inequality
+  topics:
+    - occupational-exposure
+    - transition-policy
+  categories:
+    - workforce-strategy
+    - governance-guardrails
+
+- source_id: hrdive_ai_entry_level_talent_pipeline_2025
+  source_type: article
+  summary: >-
+    HR Dive argues that removing entry-level work too aggressively can damage
+    the long-term talent pipeline needed for future experts and managers.
+  long_summary: >-
+    This piece synthesizes employer concerns that AI-driven automation of junior
+    tasks can create an apprenticeship gap: organizations still need experienced
+    operators later, but fewer people gain the formative repetitions that build
+    judgment. It is directly relevant to "how do people get experience if
+    entry-level work disappears" and offers practical framing for intentional
+    training pathways under AI-assisted workflows.
+  key_takeaways:
+    - Identify apprenticeship risk when junior tasks are heavily automated
+    - Reframe entry-level hiring as capability pipeline investment, not overhead
+    - Recommend deliberate training pathways for AI-mediated role progression
+    - Warn that short-term efficiency can create long-term expertise shortages
+  relevance: >-
+    Directly supports The Draft's engineering-judgment lens by showing that
+    human capability formation must be designed, not assumed, in agentic teams.
+  tags:
+    - entry-level
+    - apprenticeship
+    - talent-pipeline
+  topics:
+    - career-ladders
+    - skills-formation
+  categories:
+    - workforce-strategy
+    - responsibility-oversight
+
+- source_id: nace_first_destination_class_of_2024
+  source_type: paper
+  summary: >-
+    NACE first-destination data provides a baseline for how new graduates are
+    entering work, useful for tracking early-career absorption under AI change.
+  long_summary: >-
+    The First Destination Survey tracks employment, further education, and other
+    outcomes for recent graduates. In this repository's context, it functions as
+    a grounding dataset for evaluating whether concerns about entry-level
+    contraction are showing up in post-graduation outcomes. It helps separate
+    anecdotal anxiety from measured cohort-level transitions.
+  key_takeaways:
+    - Establish baseline graduate employment outcomes for trend comparison
+    - Use cohort data to test claims of entry-level labor-market deterioration
+    - Connect employer restructuring narratives to early-career absorption signals
+    - Support evidence-based discussion of pipeline resilience over time
+  relevance: >-
+    Adds measurement discipline to The Draft's workforce arguments by grounding
+    pipeline discussions in observable early-career outcomes.
+  tags:
+    - graduate-outcomes
+    - early-career
+    - labor-indicators
+  topics:
+    - first-destination
+    - talent-pipeline
+  categories:
+    - workforce-strategy
+    - org-structure

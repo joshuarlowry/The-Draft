@@ -1523,3 +1523,201 @@
   reading_descriptions:
     engineering-judgment: 'Argues that as execution shifts to AI, human differentiators become taste, intuition, and direction quality.'
     ai-production-scale: 'Describes AI as both equalizer and divider, suggesting outcomes compound around operator skill.'
+
+- id: wef_future_of_jobs_report_2025
+  title: 'Future of Jobs Report 2025'
+  publisher: 'World Economic Forum'
+  published: '2025-01'
+  accessed: '2026-02-16'
+  url: 'https://www.weforum.org/publications/the-future-of-jobs-report-2025/'
+  tags:
+    - workforce-strategy
+    - ai-production-scale
+  reading_descriptions:
+    workforce-strategy: 'Global employer survey on roles growing, roles declining, and the scale of expected job transition through 2030.'
+    ai-production-scale: 'Frames AI as a major force in role redesign, highlighting both displacement and demand for new skill combinations.'
+
+- id: imf_gen_ai_future_of_work_2024
+  author: 'Kristalina Georgieva'
+  author_ids:
+    - kristalina_georgieva
+  title: 'Gen-AI: Artificial Intelligence and the Future of Work'
+  publisher: 'International Monetary Fund'
+  published: '2024-01-14'
+  accessed: '2026-02-16'
+  url: 'https://www.imf.org/en/Blogs/Articles/2024/01/14/gen-ai-artificial-intelligence-and-the-future-of-work'
+  tags:
+    - workforce-strategy
+    - governance-guardrails
+  reading_descriptions:
+    workforce-strategy: 'IMF perspective that AI will affect a large share of jobs globally, with different exposure across advanced and emerging economies.'
+    governance-guardrails: 'Argues policy choices around social protection and reskilling determine whether AI lifts productivity broadly or deepens inequality.'
+
+- id: ilo_generative_ai_jobs_global_analysis_2023
+  author: 'International Labour Organization'
+  title: 'Generative AI and Jobs: A Global Analysis of Potential Effects on Job Quantity and Quality'
+  publisher: 'International Labour Organization'
+  published: '2023-08-21'
+  accessed: '2026-02-16'
+  url: 'https://www.ilo.org/publications/generative-ai-and-jobs-global-analysis-potential-effects-job-quantity-and'
+  tags:
+    - workforce-strategy
+    - responsibility-oversight
+  reading_descriptions:
+    workforce-strategy: 'ILO estimates most jobs are more likely to be transformed than fully automated, with exposure concentrated in clerical and administrative work.'
+    responsibility-oversight: 'Emphasizes that outcomes depend on implementation choices, labor institutions, and investment in worker transitions.'
+
+- id: brookings_genai_american_worker_future_of_work
+  author: 'Molly Kinder, Ross Tilchin, and Vidit Doshi'
+  author_ids:
+    - molly_kinder
+    - ross_tilchin
+    - vidit_doshi
+  title: 'Generative AI, the American Worker, and the Future of Work'
+  publisher: 'Brookings Institution'
+  published: '2023-07-26'
+  accessed: '2026-02-16'
+  url: 'https://www.brookings.edu/articles/generative-ai-the-american-worker-and-the-future-of-work/'
+  tags:
+    - workforce-strategy
+    - responsibility-oversight
+  reading_descriptions:
+    workforce-strategy: 'Occupation-level analysis estimating which kinds of US workers face highest exposure to generative AI task automation.'
+    responsibility-oversight: 'Highlights unequal exposure by wage and education, underscoring the need for targeted transition support.'
+
+- id: anthropic_economic_index_2025
+  author: 'Anthropic'
+  title: 'The Anthropic Economic Index'
+  publisher: 'Anthropic'
+  published: '2025-02'
+  accessed: '2026-02-16'
+  url: 'https://www.anthropic.com/news/the-anthropic-economic-index'
+  tags:
+    - workforce-strategy
+    - ai-production-scale
+  reading_descriptions:
+    workforce-strategy: 'Task-level telemetry-based view of how AI is being used across occupations, with emphasis on augmentation versus automation patterns.'
+    ai-production-scale: 'Provides empirical usage distribution data to ground claims about which work categories are changing first.'
+
+- id: goldman_sachs_genai_gdp_disruption
+  author: 'Joseph Briggs and Devesh Kodnani'
+  author_ids:
+    - joseph_briggs
+    - devesh_kodnani
+  title: 'The Potentially Large Effects of Artificial Intelligence on Economic Growth'
+  publisher: 'Goldman Sachs'
+  published: '2023-03-26'
+  accessed: '2026-02-16'
+  url: 'https://www.goldmansachs.com/insights/articles/generative-ai-could-raise-global-gdp-by-7-percent'
+  tags:
+    - workforce-strategy
+    - ai-production-scale
+  reading_descriptions:
+    workforce-strategy: 'Estimates substantial labor-market exposure to AI-enabled automation while projecting potential productivity and GDP gains.'
+    ai-production-scale: 'Useful counterpoint source showing why markets price upside even while transition risk and displacement concerns remain.'
+
+- id: challenger_job_cut_announcements_tracker
+  author: 'Challenger, Gray & Christmas'
+  title: 'Job Cut Announcements'
+  publisher: 'Challenger, Gray & Christmas'
+  accessed: '2026-02-16'
+  url: 'https://www.challengergray.com/blog/job-cut-announcements/'
+  tags:
+    - workforce-strategy
+    - org-structure
+  reading_descriptions:
+    workforce-strategy: 'Monthly layoff announcement tracker used by labor and business media to gauge corporate downsizing momentum.'
+    org-structure: 'Company-level reduction announcements give practical evidence for restructuring pressure beyond abstract forecasts.'
+
+- id: layoffs_fyi_tech_layoffs_tracker
+  author: 'Layoffs.fyi'
+  title: 'Tech Layoffs Tracker'
+  publisher: 'Layoffs.fyi'
+  accessed: '2026-02-16'
+  url: 'https://layoffs.fyi/'
+  tags:
+    - workforce-strategy
+    - ai-production-scale
+  reading_descriptions:
+    workforce-strategy: 'Continuously updated dataset of announced tech layoffs, useful for directional trend checks and timeline context.'
+    ai-production-scale: 'Provides a practical signal for whether efficiency narratives are coinciding with sustained headcount reductions in tech.'
+
+- id: conference_board_consumer_confidence
+  author: 'The Conference Board'
+  title: 'US Consumer Confidence'
+  publisher: 'The Conference Board'
+  accessed: '2026-02-16'
+  url: 'https://www.conference-board.org/topics/consumer-confidence'
+  tags:
+    - workforce-strategy
+    - governance-guardrails
+  reading_descriptions:
+    workforce-strategy: 'Tracks consumer sentiment and expectations that influence demand-side resilience during labor-market transitions.'
+    governance-guardrails: 'Useful for evaluating the macro risk that productivity gains outpace income security and weaken consumption.'
+
+- id: reuters_us_software_stocks_slump_ai_fears
+  title: 'US software stocks slump as AI disruption fears take over'
+  publisher: 'Reuters'
+  published: '2026-02-06'
+  accessed: '2026-02-16'
+  url: 'https://www.reuters.com/world/us/us-software-stocks-slump-ai-disruption-fears-take-over-2026-02-06/'
+  tags:
+    - workforce-strategy
+    - ai-production-scale
+  reading_descriptions:
+    workforce-strategy: 'Market reaction source connecting AI disruption fears to software valuations and perceived labor-model risk.'
+    ai-production-scale: 'Provides context for claims that automation narratives are pressuring traditional SaaS business assumptions.'
+
+- id: reuters_amazon_targets_30000_corporate_cuts
+  title: 'Exclusive: Amazon targets as many as 30,000 corporate job cuts, sources say'
+  publisher: 'Reuters'
+  published: '2026-01-28'
+  accessed: '2026-02-16'
+  url: 'https://www.reuters.com/world/us/exclusive-amazon-targets-many-30000-corporate-job-cuts-sources-say-2026-01-28/'
+  mentioned_people_ids:
+    - andy_jassy
+  tags:
+    - workforce-strategy
+    - org-structure
+  reading_descriptions:
+    workforce-strategy: 'Company-specific layoff reporting useful for grounding labor-transition discussion in concrete corporate actions.'
+    org-structure: 'Frames large-scale headcount reduction within broader AI and efficiency restructuring narratives.'
+
+- id: imf_wp_generative_ai_future_of_work_2024
+  title: 'Generative AI and the Future of Work: A Global Analysis of Job Exposure, Potential Productivity Gains, and Inequality'
+  publisher: 'International Monetary Fund'
+  published: '2024-06-14'
+  accessed: '2026-02-16'
+  url: 'https://www.imf.org/en/Publications/WP/Issues/2024/06/14/Generative-AI-and-the-Future-of-Work-550123'
+  tags:
+    - workforce-strategy
+    - governance-guardrails
+  reading_descriptions:
+    workforce-strategy: 'IMF working paper quantifying occupation exposure and productivity effects with cross-country distribution analysis.'
+    governance-guardrails: 'Useful for policy and institutional design arguments about preserving inclusion during rapid AI adoption.'
+
+- id: hrdive_ai_entry_level_talent_pipeline_2025
+  title: 'If AI kills the entry-level job, employers may not be ready for what comes next'
+  publisher: 'HR Dive'
+  published: '2025-08-20'
+  accessed: '2026-02-16'
+  url: 'https://www.hrdive.com/news/AI-entry-level-jobs-talent-pipeline/809413/'
+  tags:
+    - workforce-strategy
+    - responsibility-oversight
+  reading_descriptions:
+    workforce-strategy: 'Explores how shrinking entry-level opportunities can weaken future management and specialist talent pipelines.'
+    responsibility-oversight: 'Highlights the need for intentional apprenticeship-like pathways when AI absorbs junior execution tasks.'
+
+- id: nace_first_destination_class_of_2024
+  title: 'First Destination Survey: Class of 2024'
+  publisher: 'National Association of Colleges and Employers (NACE)'
+  published: '2025'
+  accessed: '2026-02-16'
+  url: 'https://www.naceweb.org/job-market/graduate-outcomes/first-destination/'
+  tags:
+    - workforce-strategy
+    - org-structure
+  reading_descriptions:
+    workforce-strategy: 'Graduate outcomes baseline for entry-level absorption, useful when discussing early-career bottlenecks under AI.'
+    org-structure: 'Helps compare company restructuring narratives with real hiring outcomes for new graduates.'
