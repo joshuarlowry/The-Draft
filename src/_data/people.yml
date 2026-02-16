@@ -698,3 +698,24 @@
   links:
     - label: 'Startup-Inspired Org Design: The Most Misunderstood Playbook'
       url: 'https://www.huntclub.com/blog/startup-inspired-org-design-the-most-misunderstood-playbook-in-business-right-now'
+
+- id: thomas_schlossmacher
+  name: 'Thomas Schlossmacher'
+  slug: thomas-schlossmacher
+  title: 'Founder and writer at SourceTMS'
+  primary_domain: agentic
+  secondary_domains:
+    - architecture
+  profile_summary: 'Thomas Schlossmacher writes practical notes on agent-driven development, CLAUDE.md operating patterns, and how human judgment shifts as AI takes on implementation work. His guidance emphasizes context discipline, scoped execution, and repeatable workflows over one-shot prompting.'
+  social_links:
+    - label: 'Website'
+      url: 'https://sourcetms.com/'
+    - label: 'About page'
+      url: 'https://sourcetms.com/about'
+  links:
+    - label: '9 Things You Can Do for More Effective Agent-Driven Development'
+      url: 'https://sourcetms.com/notes/agent-driven-development'
+    - label: 'Claude Code Setup 101'
+      url: 'https://sourcetms.com/notes/claude-code-setup-101'
+    - label: 'The Soft Skills Renaissance'
+      url: 'https://sourcetms.com/notes/outsourcing-knowledge'
