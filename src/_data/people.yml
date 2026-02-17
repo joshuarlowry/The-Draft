@@ -10,6 +10,12 @@
     - label: 'How AI-powered Design will transform Customer Experience in 2025'
       url: 'https://nearform.com/how-ai-powered-design-will-transform-customer-experience-in-2025/'
 
+- id: aishwarya_naresh_reganti
+  name: 'Aishwarya Naresh Reganti'
+  links:
+    - label: 'Overview of Factify5WQA: Fact Verification through 5W Question-Answering'
+      url: 'https://arxiv.org/abs/2410.04236'
+
 - id: barry_w_boehm
   name: 'Barry W. Boehm'
   links:

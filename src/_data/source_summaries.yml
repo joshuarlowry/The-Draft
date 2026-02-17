@@ -3493,3 +3493,98 @@
   categories:
     - engineering-judgment
     - responsibility-oversight
+
+- source_id: arxiv_factify5wqa
+  source_type: paper
+  summary: >-
+    Factify5WQA introduces a fact-verification benchmark where models must answer
+    who/what/when/where/why questions before deciding whether a claim is
+    supported.
+  long_summary: >-
+    The paper presents a shared task focused on automated fact verification.
+    Rather than only predicting a binary label, systems answer structured 5W
+    questions for both the claim and evidence document, then compare alignment.
+    This makes model reasoning more inspectable and easier to evaluate with
+    explicit metrics (BLEU + classification accuracy). The approach is useful
+    for guardrailed AI workflows because it turns fuzzy verification into a
+    sequence of checkable steps.
+  key_takeaways:
+    - Decompose claim checking into explicit 5W question-answering steps
+    - Compare evidence and claim answers before assigning veracity labels
+    - Measure quality with both answer similarity and final classification accuracy
+    - Improve auditability by exposing intermediate reasoning artifacts
+  relevance: >-
+    Strong fit for The Draft's guardrails perspective: it operationalizes
+    verification as structured checks instead of opaque one-shot predictions.
+  tags:
+    - fact-verification
+    - multimodal-evaluation
+    - benchmark-design
+  topics:
+    - evidence-workflows
+    - claim-validation
+  categories:
+    - governance-guardrails
+    - tooling-guardrails
+
+- source_id: arxiv_memotion3_overview
+  source_type: paper
+  summary: >-
+    The Memotion 3 shared-task overview benchmarks sentiment and emotion
+    analysis for Hindi-English code-mixed memes, including multimodal signals.
+  long_summary: >-
+    This overview describes task design, participation outcomes, and model
+    performance for Memotion 3. The benchmark captures a realistic moderation
+    challenge: code-mixed text embedded in visual meme formats where emotional
+    meaning can be indirect or sarcastic. The paper highlights how multimodal
+    architectures and careful dataset design are needed for robust behavior in
+    culturally and linguistically diverse content environments.
+  key_takeaways:
+    - Benchmark sentiment and emotion tasks on code-mixed meme data
+    - Combine visual and textual signals for stronger multimodal classification
+    - Use shared-task evaluation to compare modeling approaches under common metrics
+    - Surface limitations of current systems on nuanced, sarcastic online content
+  relevance: >-
+    Useful for The Draft's oversight themes because it shows why safety-critical
+    AI evaluations need realistic datasets and transparent benchmarks.
+  tags:
+    - meme-analysis
+    - multimodal-ai
+    - shared-task
+  topics:
+    - content-moderation
+    - emotion-detection
+  categories:
+    - responsibility-oversight
+    - governance-guardrails
+
+- source_id: arxiv_interactive_teaching_conversational_ai
+  source_type: paper
+  summary: >-
+    Interactive Teaching proposes a human-in-the-loop method for improving
+    conversational agents through iterative teacher feedback.
+  long_summary: >-
+    The paper frames conversational AI training as a collaboration loop where
+    teachers inspect outputs, provide corrections, and guide policy updates.
+    Instead of relying purely on static datasets, the method incorporates active
+    interaction so the model can be steered toward better behavior in context.
+    This setup improves data efficiency and keeps human judgment embedded in the
+    optimization process.
+  key_takeaways:
+    - Keep humans in the training loop through iterative correction cycles
+    - Adapt dialog behavior with feedback gathered during real interaction
+    - Reduce reliance on large static datasets via targeted supervision
+    - Improve controllability by coupling model updates to explicit teacher signals
+  relevance: >-
+    Reinforces The Draft's claim that supervision and iterative planning are core
+    capabilities in reliable AI systems, not optional process overhead.
+  tags:
+    - conversational-ai
+    - human-in-the-loop
+    - interactive-learning
+  topics:
+    - dialog-systems
+    - model-supervision
+  categories:
+    - planning-and-structure
+    - responsibility-oversight
