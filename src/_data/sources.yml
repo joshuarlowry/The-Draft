@@ -1836,3 +1836,51 @@
   reading_descriptions:
     engineering-judgment: 'Argues that human judgment under uncertainty remains complementary to AI pattern speed, and critiques simplistic replacement narratives.'
     responsibility-oversight: 'Frames AI labor outcomes as policy and leadership choices shaped by incentives, not purely technical inevitability.'
+
+- id: arxiv_factify5wqa
+  author: 'Suryavardan Suresh, Anku Rani, Parth Patwa, Aishwarya Reganti, Vinija Jain, Aman Chadha, Amitava Das, Amit Sheth, Asif Ekbal'
+  author_ids:
+    - aishwarya_naresh_reganti
+  title: 'Overview of Factify5WQA: Fact Verification through 5W Question-Answering'
+  repository: 'arXiv'
+  published: '2024-10-05'
+  accessed: '2026-02-17'
+  url: 'https://arxiv.org/abs/2410.04236'
+  tags:
+    - governance-guardrails
+    - tooling-guardrails
+  reading_descriptions:
+    governance-guardrails: 'Shared-task paper on structured fact verification workflows that pair claims with explicit 5W QA checks.'
+    tooling-guardrails: 'Useful reference for evidence-driven AI evaluation pipelines and measurable verification criteria.'
+
+- id: arxiv_memotion3_overview
+  author: 'Shreyash Mishra, S Suryavardan, Megha Chakraborty, Parth Patwa, Anku Rani, Aman Chadha, Aishwarya Reganti, Amitava Das, Amit Sheth, Manoj Chinnakotla, Asif Ekbal, Srijan Kumar'
+  author_ids:
+    - aishwarya_naresh_reganti
+  title: 'Overview of Memotion 3: Sentiment and Emotion Analysis of Codemixed Hinglish Memes'
+  repository: 'arXiv'
+  published: '2023-09-12'
+  accessed: '2026-02-17'
+  url: 'https://arxiv.org/abs/2309.06517'
+  tags:
+    - responsibility-oversight
+    - governance-guardrails
+  reading_descriptions:
+    responsibility-oversight: 'Benchmarks multimodal moderation tasks where sentiment and emotion labels influence downstream safety decisions.'
+    governance-guardrails: 'Provides a standardized shared-task setup for evaluating model behavior on code-mixed meme content.'
+
+- id: arxiv_interactive_teaching_conversational_ai
+  author: 'Aishwarya Reganti, Catherine Holloway, Adam White, Karthik Narasimhan, Jason D. Williams'
+  author_ids:
+    - aishwarya_naresh_reganti
+  title: 'Interactive Teaching for Conversational AI'
+  repository: 'arXiv'
+  published: '2020-12-02'
+  accessed: '2026-02-17'
+  url: 'https://arxiv.org/abs/2012.00958'
+  tags:
+    - planning-and-structure
+    - responsibility-oversight
+  reading_descriptions:
+    planning-and-structure: 'Introduces a human-in-the-loop training approach where teachers iteratively correct and shape conversational agents.'
+    responsibility-oversight: 'Shows how iterative supervision can improve dialog policies while keeping human judgment central.'
