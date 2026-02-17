@@ -3366,3 +3366,104 @@
   categories:
     - planning-and-structure
     - responsibility-oversight
+
+- source_id: hamel_your_ai_product_needs_evals
+  source_type: book
+  summary: Hamel Husain argues that evaluation systems are the foundation of successful AI products, and that teams should start with manual review plus clear failure definitions before automating anything.
+  long_summary: This guide reframes evals as an engineering operating system rather than a metrics side project. Husain recommends beginning with direct inspection of real traces, then translating observed failure modes into explicit pass/fail checks. The piece emphasizes iterative loops—review, categorize, instrument, and improve—so teams can reliably raise quality over time. It is especially practical for teams moving from prototype prompts to production AI behavior they can defend.
+  key_takeaways:
+    - Start evals with manual error analysis before building heavy infrastructure
+    - Define concrete pass/fail criteria from real user failure patterns
+    - Iterate on evaluation suites as product behavior and risk exposure evolves
+    - Treat evals as a product-quality operating system, not a one-time checklist
+  relevance: Directly supports The Draft's planning-first and oversight-first stance by showing how disciplined evaluation loops anchor AI product reliability.
+  tags:
+    - evals
+    - quality-systems
+    - error-analysis
+  topics:
+    - ai-product-engineering
+    - evaluation-design
+  categories:
+    - planning-and-structure
+
+- source_id: hamel_llm_as_judge_complete_guide
+  source_type: article
+  summary: This guide explains how to use LLM-as-judge safely, including calibration against human labels, narrow task definitions, and ongoing monitoring for evaluator drift.
+  long_summary: Husain outlines the strengths and limits of model-based evaluators. He argues that LLM judges can unlock scale for evaluation tasks, but only when grounded in rigorous rubric design and frequent comparison to trusted human judgments. The article warns against assuming evaluator outputs are stable forever and highlights drift, mismatch, and hidden bias risks. It offers a pragmatic framework for deciding what to automate and what to keep human-supervised.
+  key_takeaways:
+    - Validate LLM judges against domain-expert labels before relying on them in pipelines
+    - Constrain judge tasks to specific, observable criteria instead of abstract quality scores
+    - Monitor evaluator drift and recalibrate as prompts, models, and user behavior change
+    - Keep humans in the loop for high-impact or ambiguous failure categories
+  relevance: Reinforces The Draft's guardrail perspective by detailing when automated evaluation helps and where human oversight remains non-negotiable.
+  tags:
+    - llm-as-judge
+    - evaluator-calibration
+    - drift
+  topics:
+    - evaluation-automation
+    - ai-governance
+  categories:
+    - governance-guardrails
+
+- source_id: hamel_field_guide_rapid_ai_improvement
+  source_type: article
+  summary: Husain presents a practical field guide for improving AI products through experiment cadence, disciplined error analysis, and iterative deployment feedback loops.
+  long_summary: The field guide focuses on operational habits rather than abstract AI strategy. It encourages teams to run rapid, measurable experiments, inspect failure data continuously, and prioritize fixes based on user impact. The article treats quality progress as an accumulation of validated learnings, not isolated model upgrades. Its core message is that teams win by improving process quality and feedback quality at the same time.
+  key_takeaways:
+    - Run frequent, scoped experiments to convert uncertainty into product learning
+    - Prioritize failure analysis on real usage data over benchmark chasing
+    - Instrument systems so teams can connect interventions to quality outcomes
+    - Build team rituals that convert findings into concrete product improvements
+  relevance: Aligns with The Draft's emphasis on engineering judgment and operating discipline as the lever for scaling AI delivery safely.
+  tags:
+    - experimentation
+    - feedback-loops
+    - product-ops
+  topics:
+    - ai-product-delivery
+    - iteration-strategy
+  categories:
+    - planning-and-structure
+
+- source_id: hamel_llm_evals_everything_you_need_to_know
+  source_type: article
+  summary: This FAQ consolidates practical answers on AI evals, from minimum viable setup to production monitoring, emphasizing error analysis and binary, application-specific checks.
+  long_summary: Husain and Shankar compile common questions from practitioners and answer with opinionated, field-tested guidance. The FAQ discourages generic score obsession and instead advocates for domain-specific pass/fail criteria grounded in observed failures. It explains how to combine manual review, selective automation, and production feedback to keep evaluation meaningful. The document is useful as an operating reference for teams building repeatable eval practice.
+  key_takeaways:
+    - Start with 20-50 manually reviewed outputs to map real failure modes
+    - Use binary pass/fail criteria tied to product behavior rather than vague scales
+    - Automate only the checks with clear cost-benefit and stable definitions
+    - Treat evaluation as continuous operational work across CI and production monitoring
+  relevance: Strongly supports The Draft's themes of guardrails, oversight, and practical process design for AI-assisted development.
+  notable_quotes:
+    - Error analysis is the most important activity in evals.
+    - Generic metrics like BERTScore, ROUGE, cosine similarity, etc. are not useful for evaluating LLM outputs in most AI applications.
+  tags:
+    - evals-faq
+    - operational-guidance
+    - error-analysis
+  topics:
+    - ai-evaluation
+    - production-quality
+  categories:
+    - governance-guardrails
+
+- source_id: hamel_evaluation_systems_book
+  source_type: book
+  summary: A book-style entry point to evaluation systems that frames evals as essential infrastructure for building reliable AI products.
+  long_summary: This resource package introduces evaluation systems as a structured discipline for aligning AI behavior with product requirements. It offers a conceptual model and practical steps teams can use to bootstrap meaningful quality checks before scaling deployment. Positioned as a book-style guide, it complements Hamel Husain’s longer-form writings and training on evaluation operations.
+  key_takeaways:
+    - Frame evals as core product infrastructure instead of optional analytics
+    - Establish repeatable evaluation loops early to prevent quality drift
+    - Connect evaluation outputs to release decisions and operational guardrails
+  relevance: Helps ground The Draft's perspective that intentional evaluation design is central to safe, high-velocity AI product development.
+  tags:
+    - eval-systems
+    - playbook
+  topics:
+    - reliability-engineering
+    - ai-product-quality
+  categories:
+    - planning-and-structure

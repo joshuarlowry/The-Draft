@@ -1736,3 +1736,84 @@
   reading_descriptions:
     planning-and-structure: 'Argues for timeboxed, cross-functional experiments to validate AI-enabled workflows before scaling adoption.'
     responsibility-oversight: 'Reframes leadership response from defensive pushback toward structured learning, maintainability checks, and organizational fit.'
+
+- id: hamel_your_ai_product_needs_evals
+  author: 'Hamel Husain'
+  author_ids:
+    - hamel_husain
+  title: 'Your AI Product Needs Evals'
+  publisher: 'Hamel.dev'
+  published: '2024-03-29'
+  accessed: '2026-02-17'
+  url: 'https://hamel.dev/blog/posts/evals/'
+  tags:
+    - planning-and-structure
+    - governance-guardrails
+  reading_descriptions:
+    planning-and-structure: 'A practical playbook for starting evals with manual review, crisp failure definitions, and iterative measurement loops.'
+    governance-guardrails: 'Frames evaluation systems as a core control mechanism that keeps AI product behavior aligned to real user expectations.'
+
+- id: hamel_llm_as_judge_complete_guide
+  author: 'Hamel Husain'
+  author_ids:
+    - hamel_husain
+  title: 'Using LLM-as-a-Judge For Evaluation: A Complete Guide'
+  publisher: 'Hamel.dev'
+  published: '2024-10-29'
+  accessed: '2026-02-17'
+  url: 'https://hamel.dev/blog/posts/llm-judge/'
+  tags:
+    - governance-guardrails
+    - responsibility-oversight
+  reading_descriptions:
+    governance-guardrails: 'Explains when LLM-as-judge works, how to validate judges against humans, and where evaluator drift can break trust.'
+    responsibility-oversight: 'Emphasizes human calibration and continuous review when using model-based evaluators in production.'
+
+- id: hamel_field_guide_rapid_ai_improvement
+  author: 'Hamel Husain'
+  author_ids:
+    - hamel_husain
+  title: 'A Field Guide to Rapidly Improving AI Products'
+  publisher: 'Hamel.dev'
+  published: '2025-03-24'
+  accessed: '2026-02-17'
+  url: 'https://hamel.dev/blog/posts/field-guide/'
+  tags:
+    - planning-and-structure
+    - ai-production-scale
+  reading_descriptions:
+    planning-and-structure: 'Prioritizes experiment loops, error-driven iteration, and clear operational rituals over one-shot prompt tinkering.'
+    ai-production-scale: 'Links AI product quality improvements to disciplined instrumentation, eval cadence, and team operating habits.'
+
+- id: hamel_llm_evals_everything_you_need_to_know
+  author: 'Hamel Husain, Shreya Shankar'
+  author_ids:
+    - hamel_husain
+    - shreya_shankar
+  title: 'LLM Evals: Everything You Need to Know'
+  publisher: 'Hamel.dev'
+  published: '2026-01-15'
+  accessed: '2026-02-17'
+  url: 'https://hamel.dev/blog/posts/evals-faq/'
+  tags:
+    - planning-and-structure
+    - governance-guardrails
+  reading_descriptions:
+    planning-and-structure: 'Comprehensive FAQ covering minimum viable eval setup, error analysis workflow, and practical evaluation design choices.'
+    governance-guardrails: 'Provides concrete guidance for using evaluations as CI and production guardrails rather than vanity metrics.'
+
+- id: hamel_evaluation_systems_book
+  author: 'Hamel Husain'
+  author_ids:
+    - hamel_husain
+  title: 'Your AI Product Needs Evals (Evaluation Systems)'
+  publisher: 'Hamel.dev'
+  published: '2024'
+  accessed: '2026-02-17'
+  url: 'https://hamel.dev/evals'
+  tags:
+    - planning-and-structure
+    - governance-guardrails
+  reading_descriptions:
+    planning-and-structure: 'Book-style guide that organizes evals into a repeatable system teams can adopt before scaling AI features.'
+    governance-guardrails: 'Makes the case that evaluation systems are the operational backbone for reliable AI releases.'
