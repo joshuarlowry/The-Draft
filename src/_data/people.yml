@@ -763,3 +763,17 @@
       url: 'https://beacons.ai/anthonygoto'
     - label: "Don't MVP the tool, MVP the workflow"
       url: 'https://www.tiktok.com/t/ZThC1vjTt/'
+
+- id: hamel_husain
+  name: 'Hamel Husain'
+  links:
+    - label: 'Hamel’s Blog'
+      url: 'https://hamel.dev/'
+    - label: 'Your AI Product Needs Evals'
+      url: 'https://hamel.dev/blog/posts/evals/'
+
+- id: shreya_shankar
+  name: 'Shreya Shankar'
+  links:
+    - label: 'LLM Evals: Everything You Need to Know'
+      url: 'https://hamel.dev/blog/posts/evals-faq/'
