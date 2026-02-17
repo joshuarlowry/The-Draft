@@ -3,6 +3,7 @@ layout: layouts/article.njk
 id: spec-driven-development-returns-control
 title: 'Spec-Driven Development Returns Control to the Team'
 summary: 'Spec-driven development re-centers decisions and intent by turning specs into the shared source of truth before AI implementation begins.'
+date: '2026-02-03'
 primary_domain: agentic
 secondary_domains:
   - architecture

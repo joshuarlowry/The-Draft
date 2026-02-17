@@ -3,6 +3,7 @@ layout: layouts/article.njk
 id: future-of-work-experience-pipeline-and-demand
 title: 'Future of Work: Experience Pipelines, AI Modes, and the Demand Question'
 summary: 'AI can raise productivity, but organizations still need entry-level learning paths and demand-side resilience to avoid long-term capability and market fragility.'
+date: '2026-02-16'
 primary_domain: architecture
 secondary_domains:
   - agentic

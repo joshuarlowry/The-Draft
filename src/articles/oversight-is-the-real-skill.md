@@ -3,6 +3,7 @@ layout: layouts/article.njk
 id: oversight-is-the-real-skill
 title: 'Oversight Is the Real Skill AI Demands From Engineers'
 summary: 'As AI output scales, oversight shifts from line-by-line review to systems, governance, and guardrails that preserve accountability.'
+date: '2026-02-02'
 primary_domain: agentic
 secondary_domains:
   - architecture

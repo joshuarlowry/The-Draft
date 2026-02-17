@@ -3,6 +3,7 @@ layout: layouts/article.njk
 id: ai-rapid-functional-prototyping
 title: 'AI Enables Rapid Functional Prototyping'
 summary: 'AI-assisted development shortens time-to-first-build, enabling teams to iterate on functional prototypes and run lightweight usability checks before deeper user research.'
+date: '2026-02-03'
 primary_domain: agentic
 secondary_domains:
   - ux
