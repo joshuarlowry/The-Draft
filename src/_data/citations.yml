@@ -274,3 +274,7 @@
 - id: tiktok_80_percent_not_shippable_quote
   quote: "Because 80% built fast is not the same as 100% shipable. And it definitely doesn't mean maintainable."
   source_id: tiktok_mvp_workflow_not_tool
+
+- id: tiktok_ai_job_how_you_use_it_matters_quote
+  quote: 'How you use it matters more than whether you use it.'
+  source_id: tiktok_ai_job_framing_helen_edwards

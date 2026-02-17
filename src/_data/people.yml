@@ -777,3 +777,21 @@
   links:
     - label: 'LLM Evals: Everything You Need to Know'
       url: 'https://hamel.dev/blog/posts/evals-faq/'
+
+- id: helen_edwards
+  name: 'Helen Edwards'
+  links:
+    - label: 'TikTok: AI and your job framing video'
+      url: 'https://www.tiktok.com/t/ZThCyGgVH/'
+
+- id: mustafa_suleyman
+  name: 'Mustafa Suleyman'
+  links:
+    - label: 'Microsoft AI leadership profile'
+      url: 'https://news.microsoft.com/leader/mustafa-suleyman/'
+
+- id: henry_ford
+  name: 'Henry Ford'
+  links:
+    - label: 'Encyclopaedia Britannica biography'
+      url: 'https://www.britannica.com/biography/Henry-Ford'
