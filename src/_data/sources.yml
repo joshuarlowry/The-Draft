@@ -1884,3 +1884,51 @@
   reading_descriptions:
     planning-and-structure: 'Introduces a human-in-the-loop training approach where teachers iteratively correct and shape conversational agents.'
     responsibility-oversight: 'Shows how iterative supervision can improve dialog policies while keeping human judgment central.'
+
+- id: miqdad_jaffer_building_ai_as_a_system
+  author: 'Miqdad Jaffer'
+  author_ids:
+    - miqdad_jaffer
+  title: 'Building AI as a System: Moats, Margins, and the 4 Decisions That Actually Matter'
+  publisher: "Product Faculty's AI Newsletter"
+  published: '2026-01-08'
+  accessed: '2026-02-17'
+  url: 'https://www.productmanagement.ai/p/building-ai-as-a-system-moats-margins'
+  tags:
+    - planning-and-structure
+    - ai-production-scale
+  reading_descriptions:
+    planning-and-structure: 'Framework article from an OpenAI product lead on defining moats, cost posture, distribution, and trust before scaling AI features.'
+    ai-production-scale: 'Explains why AI product advantage depends on system-level decisions, not model access alone.'
+
+- id: miqdad_jaffer_ai_prototyping
+  author: 'Miqdad Jaffer'
+  author_ids:
+    - miqdad_jaffer
+  title: 'Build Your First AI Prototype in 30 Minutes!'
+  publisher: "Product Faculty's AI Newsletter"
+  published: '2026-01-05'
+  accessed: '2026-02-17'
+  url: 'https://www.productmanagement.ai/p/ai-prototyping'
+  tags:
+    - rapid-prototyping
+    - planning-and-structure
+  reading_descriptions:
+    rapid-prototyping: 'Step-by-step guide centered on fast AI prototyping to validate assumptions before full implementation.'
+    planning-and-structure: 'Positions prototypes as uncertainty-reduction tools with explicit checks for capability, reliability, cost, and failure modes.'
+
+- id: miqdad_jaffer_ai_product_pricing_masterclass
+  author: 'Miqdad Jaffer'
+  author_ids:
+    - miqdad_jaffer
+  title: 'The AI Product Pricing Masterclass: OpenAI Product Lead on Why SaaS Pricing Fails in AI (and How to Fix It)'
+  publisher: "Product Faculty's AI Newsletter"
+  published: '2026-01-02'
+  accessed: '2026-02-17'
+  url: 'https://www.productmanagement.ai/p/the-ai-product-pricing-masterclass'
+  tags:
+    - ai-production-scale
+    - engineering-judgment
+  reading_descriptions:
+    ai-production-scale: 'Argues that AI pricing and margins require active product design because costs stay variable at scale.'
+    engineering-judgment: 'Provides a decision framework for choosing pricing models based on variance, cost structure, and risk.'

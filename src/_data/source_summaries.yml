@@ -3588,3 +3588,111 @@
   categories:
     - planning-and-structure
     - responsibility-oversight
+
+- source_id: miqdad_jaffer_building_ai_as_a_system
+  source_type: article
+  summary: >-
+    Miqdad Jaffer argues that winning AI products are built as systems, where
+    moats, economics, distribution, and trust decisions matter more than model
+    access or feature velocity.
+  long_summary: >-
+    This article frames AI product strategy as a systems problem rather than a
+    feature race. Jaffer emphasizes that teams must explicitly design for
+    variable inference costs, rapid feature commoditization, and strategic
+    defensibility. He highlights four core decision areas—moats, margins,
+    distribution, and trust—and warns that wrappers without compounding
+    advantages are fragile. The message is that sustainable AI products require
+    architecture and business-model choices that hold under scale and
+    competitive pressure.
+  key_takeaways:
+    - Treat model access as table stakes and build defensibility through data, trust, or distribution
+    - Design unit economics early because AI marginal costs do not flatten like SaaS
+    - Anticipate rapid commoditization and plan strategic differentiation before feature launch
+    - Use system-level strategy to align product decisions with long-term retention and margin health
+  relevance: >-
+    Strongly aligns with The Draft's focus on planning and engineering judgment.
+    It translates AI hype into concrete strategy choices that determine whether
+    products become durable systems or short-lived demos.
+  notable_quotes:
+    - 'AI itself isn’t the moat. Everyone can access GPT-4o, Claude, Llama, Mistral.'
+    - 'AI is not about building the flashiest demo. It’s about designing the system around the AI.'
+  tags:
+    - ai-strategy
+    - moats
+    - unit-economics
+  topics:
+    - ai-product-strategy
+    - defensibility
+  categories:
+    - planning-and-structure
+    - ai-production-scale
+
+- source_id: miqdad_jaffer_ai_prototyping
+  source_type: article
+  summary: >-
+    This guide presents AI prototyping as a fast uncertainty-reduction workflow,
+    prioritizing assumption validation over polished output.
+  long_summary: >-
+    Jaffer outlines an execution workflow for building early AI prototypes in a
+    constrained, practical way. The core thesis is that prototypes should test
+    assumptions across model capability, reliability, cost behavior, and failure
+    characteristics before teams commit to production paths. Rather than using
+    prototypes to prove value claims, the process is designed to reduce unknowns
+    and expose risk. The piece is useful for teams moving from idea to first
+    implementation with disciplined scoping.
+  key_takeaways:
+    - Use prototypes to validate assumptions instead of showcasing polished features
+    - Evaluate capability, reliability, cost, and failure behavior as a single risk profile
+    - Timebox early experiments to surface breakpoints before investing in scale
+    - Convert prototype learning into explicit build/no-build decisions
+  relevance: >-
+    Directly supports The Draft's rapid-prototyping and guardrail themes by
+    framing AI prototyping as structured risk discovery rather than unbounded
+    experimentation.
+  tags:
+    - prototyping
+    - risk-reduction
+    - validation
+  topics:
+    - ai-mvp
+    - product-discovery
+  categories:
+    - rapid-prototyping
+    - planning-and-structure
+
+- source_id: miqdad_jaffer_ai_product_pricing_masterclass
+  source_type: article
+  summary: >-
+    Jaffer explains why SaaS pricing logic breaks for AI products and proposes
+    pricing as an active control system for margin stability and usage behavior.
+  long_summary: >-
+    This article explains that AI products carry persistent and volatile marginal
+    costs, unlike classic SaaS where costs tend to flatten. Jaffer argues that
+    pricing must shape behavior and absorb variance, because heavy users can
+    create radically different cost profiles under identical plans. The piece
+    introduces a structured way to choose pricing models based on risk and
+    operational realities, emphasizing worst-case behavior rather than averages.
+    It is a practical lens for product teams balancing growth, reliability, and
+    economic sustainability.
+  key_takeaways:
+    - Replace SaaS-era assumptions with AI-specific pricing models that account for variable inference costs
+    - Design pricing to influence user behavior before cost variance erodes margins
+    - Model economics for worst-case usage patterns instead of relying on averages
+    - Tie pricing strategy to reliability and scale goals, not just revenue targets
+  relevance: >-
+    Supports The Draft's engineering-judgment perspective by connecting product
+    strategy to operational and financial guardrails required for AI systems at
+    production scale.
+  notable_quotes:
+    - 'AI flips that assumption.'
+    - 'In SaaS, growth tends to smooth costs. In AI, growth often amplifies them.'
+  tags:
+    - pricing
+    - unit-economics
+    - scale
+  topics:
+    - ai-business-models
+    - margin-management
+  categories:
+    - ai-production-scale
+    - engineering-judgment
