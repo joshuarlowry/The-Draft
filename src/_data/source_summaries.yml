@@ -771,7 +771,7 @@
     - podcast
   categories:
     - planning-and-structure
-  source_type: video
+  source_type: social_post
 - source_id: linkedin_nearform_ai_internal_tools
   summary: Cian Clarke’s LinkedIn post highlights Nearform’s internal AI tools, including
     Wilde for knowledge retrieval and Beckett for automating CRM updates.
@@ -3326,3 +3326,43 @@
   categories:
     - workforce-strategy
     - org-structure
+
+- source_id: tiktok_mvp_workflow_not_tool
+  source_type: social_post
+  summary: >-
+    A short TikTok arguing that leadership should validate AI-enabled workflows,
+    not over-interpret fast prototype demos as evidence engineering is
+    replaceable.
+  long_summary: >-
+    The speaker describes a recurring dynamic: someone ships an impressive
+    weekend prototype with AI tooling, and teams immediately question whether a
+    full engineering function is still necessary. The proposed response is to
+    lean in with structure, not resistance—form a cross-functional pod,
+    timebox the work, and test whether the approach scales across speed,
+    maintainability, and business impact. The core distinction is that 80%
+    prototype completion is not equivalent to production-ready software. The
+    recommendation is to scale repeatable workflows if results hold, rather
+    than treating AI demos as justification for shrinking engineering capacity.
+  key_takeaways:
+    - Reframe AI prototype excitement toward workflow validation instead of role elimination
+    - Timebox cross-functional experiments to test scalability and production fitness
+    - Distinguish fast 80% demos from shippable, maintainable 100% delivery
+    - Expand successful experiments into repeatable pods for larger problems
+  relevance: >-
+    This source reinforces The Draft's planning and oversight stance: AI gains
+    compound when teams design explicit workflows, guardrails, and learning
+    loops rather than optimizing for one-off output speed.
+  notable_quotes:
+    - "So what you do is you say this awesome, but let's not MVP the tool. Let's MVP the workflow."
+    - "Because 80% built fast is not the same as 100% shipable. And it definitely doesn't mean maintainable."
+    - "A I. Isn't shrinking ambition, it's expanding it."
+  tags:
+    - planning-and-structure
+    - responsibility-oversight
+  topics:
+    - ai-workflow-adoption
+    - prototype-to-production-gap
+    - engineering-leadership
+  categories:
+    - planning-and-structure
+    - responsibility-oversight
