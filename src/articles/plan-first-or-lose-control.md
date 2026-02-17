@@ -3,6 +3,7 @@ layout: layouts/article.njk
 id: plan-first-or-lose-control
 title: 'Plan First or Lose Control: Why AI Coding Requires Deliberate Planning'
 summary: 'Planning-first workflows keep AI coding aligned with human intent by making decisions explicit before implementation begins.'
+date: '2026-02-03'
 primary_domain: agentic
 secondary_domains:
   - architecture

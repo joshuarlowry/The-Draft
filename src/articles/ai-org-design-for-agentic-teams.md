@@ -3,6 +3,7 @@ layout: layouts/article.njk
 id: ai-org-design-for-agentic-teams
 title: 'AI Org Design for Agentic Teams'
 summary: 'The next org chart is less about hierarchy and more about who supervises agents, owns escalation paths, and keeps quality gates intact.'
+date: '2026-02-11'
 primary_domain: architecture
 secondary_domains:
   - agentic

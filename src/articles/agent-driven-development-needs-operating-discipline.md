@@ -3,6 +3,7 @@ layout: layouts/article.njk
 id: agent-driven-development-needs-operating-discipline
 title: 'Agent-Driven Development Needs Operating Discipline'
 summary: 'Recent SourceTMS writing centers on agent operating discipline, context architecture, and the rising importance of human direction quality in AI-assisted development.'
+date: '2026-02-14'
 primary_domain: agentic
 secondary_domains:
   - architecture

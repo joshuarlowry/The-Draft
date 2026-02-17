@@ -3,6 +3,7 @@ layout: layouts/article.njk
 id: developer-enablement-with-ai-now
 title: 'Developer Enablement With AI: What Has Changed Recently'
 summary: 'The conversation has shifted from model access to workflow reliability, oversight systems, and organizational readiness.'
+date: '2026-02-11'
 primary_domain: agentic
 secondary_domains:
   - architecture

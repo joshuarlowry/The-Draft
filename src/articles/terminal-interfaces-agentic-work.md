@@ -3,6 +3,7 @@ layout: layouts/article.njk
 id: terminal-interfaces-agentic-work
 title: 'Terminal Interfaces Are Becoming the Native Surface for Agentic Work'
 summary: 'Recent writing and tooling suggest that CLI-first workflows are becoming the default interface for LLM agents because they align with structured tasks and verifiable execution.'
+date: '2026-02-06'
 primary_domain: agentic
 secondary_domains:
   - ux
