@@ -3696,3 +3696,74 @@
   categories:
     - ai-production-scale
     - engineering-judgment
+
+- source_id: sonarsource_developer_time_writing_code_2023
+  source_type: article
+  summary: >-
+    SonarSource's survey summary reports that developers spend more time
+    maintaining, testing, and securing existing code than writing or improving code.
+  long_summary: >-
+    This article shares a time-allocation breakdown from SonarSource's survey of
+    professional developers. The results show that coding time is only part of the
+    month: respondents reported less than one-third of time on writing new code or
+    improving existing code, while a larger share went to maintenance, testing,
+    security response, and management/operational work. The piece is useful as a
+    directional indicator that software work often centers on sustaining and
+    operating existing systems.
+  key_takeaways:
+    - Quantify developer work as a mix of coding, maintenance, testing, and operational responsibilities
+    - Show that maintaining, testing, and securing existing code can outweigh writing net-new code
+    - Highlight that respondents reported only 32% of time on writing new or improving existing code
+    - Frame maintenance-heavy workflows as the default environment for evaluating AI coding impact
+  relevance: >-
+    This source supports The Draft's claim that AI value should be judged against
+    real delivery conditions, where maintenance and operational load dominate much
+    of developer time.
+  notable_quotes:
+    - 'Finding #3: Developers spend more time maintaining, testing, and securing existing code than they do writing or improving code.'
+    - 'Respondents spend less than one-third of their time writing new code or improving existing code (32%).'
+  tags:
+    - developer-time-allocation
+    - maintenance-vs-new-build
+    - software-delivery-reality
+  topics:
+    - developer-productivity
+    - engineering-work-patterns
+  categories:
+    - engineering-judgment
+    - ai-production-scale
+
+- source_id: infoworld_idc_developers_spend_most_time_not_coding
+  source_type: article
+  summary: >-
+    InfoWorld reports IDC findings that developers spend more time on operational
+    and support tasks than on application development.
+  long_summary: >-
+    This article summarizes IDC's 2024 time-allocation data for software
+    developers. It reports application development at 16% of developer time,
+    while large shares go to writing requirements and test cases, security,
+    CI/CD implementation, deployment, and performance monitoring. Even as AI tools
+    promise acceleration, the breakdown indicates that most engineering effort is
+    distributed across sustaining and operating systems, not only net-new coding.
+  key_takeaways:
+    - Report that application development represented 16% of developer time in 2024
+    - Highlight that operational and background work consumes the majority of developer effort
+    - Break down non-coding workload across testing, security, CI/CD, deployment, and monitoring
+    - Use task-allocation data to set realistic expectations for AI coding productivity claims
+  relevance: >-
+    This source is directly relevant to The Draft because it reinforces that AI
+    usefulness depends on how well it supports maintenance, reliability, and
+    delivery operations, not just greenfield code generation.
+  notable_quotes:
+    - 'Developers spend more time on operational and background tasks than they do on coding, according to an IDC analyst report published this month.'
+    - 'Application development accounted for 16% of developers’ time in 2024, up from 15% the year before, while the majority of developers’ time was spent on operational and supportive tasks, according to the report.'
+  tags:
+    - idc
+    - developer-time-allocation
+    - operations-load
+  topics:
+    - software-delivery
+    - maintenance-work
+  categories:
+    - engineering-judgment
+    - governance-guardrails

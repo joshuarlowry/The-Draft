@@ -809,3 +809,15 @@
       url: 'https://substack.com/@miqdadjaffer'
     - label: 'Building AI as a System: Moats, Margins, and the 4 Decisions That Actually Matter'
       url: 'https://www.productmanagement.ai/p/building-ai-as-a-system-moats-margins'
+
+- id: paul_krill
+  name: 'Paul Krill'
+  links:
+    - label: 'Developers spend most of their time not coding – IDC report'
+      url: 'https://www.infoworld.com/article/3831759/developers-spend-most-of-their-time-not-coding-idc-report.html'
+
+- id: adam_resnick
+  name: 'Adam Resnick'
+  links:
+    - label: 'How Do Software Developers Spend Their Time?'
+      url: 'https://www.idc.com/getdoc.jsp?containerId=US53204725'
