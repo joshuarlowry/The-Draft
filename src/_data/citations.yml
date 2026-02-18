@@ -278,3 +278,19 @@
 - id: tiktok_ai_job_how_you_use_it_matters_quote
   quote: 'How you use it matters more than whether you use it.'
   source_id: tiktok_ai_job_framing_helen_edwards
+
+- id: sonarsource_maintain_test_secure_more_than_new_code_quote
+  quote: 'Finding #3: Developers spend more time maintaining, testing, and securing existing code than they do writing or improving code.'
+  source_id: sonarsource_developer_time_writing_code_2023
+
+- id: sonarsource_less_than_one_third_new_or_improving_code_quote
+  quote: 'Respondents spend less than one-third of their time writing new code or improving existing code (32%).'
+  source_id: sonarsource_developer_time_writing_code_2023
+
+- id: infoworld_idc_more_time_operational_than_coding_quote
+  quote: 'Developers spend more time on operational and background tasks than they do on coding, according to an IDC analyst report published this month.'
+  source_id: infoworld_idc_developers_spend_most_time_not_coding
+
+- id: infoworld_idc_application_development_16_percent_quote
+  quote: 'Application development accounted for 16% of developers’ time in 2024, up from 15% the year before, while the majority of developers’ time was spent on operational and supportive tasks, according to the report.'
+  source_id: infoworld_idc_developers_spend_most_time_not_coding
