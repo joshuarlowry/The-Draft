@@ -294,3 +294,11 @@
 - id: infoworld_idc_application_development_16_percent_quote
   quote: 'Application development accounted for 16% of developers’ time in 2024, up from 15% the year before, while the majority of developers’ time was spent on operational and supportive tasks, according to the report.'
   source_id: infoworld_idc_developers_spend_most_time_not_coding
+
+- id: mintlify_ai_docs_lifecycle_quote
+  quote: 'Integrate AI into every part of your docs lifecycle.'
+  source_id: mintlify_intelligent_documentation_platform
+
+- id: mintlify_context_aware_agent_quote
+  quote: 'Draft, edit, and maintain content with a context-aware agent.'
+  source_id: mintlify_intelligent_documentation_platform

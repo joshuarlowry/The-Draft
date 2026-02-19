@@ -3767,3 +3767,40 @@
   categories:
     - engineering-judgment
     - governance-guardrails
+
+- source_id: mintlify_intelligent_documentation_platform
+  source_type: documentation
+  summary: >-
+    Mintlify frames documentation as an AI-augmented operations workflow, with
+    capabilities aimed at drafting, maintaining, and serving docs continuously.
+  long_summary: >-
+    Mintlify positions its platform as an AI-native documentation system where
+    teams can integrate AI across authoring, maintenance, and user support.
+    Messaging emphasizes the docs lifecycle rather than one-time page writing:
+    agents help draft and update content, and assistants support retrieval for end
+    users. While vendor messaging should be validated against team needs, it is a
+    useful snapshot of where doc-ops discussion is heading—toward continuous,
+    version-controlled documentation workflows that align with fast product
+    iteration.
+  key_takeaways:
+    - Treat documentation as a continuous lifecycle that includes drafting, maintenance, and retrieval
+    - Integrate AI agents into routine documentation updates to reduce stale content drift
+    - Pair AI-assisted writing with version control so documentation updates remain reviewable
+    - Design documentation for both human readers and AI-mediated discovery workflows
+  relevance: >-
+    This source is relevant to The Draft because it reflects a practical shift from
+    static docs to AI-assisted doc operations, where governance and review quality
+    determine whether speed improves outcomes.
+  notable_quotes:
+    - 'Integrate AI into every part of your docs lifecycle.'
+    - 'Draft, edit, and maintain content with a context-aware agent.'
+  tags:
+    - documentation-lifecycle
+    - ai-docops
+    - docs-maintenance
+  topics:
+    - technical-writing
+    - documentation-operations
+  categories:
+    - planning-and-structure
+    - responsibility-oversight
