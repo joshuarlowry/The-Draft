@@ -9,17 +9,18 @@ The Draft is powered by a private, request-only research feed. I ask, the agent 
 
 Use the feed to jump into [Sources]({{ '/sources/' | url }}) when you want every citation and summary in one place. Browse by [Domains]({{ '/domains/' | url }}), explore [People]({{ '/people/' | url }}), or [Search]({{ '/search/' | url }}) across the site.
 
-## Articles
+## Recent
 
 <ul class="article-list">
-{%- for article in collections.articles | sortByDateDesc %}
+{%- set allItems = collections.articles.concat(collections.takes) %}
+{%- for item in allItems | sortByDateDesc %}
   <li>
-    <a href="{{ article.url | url }}">{{ article.data.title }}</a>
-    <p class="article-date">Authored {{ (article.data.date or article.date) | formatAuthorDate }}</p>
-    {% if article.data.primary_domain or (article.data.secondary_domains and article.data.secondary_domains.length) %}
+    <a href="{{ item.url | url }}">{{ item.data.title }}</a>
+    <p class="article-date">{{ (item.data.date or item.date) | formatAuthorDate }}</p>
+    {% if item.data.primary_domain or (item.data.secondary_domains and item.data.secondary_domains.length) %}
     <div class="domain-badges domain-badges--inline">
-      {% if article.data.primary_domain %}
-      {% set domain = article.data.primary_domain | getDomainById %}
+      {% if item.data.primary_domain %}
+      {% set domain = item.data.primary_domain | getDomainById %}
       {% if domain %}
       <span class="domain-badge domain-badge--primary" title="{{ domain.label }}">
         <span class="domain-badge__symbol" aria-hidden="true">{{ domain.symbol }}</span>
@@ -27,8 +28,8 @@ Use the feed to jump into [Sources]({{ '/sources/' | url }}) when you want every
       </span>
       {% endif %}
       {% endif %}
-      {% if article.data.secondary_domains and article.data.secondary_domains.length %}
-      {% for domainId in article.data.secondary_domains %}
+      {% if item.data.secondary_domains and item.data.secondary_domains.length %}
+      {% for domainId in item.data.secondary_domains %}
       {% set domain = domainId | getDomainById %}
       {% if domain %}
       <span class="domain-badge domain-badge--secondary" title="{{ domain.label }}">
@@ -40,8 +41,8 @@ Use the feed to jump into [Sources]({{ '/sources/' | url }}) when you want every
       {% endif %}
     </div>
     {% endif %}
-    {%- if article.data.summary %}
-      <p class="article-summary">{{ article.data.summary }}</p>
+    {%- if item.data.summary %}
+      <p class="article-summary">{{ item.data.summary }}</p>
     {%- endif %}
   </li>
 {%- endfor %}

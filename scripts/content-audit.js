@@ -49,7 +49,7 @@ function main() {
   const citations = loadData('citations');
 
   const articleFiles = listMarkdown('src/articles');
-  const blockFiles = listMarkdown('src/blocks/argument');
+  const blockFiles = listMarkdown('src/takes');
   const conceptFiles = listMarkdown('src/concepts');
 
   const sourceIds = new Set(sources.map((source) => source.id));

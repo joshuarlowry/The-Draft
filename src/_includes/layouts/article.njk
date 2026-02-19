@@ -16,11 +16,11 @@ layout: layouts/base.njk
   </section>
   {% endif %}
 
-  {% set articleCitationIds = blocks | collectBlockCitations(collections.argumentBlocks) %}
+  {% set articleCitationIds = blocks | collectBlockCitations(collections.takes) %}
 
   <section class="article-blocks">
     {% for blockId in blocks %}
-      {% set block = collections.argumentBlocks | getBlockById(blockId) %}
+      {% set block = collections.takes | getBlockById(blockId) %}
       {% if block %}
         {% include "components/block.njk" %}
       {% else %}
@@ -39,7 +39,7 @@ layout: layouts/base.njk
     {% endfor %}
   </section>
 
-  {% set articleSourceIds = blocks | collectBlockSourceIds(collections.argumentBlocks, citations) %}
+  {% set articleSourceIds = blocks | collectBlockSourceIds(collections.takes, citations) %}
   {% set articlePeople = people | getPeopleBySourceIds(sources, articleSourceIds) %}
   {% if articlePeople.length %}
   <section class="article-people">

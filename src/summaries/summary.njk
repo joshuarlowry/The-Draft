@@ -97,7 +97,7 @@ eleventyComputed:
   {%- for article in collections.articles %}
     {%- set matched = false %}
     {%- for blockId in article.data.blocks %}
-      {%- set block = collections.argumentBlocks | getBlockById(blockId) %}
+      {%- set block = collections.takes | getBlockById(blockId) %}
       {%- if block %}
         {%- set blockTerms = [] %}
         {%- if block.data.tags %}{%- set blockTerms = blockTerms.concat(block.data.tags) %}{%- endif %}

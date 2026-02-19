@@ -1,0 +1,46 @@
+---
+layout: layouts/base.njk
+title: Takes
+eleventyExcludeFromCollections: true
+permalink: /takes/
+---
+
+# Takes
+
+Standalone insights and positions on key topics across domains.
+
+<ul class="article-list">
+{%- for take in collections.takes | sortByDateDesc %}
+  <li>
+    <a href="{{ take.url | url }}">{{ take.data.title }}</a>
+    <p class="article-date">{{ (take.data.date or take.date) | formatAuthorDate }}</p>
+    {% if take.data.primary_domain or (take.data.secondary_domains and take.data.secondary_domains.length) %}
+    <div class="domain-badges domain-badges--inline">
+      {% if take.data.primary_domain %}
+      {% set domain = take.data.primary_domain | getDomainById %}
+      {% if domain %}
+      <span class="domain-badge domain-badge--primary" title="{{ domain.label }}">
+        <span class="domain-badge__symbol" aria-hidden="true">{{ domain.symbol }}</span>
+        <span class="domain-badge__label">{{ domain.label }}</span>
+      </span>
+      {% endif %}
+      {% endif %}
+      {% if take.data.secondary_domains and take.data.secondary_domains.length %}
+      {% for domainId in take.data.secondary_domains %}
+      {% set domain = domainId | getDomainById %}
+      {% if domain %}
+      <span class="domain-badge domain-badge--secondary" title="{{ domain.label }}">
+        <span class="domain-badge__symbol" aria-hidden="true">{{ domain.symbol }}</span>
+        <span class="domain-badge__label">{{ domain.label }}</span>
+      </span>
+      {% endif %}
+      {% endfor %}
+      {% endif %}
+    </div>
+    {% endif %}
+    {%- if take.data.summary %}
+      <p class="article-summary">{{ take.data.summary }}</p>
+    {%- endif %}
+  </li>
+{%- endfor %}
+</ul>

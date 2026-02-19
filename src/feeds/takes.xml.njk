@@ -1,0 +1,28 @@
+---
+permalink: "/feeds/takes.xml"
+eleventyExcludeFromCollections: true
+---
+{%- set feedItems = collections.takes | sortByDateDesc -%}
+{%- set feedUrl = site.url ~ "/feeds/takes.xml" -%}
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>{{ site.title }} Takes</title>
+    <link>{{ site.url }}/takes/</link>
+    <atom:link href="{{ feedUrl }}" rel="self" type="application/rss+xml" />
+    <description>Standalone insights and positions across domains at {{ site.title }}</description>
+    <language>{{ site.language }}</language>
+    {% for take in feedItems %}
+      {% set itemUrl = site.url ~ take.url %}
+      <item>
+        <title>{{ take.data.title }}</title>
+        <link>{{ itemUrl }}</link>
+        <guid>{{ itemUrl }}</guid>
+        <pubDate>{{ (take.data.date or take.date) | rssDate }}</pubDate>
+        {% if take.data.summary %}
+          <description><![CDATA[{{ take.data.summary }}]]></description>
+        {% endif %}
+      </item>
+    {% endfor %}
+  </channel>
+</rss>

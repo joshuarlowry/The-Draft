@@ -2,7 +2,7 @@
 permalink: "/feeds/articles.xml"
 eleventyExcludeFromCollections: true
 ---
-{%- set feedItems = collections.articles | reverse -%}
+{%- set feedItems = collections.articles | sortByDateDesc -%}
 {%- set feedUrl = site.url ~ "/feeds/articles.xml" -%}
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
@@ -18,7 +18,7 @@ eleventyExcludeFromCollections: true
         <title>{{ article.data.title }}</title>
         <link>{{ itemUrl }}</link>
         <guid>{{ itemUrl }}</guid>
-        <pubDate>{{ article.date | rssDate }}</pubDate>
+        <pubDate>{{ (article.data.date or article.date) | rssDate }}</pubDate>
         {% if article.data.intro %}
           <description><![CDATA[{{ article.data.intro | safe }}]]></description>
         {% endif %}

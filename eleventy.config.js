@@ -11,9 +11,9 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy('src/styles');
   eleventyConfig.addPassthroughCopy('src/images');
 
-  // Collection: All argument blocks
-  eleventyConfig.addCollection('argumentBlocks', function (collectionApi) {
-    return collectionApi.getFilteredByGlob('src/blocks/argument/*.md');
+  // Collection: All takes
+  eleventyConfig.addCollection('takes', function (collectionApi) {
+    return collectionApi.getFilteredByGlob('src/takes/*.md');
   });
 
   // Collection: All concepts

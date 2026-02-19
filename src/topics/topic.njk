@@ -30,7 +30,7 @@ eleventyComputed:
 {%- for article in collections.articles %}
   {%- set matched = false %}
   {%- for blockId in article.data.blocks %}
-    {%- set block = collections.argumentBlocks | getBlockById(blockId) %}
+    {%- set block = collections.takes | getBlockById(blockId) %}
     {%- if block and block.data[term.field] and term.label in block.data[term.field] %}
       {%- set matched = true %}
     {%- endif %}

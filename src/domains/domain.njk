@@ -19,8 +19,8 @@ eleventyComputed:
 
   {% set primaryArticles = collections.articles | filterByPrimaryDomain(domainId) %}
   {% set secondaryArticles = collections.articles | filterBySecondaryDomain(domainId) %}
-  {% set primaryBlocks = collections.argumentBlocks | filterByPrimaryDomain(domainId) %}
-  {% set secondaryBlocks = collections.argumentBlocks | filterBySecondaryDomain(domainId) %}
+  {% set primaryBlocks = collections.takes | filterByPrimaryDomain(domainId) %}
+  {% set secondaryBlocks = collections.takes | filterBySecondaryDomain(domainId) %}
   {% set primaryConcepts = collections.concepts | filterByPrimaryDomain(domainId) %}
   {% set secondaryConcepts = collections.concepts | filterBySecondaryDomain(domainId) %}
 
@@ -43,7 +43,7 @@ eleventyComputed:
 
   {% if primaryBlocks.length %}
   <section class="domain-section domain-section--primary">
-    <h2>Argument blocks</h2>
+    <h2>Takes</h2>
     <ul class="article-list">
       {%- for block in primaryBlocks %}
         <li>

@@ -6,6 +6,7 @@
   <title>{{ title | default("The Draft") }}</title>
   <link rel="stylesheet" href="{{ '/styles/site.css' | url }}">
   <link rel="alternate" type="application/rss+xml" title="The Draft Articles" href="{{ '/feeds/articles.xml' | url }}">
+  <link rel="alternate" type="application/rss+xml" title="The Draft Takes" href="{{ '/feeds/takes.xml' | url }}">
   <link rel="alternate" type="application/rss+xml" title="The Draft Source Summaries" href="{{ '/feeds/source-summaries.xml' | url }}">
 </head>
 <body>
@@ -26,6 +27,7 @@
           <button type="submit">Search</button>
         </form>
         <a href="{{ '/domains/' | url }}">Domains</a>
+        <a href="{{ '/takes/' | url }}">Takes</a>
         <a href="{{ '/sources/' | url }}">Sources</a>
         <a href="{{ '/people/' | url }}">People</a>
         <a href="{{ '/search/' | url }}">Search</a>
@@ -39,6 +41,7 @@
     <nav class="footer-feeds" aria-label="RSS feeds">
       <span class="footer-label">RSS:</span>
       <a href="{{ '/feeds/articles.xml' | url }}">Articles</a>
+      <a href="{{ '/feeds/takes.xml' | url }}">Takes</a>
       <a href="{{ '/feeds/source-summaries.xml' | url }}">Source summaries</a>
     </nav>
   </footer>

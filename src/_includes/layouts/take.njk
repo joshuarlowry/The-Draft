@@ -1,0 +1,65 @@
+---
+layout: layouts/base.njk
+---
+<article class="take">
+  <header class="take-header">
+    <h1>{{ title }}</h1>
+    <p class="take-date">{{ (date or page.date) | formatAuthorDate }}</p>
+    {% if primary_domain or (secondary_domains and secondary_domains.length) %}
+    {% include "components/domain-badges.njk" %}
+    {% endif %}
+  </header>
+
+  <div class="take-content">
+    {{ content | renderWithCitations(citationRecords, sources, source_summaries) | safe }}
+  </div>
+
+  {% if categories or topics or tags %}
+  <div class="take-meta">
+    {% if categories %}
+      <div class="meta-group">
+        <span class="meta-label">Categories:</span>
+        <ul class="meta-list">
+          {%- for category in categories %}
+            <li>
+              <a href="{{ ('/topics/category/' ~ (category | slugifyTerm) ~ '/') | url }}">{{ category }}</a>
+            </li>
+          {%- endfor %}
+        </ul>
+      </div>
+    {% endif %}
+    {% if topics %}
+      <div class="meta-group">
+        <span class="meta-label">Topics:</span>
+        <ul class="meta-list">
+          {%- for topic in topics %}
+            <li>
+              <a href="{{ ('/topics/topic/' ~ (topic | slugifyTerm) ~ '/') | url }}">{{ topic }}</a>
+            </li>
+          {%- endfor %}
+        </ul>
+      </div>
+    {% endif %}
+    {% if tags %}
+      <div class="meta-group">
+        <span class="meta-label">Tags:</span>
+        <ul class="meta-list">
+          {%- for tag in tags %}
+            <li>
+              <a href="{{ ('/topics/tag/' ~ (tag | slugifyTerm) ~ '/') | url }}">{{ tag }}</a>
+            </li>
+          {%- endfor %}
+        </ul>
+      </div>
+    {% endif %}
+  </div>
+  {% endif %}
+
+  {% if takeCitationIds and takeCitationIds.length %}
+    {{ takeCitationIds | renderCitationSection(citationRecords, sources, source_summaries) | safe }}
+  {% endif %}
+
+  <footer class="take-footer">
+    <a href="{{ '/takes/' | url }}">&larr; Back to Takes</a>
+  </footer>
+</article>

@@ -111,7 +111,7 @@ eleventyComputed:
 
 {% set relatedArticles = [] %}
 {%- for article in collections.articles %}
-  {% set articleSourceIds = article.data.blocks | collectBlockSourceIds(collections.argumentBlocks, citations) %}
+  {% set articleSourceIds = article.data.blocks | collectBlockSourceIds(collections.takes, citations) %}
   {% set matches = false %}
   {%- for source in personSources %}
     {%- if source.id in articleSourceIds %}

@@ -88,7 +88,7 @@ const main = () => {
 
   // Pre-load all blocks to avoid duplicate file reads
   const blockCache = new Map();
-  const blocksDir = path.join(SRC, 'blocks', 'argument');
+  const blocksDir = path.join(SRC, 'takes');
   if (fs.existsSync(blocksDir)) {
     const blockFiles = fs.readdirSync(blocksDir).filter(f => f.endsWith('.md'));
     for (const file of blockFiles) {
@@ -168,6 +168,45 @@ const main = () => {
         secondary_domains: Array.isArray(data.secondary_domains) ? data.secondary_domains : [],
         people_slugs: [],
         tags: [],
+      });
+    }
+  }
+
+  // Takes
+  const takesDir = path.join(SRC, 'takes');
+  if (fs.existsSync(takesDir)) {
+    const files = fs.readdirSync(takesDir).filter((f) => f.endsWith('.md'));
+    for (const file of files) {
+      const content = fs.readFileSync(path.join(takesDir, file), 'utf8');
+      const data = parseFrontMatter(content);
+      const id = data.id || file.replace(/\.md$/, '');
+      const url = `${PATH_PREFIX}takes/${id}/`;
+      const citationIds = data.citations || [];
+      const takePeopleIds = [...new Set(
+        citationIds.flatMap((cid) => {
+          const citation = citationMap.get(cid);
+          if (!citation) return [];
+          const source = sourceMap.get(citation.source_id);
+          if (!source) return [];
+          return [...(source.author_ids || []), ...(source.mentioned_people_ids || [])];
+        })
+      )];
+      const peopleSlugs = takePeopleIds
+        .map((pid) => {
+          const person = peopleMap.get(pid);
+          return person ? getPersonSlug(person) : null;
+        })
+        .filter(Boolean);
+
+      items.push({
+        type: 'take',
+        title: data.title || id,
+        url,
+        summary: data.summary || '',
+        primary_domain: data.primary_domain || null,
+        secondary_domains: Array.isArray(data.secondary_domains) ? data.secondary_domains : [],
+        people_slugs: peopleSlugs,
+        tags: (data.tags || []).concat(data.topics || []).concat(data.categories || []),
       });
     }
   }
