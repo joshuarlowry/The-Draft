@@ -1,0 +1,31 @@
+source_id: arxiv_safe_ai_framework
+source_type: paper
+summary: >-
+  The SAFE-AI framework proposes guardrails such as sandboxing, runtime verification, and policy gates to reduce
+  AI-driven software failures.
+long_summary: >-
+  The SAFE-AI framework paper lays out a structured set of guardrails for AI-driven software engineering. It argues that
+  integrating LLMs into software development introduces risks like insecure code and accountability gaps, and recommends
+  mitigations such as sandboxing, runtime verification, and policy-based gates. The framework positions guardrails as
+  architectural components rather than ad hoc human review. Its goal is to make AI-assisted workflows safer by embedding
+  checks into the system itself.
+key_takeaways:
+  - >-
+    LLM integration introduces risks including insecure code, hallucinated outputs, irreversible actions, and
+    accountability gaps
+  - SAFE-AI emphasizes Safety, Auditability, Feedback, and Explainability as core principles
+  - Guardrails should be embedded as architectural components, not ad hoc human review
+  - Proposes taxonomy of AI behaviors—suggestive, generative, autonomous, destructive—to guide oversight
+  - Aligns with emerging regulations like EU AI Act and Canada's AIDA
+relevance: >-
+  Provides a systematic framework directly aligned with The Draft's guardrails theme. Positions safety mechanisms as
+  first-class architectural concerns rather than afterthoughts.
+tags:
+  - framework
+  - sandboxing
+  - verification
+topics:
+  - safety-engineering
+  - risk-mitigation
+categories:
+  - governance-guardrails

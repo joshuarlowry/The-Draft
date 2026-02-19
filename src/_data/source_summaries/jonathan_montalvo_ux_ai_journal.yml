@@ -1,0 +1,24 @@
+source_id: jonathan_montalvo_ux_ai_journal
+source_type: article
+summary: >-
+  Jonathan Montalvo's practitioner journal documents how UX practice evolves under AI pressure, with emphasis on
+  adaptation and reflective learning.
+long_summary: >-
+  This source contributes a first-person practice lens on navigating UX in the AI era. While not a formal research
+  report, it is valuable for capturing on-the-ground tradeoffs, mindset shifts, and practical adaptation patterns.
+key_takeaways:
+  - Document practitioner experiments to surface repeatable AI-in-UX patterns
+  - Use reflective journaling to evaluate what AI changes improve or harm practice
+  - Adapt roles incrementally rather than assuming one-step replacement
+relevance: >-
+  Complements formal studies in The Draft by adding a lived-practice perspective on role adaptation and workflow
+  redesign.
+tags:
+  - practitioner-notes
+  - adaptation
+  - role-evolution
+topics:
+  - ai-in-ux
+  - practice-change
+categories:
+  - cross-domain-calibration

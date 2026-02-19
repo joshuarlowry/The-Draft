@@ -1,0 +1,19 @@
+id: hamel_your_ai_product_needs_evals
+author: Hamel Husain
+author_ids:
+  - hamel_husain
+title: Your AI Product Needs Evals
+publisher: Hamel.dev
+published: '2024-03-29'
+accessed: '2026-02-17'
+url: https://hamel.dev/blog/posts/evals/
+tags:
+  - planning-and-structure
+  - governance-guardrails
+reading_descriptions:
+  planning-and-structure: >-
+    A practical playbook for starting evals with manual review, crisp failure definitions, and iterative measurement
+    loops.
+  governance-guardrails: >-
+    Frames evaluation systems as a core control mechanism that keeps AI product behavior aligned to real user
+    expectations.

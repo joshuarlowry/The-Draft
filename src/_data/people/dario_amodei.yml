@@ -1,0 +1,16 @@
+id: dario_amodei
+name: Dario Amodei
+slug: dario-amodei
+primary_domain: agentic
+secondary_domains: []
+profile_summary: >-
+  Dario Amodei is CEO of Anthropic and a leading AI safety researcher. He co-founded Anthropic to build reliable,
+  interpretable, and steerable AI systems. His research on AI alignment, scalable oversight, and constitutional AI has
+  shaped how frontier labs approach safety and capability in large language models.
+social_links:
+  - label: Anthropic Research
+    url: https://www.anthropic.com/research
+featured_works:
+  - title: Constitutional AI
+    url: https://www.anthropic.com/research/constitutional-ai-harmlessness-from-ai-feedback
+    year: '2022'

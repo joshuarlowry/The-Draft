@@ -2,8 +2,18 @@
 
 This repository uses structured content in `src/` with shared data in `src/_data`. Use the following conventions when adding or editing content.
 
+## Data file structure (per-entry files)
+Data for sources, source summaries, people, and citations is stored as **one YAML file per entry** inside dedicated directories. This prevents merge conflicts when multiple agents work in parallel.
+
+- `src/_data/sources/{id}.yml` — one file per source, named by its `id` field
+- `src/_data/source_summaries/{source_id}.yml` — one file per summary, named by its `source_id` field
+- `src/_data/people/{id}.yml` — one file per person, named by its `id` field
+- `src/_data/citations/{id}.yml` — one file per citation, named by its `id` field
+
+**Important:** Always create a **new file** for a new entry. Never append to a shared YAML file. Each file contains a single YAML object (not a list). JS aggregator files (`sources.js`, `source_summaries.js`, `people.js`, `citations.js`) in `src/_data/` automatically combine the individual files into arrays at build time — do not edit the JS files.
+
 ## Research workflow
-- Start by cataloging sources and summaries in `src/_data/sources.yml` and `src/_data/source_summaries.yml` (and any related notes) whenever research is performed or sources are added manually.
+- Start by cataloging sources and summaries in `src/_data/sources/` and `src/_data/source_summaries/` (and any related notes) whenever research is performed or sources are added manually.
 - Not all sources need to end up in a block or article; cataloging first is expected.
 - When answering questions, search existing sources first, then perform new internet searches to find new or updated information as needed. Those findings trigger quotation blocks and/or articles.
 - When adding a source, extract authors and any notable people mentioned so we can create people profiles that connect back to the source and related articles. Plan ahead for future profile photos on those people pages.
@@ -20,18 +30,20 @@ This repository uses structured content in `src/` with shared data in `src/_data
 - `npm run build` — Eleventy build
 
 ## Sources (canonical reference records)
-- **Location:** `src/_data/sources.yml`
+- **Location:** `src/_data/sources/{id}.yml` (one file per source)
 - **Purpose:** Canonical source metadata used by both citations and reading bundles.
 - **Required fields:** `id`, `title`, `url`
 - **Optional fields:** `author`, `publisher`, `journal`, `repository`, `published`, `accessed`
 - **ID format:** lowercase snake-case, scoped to the source (e.g., `google_cloud_best_practices`).
+- **Filename:** must match the `id` field (e.g., `google_cloud_best_practices.yml`).
 
 ## Source summaries
-- **Location:** `src/_data/source_summaries.yml`
+- **Location:** `src/_data/source_summaries/{source_id}.yml` (one file per summary)
 - **Purpose:** Structured summaries with key insights, relevance context, and notable quotes for each source.
 - **Required fields:** `source_id`, `summary`, `long_summary`, `source_type`, `key_takeaways`, `relevance`
 - **Optional fields:** `tags`, `topics`, `categories`, `notable_quotes`
-- **Notes:** `source_id` must match a valid `id` in `sources.yml`.
+- **Filename:** must match the `source_id` field (e.g., `google_cloud_best_practices.yml`).
+- **Notes:** `source_id` must match a valid `id` in `sources/`.
 
 ### Source summary fields
 
@@ -59,7 +71,7 @@ This repository uses structured content in `src/` with shared data in `src/_data
 
 **`relevance`** (required): 1–2 sentences explaining why this source matters for The Draft's themes (planning, oversight, guardrails, engineering judgment, rapid prototyping). Connect the source to the site's perspective on AI-assisted development.
 
-**`notable_quotes`** (optional): A list of verbatim quotes worth extracting. These can seed `citations.yml` entries. Guidelines:
+**`notable_quotes`** (optional): A list of verbatim quotes worth extracting. These can seed citation entries in `src/_data/citations/`. Guidelines:
 - Copy text exactly as it appears in the source
 - Include enough context to stand alone
 - Aim for 1–3 quotes per source (skip if none are compelling)
@@ -71,11 +83,12 @@ This repository uses structured content in `src/` with shared data in `src/_data
   ```
 
 ## Quotations (inline citations)
-- **Location:** `src/_data/citations.yml`
+- **Location:** `src/_data/citations/{id}.yml` (one file per citation)
 - **Purpose:** Store quoted text and link it to a canonical source.
 - **Required fields:** `id`, `quote`, `source_id`
 - **ID format:** lowercase snake-case ending in `_quote` (e.g., `google_cloud_best_practices_quote`).
-- **Notes:** `source_id` must point to a valid `id` in `sources.yml`.
+- **Filename:** must match the `id` field (e.g., `google_cloud_best_practices_quote.yml`).
+- **Notes:** `source_id` must point to a valid `id` in `sources/`.
 
 ## Citation mechanism (APA)
 - **Inline citations:** Use `[[cite:your_quote_id]]` in content. The renderer outputs the quote plus an APA-style parenthetical reference, e.g., `(Author, 2024)` or `(Publisher, n.d.)`.
@@ -89,7 +102,7 @@ This repository uses structured content in `src/` with shared data in `src/_data
 - **Location:** `src/_data/reading_bundles.yml`
 - **Purpose:** Curated reading lists shown on article pages.
 - **Structure:** Bundles contain `groups`, each group contains `sources` with `id` and optional `description`.
-- **Notes:** Each `id` in a bundle must match a source in `sources.yml`.
+- **Notes:** Each `id` in a bundle must match a source in `sources/`.
 
 ## Artifact metadata (domain classification)
 Every content artifact (article, block, concept) MUST declare:
@@ -109,7 +122,7 @@ Artifacts exist once; all domain views are derived from metadata. Meta content (
 ## Blocks
 - **Location:** `src/blocks/`
 - **Purpose:** Reusable argument blocks used within articles.
-- **Citations:** Use `[[cite:your_quote_id]]` placeholders to embed quotes from `citations.yml`. Include artifact metadata.
+- **Citations:** Use `[[cite:your_quote_id]]` placeholders to embed quotes from `citations/`. Include artifact metadata.
 
 ## Concepts
 - **Location:** `src/concepts/`

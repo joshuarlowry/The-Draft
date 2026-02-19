@@ -1,0 +1,12 @@
+id: privacy_virtual_cards
+title: Virtual Cards To Protect Your Payments | Virtual Payment Cards
+publisher: Privacy.com
+published: '2026'
+accessed: '2026-02-19'
+url: https://www.privacy.com/virtual-card
+tags:
+  - governance-guardrails
+  - agentic-patterns
+reading_descriptions:
+  governance-guardrails: Consumer-facing example of tokenized virtual card numbers that limit secret reuse exposure.
+  agentic-patterns: Shows how ephemeral or segmented payment credentials can be used as scoped permissions in agentic workflows.

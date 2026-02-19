@@ -1,0 +1,17 @@
+id: erika_hall
+name: Erika Hall
+slug: erika-hall
+primary_domain: ux
+secondary_domains:
+  - ia
+profile_summary: >-
+  Erika Hall is a design researcher and co-founder of Mule Design. She has advocated for research-driven design,
+  inclusive language, and the strategic role of design in organizations. Her work on conversational design, research
+  methods, and design ethics has influenced UX practice and education.
+social_links:
+  - label: Personal site
+    url: https://erikahall.com
+featured_works:
+  - title: Just Enough Research
+    url: https://abookapart.com/products/just-enough-research
+    year: '2013'

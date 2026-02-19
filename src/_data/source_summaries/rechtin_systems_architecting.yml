@@ -1,0 +1,18 @@
+source_id: rechtin_systems_architecting
+summary: >-
+  Eberhardt Rechtin's work established systems architecting as a discipline, with heuristics for stakeholder analysis
+  and quality attributes.
+long_summary: >-
+  Rechtin's 'Systems Architecting of Organizations' and related work developed the discipline of systems architecting.
+  He introduced frameworks for heuristics, stakeholder analysis, and quality attributes that shape how complex systems
+  are designed and evaluated. His experience at JPL and DARPA informed practical methods for structuring and governing
+  large technical systems.
+tags:
+  - systems-architecting
+  - heuristics
+topics:
+  - architecture
+  - governance
+categories:
+  - engineering-judgment
+source_type: book

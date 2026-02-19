@@ -1,0 +1,16 @@
+id: sonarsource_developer_time_writing_code_2023
+author: Sonar
+title: How much time do developers spend actually writing code?
+publisher: SonarSource
+published: '2023-10-10'
+accessed: '2026-02-18'
+url: https://www.sonarsource.com/blog/how-much-time-do-developers-spend-actually-writing-code/
+tags:
+  - developer-productivity
+  - maintenance-reality
+  - ai-adoption-context
+reading_descriptions:
+  developer-productivity: >-
+    Survey-based breakdown of how professional developers allocate time across coding, maintenance, testing, security,
+    and operations.
+  maintenance-reality: Shows that upkeep and operational work can outweigh net-new coding in day-to-day software work.

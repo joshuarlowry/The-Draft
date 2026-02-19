@@ -1,0 +1,17 @@
+id: arxiv_security_degradation_ai_code
+author: Shivani Shukla, Himanshu Joshi, Romilla Syed
+author_ids:
+  - shivani_shukla
+  - himanshu_joshi
+  - romilla_syed
+title: Security Degradation in Iterative AI Code Generation -- A Systematic Analysis of the Paradox
+repository: arXiv
+published: '2025-05-19'
+accessed: '2026-02-02'
+url: https://arxiv.org/abs/2506.11022
+tags:
+  - governance-guardrails
+  - tooling-guardrails
+reading_descriptions:
+  governance-guardrails: Evidence that iterative AI code refinement can increase vulnerabilities without strong verification.
+  tooling-guardrails: Quantifies security regression across iterations, supporting the need for automated scanning between AI edits.

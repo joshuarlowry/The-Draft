@@ -1,0 +1,28 @@
+source_id: nace_first_destination_class_of_2024
+source_type: paper
+summary: >-
+  NACE first-destination data provides a baseline for how new graduates are entering work, useful for tracking
+  early-career absorption under AI change.
+long_summary: >-
+  The First Destination Survey tracks employment, further education, and other outcomes for recent graduates. In this
+  repository's context, it functions as a grounding dataset for evaluating whether concerns about entry-level
+  contraction are showing up in post-graduation outcomes. It helps separate anecdotal anxiety from measured cohort-level
+  transitions.
+key_takeaways:
+  - Establish baseline graduate employment outcomes for trend comparison
+  - Use cohort data to test claims of entry-level labor-market deterioration
+  - Connect employer restructuring narratives to early-career absorption signals
+  - Support evidence-based discussion of pipeline resilience over time
+relevance: >-
+  Adds measurement discipline to The Draft's workforce arguments by grounding pipeline discussions in observable
+  early-career outcomes.
+tags:
+  - graduate-outcomes
+  - early-career
+  - labor-indicators
+topics:
+  - first-destination
+  - talent-pipeline
+categories:
+  - workforce-strategy
+  - org-structure

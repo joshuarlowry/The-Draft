@@ -1,0 +1,13 @@
+id: stafford_beer
+name: Stafford Beer
+slug: stafford-beer
+primary_domain: architecture
+secondary_domains: []
+profile_summary: >-
+  Stafford Beer was a theorist of management cybernetics and organizational design. His Viable System Model describes
+  how organizations must be structured to remain adaptable and responsive. His work on real-time management and the
+  relationship between information systems and organizational viability has influenced systems thinking and governance.
+featured_works:
+  - title: Brain of the Firm
+    url: https://en.wikipedia.org/wiki/Brain_of_the_Firm
+    year: '1972'

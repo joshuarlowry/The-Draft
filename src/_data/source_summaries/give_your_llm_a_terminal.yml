@@ -1,0 +1,28 @@
+source_id: give_your_llm_a_terminal
+source_type: article
+summary: >-
+  Matt Westcott argues that terminal access with a persistent filesystem is a uniquely powerful tool for LLMs,
+  outperforming pixel-based computer use by aligning with text- and code-centric strengths.
+long_summary: >-
+  Westcott traces the evolution of LLM tooling from chat to code execution and computer-use interfaces, then makes the
+  case that a shell plus filesystem is a more effective interface for agentic work. He highlights how command-line tools
+  enable durable memory via files, rich text manipulation, and repeatable workflows without bespoke tool integrations.
+  He contrasts terminal access with pixel-based interfaces, which remain slow and error-prone for text-heavy tasks.
+key_takeaways:
+  - Argue that command-line access is the most powerful tool available to LLMs today
+  - Emphasize persistent files as a practical memory substrate for longer workflows
+  - Highlight Unix text tools as a natural fit for LLM-driven manipulation and search
+  - Contrast terminal workflows with pixel-based computer use that struggles with precision and scale
+relevance: >-
+  Reinforces The Draft’s focus on structured, tool-driven agent workflows by showing why text-native interfaces can
+  outperform GUI automation for reliability and speed.
+tags:
+  - terminal
+  - agentic-tools
+  - tooling
+topics:
+  - cli
+  - terminal-ui
+  - agent-workflows
+categories:
+  - terminal-interfaces

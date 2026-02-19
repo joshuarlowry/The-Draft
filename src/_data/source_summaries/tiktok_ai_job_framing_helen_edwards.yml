@@ -1,0 +1,38 @@
+source_id: tiktok_ai_job_framing_helen_edwards
+source_type: video
+summary: >-
+  Helen Edwards argues that mainstream AI-and-work narratives overemphasize inevitability and worker-versus-machine
+  competition, while underplaying economics, incentives, and human-AI complementarity.
+long_summary: >-
+  In this TikTok talk, Edwards challenges claims that white-collar work will be fully automated on an immediate
+  timeline, positioning many such claims as investor-facing narratives tied to massive infrastructure spending. She
+  introduces a macroeconomic argument that broad labor displacement can weaken demand loops if workers are also
+  consumers, and she questions whether firms can preserve long-term adaptability by replacing institutional knowledge
+  creation with static model snapshots. The video also acknowledges rapid technical progress in agentic systems and AI
+  coding, but argues that human strengths in judgment, context interpretation, and uncertainty handling remain
+  structurally different from model patterning strengths. The core thesis is that outcomes are contingent on
+  institutional choices and that cooperation between human and artificial intelligence is often economically stronger
+  than pure substitution.
+key_takeaways:
+  - Reframe AI job-displacement claims as incentive-shaped narratives rather than purely neutral forecasts
+  - Question full-automation economics by examining demand loops between wages, consumption, and company revenue
+  - Distinguish static knowledge capture from ongoing institutional learning and adaptation
+  - Combine AI pattern speed with human judgment under uncertainty to increase total system value
+relevance: >-
+  This source aligns with The Draft's focus on engineering judgment and oversight by emphasizing that AI outcomes are
+  shaped by governance, incentives, and design choices—not just model capability curves.
+notable_quotes:
+  - Everything you are hearing about AI and your job is framed in two ways.
+  - The thing that makes AI powerful is the same thing that makes it limited.
+  - How you use it matters more than whether you use it.
+tags:
+  - ai-and-labor
+  - economics
+  - complementarity
+topics:
+  - automation-vs-augmentation
+  - institutional-knowledge
+  - labor-economics
+categories:
+  - engineering-judgment
+  - responsibility-oversight

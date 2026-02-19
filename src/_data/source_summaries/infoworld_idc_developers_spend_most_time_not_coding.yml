@@ -1,0 +1,35 @@
+source_id: infoworld_idc_developers_spend_most_time_not_coding
+source_type: article
+summary: >-
+  InfoWorld reports IDC findings that developers spend more time on operational and support tasks than on application
+  development.
+long_summary: >-
+  This article summarizes IDC's 2024 time-allocation data for software developers. It reports application development at
+  16% of developer time, while large shares go to writing requirements and test cases, security, CI/CD implementation,
+  deployment, and performance monitoring. Even as AI tools promise acceleration, the breakdown indicates that most
+  engineering effort is distributed across sustaining and operating systems, not only net-new coding.
+key_takeaways:
+  - Report that application development represented 16% of developer time in 2024
+  - Highlight that operational and background work consumes the majority of developer effort
+  - Break down non-coding workload across testing, security, CI/CD, deployment, and monitoring
+  - Use task-allocation data to set realistic expectations for AI coding productivity claims
+relevance: >-
+  This source is directly relevant to The Draft because it reinforces that AI usefulness depends on how well it supports
+  maintenance, reliability, and delivery operations, not just greenfield code generation.
+notable_quotes:
+  - >-
+    Developers spend more time on operational and background tasks than they do on coding, according to an IDC analyst
+    report published this month.
+  - >-
+    Application development accounted for 16% of developers’ time in 2024, up from 15% the year before, while the
+    majority of developers’ time was spent on operational and supportive tasks, according to the report.
+tags:
+  - idc
+  - developer-time-allocation
+  - operations-load
+topics:
+  - software-delivery
+  - maintenance-work
+categories:
+  - engineering-judgment
+  - governance-guardrails

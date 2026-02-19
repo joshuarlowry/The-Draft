@@ -1,0 +1,28 @@
+source_id: reuters_amazon_targets_30000_corporate_cuts
+source_type: article
+summary: >-
+  Reuters reporting on large planned Amazon corporate cuts provides concrete evidence of continued white-collar
+  restructuring during AI-era efficiency pushes.
+long_summary: >-
+  The report documents another major corporate headcount reduction cycle at Amazon, illustrating that AI-era operating
+  changes are not just conceptual. It is useful as a company-level anchor for claims about persistent restructuring and
+  the pressure on mid- and entry-path roles. It also helps frame the user's demand-side concern by linking employment
+  reductions to potential household income effects.
+key_takeaways:
+  - Use company-specific cuts to validate broader workforce-transition claims
+  - Treat repeated restructuring rounds as structural signals rather than one-off events
+  - Connect white-collar downsizing to potential weakening of income growth
+  - Pair firm-level events with macro demand indicators for balanced analysis
+relevance: >-
+  Adds concrete case evidence to The Draft's planning and guardrail themes: rapid efficiency moves need transition
+  design, not only cost targets.
+tags:
+  - amazon
+  - layoffs
+  - corporate-restructuring
+topics:
+  - headcount-reduction
+  - demand-side-risk
+categories:
+  - workforce-strategy
+  - org-structure

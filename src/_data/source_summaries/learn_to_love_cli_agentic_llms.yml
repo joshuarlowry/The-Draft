@@ -1,0 +1,28 @@
+source_id: learn_to_love_cli_agentic_llms
+source_type: article
+summary: >-
+  David Eastman positions the command line as the center of agentic LLM workflows, arguing that the CLI’s structured
+  tasks and clear outcomes match how LLMs operate best.
+long_summary: >-
+  In this New Stack article, Eastman reports a shift in developer tooling toward CLI-first agent workflows, highlighting
+  products like Claude Code, Codex, Gemini CLI, and Warp. He argues that the command line is the most effective place
+  for LLM interaction because tasks there are defined, outcomes are clear, and the interface rewards precise execution.
+  The piece frames the CLI as the heart of an “agentic development environment.”
+key_takeaways:
+  - Position the CLI as the center of the LLM workbench rather than the IDE
+  - Argue that defined tasks with clear outcomes make CLI environments LLM-friendly
+  - Cite a growing set of agentic tools competing in the terminal workflow space
+  - Frame terminal-first workflows as a practical response to agentic development trends
+relevance: >-
+  Supports The Draft’s emphasis on workflow design by showing that CLI surfaces provide structured guardrails and
+  clearer intent for agentic execution.
+tags:
+  - developer-tools
+  - agentic-workflows
+  - terminal
+topics:
+  - cli
+  - agentic-development
+  - devtools
+categories:
+  - terminal-interfaces

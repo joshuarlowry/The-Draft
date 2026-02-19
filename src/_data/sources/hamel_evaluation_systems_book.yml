@@ -1,0 +1,15 @@
+id: hamel_evaluation_systems_book
+author: Hamel Husain
+author_ids:
+  - hamel_husain
+title: Your AI Product Needs Evals (Evaluation Systems)
+publisher: Hamel.dev
+published: '2024'
+accessed: '2026-02-17'
+url: https://hamel.dev/evals
+tags:
+  - planning-and-structure
+  - governance-guardrails
+reading_descriptions:
+  planning-and-structure: Book-style guide that organizes evals into a repeatable system teams can adopt before scaling AI features.
+  governance-guardrails: Makes the case that evaluation systems are the operational backbone for reliable AI releases.

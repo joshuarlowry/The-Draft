@@ -1,0 +1,5 @@
+id: sonarsource_maintain_test_secure_more_than_new_code_quote
+quote: >-
+  Finding #3: Developers spend more time maintaining, testing, and securing existing code than they do writing or
+  improving code.
+source_id: sonarsource_developer_time_writing_code_2023

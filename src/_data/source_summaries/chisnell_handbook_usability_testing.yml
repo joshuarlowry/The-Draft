@@ -1,0 +1,15 @@
+source_id: chisnell_handbook_usability_testing
+summary: Dana Chisnell's handbook on usability testing, with emphasis on plain language, accessibility, and inclusive design.
+long_summary: >-
+  The 'Handbook of Usability Testing' provides practical guidance on planning, conducting, and interpreting usability
+  tests. Chisnell's work on ballot design, voting systems, and government services extends these principles to civic
+  design. The handbook emphasizes plain language, accessibility, and testing with diverse users.
+tags:
+  - usability-testing
+  - accessibility
+topics:
+  - ux-research
+  - civic-design
+categories:
+  - responsibility-oversight
+source_type: book

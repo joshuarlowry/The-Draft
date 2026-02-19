@@ -1,0 +1,15 @@
+source_id: norman_design_everyday_things
+summary: Don Norman's foundational text on affordances, mental models, and human-centered design.
+long_summary: >-
+  'The Design of Everyday Things' introduced concepts like affordances, signifiers, and mental models that have shaped
+  design thinking. Norman argues that design should make the right action obvious and the wrong action difficult. The
+  book has influenced how we understand human-centered design and the psychology of everyday objects and interfaces.
+tags:
+  - affordances
+  - mental-models
+topics:
+  - ux-design
+  - human-factors
+categories:
+  - responsibility-oversight
+source_type: book

@@ -1,0 +1,19 @@
+source_id: wikipedia_heuristic_evaluation
+summary: >-
+  Wikipedia defines heuristic evaluation as a usability inspection method where evaluators judge interfaces against
+  recognized usability principles to identify problems.
+long_summary: >-
+  The entry explains heuristic evaluation as a structured usability inspection method for identifying user interface
+  problems. Evaluators review the interface and assess it against recognized usability principles (heuristics), which
+  makes the method useful for uncovering issues early and with limited resources. This definition anchors the idea of
+  running fast usability checks before investing in deeper user research or usability testing.
+tags:
+  - usability
+  - heuristics
+  - evaluation
+topics:
+  - usability-inspection
+  - user-experience
+categories:
+  - usability-inspection
+source_type: article

@@ -1,0 +1,14 @@
+id: layoffs_fyi_tech_layoffs_tracker
+author: Layoffs.fyi
+title: Tech Layoffs Tracker
+publisher: Layoffs.fyi
+accessed: '2026-02-16'
+url: https://layoffs.fyi/
+tags:
+  - workforce-strategy
+  - ai-production-scale
+reading_descriptions:
+  workforce-strategy: Continuously updated dataset of announced tech layoffs, useful for directional trend checks and timeline context.
+  ai-production-scale: >-
+    Provides a practical signal for whether efficiency narratives are coinciding with sustained headcount reductions in
+    tech.

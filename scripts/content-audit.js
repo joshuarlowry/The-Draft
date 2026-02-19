@@ -1,6 +1,7 @@
 const fs = require('node:fs');
 const path = require('node:path');
 const yaml = require('js-yaml');
+const loadDir = require('../src/_data/_lib/loadDir');
 
 const repoRoot = path.resolve(__dirname, '..');
 
@@ -14,6 +15,10 @@ const requiredClassification = [
 function loadYaml(relativePath) {
   const fullPath = path.join(repoRoot, relativePath);
   return yaml.load(fs.readFileSync(fullPath, 'utf8'));
+}
+
+function loadData(dirName) {
+  return loadDir(path.join(repoRoot, 'src', '_data', dirName));
 }
 
 function listMarkdown(relativeDir) {
@@ -39,9 +44,9 @@ function countMissingClassification(files) {
 }
 
 function main() {
-  const sources = loadYaml('src/_data/sources.yml');
-  const sourceSummaries = loadYaml('src/_data/source_summaries.yml');
-  const citations = loadYaml('src/_data/citations.yml');
+  const sources = loadData('sources');
+  const sourceSummaries = loadData('source_summaries');
+  const citations = loadData('citations');
 
   const articleFiles = listMarkdown('src/articles');
   const blockFiles = listMarkdown('src/blocks/argument');

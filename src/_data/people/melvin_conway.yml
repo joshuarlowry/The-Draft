@@ -1,0 +1,13 @@
+id: melvin_conway
+name: Melvin Conway
+slug: melvin-conway
+primary_domain: architecture
+secondary_domains: []
+profile_summary: >-
+  Melvin Conway is a computer scientist known for Conway's Law: organizations design systems that mirror their
+  communication structure. His work on the relationship between organizational structure and system architecture has
+  influenced software engineering, distributed systems, and how teams structure technical work.
+featured_works:
+  - title: Conway's Law
+    url: https://en.wikipedia.org/wiki/Conway%27s_law
+    year: ''

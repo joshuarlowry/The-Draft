@@ -1,0 +1,28 @@
+source_id: forethought_agentic_ai_small_teams
+source_type: article
+summary: >-
+  Forethought's research shows small teams using agentic AI outperform larger teams on key metrics: 71% improvement in
+  deflection, 89% CSAT (highest of any cohort), and $9 cost per resolution versus $18-$23.
+long_summary: >-
+  Forethought published research comparing team performance across different sizes and AI tool types. Small teams using
+  agentic AI consistently outperformed: 71% improvement in deflection compared to non-agentic tools, the highest CSAT of
+  any cohort at 89% (higher than enterprise teams with hundreds of agents), and the lowest cost per resolution at $9
+  compared to $18-$23 for other groups. The findings challenge the assumption that larger teams or more agents always
+  produce better results, instead suggesting that the right architecture and tooling matter more than headcount.
+key_takeaways:
+  - Small teams with agentic AI saw 71% improvement in deflection versus non-agentic tools
+  - 89% CSAT—highest of any cohort, beating enterprise teams with hundreds of agents
+  - $9 cost per resolution versus $18-$23 for other groups
+  - Architecture and tooling matter more than headcount for customer support outcomes
+relevance: >-
+  Hard data connecting team size, AI tooling, and quality outcomes. Directly supports The Draft's argument that
+  intentional design with the right tools outperforms brute-force scaling.
+tags:
+  - metrics
+  - small-teams
+  - customer-support
+topics:
+  - team-restructuring
+  - agentic-ai
+categories:
+  - ai-production-scale

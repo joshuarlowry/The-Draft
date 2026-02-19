@@ -1,0 +1,32 @@
+source_id: hamel_llm_evals_everything_you_need_to_know
+source_type: article
+summary: >-
+  This FAQ consolidates practical answers on AI evals, from minimum viable setup to production monitoring, emphasizing
+  error analysis and binary, application-specific checks.
+long_summary: >-
+  Husain and Shankar compile common questions from practitioners and answer with opinionated, field-tested guidance. The
+  FAQ discourages generic score obsession and instead advocates for domain-specific pass/fail criteria grounded in
+  observed failures. It explains how to combine manual review, selective automation, and production feedback to keep
+  evaluation meaningful. The document is useful as an operating reference for teams building repeatable eval practice.
+key_takeaways:
+  - Start with 20-50 manually reviewed outputs to map real failure modes
+  - Use binary pass/fail criteria tied to product behavior rather than vague scales
+  - Automate only the checks with clear cost-benefit and stable definitions
+  - Treat evaluation as continuous operational work across CI and production monitoring
+relevance: >-
+  Strongly supports The Draft's themes of guardrails, oversight, and practical process design for AI-assisted
+  development.
+notable_quotes:
+  - Error analysis is the most important activity in evals.
+  - >-
+    Generic metrics like BERTScore, ROUGE, cosine similarity, etc. are not useful for evaluating LLM outputs in most AI
+    applications.
+tags:
+  - evals-faq
+  - operational-guidance
+  - error-analysis
+topics:
+  - ai-evaluation
+  - production-quality
+categories:
+  - governance-guardrails

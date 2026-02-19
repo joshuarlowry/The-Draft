@@ -1,0 +1,18 @@
+source_id: conway_committees_invent
+summary: >-
+  Melvin Conway's 1968 paper introduced the observation that organizations produce system designs that mirror their
+  communication structure.
+long_summary: >-
+  In 'How Do Committees Invent?', Melvin Conway argued that organizations which design systems are constrained to
+  produce designs which are copies of the communication structures of those organizations. The insight, later dubbed
+  Conway's Law, has influenced software architecture, modular design, and how teams think about the relationship between
+  organizational structure and technical artifacts.
+tags:
+  - conways-law
+  - organizational-design
+topics:
+  - architecture
+  - systems-design
+categories:
+  - engineering-judgment
+source_type: paper

@@ -1,0 +1,29 @@
+source_id: cio_microsoft_ai_agents_org_charts
+source_type: article
+summary: >-
+  Microsoft predicts organizations will shift from function-based structures to goal-based ones, with 28% of managers
+  already planning to hire hybrid human-AI team leads and a new "human-agent ratio" metric emerging.
+long_summary: >-
+  CIO reports on Microsoft's predictions for how AI agents will reshape organizational structures. Key findings:
+  organizations previously organized around functions (finance, marketing, engineering) are likely to reorganize around
+  goals and projects; 28% of managers are already planning to hire someone to lead hybrid human-AI teams; a new
+  organizational metric—the "human-agent ratio"—may emerge to optimize the appropriate mix of agents and people; and
+  Microsoft envisions a three-person team launching a global campaign in days, with AI handling data, content, and
+  personalization.
+key_takeaways:
+  - Organizations will shift from function-based to goal-based structures
+  - 28% of managers plan to hire hybrid human-AI team leads
+  - Human-agent ratio will emerge as a new organizational design metric
+  - A 3-person team could launch a global campaign with AI handling execution
+relevance: >-
+  Connects to The Draft's themes of intentional organizational design. The shift from functions to goals mirrors the
+  shift from role-based to outcome-based thinking that the site advocates.
+tags:
+  - microsoft
+  - org-charts
+  - human-agent-ratio
+topics:
+  - team-restructuring
+  - organizational-design
+categories:
+  - ai-production-scale

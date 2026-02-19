@@ -1,0 +1,6 @@
+id: eleventy_fetch_caching_quote
+quote: >-
+  Fetch network resources and cache them locally to avoid bombarding your API (or other remote or rate-limited
+  resources). Do this at configurable intervals (not with every build): once per minute, once per hour, once per day, or
+  however often you like!
+source_id: eleventy_fetch_plugin

@@ -1,0 +1,23 @@
+id: andrej_karpathy
+name: Andrej Karpathy
+slug: andrej-karpathy
+primary_domain: agentic
+secondary_domains: []
+profile_summary: >-
+  Andrej Karpathy is a leading AI researcher and former director of AI at Tesla. He co-founded OpenAI and has made
+  foundational contributions to deep learning, computer vision, and large language models. His work on CNNs, ImageNet,
+  and neural network training has shaped modern AI. He now focuses on AI coding tools and has publicly reflected on how
+  Claude Code and similar systems are changing software engineering practice.
+profile_image_remote: https://karpathy.ai/images/ak.jpg
+social_links:
+  - label: Personal site
+    url: https://karpathy.ai
+  - label: X (Twitter)
+    url: https://x.com/karpathy
+featured_works:
+  - title: '"A few random notes from Claude Coding" (X thread)'
+    url: https://x.com/karpathy/status/2015883857489522876
+    year: '2025'
+  - title: 'Neural Networks: Zero to Hero'
+    url: https://karpathy.ai/zero-to-hero.html
+    year: '2022'

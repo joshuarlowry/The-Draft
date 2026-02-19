@@ -1,0 +1,28 @@
+source_id: bain_building_foundation_agentic_ai
+source_type: article
+summary: >-
+  Bain describes agentic AI as a structural shift in enterprise technology, with AI agents that reason, coordinate, and
+  execute complex workflows, including a banking case study showing 50%+ time and effort reduction.
+long_summary: >-
+  Bain & Company positions agentic AI as a structural shift reshaping enterprise technology. AI agents are poised to
+  transform how engineering teams operate, taking on day-to-day development, testing, deployment, and system
+  operations—freeing engineers to focus on architecture, strategy, and innovation. A highlighted case study describes a
+  major bank modernizing a legacy system of 400 interconnected applications by placing human workers in supervisory
+  roles with coordinated squads of AI agents, cutting time and effort by more than 50%.
+key_takeaways:
+  - Agentic AI is a structural shift, not an incremental improvement to existing processes
+  - AI agents take on development, testing, deployment, and operations tasks
+  - A major bank cut time and effort by 50%+ using human-supervised AI agent squads
+  - Engineers shift from execution to architecture, strategy, and innovation roles
+relevance: >-
+  The banking case study demonstrates exactly the kind of human-supervisory model that The Draft advocates: humans focus
+  on architecture and strategy while AI handles execution under structured oversight.
+tags:
+  - banking
+  - case-study
+  - agent-squads
+topics:
+  - team-restructuring
+  - enterprise-transformation
+categories:
+  - ai-production-scale

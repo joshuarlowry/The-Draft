@@ -1,0 +1,15 @@
+id: hamel_field_guide_rapid_ai_improvement
+author: Hamel Husain
+author_ids:
+  - hamel_husain
+title: A Field Guide to Rapidly Improving AI Products
+publisher: Hamel.dev
+published: '2025-03-24'
+accessed: '2026-02-17'
+url: https://hamel.dev/blog/posts/field-guide/
+tags:
+  - planning-and-structure
+  - ai-production-scale
+reading_descriptions:
+  planning-and-structure: Prioritizes experiment loops, error-driven iteration, and clear operational rituals over one-shot prompt tinkering.
+  ai-production-scale: Links AI product quality improvements to disciplined instrumentation, eval cadence, and team operating habits.

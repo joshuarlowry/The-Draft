@@ -1,0 +1,13 @@
+id: learn_to_love_cli_agentic_llms
+author: David Eastman
+author_ids:
+  - david_eastman
+title: Learn To Love the Command-Line Interface With Agentic LLMs
+publisher: The New Stack
+published: '2025-07-19'
+accessed: '2026-02-06'
+url: https://thenewstack.io/learn-to-love-the-command-line-interface-with-agentic-llms/
+tags:
+  - terminal-interfaces
+reading_descriptions:
+  terminal-interfaces: Positions the CLI as the center of agentic development workflows and explains why structured tasks suit LLMs.

@@ -1,0 +1,7 @@
+id: simon_willison
+name: Simon Willison
+links:
+  - label: LLM documentation
+    url: https://llm.datasette.io/en/stable/
+  - label: Language models on the command-line
+    url: https://simonwillison.net/2024/Jun/17/cli-language-models/

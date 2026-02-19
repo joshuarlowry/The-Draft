@@ -1,0 +1,14 @@
+id: eu_rts_sca_2018_389
+title: Commission Delegated Regulation (EU) 2018/389 (RTS on strong customer authentication and secure communication)
+publisher: European Commission
+published: '2018'
+accessed: '2026-02-19'
+url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32018R0389
+tags:
+  - governance-guardrails
+  - responsibility-oversight
+reading_descriptions:
+  governance-guardrails: >-
+    Defines dynamic-linking and strong customer authentication requirements that force explicit user approval of amount
+    and payee.
+  responsibility-oversight: Shows how regulation encodes high-risk decision checkpoints for remote payments.

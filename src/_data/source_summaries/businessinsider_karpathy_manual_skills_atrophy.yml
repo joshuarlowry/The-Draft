@@ -1,0 +1,16 @@
+source_id: businessinsider_karpathy_manual_skills_atrophy
+summary: >-
+  Business Insider reports on Andrej Karpathy’s reflections about AI-driven coding and the atrophy of manual coding
+  skills.
+long_summary: >-
+  This Business Insider article summarizes Andrej Karpathy’s comments about using Claude Code and the effects of
+  agent-led coding on traditional manual skills. It frames his observations as a broader discussion about how software
+  engineering practices are changing with AI tools.
+tags:
+  - ai-coding
+  - skills
+topics:
+  - ai-assisted-development
+  - engineering-practice
+categories: []
+source_type: article

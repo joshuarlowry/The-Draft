@@ -1,0 +1,9 @@
+id: promptingguide_general_tips
+title: General Tips for Designing Prompts
+publisher: DAIR.AI
+accessed: '2026-02-08'
+url: https://www.promptingguide.ai/introduction/tips
+tags:
+  - planning-and-structure
+reading_descriptions:
+  planning-and-structure: Prompt Engineering Guide advice on specificity, iteration, and formatting to reduce ambiguity in model outputs.

@@ -10,9 +10,9 @@ This system uses eight content types:
 |------|--------|----------|---------|
 | **Concept** | Markdown | `src/concepts/` | Reusable definitions and key terms |
 | **ArgumentBlock** | Markdown | `src/blocks/argument/` | Self-contained arguments with citations |
-| **Source** | YAML | `src/_data/sources.yml` | Canonical metadata for every source (used by citations and reading bundles) |
-| **SourceSummary** | YAML | `src/_data/source_summaries.yml` | Short and long summaries tied to sources |
-| **Citation** | YAML | `src/_data/citations.yml` | Quoted statements stored once, referenced by ID |
+| **Source** | YAML | `src/_data/sources/` | Canonical metadata for every source (one file per entry) |
+| **SourceSummary** | YAML | `src/_data/source_summaries/` | Short and long summaries tied to sources (one file per entry) |
+| **Citation** | YAML | `src/_data/citations/` | Quoted statements stored once, referenced by ID (one file per entry) |
 | **ReadingBundle** | YAML | `src/_data/reading_bundles.yml` | Grouped references organized by theme |
 | **Person** | Nunjucks/Markdown | `src/people/` | Profiles for notable people referenced in sources and articles |
 | **Article** | Markdown | `src/articles/` | Assembly that references blocks in order |
@@ -29,10 +29,11 @@ This system uses eight content types:
 │       └── pages.yml          # GitHub Pages deployment
 └── src/
     ├── _data/
-    │   ├── citations.yml       # Shared citations
-    │   ├── reading_bundles.yml # Reading list bundles
-    │   ├── source_summaries.yml # Source summaries
-    │   └── sources.yml         # Canonical source records
+    │   ├── citations/           # One .yml file per citation
+    │   ├── people/              # One .yml file per person
+    │   ├── source_summaries/    # One .yml file per summary
+    │   ├── sources/             # One .yml file per source
+    │   └── reading_bundles.yml  # Reading list bundles
     ├── _includes/
     │   ├── layouts/
     │   │   ├── base.njk       # Base HTML template
@@ -69,41 +70,38 @@ The development server runs at `http://localhost:8080` by default.
 
 ### Adding a New Source
 
-1. Open `src/_data/sources.yml`
-2. Add a new entry with required fields:
+1. Create a new file at `src/_data/sources/your_source_id.yml` (filename must match the `id`):
 
 ```yaml
-- id: your_source_id
-  title: "Source Title"
-  url: "https://example.com/source"
-  author: "Author Name"
-  publisher: "Publisher Name"
-  published: "2024-01-01"
-  accessed: "2024-01-15"
+id: your_source_id
+title: "Source Title"
+url: "https://example.com/source"
+author: "Author Name"
+publisher: "Publisher Name"
+published: "2024-01-01"
+accessed: "2024-01-15"
 ```
 
 ### Adding a New Source Summary
 
-1. Open `src/_data/source_summaries.yml`
-2. Add a summary linked to the source:
+1. Create a new file at `src/_data/source_summaries/your_source_id.yml` (filename must match the `source_id`):
 
 ```yaml
-- source_id: your_source_id
-  summary: "Short summary."
-  long_summary: "Longer summary with more context."
-  tags:
-    - research
+source_id: your_source_id
+summary: "Short summary."
+long_summary: "Longer summary with more context."
+tags:
+  - research
 ```
 
 ### Adding a New Citation
 
-1. Open `src/_data/citations.yml`
-2. Add a new entry with a unique ID:
+1. Create a new file at `src/_data/citations/your_citation_id.yml` (filename must match the `id`):
 
 ```yaml
-- id: your_citation_id
-  quote: "The exact quote text, verbatim."
-  source_id: your_source_id
+id: your_citation_id
+quote: "The exact quote text, verbatim."
+source_id: your_source_id
 ```
 
 ### Adding a New Argument Block

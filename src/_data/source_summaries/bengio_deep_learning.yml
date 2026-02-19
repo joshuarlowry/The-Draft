@@ -1,0 +1,15 @@
+source_id: bengio_deep_learning
+summary: The foundational deep learning textbook covering neural networks, representation learning, and modern AI.
+long_summary: >-
+  'Deep Learning' by Bengio, Goodfellow, and Courville is the standard reference for deep learning. It covers neural
+  networks, representation learning, optimization, and the theoretical foundations of modern AI. Bengio's work has been
+  foundational to the field, and he now focuses on AI safety and responsible AI development.
+tags:
+  - deep-learning
+  - neural-networks
+topics:
+  - ai
+  - machine-learning
+categories:
+  - governance-guardrails
+source_type: book

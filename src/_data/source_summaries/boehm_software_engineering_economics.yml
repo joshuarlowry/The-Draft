@@ -1,0 +1,28 @@
+source_id: boehm_software_engineering_economics
+source_type: book
+summary: >-
+  Barry Boehm’s classic text demonstrates that catching defects early is dramatically cheaper than fixing them later,
+  reinforcing why upfront rigor pays off.
+long_summary: >-
+  Barry Boehm’s foundational book on software engineering economics shows that the cost of fixing defects rises sharply
+  as projects progress. By quantifying the savings of early detection, the text makes a long-standing case for planning,
+  review, and early validation. The work is often cited for demonstrating why upstream rigor—clear requirements, design
+  evaluation, and early testing—reduces downstream cost and risk. It remains a key reference for understanding why
+  proactive engineering disciplines matter.
+tags:
+  - cost-of-defects
+  - lifecycle
+  - prevention
+topics:
+  - engineering-economics
+  - quality-assurance
+key_takeaways:
+  - The cost of fixing defects rises exponentially as projects progress through lifecycle phases
+  - Early detection through planning, review, and validation is dramatically cheaper than late fixes
+  - Upstream rigor—clear requirements, design evaluation, early testing—reduces downstream cost and risk
+  - Quantifies the economic case for proactive engineering disciplines
+relevance: >-
+  Foundational reference for The Draft's emphasis on planning and upfront rigor. Provides economic justification for why
+  oversight and review pay dividends throughout the project lifecycle.
+categories:
+  - engineering-judgment

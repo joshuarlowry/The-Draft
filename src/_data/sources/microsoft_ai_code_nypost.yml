@@ -1,0 +1,15 @@
+id: microsoft_ai_code_nypost
+author: Taylor Herzlich
+author_ids:
+  - taylor_herzlich
+mentioned_people_ids:
+  - satya_nadella
+title: Microsoft CEO Satya Nadella says 30% of code now written by AI
+publisher: New York Post
+published: '2025-04-30'
+accessed: '2026-01-30'
+url: https://nypost.com/2025/04/30/business/microsoft-ceo-satya-nadella-says-30-of-code-now-written-by-ai/
+tags:
+  - ai-production-scale
+reading_descriptions:
+  ai-production-scale: Reporting on Satya Nadella’s remarks about the share of Microsoft code written by AI.

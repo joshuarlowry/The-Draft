@@ -1,0 +1,25 @@
+source_id: hamel_evaluation_systems_book
+source_type: book
+summary: >-
+  A book-style entry point to evaluation systems that frames evals as essential infrastructure for building reliable AI
+  products.
+long_summary: >-
+  This resource package introduces evaluation systems as a structured discipline for aligning AI behavior with product
+  requirements. It offers a conceptual model and practical steps teams can use to bootstrap meaningful quality checks
+  before scaling deployment. Positioned as a book-style guide, it complements Hamel Husain’s longer-form writings and
+  training on evaluation operations.
+key_takeaways:
+  - Frame evals as core product infrastructure instead of optional analytics
+  - Establish repeatable evaluation loops early to prevent quality drift
+  - Connect evaluation outputs to release decisions and operational guardrails
+relevance: >-
+  Helps ground The Draft's perspective that intentional evaluation design is central to safe, high-velocity AI product
+  development.
+tags:
+  - eval-systems
+  - playbook
+topics:
+  - reliability-engineering
+  - ai-product-quality
+categories:
+  - planning-and-structure

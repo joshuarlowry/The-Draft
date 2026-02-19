@@ -1,0 +1,28 @@
+source_id: goldman_sachs_genai_gdp_disruption
+source_type: article
+summary: >-
+  Goldman Sachs estimates large productivity upside from generative AI while warning that significant shares of work
+  activities are exposed to automation.
+long_summary: >-
+  This analysis became a widely cited benchmark for the "AI boom" narrative, pairing optimistic GDP projections with
+  substantial labor-task exposure estimates. It is useful because it captures the central tension in your question:
+  markets price productivity gains quickly, while labor transitions and purchasing-power effects are slower and
+  distribution-dependent.
+key_takeaways:
+  - Quantify productivity upside and labor-task exposure in the same framework
+  - Contrast aggregate GDP gains with uneven worker-level transition costs
+  - Explain why equity optimism can coexist with local employment anxiety
+  - Emphasize distribution and transition speed as key determinants of demand outcomes
+relevance: >-
+  Helps The Draft articulate the macro paradox: efficiency can rise while social stability weakens unless transition
+  mechanisms keep pace.
+tags:
+  - macroeconomics
+  - productivity
+  - distribution
+topics:
+  - gdp-vs-employment
+  - demand-risk
+categories:
+  - workforce-strategy
+  - ai-production-scale

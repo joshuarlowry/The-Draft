@@ -1,0 +1,29 @@
+source_id: arxiv_security_degradation_ai_code
+source_type: paper
+summary: >-
+  This study finds that iterative AI code refinement can degrade security without systematic checks, making a strong
+  case for continuous scanning between AI edits.
+long_summary: >-
+  This arXiv study analyzes iterative AI code generation and finds that repeated refinement can introduce security
+  regressions. The research shows that even when changes appear to “improve” code, vulnerabilities can accumulate
+  without strong verification between iterations. The authors argue for continuous scanning and static analysis as
+  mandatory gates when using AI in multi-step coding workflows. The study reinforces the need for tooling-based
+  guardrails that keep security from drifting over time.
+tags:
+  - security-regression
+  - iterative-generation
+  - scanning
+topics:
+  - vulnerability-management
+  - ai-risk
+key_takeaways:
+  - Iterative LLM refinement can increase critical vulnerabilities by 37.6% after just five iterations
+  - Different prompting strategies produce distinct vulnerability patterns
+  - The assumption that iterative refinement improves security is challenged by evidence
+  - Human expertise in the loop remains essential during supposed code improvements
+  - Continuous validation between iterations is required to prevent security degradation
+relevance: >-
+  Provides quantitative evidence for The Draft's emphasis on verification guardrails. Challenges the intuition that more
+  AI iteration equals better code, reinforcing the need for systematic checks.
+categories:
+  - tooling-guardrails

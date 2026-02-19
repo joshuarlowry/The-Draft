@@ -1,0 +1,32 @@
+source_id: miqdad_jaffer_building_ai_as_a_system
+source_type: article
+summary: >-
+  Miqdad Jaffer argues that winning AI products are built as systems, where moats, economics, distribution, and trust
+  decisions matter more than model access or feature velocity.
+long_summary: >-
+  This article frames AI product strategy as a systems problem rather than a feature race. Jaffer emphasizes that teams
+  must explicitly design for variable inference costs, rapid feature commoditization, and strategic defensibility. He
+  highlights four core decision areas—moats, margins, distribution, and trust—and warns that wrappers without
+  compounding advantages are fragile. The message is that sustainable AI products require architecture and
+  business-model choices that hold under scale and competitive pressure.
+key_takeaways:
+  - Treat model access as table stakes and build defensibility through data, trust, or distribution
+  - Design unit economics early because AI marginal costs do not flatten like SaaS
+  - Anticipate rapid commoditization and plan strategic differentiation before feature launch
+  - Use system-level strategy to align product decisions with long-term retention and margin health
+relevance: >-
+  Strongly aligns with The Draft's focus on planning and engineering judgment. It translates AI hype into concrete
+  strategy choices that determine whether products become durable systems or short-lived demos.
+notable_quotes:
+  - AI itself isn’t the moat. Everyone can access GPT-4o, Claude, Llama, Mistral.
+  - AI is not about building the flashiest demo. It’s about designing the system around the AI.
+tags:
+  - ai-strategy
+  - moats
+  - unit-economics
+topics:
+  - ai-product-strategy
+  - defensibility
+categories:
+  - planning-and-structure
+  - ai-production-scale

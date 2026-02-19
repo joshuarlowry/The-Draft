@@ -1,0 +1,16 @@
+source_id: designative_flows_age_agentic_ai
+summary: Designative explores whether core UX flow models still apply in the age of agentic AI.
+long_summary: >-
+  This piece questions whether established UX models for flows and user journeys remain valid when agentic AI can
+  interrupt, parallelize, or reshape traditional linear flows. It examines the tension between flow-based design and
+  agent-driven interaction.
+tags:
+  - agentic-ai
+  - flows
+  - ux-models
+topics:
+  - ux-design
+  - agentic-systems
+categories:
+  - cross-domain-calibration
+source_type: article

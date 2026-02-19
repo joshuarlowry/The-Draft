@@ -1,0 +1,16 @@
+source_id: beer_brain_of_the_firm
+summary: Stafford Beer's Viable System Model describes how organizations must be structured to remain adaptable and responsive.
+long_summary: >-
+  In 'Brain of the Firm', Beer developed the Viable System Model (VSM), a cybernetic framework for organizational
+  design. The model describes how organizations need recursive structure, feedback loops, and information flow to remain
+  viable. His work has influenced systems thinking, governance, and the relationship between information systems and
+  organizational adaptability.
+tags:
+  - viable-system-model
+  - cybernetics
+topics:
+  - architecture
+  - governance
+categories:
+  - engineering-judgment
+source_type: book

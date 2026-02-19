@@ -1,0 +1,32 @@
+source_id: miqdad_jaffer_ai_product_pricing_masterclass
+source_type: article
+summary: >-
+  Jaffer explains why SaaS pricing logic breaks for AI products and proposes pricing as an active control system for
+  margin stability and usage behavior.
+long_summary: >-
+  This article explains that AI products carry persistent and volatile marginal costs, unlike classic SaaS where costs
+  tend to flatten. Jaffer argues that pricing must shape behavior and absorb variance, because heavy users can create
+  radically different cost profiles under identical plans. The piece introduces a structured way to choose pricing
+  models based on risk and operational realities, emphasizing worst-case behavior rather than averages. It is a
+  practical lens for product teams balancing growth, reliability, and economic sustainability.
+key_takeaways:
+  - Replace SaaS-era assumptions with AI-specific pricing models that account for variable inference costs
+  - Design pricing to influence user behavior before cost variance erodes margins
+  - Model economics for worst-case usage patterns instead of relying on averages
+  - Tie pricing strategy to reliability and scale goals, not just revenue targets
+relevance: >-
+  Supports The Draft's engineering-judgment perspective by connecting product strategy to operational and financial
+  guardrails required for AI systems at production scale.
+notable_quotes:
+  - AI flips that assumption.
+  - In SaaS, growth tends to smooth costs. In AI, growth often amplifies them.
+tags:
+  - pricing
+  - unit-economics
+  - scale
+topics:
+  - ai-business-models
+  - margin-management
+categories:
+  - ai-production-scale
+  - engineering-judgment

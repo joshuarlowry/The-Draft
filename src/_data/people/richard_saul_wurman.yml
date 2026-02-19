@@ -1,0 +1,14 @@
+id: richard_saul_wurman
+name: Richard Saul Wurman
+slug: richard-saul-wurman
+primary_domain: ia
+secondary_domains:
+  - ux
+profile_summary: >-
+  Richard Saul Wurman is an architect and designer who coined the term "information architecture" and founded the TED
+  conference. His work on making complex information understandable—through events, books, and exhibitions—has shaped
+  how we think about organizing and presenting information for comprehension.
+featured_works:
+  - title: Information Anxiety
+    url: https://www.goodreads.com/book/show/83366.Information_Anxiety
+    year: '1989'

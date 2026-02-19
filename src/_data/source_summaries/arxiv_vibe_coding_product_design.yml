@@ -1,0 +1,31 @@
+source_id: arxiv_vibe_coding_product_design
+source_type: paper
+summary: >-
+  This arXiv study identifies a four-stage vibe-coding workflow in product teams and documents both acceleration
+  benefits and accountability risks.
+long_summary: >-
+  Based on interviews with 22 product team members, the paper maps vibe coding into ideation, generation, debugging, and
+  review. Participants report faster iteration and broader participation, but also code reliability issues, integration
+  friction, and over-reliance risks. The authors describe a tension between prototyping efficiency and reflective
+  intention-setting.
+key_takeaways:
+  - Map vibe-coding work explicitly into ideation, generation, debugging, and review stages
+  - Capture reliability and integration risks early when AI-generated artifacts move toward production
+  - Balance efficiency gains with reflective practices that preserve design intent
+  - Address emerging trust and responsibility asymmetries across product roles
+relevance: >-
+  Directly supports The Draft's argument that AI speed is real but must be paired with explicit review and ownership
+  models.
+notable_quotes:
+  - >-
+    Drawing on interviews with 22 product team members across enterprises, startups, and academia, we show how vibe
+    coding follows a four-stage workflow of ideation, generation, debugging, and review.
+tags:
+  - vibe-coding
+  - product-design
+  - workflow
+topics:
+  - ai-assisted-design
+  - collaboration
+categories:
+  - cross-domain-calibration

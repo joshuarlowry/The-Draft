@@ -1,0 +1,16 @@
+source_id: uxmatters_designing_for_autonomy
+summary: UXmatters article on UX principles for agentic AI systems.
+long_summary: >-
+  This article bridges UX and agentic AI by outlining design principles for systems where AI acts with greater autonomy.
+  It addresses how traditional UX models must adapt when users delegate tasks to agents, and what autonomy,
+  transparency, and control mean in agentic contexts.
+tags:
+  - agentic-ai
+  - ux-principles
+  - autonomy
+topics:
+  - ux-design
+  - agentic-systems
+categories:
+  - cross-domain-calibration
+source_type: social_post

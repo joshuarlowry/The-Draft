@@ -1,0 +1,34 @@
+source_id: sonarsource_developer_time_writing_code_2023
+source_type: article
+summary: >-
+  SonarSource's survey summary reports that developers spend more time maintaining, testing, and securing existing code
+  than writing or improving code.
+long_summary: >-
+  This article shares a time-allocation breakdown from SonarSource's survey of professional developers. The results show
+  that coding time is only part of the month: respondents reported less than one-third of time on writing new code or
+  improving existing code, while a larger share went to maintenance, testing, security response, and
+  management/operational work. The piece is useful as a directional indicator that software work often centers on
+  sustaining and operating existing systems.
+key_takeaways:
+  - Quantify developer work as a mix of coding, maintenance, testing, and operational responsibilities
+  - Show that maintaining, testing, and securing existing code can outweigh writing net-new code
+  - Highlight that respondents reported only 32% of time on writing new or improving existing code
+  - Frame maintenance-heavy workflows as the default environment for evaluating AI coding impact
+relevance: >-
+  This source supports The Draft's claim that AI value should be judged against real delivery conditions, where
+  maintenance and operational load dominate much of developer time.
+notable_quotes:
+  - >-
+    Finding #3: Developers spend more time maintaining, testing, and securing existing code than they do writing or
+    improving code.
+  - Respondents spend less than one-third of their time writing new code or improving existing code (32%).
+tags:
+  - developer-time-allocation
+  - maintenance-vs-new-build
+  - software-delivery-reality
+topics:
+  - developer-productivity
+  - engineering-work-patterns
+categories:
+  - engineering-judgment
+  - ai-production-scale

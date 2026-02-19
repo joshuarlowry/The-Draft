@@ -1,0 +1,13 @@
+id: dana_chisnell
+name: Dana Chisnell
+slug: dana-chisnell
+primary_domain: ux
+secondary_domains: []
+profile_summary: >-
+  Dana Chisnell is a usability researcher and civic design advocate. She has led research on ballot design, voting
+  systems, and government services. Her work on plain language, accessibility, and inclusive design has influenced how
+  public-facing systems are tested and improved for diverse users.
+featured_works:
+  - title: Handbook of Usability Testing
+    url: https://www.wiley.com/en-us/Handbook+of+Usability+Testing%2C+2nd+Edition-p-9780470185483
+    year: '2008'

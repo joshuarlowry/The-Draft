@@ -1,0 +1,15 @@
+source_id: youtube_ai_native_dev_rework
+summary: YouTube recording of the AI Native Dev episode on why faster AI development can lead to more rework.
+long_summary: >-
+  This YouTube video hosts the AI Native Dev discussion with Cian Clarke on the relationship between speed and rework in
+  AI-assisted development. The recording mirrors the podcast content, focusing on spec-first workflows as a way to avoid
+  churn and reduce rework when building with AI.
+tags:
+  - spec-driven-development
+  - rework
+topics:
+  - ai-native-development
+  - podcast
+categories:
+  - planning-and-structure
+source_type: social_post

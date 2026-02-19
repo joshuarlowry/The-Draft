@@ -1,0 +1,14 @@
+id: herbert_a_simon
+name: Herbert A. Simon
+slug: herbert-a-simon
+primary_domain: architecture
+secondary_domains:
+  - ia
+profile_summary: >-
+  Herbert A. Simon was a Nobel laureate in economics and a pioneer in artificial intelligence, cognitive science, and
+  organizational theory. His work on bounded rationality, satisficing, and the structure of ill-structured problems has
+  influenced design, architecture, and how we understand human and machine decision-making.
+featured_works:
+  - title: The Sciences of the Artificial
+    url: https://mitpress.mit.edu/9780262691918/the-sciences-of-the-artificial/
+    year: '1969'

@@ -1,0 +1,27 @@
+source_id: hamel_field_guide_rapid_ai_improvement
+source_type: article
+summary: >-
+  Husain presents a practical field guide for improving AI products through experiment cadence, disciplined error
+  analysis, and iterative deployment feedback loops.
+long_summary: >-
+  The field guide focuses on operational habits rather than abstract AI strategy. It encourages teams to run rapid,
+  measurable experiments, inspect failure data continuously, and prioritize fixes based on user impact. The article
+  treats quality progress as an accumulation of validated learnings, not isolated model upgrades. Its core message is
+  that teams win by improving process quality and feedback quality at the same time.
+key_takeaways:
+  - Run frequent, scoped experiments to convert uncertainty into product learning
+  - Prioritize failure analysis on real usage data over benchmark chasing
+  - Instrument systems so teams can connect interventions to quality outcomes
+  - Build team rituals that convert findings into concrete product improvements
+relevance: >-
+  Aligns with The Draft's emphasis on engineering judgment and operating discipline as the lever for scaling AI delivery
+  safely.
+tags:
+  - experimentation
+  - feedback-loops
+  - product-ops
+topics:
+  - ai-product-delivery
+  - iteration-strategy
+categories:
+  - planning-and-structure

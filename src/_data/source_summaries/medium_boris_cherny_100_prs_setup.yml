@@ -1,0 +1,14 @@
+source_id: medium_boris_cherny_100_prs_setup
+summary: A Medium article recounts Boris Cherny’s viral Claude Code workflow posts and community reactions.
+long_summary: >-
+  This Medium retrospective discusses the attention around Boris Cherny’s Claude Code workflow posts, including
+  references to his reported pace and setup. It frames the story as a community reaction to how Claude Code is being
+  used in practice.
+tags:
+  - claude-code
+  - workflow
+topics:
+  - ai-assisted-development
+  - community
+categories: []
+source_type: article

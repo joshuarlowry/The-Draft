@@ -1,0 +1,27 @@
+source_id: insead_genai_organizational_networks
+source_type: paper
+summary: >-
+  INSEAD field experiment with 316 employees studying how generative AI adoption reshapes interaction patterns within
+  organizational networks, providing empirical evidence for structural change claims.
+long_summary: >-
+  This INSEAD working paper reports on a field experiment with 316 employees studying how GenAI adoption changes
+  organizational interaction patterns. The research provides empirical evidence for how AI reshapes who talks to whom,
+  how often, and about what—the fundamental social network structure of organizations. The findings have implications
+  for organizational design, suggesting that AI adoption doesn't just change individual work but alters the connective
+  tissue of how organizations function.
+key_takeaways:
+  - Field experiment with 316 employees provides empirical evidence for AI-driven network changes
+  - AI adoption alters who interacts with whom, how often, and about what
+  - Organizational interaction patterns—not just individual tasks—change with AI adoption
+relevance: >-
+  Empirical evidence that AI adoption changes organizational structure at the network level, not just the task level.
+  Supports The Draft's argument that AI integration requires deliberate organizational design.
+tags:
+  - academic
+  - field-experiment
+  - network-analysis
+topics:
+  - organizational-networks
+  - ai-adoption
+categories:
+  - org-structure

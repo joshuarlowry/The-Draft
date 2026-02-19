@@ -1,0 +1,27 @@
+source_id: boehm_spiral_model
+source_type: paper
+summary: >-
+  Boehm’s spiral model article frames software development as an iterative, risk-driven cycle that emphasizes early
+  validation and stakeholder feedback.
+long_summary: >-
+  In this IEEE Computer article, Barry Boehm introduces the spiral model as a risk-driven process that combines
+  iterative development with continuous risk assessment. The model integrates prototyping, evaluation, and planning into
+  each cycle so teams can surface problems early and adjust course before committing to large-scale implementation. It
+  highlights why iterative validation and explicit risk checkpoints improve outcomes in complex software projects.
+tags:
+  - risk-management
+  - iterative-development
+  - lifecycle-models
+topics:
+  - software-process
+  - engineering-judgment
+key_takeaways:
+  - Software development works best as an iterative, risk-driven cycle
+  - Prototyping, evaluation, and planning should be integrated into each iteration
+  - Explicit risk checkpoints allow teams to surface problems early and adjust course
+  - Iterative validation improves outcomes in complex software projects
+relevance: >-
+  The spiral model anticipates modern iterative AI workflows. Supports The Draft's argument that planning and validation
+  cycles—not one-shot generation—produce better outcomes.
+categories:
+  - engineering-judgment

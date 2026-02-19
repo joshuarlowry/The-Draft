@@ -1,0 +1,18 @@
+source_id: kiro_agentic_ai_development
+summary: >-
+  Kiro’s homepage emphasizes spec-driven development and upfront structure as a way to improve AI coding outcomes before
+  implementation starts.
+long_summary: >-
+  The Kiro homepage positions the product as an agentic AI development environment that centers specs and structure
+  early in the workflow. It includes testimonials that highlight spec-driven development as a way to increase relevance,
+  quality, and speed, and frames Kiro as a tool that brings order to AI-assisted coding before code is written. The page
+  is primarily marketing content but provides direct statements about spec-driven practices and outcomes.
+tags:
+  - spec-driven-development
+  - structure-first
+topics:
+  - ai-assisted-development
+  - workflow
+categories:
+  - planning-and-structure
+source_type: article

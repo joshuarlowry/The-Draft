@@ -1,0 +1,19 @@
+id: peter_morville
+name: Peter Morville
+slug: peter-morville
+primary_domain: ia
+secondary_domains:
+  - ux
+profile_summary: >-
+  Peter Morville is a pioneer in information architecture and user experience. He co-authored "Information Architecture
+  for the World Wide Web" and has shaped how organizations structure findability, navigation, and search. His work on
+  ambient findability and cross-channel experience design bridges IA and UX practice.
+social_links:
+  - label: Semantic Studios
+    url: https://semanticstudios.com
+  - label: Publications
+    url: https://semanticstudios.com/publications/
+featured_works:
+  - title: Information Architecture for the World Wide Web
+    url: https://www.oreilly.com/library/view/information-architecture-for/0596527349/
+    year: '2006'

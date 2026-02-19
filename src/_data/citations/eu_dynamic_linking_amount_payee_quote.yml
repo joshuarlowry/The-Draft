@@ -1,0 +1,6 @@
+id: eu_dynamic_linking_amount_payee_quote
+quote: >-
+  As electronic remote payment transactions are subject to a higher risk of fraud, it is necessary to introduce
+  additional requirements for the strong customer authentication of such transactions, ensuring that the elements
+  dynamically link the transaction to an amount and a payee specified by the payer when initiating the transaction.
+source_id: eu_rts_sca_2018_389

@@ -1,0 +1,10 @@
+id: ideo_rapid_prototyping_openai
+title: Rapid prototyping with OpenAI
+publisher: IDEO
+published: '2024-02-01'
+accessed: '2026-02-03'
+url: https://www.ideo.com/journal/rapid-prototyping-with-openai
+tags:
+  - rapid-prototyping
+reading_descriptions:
+  rapid-prototyping: IDEO describes building an LLM prototyping tool and shortening time to first prototype from weeks to days.

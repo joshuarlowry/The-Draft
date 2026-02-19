@@ -1,0 +1,30 @@
+source_id: nngroup_ai_moderated_interviews
+source_type: article
+summary: >-
+  NN/g explains that AI-moderated interviews can speed up feedback collection but should not replace human-led
+  qualitative interviewing.
+long_summary: >-
+  This article by Maria Rosala discusses when AI-moderated interviews are useful and where they fall short compared with
+  human-led semistructured interviews. It positions AI moderation as a scaling tool for early signal gathering, while
+  emphasizing that nuanced probing, contextual interpretation, and synthesis still require experienced researchers. For
+  The Draft, it reinforces the broader pattern that AI can accelerate process steps, but human judgment remains
+  responsible for quality and meaning.
+key_takeaways:
+  - Use AI-moderated interviews to gather fast directional feedback across larger participant pools
+  - Preserve human-led semistructured interviews for depth, nuance, and follow-up probing
+  - Treat AI facilitation as a research accelerator rather than a replacement for researcher judgment
+relevance: >-
+  This source supports The Draft's UX perspective that speed gains from AI only hold when teams preserve human oversight
+  at interpretation and decision points.
+tags:
+  - ux-research
+  - ai-moderation
+topics:
+  - ux
+  - research-operations
+categories:
+  - usability-inspection
+notable_quotes:
+  - >-
+    AI interviews offer faster feedback at scale, but they're not a replacement for in-depth, human-led semistructured
+    interviews.

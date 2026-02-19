@@ -1,0 +1,15 @@
+id: infoq_pdca_cycle
+author: Ken Judy
+author_ids:
+  - ken_judy
+title: Applying the PDCA Cycle to AI Code Generation
+publisher: InfoQ
+published: '2024'
+accessed: '2026-02-02'
+url: https://www.infoq.com/articles/PDCA-AI-code-generation/
+tags:
+  - planning-and-structure
+reading_descriptions:
+  planning-and-structure: >-
+    An exploration of using a Plan-Do-Check-Act loop with AI, grounding AI-assisted coding in established engineering
+    process discipline.

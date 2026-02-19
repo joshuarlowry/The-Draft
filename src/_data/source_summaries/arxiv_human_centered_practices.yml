@@ -1,0 +1,28 @@
+source_id: arxiv_human_centered_practices
+source_type: paper
+summary: >-
+  This arXiv paper surveys human-centered practices for responsible AI development, stressing the importance of
+  structured inputs, supervision, and accountability mechanisms.
+long_summary: >-
+  The paper surveys research on human-centered AI development practices, emphasizing that clear problem framing and
+  structured inputs significantly affect AI system outcomes. It highlights the need for supervision and accountability
+  mechanisms that keep humans in the loop throughout the lifecycle. Rather than treating AI as autonomous, the paper
+  argues for processes that clarify intent, make decision points visible, and establish responsibility for outcomes.
+  These practices are presented as core to building reliable and trustworthy AI systems.
+key_takeaways:
+  - Structured inputs and clear problem framing significantly affect AI system outcomes
+  - Supervision and accountability mechanisms must keep humans in the loop throughout the lifecycle
+  - Decision points should be made visible to establish responsibility for outcomes
+  - AI should be treated as a tool requiring guidance, not an autonomous agent
+relevance: >-
+  Provides academic grounding for The Draft's emphasis on human oversight and accountability. Shows that responsible AI
+  development requires explicit processes for intent clarification and visible decision points.
+tags:
+  - human-centered
+  - supervision
+  - accountability
+topics:
+  - responsible-ai
+  - governance
+categories:
+  - responsibility-oversight

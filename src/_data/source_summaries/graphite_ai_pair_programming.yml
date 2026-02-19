@@ -1,0 +1,36 @@
+source_id: graphite_ai_pair_programming
+source_type: article
+summary: >-
+  Graphite’s guide frames AI pair programming as a collaboration that improves when developers provide explicit context,
+  constraints, and expectations, reducing rework and misaligned output.
+long_summary: >-
+  Graphite positions AI pair programming as a partnership that benefits from explicit direction. The guide underscores
+  that the most effective results come from carefully scoped prompts, clear guardrails, and shared definitions of
+  “done.” It encourages developers to provide surrounding context, highlight constraints, and review the output as they
+  would a human collaborator’s work. The takeaway is that the quality of AI output depends on the quality of the context
+  and the feedback loop that shapes it.
+tags:
+  - pairing
+  - constraints
+  - context-setting
+topics:
+  - ai-collaboration
+  - developer-workflow
+key_takeaways:
+  - >-
+    Establish clear roles—human as navigator (strategy, architecture, review), AI as driver (implementation,
+    suggestions)
+  - Always provide contextual information including project architecture, coding standards, and constraints
+  - Use iterative development—start rough, refine through feedback rather than expecting perfection immediately
+  - >-
+    Critical code review remains essential; AI may generate security vulnerabilities, miss edge cases, or introduce
+    inefficiencies
+  - Effective prompts are specific, include examples, specify edge cases, and reference existing codebase patterns
+relevance: >-
+  Reinforces The Draft's position that AI collaboration quality depends on human-provided structure and oversight.
+  Offers practical patterns for role clarity and review workflows that prevent AI drift.
+notable_quotes:
+  - AI assistants have broader language and framework knowledge but lack domain-specific understanding.
+  - You should always review AI-generated code before implementation.
+categories:
+  - planning-and-structure

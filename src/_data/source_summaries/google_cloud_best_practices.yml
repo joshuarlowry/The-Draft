@@ -1,0 +1,40 @@
+source_id: google_cloud_best_practices
+source_type: article
+summary: >-
+  Google Cloud outlines practical habits for getting better AI coding results, emphasizing upfront planning, clear
+  constraints, and tight review loops so generated code reflects real system intent rather than generic patterns.
+long_summary: >-
+  Google Cloud presents a set of concrete practices for using AI coding assistants responsibly, starting with clear task
+  framing and explicit constraints. The guidance stresses that the AI should be treated like a collaborator that needs
+  context, examples, and clear acceptance criteria to deliver useful results. It also highlights the importance of
+  reviewing output, iterating with intent, and using automation (tests and checks) to validate AI-generated changes. The
+  through-line is that planning and oversight are not optional add-ons—they are the inputs that keep AI output aligned
+  with real system goals.
+key_takeaways:
+  - Choose the right AI tool for each task—inline generation for small functions, agentic tools for multi-file changes
+  - Document the codebase first to improve AI comprehension and generation quality
+  - Build and revise an execution plan with the AI before generating code
+  - Create a context file (like GEMINI.md) at the end of each session to maintain continuity
+  - Always request AI approval before executing on new plan milestones to keep humans in control
+relevance: >-
+  Directly supports The Draft's emphasis on planning-first workflows and human oversight. Demonstrates that industry
+  leaders view structured context and review loops as essential inputs, not optional extras.
+notable_quotes:
+  - >-
+    Access to a tool doesn't guarantee proficiency. To get the results you're looking for, you need to learn the right
+    techniques.
+  - >-
+    Spending extra time with AI tools to build and revise an execution plan generally gives you better code output on
+    complex tasks.
+  - The key to creating usable code is giving models the right context.
+tags:
+  - planning
+  - prompting
+  - review
+  - workflow
+topics:
+  - ai-assisted-coding
+  - task-framing
+  - quality-control
+categories:
+  - planning-and-structure

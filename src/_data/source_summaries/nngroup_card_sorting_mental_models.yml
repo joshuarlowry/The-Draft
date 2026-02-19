@@ -1,0 +1,27 @@
+source_id: nngroup_card_sorting_mental_models
+source_type: article
+summary: NN/g defines card sorting as a method for aligning information architecture with users' mental models.
+long_summary: >-
+  This NN/g article explains card sorting as a foundational IA method in which participants organize topics into groups
+  that reflect how they think about information. The method helps teams shape navigation and taxonomy before
+  implementation, reducing misalignment between product structures and user expectations. In The Draft context, it
+  illustrates that IA quality still comes from user-centered framing, even when AI can accelerate downstream execution.
+key_takeaways:
+  - Use card sorting to expose user mental models before finalizing IA structures
+  - Translate grouped topics into navigation and taxonomy decisions that mirror user expectations
+  - Reduce rework by validating IA assumptions before build and content production phases
+relevance: >-
+  This source grounds IA decisions in user evidence, reinforcing The Draft's emphasis on planning-first structure
+  instead of post-hoc correction.
+tags:
+  - information-architecture
+  - card-sorting
+topics:
+  - ia
+  - ux-research
+categories:
+  - planning-and-structure
+notable_quotes:
+  - >-
+    In a card-sorting study, users organize topics into groups. Use this research method to create an information
+    architecture that suits your users' expectations.

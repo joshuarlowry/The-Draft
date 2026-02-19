@@ -1,0 +1,16 @@
+id: paul_christiano
+name: Paul Christiano
+slug: paul-christiano
+primary_domain: agentic
+secondary_domains: []
+profile_summary: >-
+  Paul Christiano is an AI alignment researcher and founder of the Alignment Research Center. His work on scalable
+  oversight, RLHF, and iterated amplification has influenced how AI labs approach human feedback and value learning. He
+  has shaped the technical agenda for making advanced AI systems safe and aligned.
+social_links:
+  - label: Personal site
+    url: https://paulchristiano.com
+featured_works:
+  - title: AI alignment forum
+    url: https://www.alignmentforum.org/
+    year: ''

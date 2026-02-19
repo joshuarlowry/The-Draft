@@ -1,0 +1,14 @@
+source_id: decoder_claude_cowork_built_two_weeks
+summary: The Decoder reports that Anthropic’s Claude Cowork project was built in under two weeks using Claude Code.
+long_summary: >-
+  This article from The Decoder covers a claim that Claude Cowork was built in roughly ten days, with references to
+  Claude Code’s role in generating the software. It includes references to comments attributed to Boris Cherny and Felix
+  Rieseberg about the build process.
+tags:
+  - claude-code
+  - product-build
+topics:
+  - ai-assisted-development
+  - tooling
+categories: []
+source_type: article

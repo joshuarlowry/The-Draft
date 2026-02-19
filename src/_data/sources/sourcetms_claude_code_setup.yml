@@ -1,0 +1,15 @@
+id: sourcetms_claude_code_setup
+author: Thomas Schlossmacher
+author_ids:
+  - thomas_schlossmacher
+title: Claude Code Setup 101
+publisher: SourceTMS
+published: '2025-07-23'
+accessed: '2026-02-14'
+url: https://sourcetms.com/notes/claude-code-setup-101
+tags:
+  - planning-and-structure
+  - responsibility-oversight
+reading_descriptions:
+  planning-and-structure: A tactical setup guide emphasizing persistent project instructions and context hygiene for CLI agents.
+  responsibility-oversight: Frames effective prompting as disciplined operator behavior, not autonomous model capability.

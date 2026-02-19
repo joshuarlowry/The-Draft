@@ -1,0 +1,28 @@
+source_id: marketing_agent_replacing_ops_teams
+source_type: article
+summary: >-
+  Documents five real marketing job transitions in 2026 where AI agents are replacing traditional marketing operations
+  roles, with one human now supervising work that previously required 3-5 administrators.
+long_summary: >-
+  Published January 2026, this article documents five concrete marketing job transitions happening in real time as AI
+  agents reshape marketing operations. Platforms like Salesforce and HubSpot increasingly support agent-driven
+  workflows, enabling one human to supervise what used to require 3-5 marketing administrators. The transitions cover
+  campaign management, analytics, content operations, CRM management, and marketing automation—each showing how the role
+  shifts from hands-on execution to AI oversight and strategic direction.
+key_takeaways:
+  - Five documented marketing role transitions from execution to AI oversight
+  - One human now supervises work previously requiring 3-5 marketing admins
+  - Salesforce and HubSpot are building agent-driven workflow support natively
+  - The shift is from hands-on execution to strategic direction and AI oversight
+relevance: >-
+  Concrete domain-specific evidence of AI-driven team restructuring. Marketing ops shows the pattern that The Draft
+  argues applies broadly: AI handles execution while humans shift to planning, oversight, and strategy.
+tags:
+  - marketing-ops
+  - job-transitions
+  - real-world
+topics:
+  - team-restructuring
+  - role-evolution
+categories:
+  - ai-production-scale

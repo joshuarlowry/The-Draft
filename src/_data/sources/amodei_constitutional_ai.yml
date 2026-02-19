@@ -1,0 +1,10 @@
+id: amodei_constitutional_ai
+author: Dario Amodei, Daniela Amodei, et al.
+author_ids:
+  - dario_amodei
+title: 'Constitutional AI: Harmlessness from AI Feedback'
+publisher: Anthropic
+published: '2022'
+url: https://www.anthropic.com/research/constitutional-ai-harmlessness-from-ai-feedback
+tags:
+  - governance-guardrails

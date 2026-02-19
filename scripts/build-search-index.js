@@ -12,6 +12,7 @@ const yaml = require('js-yaml');
 const SRC = path.join(__dirname, '..', 'src');
 const DIST = path.join(__dirname, '..', 'dist');
 const PATH_PREFIX = '/The-Draft/';
+const loadDir = require('../src/_data/_lib/loadDir');
 
 const slugify = (value) => {
   if (value === undefined || value === null) return '';
@@ -30,6 +31,11 @@ const getPersonSlug = (person) => {
 };
 
 const loadYaml = (file) => {
+  const dirName = file.replace(/\.yml$/, '');
+  const dirPath = path.join(SRC, '_data', dirName);
+  if (fs.existsSync(dirPath) && fs.statSync(dirPath).isDirectory()) {
+    return loadDir(dirPath);
+  }
   const p = path.join(SRC, '_data', file);
   if (!fs.existsSync(p)) return [];
   const raw = fs.readFileSync(p, 'utf8');

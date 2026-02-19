@@ -1,0 +1,30 @@
+source_id: sourcetms_claude_code_setup
+source_type: article
+summary: >-
+  A tactical checklist for running Claude Code effectively, emphasizing project-level instruction files and precise
+  operator prompts.
+long_summary: >-
+  Schlossmacher's setup guide focuses on environment hygiene and operator habits: create CLAUDE.md files per project,
+  use file tagging for context, clear stale sessions, and prioritize specific prompts. The post frames coding agents as
+  tools that improve with clearer structure and explicit interaction patterns.
+key_takeaways:
+  - Create persistent project instruction files so agent behavior is grounded in local context
+  - Use explicit prompts and targeted file references to improve output quality
+  - Reset context aggressively to avoid drift and token waste across tasks
+relevance: >-
+  Reinforces the idea that oversight and context management are core skills in AI-assisted development, not optional
+  workflow polish.
+tags:
+  - claude-code
+  - prompting
+  - context-hygiene
+topics:
+  - operator-discipline
+  - developer-workflow
+categories:
+  - planning-and-structure
+  - responsibility-oversight
+notable_quotes:
+  - >-
+    Be really specific - Using clear, detailed requests gets way better results than the vague ones (this also applies
+    to queued messages)

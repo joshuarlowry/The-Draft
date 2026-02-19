@@ -1,0 +1,17 @@
+source_id: simon_sciences_artificial
+summary: >-
+  Herbert Simon's classic explores bounded rationality, satisficing, and the structure of ill-structured problems in
+  design and AI.
+long_summary: >-
+  'The Sciences of the Artificial' examines how humans and machines reason about design. Simon introduced bounded
+  rationality, satisficing, and the concept of ill-structured problems. The book argues that a physical symbol system
+  has the necessary and sufficient means for intelligent action, influencing both AI and design theory.
+tags:
+  - bounded-rationality
+  - design-theory
+topics:
+  - architecture
+  - ai
+categories:
+  - engineering-judgment
+source_type: book

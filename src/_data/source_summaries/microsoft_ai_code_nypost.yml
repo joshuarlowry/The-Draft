@@ -1,0 +1,20 @@
+source_id: microsoft_ai_code_nypost
+source_type: article
+summary: >-
+  This New York Post report covers Satya Nadella’s remarks that a significant portion of Microsoft code is now
+  AI-written, underscoring the scale of AI-assisted development.
+long_summary: >-
+  The New York Post reports on comments from Microsoft CEO Satya Nadella about the growing share of AI-written code at
+  Microsoft. The article serves as a signal of how quickly AI-assisted development is scaling inside large
+  organizations. It frames AI coding as more than experimentation, pointing to real production usage at meaningful
+  scale. The takeaway is that oversight and governance approaches must evolve because AI output is no longer a small
+  supplement to human code—it is becoming a sizable portion of it.
+tags:
+  - adoption
+  - scale
+  - executive-commentary
+topics:
+  - ai-production
+  - industry-signals
+categories:
+  - ai-production-scale

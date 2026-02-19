@@ -1,0 +1,13 @@
+id: ainativedev_podcast_rework
+title: Why Faster AI Development Often Increases Rework
+publisher: AI Native Dev
+published: '2025-12-23'
+accessed: '2026-02-04'
+url: https://ainativedev.io/podcast/why-faster-ai-development-often-increases-rework-cian-clarke
+tags:
+  - planning-and-structure
+mentioned_people_ids:
+  - cian_clarke
+  - simon_maple
+reading_descriptions:
+  planning-and-structure: Podcast discussion on why spec-first workflows reduce rework compared to fast, unstructured AI development.

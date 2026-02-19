@@ -1,0 +1,17 @@
+id: arxiv_memotion3_overview
+author: >-
+  Shreyash Mishra, S Suryavardan, Megha Chakraborty, Parth Patwa, Anku Rani, Aman Chadha, Aishwarya Reganti, Amitava
+  Das, Amit Sheth, Manoj Chinnakotla, Asif Ekbal, Srijan Kumar
+author_ids:
+  - aishwarya_naresh_reganti
+title: 'Overview of Memotion 3: Sentiment and Emotion Analysis of Codemixed Hinglish Memes'
+repository: arXiv
+published: '2023-09-12'
+accessed: '2026-02-17'
+url: https://arxiv.org/abs/2309.06517
+tags:
+  - responsibility-oversight
+  - governance-guardrails
+reading_descriptions:
+  responsibility-oversight: Benchmarks multimodal moderation tasks where sentiment and emotion labels influence downstream safety decisions.
+  governance-guardrails: Provides a standardized shared-task setup for evaluating model behavior on code-mixed meme content.

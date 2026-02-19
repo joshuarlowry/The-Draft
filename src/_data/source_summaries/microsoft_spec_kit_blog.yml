@@ -1,0 +1,20 @@
+source_id: microsoft_spec_kit_blog
+summary: >-
+  Den Delimarsky’s Microsoft Developer blog post frames SDD as a lightweight way to make technical decisions explicit
+  and evolve them over time.
+long_summary: >-
+  This Microsoft Developer article introduces spec-driven development through the lens of GitHub Spec Kit. It emphasizes
+  that SDD is not about heavy bureaucracy or exhaustive documentation, but about capturing technical decisions and the
+  reasoning behind them in a form that can be reviewed and evolved. The post connects explicit specifications to better
+  alignment across teams and stronger context for AI agents. It also outlines how Spec Kit operationalizes this workflow
+  with templates and a CLI.
+tags:
+  - spec-driven-development
+  - decision-records
+  - tooling
+topics:
+  - ai-assisted-development
+  - documentation
+categories:
+  - planning-and-structure
+source_type: article

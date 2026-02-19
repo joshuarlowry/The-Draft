@@ -1,0 +1,10 @@
+id: bengio_deep_learning
+author: Yoshua Bengio, Ian Goodfellow, Aaron Courville
+author_ids:
+  - yoshua_bengio
+title: Deep Learning
+publisher: MIT Press
+published: '2016'
+url: https://www.deeplearningbook.org/
+tags:
+  - governance-guardrails

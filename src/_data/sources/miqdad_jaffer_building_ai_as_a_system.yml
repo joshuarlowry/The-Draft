@@ -1,0 +1,17 @@
+id: miqdad_jaffer_building_ai_as_a_system
+author: Miqdad Jaffer
+author_ids:
+  - miqdad_jaffer
+title: 'Building AI as a System: Moats, Margins, and the 4 Decisions That Actually Matter'
+publisher: Product Faculty's AI Newsletter
+published: '2026-01-08'
+accessed: '2026-02-17'
+url: https://www.productmanagement.ai/p/building-ai-as-a-system-moats-margins
+tags:
+  - planning-and-structure
+  - ai-production-scale
+reading_descriptions:
+  planning-and-structure: >-
+    Framework article from an OpenAI product lead on defining moats, cost posture, distribution, and trust before
+    scaling AI features.
+  ai-production-scale: Explains why AI product advantage depends on system-level decisions, not model access alone.

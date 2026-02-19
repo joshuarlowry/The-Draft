@@ -1,0 +1,17 @@
+id: nngroup_baymard_ai_tool_accuracy
+author: Kate Moran
+author_ids:
+  - kate_moran
+mentioned_people_ids:
+  - christian_holst
+title: 'Demand Accuracy in Your AI Tools: Lessons from Baymard Institute'
+publisher: Nielsen Norman Group
+published: '2026-01-30'
+accessed: '2026-02-05'
+url: https://www.nngroup.com/articles/baymard-ai-tool-accuracy/
+tags:
+  - responsibility-oversight
+  - governance-guardrails
+reading_descriptions:
+  responsibility-oversight: Argues that UX teams should verify AI research and design outputs instead of accepting vendor claims at face value.
+  governance-guardrails: Encourages procurement and governance standards that require transparency and measured accuracy from AI UX tools.

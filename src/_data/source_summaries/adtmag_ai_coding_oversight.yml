@@ -1,0 +1,32 @@
+source_id: adtmag_ai_coding_oversight
+source_type: article
+summary: >-
+  ADTMag summarizes survey findings showing leaders are adopting AI coding tools while insisting on strict human review
+  and governance controls.
+long_summary: >-
+  ADTMag reports survey results indicating that tech leaders are embracing AI coding tools while simultaneously
+  demanding strict oversight. The survey highlights human review requirements as a common control, reinforcing that
+  adoption is coupled with governance expectations. The article suggests that organizations are willing to move quickly
+  with AI, but only if accountability and review gates remain in place. It provides an industry snapshot of how leaders
+  balance innovation with risk management.
+key_takeaways:
+  - 92% of technology decision-makers now use AI-assisted coding tools, with 75%+ using them daily
+  - 95% of leaders identified significant risks in deploying AI-generated code without adequate review
+  - 93% require AI-generated code to undergo review before production integration
+  - More than half assign oversight responsibility to CTO or CIO level executives
+  - 30% cite over-reliance on AI without accountability as their primary concern
+relevance: >-
+  Provides industry survey data validating The Draft's emphasis on governance and oversight. Shows that leaders view
+  review gates not as obstacles but as essential components of responsible AI adoption.
+notable_quotes:
+  - The engineers who will thrive in this new era are adopting AI to enhance their thinking and output, not replace it.
+  - 95% of technology leaders believe AI coding tools are transforming developer capabilities.
+tags:
+  - leadership
+  - governance
+  - review-requirements
+topics:
+  - ai-policy
+  - organizational-controls
+categories:
+  - governance-guardrails

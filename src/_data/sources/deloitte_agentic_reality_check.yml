@@ -1,0 +1,14 @@
+id: deloitte_agentic_reality_check
+title: 'The Agentic Reality Check: Preparing for a Silicon-Based Workforce'
+publisher: Deloitte
+published: 2025-12
+accessed: '2026-02-12'
+url: https://www.deloitte.com/us/en/insights/topics/technology-management/tech-trends/2026/agentic-ai-strategy.html
+tags:
+  - ai-production-scale
+  - org-structure
+reading_descriptions:
+  ai-production-scale: >-
+    Reports that only 11% of organizations actively use agentic AI in production and most are trying to automate
+    existing processes without redesigning work.
+  org-structure: Argues that true value from agentic AI requires redesigning operations, not just layering agents onto old workflows.

@@ -1,0 +1,17 @@
+id: don_norman
+name: Don Norman
+slug: don-norman
+primary_domain: ux
+secondary_domains:
+  - ia
+profile_summary: >-
+  Don Norman is a cognitive scientist and design theorist who coined the term "user experience." He has shaped design
+  thinking through concepts like affordances, mental models, and emotional design. His work at Apple, Nielsen Norman
+  Group, and in academia has influenced how we understand human-centered design.
+social_links:
+  - label: jnd.org
+    url: https://jnd.org
+featured_works:
+  - title: The Design of Everyday Things
+    url: https://jnd.org/books/
+    year: '2013'

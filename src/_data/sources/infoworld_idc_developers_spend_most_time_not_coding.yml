@@ -1,0 +1,22 @@
+id: infoworld_idc_developers_spend_most_time_not_coding
+author: Paul Krill
+author_ids:
+  - paul_krill
+mentioned_people_ids:
+  - adam_resnick
+title: Developers spend most of their time not coding – IDC report
+publisher: InfoWorld
+published: '2025-02-24'
+accessed: '2026-02-18'
+url: https://www.infoworld.com/article/3831759/developers-spend-most-of-their-time-not-coding-idc-report.html
+tags:
+  - developer-productivity
+  - maintenance-reality
+  - operational-work
+reading_descriptions:
+  developer-productivity: >-
+    Reports IDC findings that application development is only one slice of developer time, with significant effort spent
+    on operational and support tasks.
+  maintenance-reality: >-
+    Useful for grounding claims that many teams spend more effort maintaining and operating software than building
+    net-new products.

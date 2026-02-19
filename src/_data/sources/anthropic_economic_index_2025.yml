@@ -1,0 +1,15 @@
+id: anthropic_economic_index_2025
+author: Anthropic
+title: The Anthropic Economic Index
+publisher: Anthropic
+published: 2025-02
+accessed: '2026-02-16'
+url: https://www.anthropic.com/news/the-anthropic-economic-index
+tags:
+  - workforce-strategy
+  - ai-production-scale
+reading_descriptions:
+  workforce-strategy: >-
+    Task-level telemetry-based view of how AI is being used across occupations, with emphasis on augmentation versus
+    automation patterns.
+  ai-production-scale: Provides empirical usage distribution data to ground claims about which work categories are changing first.

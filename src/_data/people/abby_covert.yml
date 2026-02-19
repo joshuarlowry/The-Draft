@@ -1,0 +1,17 @@
+id: abby_covert
+name: Abby Covert
+slug: abby-covert
+primary_domain: ia
+secondary_domains:
+  - ux
+profile_summary: >-
+  Abby Covert is an information architect and author of "How to Make Sense of Any Mess." She focuses on helping teams
+  align on language, structure, and meaning. Her work on taxonomies, mental models, and collaborative sense-making has
+  influenced how product and design teams approach information problems.
+social_links:
+  - label: Personal site
+    url: https://abbycovert.com
+featured_works:
+  - title: How to Make Sense of Any Mess
+    url: https://abbycovert.com/books/
+    year: '2014'

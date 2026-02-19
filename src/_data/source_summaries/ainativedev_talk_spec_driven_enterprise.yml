@@ -1,0 +1,19 @@
+source_id: ainativedev_talk_spec_driven_enterprise
+summary: >-
+  Cian Clarke’s AI Native DevCon talk presents spec-driven development as a blueprint for predictable, enterprise
+  AI-native delivery.
+long_summary: >-
+  This AI Native Dev conference talk positions spec-driven development as a structured alternative to vibe coding for
+  enterprise software teams. The session outlines how explicit specs improve predictability, completeness, and
+  context-aware outputs, and describes practices such as agentic role definition, explicit QA steps, and
+  multi-human-in-the-loop coordination via git. It also notes how connectivity tooling (including MCP) can integrate
+  spec-driven workflows into enterprise delivery cycles.
+tags:
+  - spec-driven-development
+  - enterprise-delivery
+topics:
+  - ai-native-development
+  - team-coordination
+categories:
+  - planning-and-structure
+source_type: article

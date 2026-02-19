@@ -1,0 +1,25 @@
+source_id: sandra_schaus_collaboration_gap_2026
+source_type: article
+summary: >-
+  Sandra Schaus argues that AI delivery speed is creating a collaboration gap for UX teams when organizational rituals,
+  decision loops, and alignment practices do not adapt as quickly.
+long_summary: >-
+  This piece frames a practical coordination problem inside UX organizations. As AI accelerates output, collaboration
+  practices that once kept teams aligned can lag behind, creating friction between speed and shared understanding. The
+  framing is useful for The Draft because it treats AI adoption as an operating-model shift, not only a tooling shift.
+key_takeaways:
+  - Identify collaboration bottlenecks that appear when AI accelerates delivery cadence
+  - Rework team rituals so review and alignment keep pace with increased output volume
+  - Treat workflow design as a strategic response to AI acceleration pressures
+relevance: >-
+  Supports The Draft's emphasis that faster generation requires stronger coordination systems and explicit oversight
+  loops. Connects UX collaboration dynamics to broader AI governance concerns.
+tags:
+  - ux-collaboration
+  - leadership
+  - workflow
+topics:
+  - ai-in-ux
+  - team-operations
+categories:
+  - cross-domain-calibration

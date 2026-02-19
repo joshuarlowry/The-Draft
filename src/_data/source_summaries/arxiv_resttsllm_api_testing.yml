@@ -1,0 +1,28 @@
+source_id: arxiv_resttsllm_api_testing
+source_type: paper
+summary: >-
+  Researchers combine task specification language with LLMs to automate REST API test generation, demonstrating higher
+  test coverage with less manual effort.
+long_summary: >-
+  This study combines Task Specification Language (TSL) with LLMs to automate REST API test generation. It compares
+  automated generation against manual approaches and reports improved coverage with reduced effort. The work
+  demonstrates how AI can be paired with structured specifications to produce more reliable automated tests. It supports
+  the argument that LLMs become safer and more useful when embedded in disciplined testing workflows.
+key_takeaways:
+  - Combining TSL with LLMs automates test scenario creation and appropriate input data definition
+  - Claude 3.5 Sonnet outperformed all other models across success rate, coverage, and mutation score
+  - Exhaustive manual testing of all input combinations is impractical; LLMs help address this
+  - Prompt engineering techniques paired with automated pipelines enable systematic model comparison
+  - LLMs become more reliable when embedded in structured specification-driven workflows
+relevance: >-
+  Demonstrates how AI-assisted testing can improve coverage when paired with structured specifications. Supports The
+  Draft's argument that disciplined workflows make AI tools safer and more useful.
+tags:
+  - api-testing
+  - automation
+  - coverage
+topics:
+  - testing
+  - ai-tooling
+categories:
+  - tooling-guardrails

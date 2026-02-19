@@ -1,0 +1,29 @@
+source_id: miqdad_jaffer_ai_prototyping
+source_type: article
+summary: >-
+  This guide presents AI prototyping as a fast uncertainty-reduction workflow, prioritizing assumption validation over
+  polished output.
+long_summary: >-
+  Jaffer outlines an execution workflow for building early AI prototypes in a constrained, practical way. The core
+  thesis is that prototypes should test assumptions across model capability, reliability, cost behavior, and failure
+  characteristics before teams commit to production paths. Rather than using prototypes to prove value claims, the
+  process is designed to reduce unknowns and expose risk. The piece is useful for teams moving from idea to first
+  implementation with disciplined scoping.
+key_takeaways:
+  - Use prototypes to validate assumptions instead of showcasing polished features
+  - Evaluate capability, reliability, cost, and failure behavior as a single risk profile
+  - Timebox early experiments to surface breakpoints before investing in scale
+  - Convert prototype learning into explicit build/no-build decisions
+relevance: >-
+  Directly supports The Draft's rapid-prototyping and guardrail themes by framing AI prototyping as structured risk
+  discovery rather than unbounded experimentation.
+tags:
+  - prototyping
+  - risk-reduction
+  - validation
+topics:
+  - ai-mvp
+  - product-discovery
+categories:
+  - rapid-prototyping
+  - planning-and-structure

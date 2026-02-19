@@ -1,0 +1,18 @@
+source_id: ainativedev_podcast_rework
+summary: >-
+  In this AI Native Dev podcast episode, Cian Clarke and host Simon Maple discuss why faster AI development can increase
+  rework and how spec-first workflows mitigate it.
+long_summary: >-
+  This AI Native Dev podcast episode features Cian Clarke in conversation with Simon Maple about the risks of moving too
+  fast with AI-assisted development. The discussion introduces spec-driven or spec-first workflows, describing how
+  upfront specification of intent, constraints, and behaviors can reduce rework. The episode frames early specification
+  as a way to improve predictability and avoid downstream corrections when AI output outpaces validation.
+tags:
+  - spec-driven-development
+  - rework
+topics:
+  - ai-native-development
+  - process-discipline
+categories:
+  - planning-and-structure
+source_type: podcast

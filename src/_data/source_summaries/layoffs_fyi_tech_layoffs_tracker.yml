@@ -1,0 +1,27 @@
+source_id: layoffs_fyi_tech_layoffs_tracker
+source_type: article
+summary: >-
+  Layoffs.fyi tracks announced tech layoffs over time, offering quick directional context for hiring and downsizing
+  cycles in software markets.
+long_summary: >-
+  This tracker compiles public layoff announcements for technology companies and presents a running aggregate that is
+  widely referenced in industry commentary. It should be treated as directional rather than definitive, but it is useful
+  for checking whether anecdotal reports of repeated cuts are isolated incidents or part of a broader pattern.
+key_takeaways:
+  - Aggregate public tech layoff announcements into a single trend view
+  - Validate anecdotal layoff claims against broader market patterns
+  - Use directional data to frame timing and magnitude of restructuring cycles
+  - Pair tracker trends with higher-rigor labor and macro sources for balance
+relevance: >-
+  Useful as a rapid signal layer in The Draft's research stack when paired with stronger institutional datasets for
+  interpretation.
+tags:
+  - tech-sector
+  - layoffs
+  - trend-signal
+topics:
+  - market-cycle
+  - employment-pressure
+categories:
+  - workforce-strategy
+  - ai-production-scale

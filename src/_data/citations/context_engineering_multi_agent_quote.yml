@@ -1,0 +1,6 @@
+id: context_engineering_multi_agent_quote
+quote: >-
+  We demonstrate that this method significantly improves the accuracy and reliability of code assistants in real-world
+  repositories, yielding higher single-shot success rates and better adherence to project context than baseline
+  single-agent approaches.
+source_id: arxiv_context_engineering_multi_agent

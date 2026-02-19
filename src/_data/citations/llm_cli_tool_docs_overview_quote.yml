@@ -1,0 +1,6 @@
+id: llm_cli_tool_docs_overview_quote
+quote: >-
+  A CLI tool and Python library for interacting with OpenAI, Anthropic’s Claude, Google’s Gemini, Meta’s Llama and
+  dozens of other Large Language Models, both via remote APIs and with models that can be installed and run on your own
+  machine.
+source_id: llm_cli_tool_docs

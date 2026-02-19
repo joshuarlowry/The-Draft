@@ -1,0 +1,15 @@
+id: microsoft_spec_kit_blog
+author: Den Delimarsky
+author_ids:
+  - den_delimarsky
+title: Diving Into Spec-Driven Development With GitHub Spec Kit
+publisher: Microsoft Developer
+published: '2025-09-15'
+accessed: '2026-02-03'
+url: https://developer.microsoft.com/blog/spec-driven-development-spec-kit/
+tags:
+  - planning-and-structure
+reading_descriptions:
+  planning-and-structure: >-
+    A Microsoft Developer blog post framing SDD as explicit, reviewable technical decisions rather than heavy
+    documentation.

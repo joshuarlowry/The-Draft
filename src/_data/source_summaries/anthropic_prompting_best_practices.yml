@@ -1,0 +1,28 @@
+source_id: anthropic_prompting_best_practices
+source_type: documentation
+summary: >-
+  Anthropic’s Claude prompting guidance emphasizes explicit instructions, added context, and structured workflows to
+  improve model outputs.
+long_summary: >-
+  This Anthropic documentation page outlines prompt engineering practices for Claude, stressing that clear, explicit
+  instructions and contextual motivation lead to more targeted results. It also discusses multi-context workflows,
+  suggesting structured state tracking and incremental progress so longer tasks remain aligned with expectations over
+  multiple iterations.
+key_takeaways:
+  - Specify instructions explicitly to reduce ambiguity in model behavior
+  - Add context and motivation so the model understands intent and priorities
+  - Structure long tasks with incremental progress and state tracking
+  - Provide verification tooling guidance for longer autonomous runs
+relevance: >-
+  Reinforces The Draft’s focus on planning and oversight by showing how explicit instructions and structured iteration
+  reduce uncertainty in agentic coding workflows.
+tags:
+  - prompt-engineering
+  - instructions
+  - context
+topics:
+  - ai-assisted-development
+  - workflow-design
+  - agent-oversight
+categories:
+  - planning-and-structure

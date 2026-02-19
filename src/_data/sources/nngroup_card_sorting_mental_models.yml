@@ -1,0 +1,16 @@
+id: nngroup_card_sorting_mental_models
+author: Samhita Tankala, Katie Sherwin
+author_ids:
+  - samhita_tankala
+  - katie_sherwin
+title: "Card Sorting: Uncover Users' Mental Models for Better Information Architecture"
+publisher: Nielsen Norman Group
+published: '2024-02-02'
+accessed: '2026-02-05'
+url: https://www.nngroup.com/articles/card-sorting-definition/
+tags:
+  - planning-and-structure
+  - usability-inspection
+reading_descriptions:
+  planning-and-structure: Shows how card sorting grounds IA decisions in user mental models before teams commit to navigation structures.
+  usability-inspection: Defines a practical IA research method that reduces taxonomy drift before usability testing and implementation.

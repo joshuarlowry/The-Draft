@@ -1,0 +1,16 @@
+source_id: eleventy_dev_server
+summary: Eleventy ships with a hot-reloading development server for local preview during content and design work.
+long_summary: >-
+  The Eleventy Dev Server documentation notes that Eleventy includes its own hot-reloading development server. That
+  built-in server can simplify local previews and reduce dependence on external tooling for live reload. For The Draft,
+  it is a straightforward way to improve authoring feedback loops during design or content changes.
+tags:
+  - development
+  - preview
+  - workflow
+topics:
+  - local-development
+  - live-reload
+categories:
+  - platform-tooling
+source_type: documentation

@@ -1,0 +1,28 @@
+source_id: deloitte_agentic_reality_check
+source_type: article
+summary: >-
+  Deloitte's December 2025 analysis finds that only 11% of organizations actively use agentic AI in production and most
+  are trying to automate existing processes without redesigning their operations.
+long_summary: >-
+  Deloitte surveyed enterprises on their agentic AI readiness and found a significant gap between ambition and
+  execution. While 30% of organizations are exploring agentic options and 38% are piloting solutions, only 14% have
+  deployment-ready solutions and merely 11% are in production. The core finding is that organizations hitting a wall are
+  typically trying to layer agents onto existing processes rather than reimagining how the work should be done. Leading
+  organizations are discovering that true value comes from redesigning operations, not just automating them.
+key_takeaways:
+  - Only 11% of organizations actively use agentic AI in production
+  - Most organizations try to automate existing processes rather than redesigning them
+  - 30% are exploring, 38% piloting, 14% deployment-ready, 11% in production
+  - True value requires redesigning operations, not layering agents onto old workflows
+relevance: >-
+  Validates The Draft's emphasis on intentional design before execution. The gap between AI piloting and production
+  mirrors the gap between vibe coding and spec-driven development—structure and redesign unlock the real value.
+tags:
+  - agentic-ai
+  - enterprise-readiness
+  - operations-redesign
+topics:
+  - ai-adoption
+  - organizational-change
+categories:
+  - ai-production-scale

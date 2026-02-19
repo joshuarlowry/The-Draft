@@ -1,0 +1,16 @@
+id: github_copilot_productivity_research
+author: Eirini Kalliamvakou
+author_ids:
+  - eirini_kalliamvakou
+title: 'Research: quantifying GitHub Copilot’s impact on developer productivity and happiness'
+publisher: GitHub
+published: '2022-09-07'
+accessed: '2026-02-03'
+url: >-
+  https://github.blog/news-insights/research/research-quantifying-github-copilots-impact-on-developer-productivity-and-happiness/
+tags:
+  - rapid-prototyping
+reading_descriptions:
+  rapid-prototyping: >-
+    Reports experimental evidence that Copilot users completed a programming task 55% faster, indicating higher
+    throughput for prototyping work.

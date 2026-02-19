@@ -1,0 +1,5 @@
+id: security_degradation_iterative_ai_quote
+quote: >-
+  Our findings show a 37.6% increase in critical vulnerabilities after just five iterations, with distinct vulnerability
+  patterns emerging across different prompting approaches.
+source_id: arxiv_security_degradation_ai_code

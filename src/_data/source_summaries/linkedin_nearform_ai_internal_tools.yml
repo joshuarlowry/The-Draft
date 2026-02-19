@@ -1,0 +1,18 @@
+source_id: linkedin_nearform_ai_internal_tools
+summary: >-
+  Cian Clarke’s LinkedIn post highlights Nearform’s internal AI tools, including Wilde for knowledge retrieval and
+  Beckett for automating CRM updates.
+long_summary: >-
+  In this LinkedIn post, Cian Clarke describes building internal AI tools at Nearform to streamline sales workflows. He
+  highlights Wilde, an in-house knowledge assistant for RFPs and case studies, and Beckett, a tool that turns
+  unstructured sales chatter into structured CRM updates. The post positions these tools as operational systems already
+  delivering measurable value rather than experimental prototypes.
+tags:
+  - internal-tools
+  - ai-operations
+topics:
+  - enterprise-ai
+  - workflow-automation
+categories:
+  - ai-production-scale
+source_type: social_post

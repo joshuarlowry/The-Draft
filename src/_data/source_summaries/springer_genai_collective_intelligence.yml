@@ -1,0 +1,27 @@
+source_id: springer_genai_collective_intelligence
+source_type: paper
+summary: >-
+  Academic paper examining AI as a coordination technology versus individual production technology in teams, with
+  implications for how organizational design should adapt to generative AI capabilities.
+long_summary: >-
+  Published in the Journal of Organization Design, this paper examines generative AI through the lens of collective
+  intelligence and team coordination. Rather than treating AI solely as a productivity tool for individual workers, the
+  paper analyzes how AI functions as a coordination technology that can reshape how teams collaborate, share
+  information, and make decisions. The implications for organizational design are significant: if AI changes
+  coordination costs, optimal team sizes and structures may need to change accordingly.
+key_takeaways:
+  - AI functions as both individual production technology and team coordination technology
+  - Changes in coordination costs require changes in optimal team sizes and structures
+  - Collective intelligence dynamics shift when AI participates in team coordination
+relevance: >-
+  Provides academic grounding for The Draft's claims about team restructuring. The coordination-vs-production framing
+  adds analytical depth to discussions of why AI changes team structure, not just individual productivity.
+tags:
+  - academic
+  - coordination
+  - collective-intelligence
+topics:
+  - organizational-design
+  - team-theory
+categories:
+  - org-structure

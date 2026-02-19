@@ -1,0 +1,16 @@
+id: jared_spool
+name: Jared Spool
+slug: jared-spool
+primary_domain: ux
+secondary_domains: []
+profile_summary: >-
+  Jared Spool is a UX researcher and founder of User Interface Engineering (UIE). He has advocated for evidence-based
+  design, usability testing, and design maturity in organizations. His work on design ops, design systems, and the
+  business impact of UX has influenced how design teams scale and demonstrate value.
+social_links:
+  - label: UIE
+    url: https://uie.com
+featured_works:
+  - title: UIE
+    url: https://uie.com
+    year: ''

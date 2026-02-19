@@ -1,0 +1,15 @@
+id: cian_clarke_vibe_coding_spec_driven
+author: Cian Clarke
+author_ids:
+  - cian_clarke
+title: From Vibe Coding to Spec-Driven Development
+publisher: Tessl
+published: '2026-01-06'
+accessed: '2026-02-03'
+url: https://tessl.io/blog/from-vibe-coding-to-spec-driven-development/
+tags:
+  - planning-and-structure
+reading_descriptions:
+  planning-and-structure: >-
+    Cian Clarke argues that spec-driven development removes the ceiling of vibe coding by grounding AI work in explicit
+    specs.

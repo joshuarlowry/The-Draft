@@ -1,0 +1,16 @@
+source_id: amodei_constitutional_ai
+summary: Anthropic's Constitutional AI paper describes harmlessness from AI feedback, a key approach to AI safety.
+long_summary: >-
+  The Constitutional AI paper introduces training AI systems to be helpful, harmless, and honest using AI-generated
+  feedback rather than human labels alone. The approach reduces reliance on human feedback for harmful content and has
+  influenced how frontier labs approach safety and capability. Dario Amodei co-founded Anthropic to build reliable,
+  interpretable, and steerable AI.
+tags:
+  - constitutional-ai
+  - ai-safety
+topics:
+  - alignment
+  - oversight
+categories:
+  - governance-guardrails
+source_type: article

@@ -8,9 +8,9 @@ This audit reviews content structure, coverage, and operational readiness in the
 
 ### Content inventory (as of this audit)
 
-- **88 sources** in `src/_data/sources.yml`
-- **88 source summaries** in `src/_data/source_summaries.yml`
-- **41 citations** in `src/_data/citations.yml`
+- **88 sources** in `src/_data/sources/` (one file per entry)
+- **88 source summaries** in `src/_data/source_summaries/` (one file per entry)
+- **41 citations** in `src/_data/citations/` (one file per entry)
 - **28 argument blocks** in `src/blocks/argument/`
 - **8 articles** in `src/articles/`
 - **1 concept** in `src/concepts/`

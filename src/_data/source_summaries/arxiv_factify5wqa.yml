@@ -1,0 +1,29 @@
+source_id: arxiv_factify5wqa
+source_type: paper
+summary: >-
+  Factify5WQA introduces a fact-verification benchmark where models must answer who/what/when/where/why questions before
+  deciding whether a claim is supported.
+long_summary: >-
+  The paper presents a shared task focused on automated fact verification. Rather than only predicting a binary label,
+  systems answer structured 5W questions for both the claim and evidence document, then compare alignment. This makes
+  model reasoning more inspectable and easier to evaluate with explicit metrics (BLEU + classification accuracy). The
+  approach is useful for guardrailed AI workflows because it turns fuzzy verification into a sequence of checkable
+  steps.
+key_takeaways:
+  - Decompose claim checking into explicit 5W question-answering steps
+  - Compare evidence and claim answers before assigning veracity labels
+  - Measure quality with both answer similarity and final classification accuracy
+  - Improve auditability by exposing intermediate reasoning artifacts
+relevance: >-
+  Strong fit for The Draft's guardrails perspective: it operationalizes verification as structured checks instead of
+  opaque one-shot predictions.
+tags:
+  - fact-verification
+  - multimodal-evaluation
+  - benchmark-design
+topics:
+  - evidence-workflows
+  - claim-validation
+categories:
+  - governance-guardrails
+  - tooling-guardrails

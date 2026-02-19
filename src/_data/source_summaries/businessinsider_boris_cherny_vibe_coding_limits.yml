@@ -1,0 +1,13 @@
+source_id: businessinsider_boris_cherny_vibe_coding_limits
+summary: Business Insider reports on Boris Cherny’s comments about the limits of “vibe coding.”
+long_summary: >-
+  This Business Insider article covers Boris Cherny’s views on the limits of vibe coding and the need for structure when
+  using Claude Code. It frames his comments as guidance on where AI-driven coding does and does not work well.
+tags:
+  - claude-code
+  - vibe-coding
+topics:
+  - ai-assisted-development
+  - engineering-practice
+categories: []
+source_type: article

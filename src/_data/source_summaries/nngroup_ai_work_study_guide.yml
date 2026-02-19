@@ -1,0 +1,28 @@
+source_id: nngroup_ai_work_study_guide
+source_type: article
+summary: >-
+  NN/g's guide curates practical AI-for-UX resources and states that AI is useful today but not ready to replace
+  end-to-end UX practice.
+long_summary: >-
+  The study guide organizes NN/g's AI and UX material into a learning pathway across strategy, research, design, and
+  writing. It encourages adoption while clarifying limits: AI can support productivity, but teams still need judgment,
+  method choice, and quality review. This makes it a strong bridge source for The Draft's argument that augmentation is
+  real while replacement claims are overstated.
+key_takeaways:
+  - Use curated guidance to match AI tools to specific UX tasks instead of broad replacement assumptions
+  - Recognize that AI can help workflows now without being ready to replace complete UX practice
+  - Preserve human method selection and quality judgment in AI-assisted UX delivery
+relevance: >-
+  Directly supports The Draft's augmentation-over-replacement stance and provides a practical on-ramp for teams seeking
+  disciplined AI adoption in UX.
+notable_quotes:
+  - Should you use AI in your work? Yes. The question is no longer if it can be helpful, but when? And how?
+tags:
+  - ux-practice
+  - adoption
+  - guidance
+topics:
+  - ai-in-ux
+  - workflow-design
+categories:
+  - cross-domain-calibration

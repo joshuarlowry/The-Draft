@@ -1,0 +1,27 @@
+source_id: hamel_llm_as_judge_complete_guide
+source_type: article
+summary: >-
+  This guide explains how to use LLM-as-judge safely, including calibration against human labels, narrow task
+  definitions, and ongoing monitoring for evaluator drift.
+long_summary: >-
+  Husain outlines the strengths and limits of model-based evaluators. He argues that LLM judges can unlock scale for
+  evaluation tasks, but only when grounded in rigorous rubric design and frequent comparison to trusted human judgments.
+  The article warns against assuming evaluator outputs are stable forever and highlights drift, mismatch, and hidden
+  bias risks. It offers a pragmatic framework for deciding what to automate and what to keep human-supervised.
+key_takeaways:
+  - Validate LLM judges against domain-expert labels before relying on them in pipelines
+  - Constrain judge tasks to specific, observable criteria instead of abstract quality scores
+  - Monitor evaluator drift and recalibrate as prompts, models, and user behavior change
+  - Keep humans in the loop for high-impact or ambiguous failure categories
+relevance: >-
+  Reinforces The Draft's guardrail perspective by detailing when automated evaluation helps and where human oversight
+  remains non-negotiable.
+tags:
+  - llm-as-judge
+  - evaluator-calibration
+  - drift
+topics:
+  - evaluation-automation
+  - ai-governance
+categories:
+  - governance-guardrails

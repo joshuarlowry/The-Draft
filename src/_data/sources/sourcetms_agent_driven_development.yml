@@ -1,0 +1,17 @@
+id: sourcetms_agent_driven_development
+author: Thomas Schlossmacher
+author_ids:
+  - thomas_schlossmacher
+title: 9 Things You Can Do for More Effective Agent-Driven Development
+publisher: SourceTMS
+published: '2026-02-03'
+accessed: '2026-02-14'
+url: https://sourcetms.com/notes/agent-driven-development
+tags:
+  - planning-and-structure
+  - governance-guardrails
+reading_descriptions:
+  planning-and-structure: >-
+    Practitioner checklist for running agent-driven coding with explicit scope, role definition, and architecture
+    context.
+  governance-guardrails: Recommends concrete operating controls such as error escalation rules and sub-agent specialization to reduce drift.

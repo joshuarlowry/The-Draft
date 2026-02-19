@@ -1,0 +1,18 @@
+source_id: linkedin_spec_driven_development_post
+summary: >-
+  Cian Clarke’s LinkedIn post reflects on a shift from vibe coding to spec-driven development and the improvements in
+  predictability and completeness it promises.
+long_summary: >-
+  This LinkedIn post argues that recent tooling releases from major vendors signal a move away from vibe coding toward
+  spec-driven development. Clarke notes that spec-driven approaches address common AI-assisted engineering issues such
+  as predictability, completeness, and context-window limitations, and invites discussion on whether the shift
+  represents a lasting change in software development.
+tags:
+  - spec-driven-development
+  - industry-shift
+topics:
+  - ai-assisted-development
+  - tooling
+categories:
+  - planning-and-structure
+source_type: social_post

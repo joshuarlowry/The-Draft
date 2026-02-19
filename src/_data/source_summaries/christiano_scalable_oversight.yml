@@ -1,0 +1,15 @@
+source_id: christiano_scalable_oversight
+summary: Paul Christiano's work on scalable oversight explores how to supervise AI systems that exceed human capability.
+long_summary: >-
+  Christiano's research on scalable oversight, RLHF, and iterated amplification has shaped how AI labs approach human
+  feedback and value learning. The 'Scalable Oversight' paper and related work address how to supervise AI systems that
+  may exceed human capability on specific tasks. His work has influenced the technical agenda for AI alignment.
+tags:
+  - scalable-oversight
+  - alignment
+topics:
+  - ai-safety
+  - oversight
+categories:
+  - governance-guardrails
+source_type: paper

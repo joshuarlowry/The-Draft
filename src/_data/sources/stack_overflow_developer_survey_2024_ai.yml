@@ -1,0 +1,14 @@
+id: stack_overflow_developer_survey_2024_ai
+title: '2024 Stack Overflow Developer Survey: AI'
+publisher: Stack Overflow
+published: '2024'
+accessed: '2026-02-11'
+url: https://survey.stackoverflow.co/2024/ai
+tags:
+  - ai-production-scale
+  - responsibility-oversight
+reading_descriptions:
+  ai-production-scale: Large-sample developer sentiment and usage data on AI tools in software development.
+  responsibility-oversight: >-
+    Highlights how adoption can rise while confidence and perceived quality remain mixed, reinforcing the need for
+    oversight.

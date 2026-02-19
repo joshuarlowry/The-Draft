@@ -1,0 +1,25 @@
+source_id: uxdesign_silicon_clay_ai_reshaping_ux
+source_type: article
+summary: >-
+  The "Silicon Clay" framing positions AI as a flexible but imperfect medium that is changing how UX artifacts are
+  explored and iterated.
+long_summary: >-
+  Although platform access is limited in this environment, the source framing is useful for cataloging because it
+  reflects an emerging perspective: AI as malleable design material that can accelerate exploration while still
+  requiring human curation and intent.
+key_takeaways:
+  - Treat AI outputs as draft material that requires active shaping by designers
+  - Leverage faster iteration while retaining human control over product direction
+  - Separate generative speed from final quality accountability
+relevance: >-
+  Supports The Draft's broader thesis that augmentation changes workflow mechanics but does not remove responsibility
+  for design quality.
+tags:
+  - design-materials
+  - iteration
+  - practice
+topics:
+  - ai-in-ux
+  - design-methods
+categories:
+  - cross-domain-calibration

@@ -1,0 +1,28 @@
+source_id: ilo_generative_ai_jobs_global_analysis_2023
+source_type: paper
+summary: >-
+  ILO report concluding that generative AI is more likely to transform jobs than eliminate them outright, with risks
+  concentrated in clerical work and uneven effects across regions and gender.
+long_summary: >-
+  The ILO's global analysis models occupational exposure to generative AI and finds that full automation remains limited
+  relative to partial task transformation. Administrative and clerical occupations show the highest exposure, while many
+  roles are expected to be reconfigured rather than removed. The report also flags distributional concerns, including
+  gendered exposure patterns and the quality of work under AI-mediated management.
+key_takeaways:
+  - Estimates that most occupations face task transformation rather than full replacement
+  - Identifies clerical and administrative roles as the highest-risk clusters for displacement pressure
+  - Highlights uneven exposure across countries, sectors, and demographic groups
+  - Recommends social dialogue and labor protections to shape transition quality
+relevance: >-
+  Adds empirical grounding to The Draft's claim that implementation choices decide outcomes: augmentation can improve
+  work, but unmanaged rollout can degrade job quality and stability.
+tags:
+  - ilo
+  - occupational-exposure
+  - job-quality
+topics:
+  - job-transformation
+  - labor-policy
+categories:
+  - workforce-strategy
+  - responsibility-oversight

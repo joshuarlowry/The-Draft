@@ -1,0 +1,28 @@
+source_id: hamel_your_ai_product_needs_evals
+source_type: book
+summary: >-
+  Hamel Husain argues that evaluation systems are the foundation of successful AI products, and that teams should start
+  with manual review plus clear failure definitions before automating anything.
+long_summary: >-
+  This guide reframes evals as an engineering operating system rather than a metrics side project. Husain recommends
+  beginning with direct inspection of real traces, then translating observed failure modes into explicit pass/fail
+  checks. The piece emphasizes iterative loops—review, categorize, instrument, and improve—so teams can reliably raise
+  quality over time. It is especially practical for teams moving from prototype prompts to production AI behavior they
+  can defend.
+key_takeaways:
+  - Start evals with manual error analysis before building heavy infrastructure
+  - Define concrete pass/fail criteria from real user failure patterns
+  - Iterate on evaluation suites as product behavior and risk exposure evolves
+  - Treat evals as a product-quality operating system, not a one-time checklist
+relevance: >-
+  Directly supports The Draft's planning-first and oversight-first stance by showing how disciplined evaluation loops
+  anchor AI product reliability.
+tags:
+  - evals
+  - quality-systems
+  - error-analysis
+topics:
+  - ai-product-engineering
+  - evaluation-design
+categories:
+  - planning-and-structure

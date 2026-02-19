@@ -1,0 +1,16 @@
+source_id: morville_rosenfeld_information_architecture_www
+summary: The foundational IA text for the web, covering findability, navigation, and organizing information for human use.
+long_summary: >-
+  Morville and Rosenfeld's 'Information Architecture for the World Wide Web' established IA as a core discipline for web
+  design. It covers findability, navigation, search, and how to structure information so users can find and understand
+  it. The book has influenced how organizations approach content structure, taxonomies, and cross-channel experience
+  design.
+tags:
+  - findability
+  - navigation
+topics:
+  - information-architecture
+  - web-design
+categories:
+  - planning-and-structure
+source_type: book

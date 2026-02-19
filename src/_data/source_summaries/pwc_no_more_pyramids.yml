@@ -1,0 +1,30 @@
+source_id: pwc_no_more_pyramids
+source_type: article
+summary: >-
+  PwC describes a fundamental shift from pyramid to diamond organizational structures as AI handles entry-level tasks,
+  compresses middle management, and creates a new layer of skilled human orchestrators.
+long_summary: >-
+  PwC argues that the traditional organizational pyramid—with a large base of entry-level workers, a mid-layer of
+  managers, and a small leadership top—is giving way to a diamond shape. AI agents take on many entry-level tasks (data
+  gathering, processing, reporting), reducing the pyramid base. The middle tier is repurposed from information routing
+  to skilled orchestration. PwC calls this the "rise of the generalist": a move toward broader, outcome-focused roles
+  that blend what were previously separate functions. The result is a small leadership team, a strong middle layer, and
+  a narrow base of new talent.
+key_takeaways:
+  - Organizational structures are shifting from pyramids to diamonds as AI compresses the entry-level base
+  - Middle management roles are transforming from information routing to AI orchestration
+  - The "rise of the generalist" means broader, outcome-focused roles replacing narrow functional ones
+  - Entry-level tasks like data gathering and reporting are the first to be absorbed by AI agents
+relevance: >-
+  This structural analysis connects to The Draft's architecture domain. The pyramid-to-diamond shift is a concrete
+  example of how AI tooling forces organizational redesign, supporting the site's broader argument that structure must
+  precede effective AI adoption.
+tags:
+  - org-structure
+  - pyramid-to-diamond
+  - generalist-roles
+topics:
+  - team-restructuring
+  - workforce-architecture
+categories:
+  - ai-production-scale

@@ -1,0 +1,17 @@
+id: techradar_ai_security
+author: Craig Hale
+author_ids:
+  - craig_hale
+title: AI Is Creating Code Faster—but Also More Security Issues
+publisher: TechRadar Pro
+published: '2023'
+accessed: '2026-02-02'
+url: https://www.techradar.com/pro/ai-is-creating-code-faster-but-this-also-means-more-potential-security-issues
+tags:
+  - responsibility-oversight
+  - governance-guardrails
+reading_descriptions:
+  responsibility-oversight: >-
+    A discussion of real-world risks that emerge when AI-generated code is adopted without sufficient design review or
+    oversight.
+  governance-guardrails: Evidence that faster AI output requires explicit checks and security guardrails.

@@ -1,0 +1,29 @@
+source_id: imf_wp_generative_ai_future_of_work_2024
+source_type: paper
+summary: >-
+  IMF working paper quantifying job exposure, productivity upside, and inequality risk from generative AI across
+  countries and occupations.
+long_summary: >-
+  This IMF working paper extends high-level discussion by modeling both exposure and potential gains, then layering
+  distribution outcomes across advanced and emerging economies. The paper is especially relevant to pipeline concerns
+  because it emphasizes that transition quality depends on institutional response: training systems, labor protections,
+  and inclusive adoption strategies. It supports argumentation that "new modes of working" require deliberate workforce
+  architecture.
+key_takeaways:
+  - Quantify occupational exposure with cross-country comparability
+  - Balance productivity upside against inequality and transition risk
+  - Emphasize institutions as core determinants of labor-market outcomes
+  - Frame adoption as a design problem, not a purely technical inevitability
+relevance: >-
+  Reinforces The Draft's thesis that oversight and operating design determine whether AI transition produces broad
+  capability growth or exclusion.
+tags:
+  - imf
+  - global-analysis
+  - inequality
+topics:
+  - occupational-exposure
+  - transition-policy
+categories:
+  - workforce-strategy
+  - governance-guardrails

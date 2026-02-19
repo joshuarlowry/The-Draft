@@ -1,0 +1,5 @@
+id: nvidia_cli_agent_human_loop_quote
+quote: >-
+  Instead of simple file operations, our new agent will learn to start local servers, build containers, and generate
+  Dockerfiles—entirely through a _verifiable_, _human-in-the-loop_ command interface.
+source_id: nvidia_cli_agent_training

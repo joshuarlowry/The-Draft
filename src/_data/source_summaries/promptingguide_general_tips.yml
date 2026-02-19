@@ -1,0 +1,27 @@
+source_id: promptingguide_general_tips
+source_type: article
+summary: >-
+  The Prompt Engineering Guide’s general tips stress specificity, iterative refinement, and clear formatting to improve
+  LLM responses.
+long_summary: >-
+  This guide advises practitioners to start with simple prompts and iteratively add elements as needed, emphasizing that
+  specificity and relevant context typically yield better outcomes. It highlights the importance of direct, descriptive
+  instructions and recommends formatting techniques (such as separators) to clarify intent and reduce ambiguity.
+key_takeaways:
+  - Start with simple prompts and iteratively refine with added context
+  - Emphasize specificity and descriptive detail to improve output quality
+  - Use clear formatting and separators to distinguish instructions from context
+  - Experiment with wording and context to find the most reliable results
+relevance: >-
+  Connects directly to The Draft’s planning-first perspective by showing how specificity and iterative refinement
+  uncover hidden assumptions and reduce ambiguity in AI-assisted development.
+tags:
+  - prompt-engineering
+  - specificity
+  - iteration
+topics:
+  - prompt-design
+  - requirements-clarity
+  - communication
+categories:
+  - planning-and-structure

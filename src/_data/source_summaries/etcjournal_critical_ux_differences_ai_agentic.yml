@@ -1,0 +1,16 @@
+source_id: etcjournal_critical_ux_differences_ai_agentic
+summary: ETC Journal distinguishes critical UX differences between AI and agentic AI.
+long_summary: >-
+  This article identifies key UX distinctions between conventional AI (assistive, reactive) and agentic AI (autonomous,
+  proactive). It argues that design patterns, feedback mechanisms, and user expectations must differ when systems take
+  initiative and execute multi-step tasks.
+tags:
+  - agentic-ai
+  - ux-differences
+  - design-patterns
+topics:
+  - ux-design
+  - agentic-systems
+categories:
+  - cross-domain-calibration
+source_type: article

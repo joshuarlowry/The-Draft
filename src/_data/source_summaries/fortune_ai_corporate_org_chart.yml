@@ -1,0 +1,28 @@
+source_id: fortune_ai_corporate_org_chart
+source_type: article
+summary: >-
+  Fortune reports real-world examples from Amazon, Moderna, and McKinsey of AI-driven org chart changes including middle
+  management compression, department mergers, and team size reductions.
+long_summary: >-
+  Fortune documents several concrete organizational restructurings driven by AI adoption. Amazon CEO Andy Jassy mandated
+  increasing the ratio of individual contributors to managers by at least 15% by Q1 2025. Moderna merged its technology
+  and HR departments into a single function driven by its OpenAI partnership. An AI-first healthcare company replaced a
+  10-engineer team with a 3-person unit overseeing AI agents. McKinsey is deploying thousands of AI agents to support
+  consultants with tasks such as building decks, summarizing research, and verifying argument logic.
+key_takeaways:
+  - Amazon mandated 15% increase in individual contributor to manager ratio
+  - Moderna merged technology and HR departments into a single function
+  - A healthcare company replaced 10 engineers with 3 people overseeing AI agents
+  - McKinsey deploys thousands of AI agents for deck building, research, and logic verification
+relevance: >-
+  Provides the real-world case studies that ground The Draft's claims about AI-driven organizational change. These are
+  not predictions but documented restructurings at named companies.
+tags:
+  - case-study
+  - middle-management
+  - team-compression
+topics:
+  - team-restructuring
+  - corporate-strategy
+categories:
+  - ai-production-scale

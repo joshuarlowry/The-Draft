@@ -1,0 +1,29 @@
+source_id: nngroup_baymard_ai_tool_accuracy
+source_type: article
+summary: >-
+  NN/g urges UX teams to demand transparent, validated accuracy claims from AI tools before relying on them for product
+  decisions.
+long_summary: >-
+  In this piece, Kate Moran uses Baymard Institute's benchmarking examples to argue that many AI UX tools are marketed
+  with weak evidence. The article encourages teams to evaluate precision, transparency, and reproducibility before
+  adopting AI outputs in design workflows. It reframes procurement as a UX quality decision: if teams cannot verify tool
+  reliability, they should not let those outputs drive user-facing choices.
+key_takeaways:
+  - Demand evidence-backed accuracy metrics before adopting AI design or research tools
+  - Verify AI outputs against trusted benchmarks instead of relying on vendor messaging
+  - Make transparency and accountability part of UX tooling governance
+relevance: >-
+  This source aligns with The Draft's guardrail-oriented approach by connecting UX practice to explicit evaluation
+  criteria, oversight, and governance.
+tags:
+  - ux-tools
+  - ai-quality
+topics:
+  - ux
+  - tooling-governance
+categories:
+  - responsibility-oversight
+notable_quotes:
+  - >-
+    Most AI-powered tools for UX lack reliability and accountability in their outputs. Demand transparency and proven
+    accuracy, or don't buy it.

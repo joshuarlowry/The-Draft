@@ -1,0 +1,15 @@
+id: arxiv_interactive_teaching_conversational_ai
+author: Aishwarya Reganti, Catherine Holloway, Adam White, Karthik Narasimhan, Jason D. Williams
+author_ids:
+  - aishwarya_naresh_reganti
+title: Interactive Teaching for Conversational AI
+repository: arXiv
+published: '2020-12-02'
+accessed: '2026-02-17'
+url: https://arxiv.org/abs/2012.00958
+tags:
+  - planning-and-structure
+  - responsibility-oversight
+reading_descriptions:
+  planning-and-structure: Introduces a human-in-the-loop training approach where teachers iteratively correct and shape conversational agents.
+  responsibility-oversight: Shows how iterative supervision can improve dialog policies while keeping human judgment central.

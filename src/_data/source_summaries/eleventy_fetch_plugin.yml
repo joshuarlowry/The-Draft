@@ -1,0 +1,19 @@
+source_id: eleventy_fetch_plugin
+summary: >-
+  Eleventy Fetch caches network resources locally and refreshes them at configurable intervals to prevent repeated API
+  calls on every build.
+long_summary: >-
+  The Eleventy Fetch documentation describes a caching plugin that retrieves remote resources and stores them locally,
+  refreshing on a schedule instead of per-build. It emphasizes that cached responses keep builds resilient and reduce
+  load on external services. This is relevant for any future data sourcing or automated research ingestion for The
+  Draft.
+tags:
+  - caching
+  - data
+  - plugins
+topics:
+  - remote-data
+  - build-performance
+categories:
+  - platform-tooling
+source_type: documentation

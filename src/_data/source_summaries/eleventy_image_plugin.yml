@@ -1,0 +1,19 @@
+source_id: eleventy_image_plugin
+summary: >-
+  Eleventy Image is a plugin that automatically processes image markup so sites can generate responsive images without
+  manual asset pipelines.
+long_summary: >-
+  The Eleventy Image documentation explains how the plugin integrates into Eleventy builds to process <img> and
+  <picture> elements. It positions the plugin as an automated way to handle responsive image generation and related
+  output formats, reducing manual steps in managing assets. For The Draft, it represents a drop-in improvement to image
+  handling without building a custom pipeline.
+tags:
+  - images
+  - performance
+  - plugins
+topics:
+  - asset-optimization
+  - eleventy-plugins
+categories:
+  - platform-tooling
+source_type: documentation

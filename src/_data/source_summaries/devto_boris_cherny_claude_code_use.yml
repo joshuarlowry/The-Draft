@@ -1,0 +1,14 @@
+source_id: devto_boris_cherny_claude_code_use
+summary: A DEV Community article analyzes how Boris Cherny uses Claude Code and what that implies for AI-assisted development.
+long_summary: >-
+  This DEV Community post explores Boris Cherny’s reported Claude Code workflows and connects them to broader ideas
+  about prompt usage, feedback loops, and developer habits. It positions his practice as a case study for how engineers
+  might integrate agentic coding tools.
+tags:
+  - claude-code
+  - workflow
+topics:
+  - ai-assisted-development
+  - tooling
+categories: []
+source_type: article

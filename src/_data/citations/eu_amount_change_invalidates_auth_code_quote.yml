@@ -1,0 +1,3 @@
+id: eu_amount_change_invalidates_auth_code_quote
+quote: any change to the amount or the payee results in the invalidation of the authentication code generated.
+source_id: eu_rts_sca_2018_389

@@ -1,0 +1,30 @@
+source_id: sourcetms_agent_driven_development
+source_type: article
+summary: >-
+  Thomas Schlossmacher shares a nine-point operating playbook for agent-driven development, centered on scoped tasks,
+  explicit context, and repeatable multi-agent workflows.
+long_summary: >-
+  In this SourceTMS post, Schlossmacher outlines practical habits for improving coding-agent reliability:
+  cross-referencing related repositories, splitting work across focused agents, constraining scope before execution, and
+  documenting reusable patterns. The guidance treats agent performance as an operations problem where architecture
+  visibility, routing rules, and escalation discipline determine outcomes more than one-shot prompts.
+key_takeaways:
+  - Define architecture context up front so agents can navigate related repositories correctly
+  - Isolate scope before execution to reduce ambiguity and rework loops
+  - Operationalize repeatable patterns with sub-agent configs and navigation maps
+relevance: >-
+  Directly supports The Draft's planning-first stance: agentic speed only scales when intent, boundaries, and review
+  mechanics are made explicit.
+tags:
+  - agent-driven-development
+  - claude-code
+  - workflow-design
+topics:
+  - planning
+  - context-engineering
+categories:
+  - planning-and-structure
+  - governance-guardrails
+notable_quotes:
+  - Isolate scope — Have the agent interview you to narrow scope before executing
+  - Optimize for agents — Split big files, add NAV_MAP.md files, reduce context window spend

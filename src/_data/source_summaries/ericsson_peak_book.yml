@@ -1,0 +1,27 @@
+source_id: ericsson_peak_book
+source_type: book
+summary: >-
+  Ericsson and Pool’s book summarizes deliberate practice research, emphasizing structured feedback, coaching, and
+  targeted goals as the pathway to expertise.
+long_summary: >-
+  Peak distills decades of research on how people build expert-level performance through deliberate practice. The book
+  highlights the role of well-defined goals, feedback loops, and structured training in improving complex skills. For
+  engineering teams, the book reinforces that systematic practice and reflection—not just time spent coding—drive the
+  growth of judgment and mastery.
+tags:
+  - deliberate-practice
+  - expertise
+  - skill-building
+topics:
+  - performance
+  - learning
+key_takeaways:
+  - Expert performance results from deliberate practice, not innate talent or time alone
+  - Well-defined goals, feedback loops, and structured training are essential
+  - Systematic practice and reflection drive judgment and mastery
+  - Mental representations improve with focused, purposeful training
+relevance: >-
+  Reinforces The Draft's position that engineering excellence requires more than tool access. Systematic reflection and
+  structured feedback—core to oversight workflows—are how professionals build lasting expertise.
+categories:
+  - engineering-judgment

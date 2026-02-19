@@ -1,0 +1,16 @@
+id: google_cloud_best_practices
+author: Kari Loftesness, Jason Davenport
+author_ids:
+  - kari_loftesness
+  - jason_davenport
+title: Five Best Practices for Using AI Coding Assistants
+publisher: Google Cloud
+published: '2024'
+accessed: '2026-02-02'
+url: https://cloud.google.com/blog/topics/developers-practitioners/five-best-practices-for-using-ai-coding-assistants
+tags:
+  - planning-and-structure
+  - responsibility-oversight
+reading_descriptions:
+  planning-and-structure: Practical guidance on planning, breaking down work, and setting context before asking AI to generate code.
+  responsibility-oversight: Highlights how upfront framing reduces downstream risk when AI accelerates implementation.

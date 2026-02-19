@@ -1,0 +1,17 @@
+id: miqdad_jaffer_ai_prototyping
+author: Miqdad Jaffer
+author_ids:
+  - miqdad_jaffer
+title: Build Your First AI Prototype in 30 Minutes!
+publisher: Product Faculty's AI Newsletter
+published: '2026-01-05'
+accessed: '2026-02-17'
+url: https://www.productmanagement.ai/p/ai-prototyping
+tags:
+  - rapid-prototyping
+  - planning-and-structure
+reading_descriptions:
+  rapid-prototyping: Step-by-step guide centered on fast AI prototyping to validate assumptions before full implementation.
+  planning-and-structure: >-
+    Positions prototypes as uncertainty-reduction tools with explicit checks for capability, reliability, cost, and
+    failure modes.

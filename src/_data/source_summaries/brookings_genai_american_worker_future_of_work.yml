@@ -1,0 +1,29 @@
+source_id: brookings_genai_american_worker_future_of_work
+source_type: article
+summary: >-
+  Brookings maps generative AI exposure across occupations and income bands, showing that knowledge-work disruption is
+  broad but uneven.
+long_summary: >-
+  This Brookings analysis examines occupational task exposure in the United States and argues that generative AI changes
+  are likely to concentrate in cognitive and information-centric work rather than manual sectors in the near term. It
+  emphasizes that higher-wage and college-educated workers can also face substantial task disruption, complicating the
+  assumption that AI risk is limited to low-wage jobs. The article is useful for role-level framing when discussing how
+  jobs may "linger" by being re-bundled rather than fully eliminated.
+key_takeaways:
+  - Quantifies occupation-level AI exposure instead of treating disruption as uniform
+  - Identify knowledge-work categories with high task-level automation pressure
+  - Reframe workforce risk as task rebundling and role redesign, not only job elimination
+  - Highlight uneven transition burden across education and wage segments
+relevance: >-
+  Supports The Draft's argument that planning needs role-level specificity. Good AI strategy requires explicit
+  transition design for exposed task clusters, not blanket optimism or blanket fear.
+tags:
+  - labor-market
+  - occupational-analysis
+  - us-economy
+topics:
+  - task-exposure
+  - role-redesign
+categories:
+  - workforce-strategy
+  - responsibility-oversight

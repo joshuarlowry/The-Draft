@@ -1,0 +1,11 @@
+id: nvidia_cli_agent_training
+title: How to Train an AI Agent for Command-Line Tasks with Synthetic Data and Reinforcement Learning
+publisher: NVIDIA Developer Blog
+published: '2026-01-15'
+accessed: '2026-02-06'
+url: >-
+  https://developer.nvidia.com/blog/how-to-train-an-ai-agent-for-command-line-tasks-with-synthetic-data-and-reinforcement-learning/
+tags:
+  - terminal-interfaces
+reading_descriptions:
+  terminal-interfaces: Describes how agent training is adapting to CLI workflows with verifiable, human-in-the-loop command interfaces.

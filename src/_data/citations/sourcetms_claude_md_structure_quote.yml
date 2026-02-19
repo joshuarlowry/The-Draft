@@ -1,0 +1,6 @@
+id: sourcetms_claude_md_structure_quote
+quote: >-
+  Create a CLAUDE.md file in each project directory you use - these provide useful structure for the LLM and context or
+  instructions that load automatically when Claude works in that folder (It can be useful for creating guides on how to
+  make certain features or make changes)
+source_id: sourcetms_claude_code_setup

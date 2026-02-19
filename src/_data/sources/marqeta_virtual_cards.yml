@@ -1,0 +1,12 @@
+id: marqeta_virtual_cards
+title: Virtual card platform
+publisher: Marqeta
+published: '2025'
+accessed: '2026-02-19'
+url: https://www.marqeta.com/platform/virtual-cards
+tags:
+  - agentic-patterns
+  - governance-guardrails
+reading_descriptions:
+  agentic-patterns: Describes real-time virtual card issuance and control surfaces relevant to delegated agent purchases.
+  governance-guardrails: Highlights spend-management controls as a practical guardrail for reducing payment abuse.

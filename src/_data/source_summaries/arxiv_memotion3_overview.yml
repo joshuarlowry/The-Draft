@@ -1,0 +1,28 @@
+source_id: arxiv_memotion3_overview
+source_type: paper
+summary: >-
+  The Memotion 3 shared-task overview benchmarks sentiment and emotion analysis for Hindi-English code-mixed memes,
+  including multimodal signals.
+long_summary: >-
+  This overview describes task design, participation outcomes, and model performance for Memotion 3. The benchmark
+  captures a realistic moderation challenge: code-mixed text embedded in visual meme formats where emotional meaning can
+  be indirect or sarcastic. The paper highlights how multimodal architectures and careful dataset design are needed for
+  robust behavior in culturally and linguistically diverse content environments.
+key_takeaways:
+  - Benchmark sentiment and emotion tasks on code-mixed meme data
+  - Combine visual and textual signals for stronger multimodal classification
+  - Use shared-task evaluation to compare modeling approaches under common metrics
+  - Surface limitations of current systems on nuanced, sarcastic online content
+relevance: >-
+  Useful for The Draft's oversight themes because it shows why safety-critical AI evaluations need realistic datasets
+  and transparent benchmarks.
+tags:
+  - meme-analysis
+  - multimodal-ai
+  - shared-task
+topics:
+  - content-moderation
+  - emotion-detection
+categories:
+  - responsibility-oversight
+  - governance-guardrails

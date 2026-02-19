@@ -1,0 +1,5 @@
+id: resttsllm_api_testing_quote
+quote: >-
+  Exhaustive testing of all input combinations is impractical, often resulting in undetected failures, high manual
+  effort, and limited test coverage.
+source_id: arxiv_resttsllm_api_testing

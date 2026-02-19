@@ -1,0 +1,37 @@
+source_id: infoq_pdca_cycle
+source_type: article
+summary: >-
+  InfoQ describes applying the Plan-Do-Check-Act cycle to AI code generation, arguing that iterative planning and
+  verification keeps AI output aligned with engineering discipline and measurable outcomes.
+long_summary: >-
+  This InfoQ article adapts the Plan-Do-Check-Act (PDCA) quality framework to AI code generation. It argues that teams
+  should not treat AI output as a one-shot artifact, but rather as part of a disciplined loop that starts with a plan,
+  proceeds to generation, and then validates results before acting on them. The piece emphasizes that verification and
+  reflection are necessary to prevent AI-driven velocity from eroding quality, and it provides a process lens for
+  integrating AI into established engineering practices.
+key_takeaways:
+  - Every 25% increase in AI adoption correlates with a 7.2% decrease in delivery stability according to DORA research
+  - Structured prompting outperforms ad-hoc methods by 1-74% depending on approach and complexity
+  - PDCA cycles reduced software defects by 61% in controlled studies
+  - TDD discipline with AI achieves better success rates than unstructured approaches
+  - Daily micro-retrospectives (5-10 minutes) improve prompts and human-AI interactions over time
+relevance: >-
+  Provides a concrete, research-backed framework for applying engineering discipline to AI-assisted coding. Directly
+  aligns with The Draft's thesis that oversight and planning are force multipliers, not bottlenecks.
+notable_quotes:
+  - >-
+    The industry is not achieving productivity gains and quality improvements because both AI tools and their use need
+    to evolve.
+  - >-
+    Detailed planning provides a road map and contract between humans and AI, fostering more engaged and accountable
+    coding sessions.
+  - AI does not substitute for organizational maturity—it makes it more visible.
+tags:
+  - pdca
+  - iteration
+  - process-discipline
+topics:
+  - ai-assisted-coding
+  - continuous-improvement
+categories:
+  - planning-and-structure

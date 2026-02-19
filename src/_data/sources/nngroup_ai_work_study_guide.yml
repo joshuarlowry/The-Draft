@@ -1,0 +1,15 @@
+id: nngroup_ai_work_study_guide
+author: Tanner Kohler
+author_ids:
+  - tanner_kohler
+title: 'Using AI for UX Work: Study Guide'
+publisher: Nielsen Norman Group
+published: '2025-10-21'
+accessed: '2026-02-10'
+url: https://www.nngroup.com/articles/ai-work-study-guide/
+tags:
+  - cross-domain-calibration
+  - planning-and-structure
+reading_descriptions:
+  cross-domain-calibration: Curated NN/g map of AI-in-UX methods, risks, and role shifts across research, design, and writing workflows.
+  planning-and-structure: Provides structured pathways for learning where AI helps UX work and where human judgment remains critical.

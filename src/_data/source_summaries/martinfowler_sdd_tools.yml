@@ -1,0 +1,20 @@
+source_id: martinfowler_sdd_tools
+summary: >-
+  Birgitta Böckeler surveys SDD tooling and definitions, describing spec-first development as writing specs before
+  AI-generated code and treating specs as a shared source of truth.
+long_summary: >-
+  This Martin Fowler article examines the emerging term spec-driven development, compares definitions from several
+  tools, and proposes a taxonomy of spec-first, spec-anchored, and spec-as-source approaches. It frames SDD as a
+  documentation-first workflow where the spec guides AI generation and remains central to human/AI collaboration. The
+  article also provides observations about how different tools implement SDD and highlights open questions about
+  maintaining specs over time.
+tags:
+  - spec-driven-development
+  - definitions
+  - tooling
+topics:
+  - ai-assisted-development
+  - requirements
+categories:
+  - planning-and-structure
+source_type: article

@@ -1,0 +1,15 @@
+id: arxiv_resttsllm_api_testing
+author: Thiago Barradas, Aline Paes, Vânia de Oliveira Neves
+author_ids:
+  - thiago_barradas
+  - aline_paes
+  - vania_de_oliveira_neves
+title: 'Combining TSL and LLM to Automate REST API Testing: A Comparative Study'
+repository: arXiv
+published: '2025-09-05'
+accessed: '2026-02-02'
+url: https://arxiv.org/abs/2509.05540
+tags:
+  - tooling-guardrails
+reading_descriptions:
+  tooling-guardrails: Shows how LLMs can automate test generation from API specifications, improving test coverage discipline.

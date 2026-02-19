@@ -1,0 +1,28 @@
+source_id: ericsson_deliberate_practice
+source_type: paper
+summary: >-
+  Ericsson and colleagues show that expert performance grows from deliberate practice—focused feedback loops rather than
+  repetition—supporting the case for reflective engineering habits.
+long_summary: >-
+  Ericsson, Krampe, and Tesch-Römer’s study on deliberate practice argues that expertise develops through focused,
+  feedback-rich practice rather than simple repetition. The paper emphasizes structured goals, coaching, and reflection
+  as the core ingredients of improvement. In an engineering context, this supports the idea that planning and review are
+  not just process steps—they are how professionals build judgment over time. The research provides a cognitive
+  foundation for why reflective workflows improve performance.
+tags:
+  - deliberate-practice
+  - feedback
+  - expertise
+topics:
+  - skill-development
+  - judgment
+key_takeaways:
+  - Expertise develops through focused, feedback-rich practice rather than simple repetition
+  - Structured goals, coaching, and reflection are the core ingredients of improvement
+  - Planning and review build professional judgment over time
+  - Deliberate practice requires immediate feedback and opportunities for correction
+relevance: >-
+  Provides cognitive science foundation for The Draft's emphasis on reflective workflows. Shows that engineering
+  judgment—not just tool access—improves through structured practice and review.
+categories:
+  - engineering-judgment

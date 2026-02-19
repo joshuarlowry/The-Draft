@@ -1,0 +1,27 @@
+source_id: llm_cli_tool_docs
+source_type: documentation
+summary: >-
+  The LLM documentation presents a CLI-first toolchain for running prompts and tool calls across multiple model
+  providers from the terminal.
+long_summary: >-
+  The docs introduce LLM as both a CLI utility and Python library for interacting with a wide range of hosted and local
+  models. It highlights command-line prompt execution, logging, embeddings, and tool support, reinforcing the terminal
+  as a practical interface for multi-model workflows and automation.
+key_takeaways:
+  - Provide a CLI tool that unifies access to multiple LLM providers
+  - Enable direct prompt execution from the command line as a primary workflow
+  - Support tool execution and logging to make terminal sessions reproducible
+  - Position the terminal as a flexible surface for LLM experimentation
+relevance: >-
+  Demonstrates the growing ecosystem of CLI-first LLM tooling, aligning with The Draft’s focus on structured interfaces
+  that make agent workflows repeatable.
+tags:
+  - documentation
+  - tooling
+  - cli
+topics:
+  - llm-tools
+  - terminal-ui
+  - developer-experience
+categories:
+  - terminal-interfaces

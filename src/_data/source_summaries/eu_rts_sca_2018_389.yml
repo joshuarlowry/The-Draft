@@ -1,0 +1,33 @@
+source_id: eu_rts_sca_2018_389
+source_type: documentation
+summary: >-
+  The EU RTS for PSD2 defines strong customer authentication and dynamic-linking requirements that force user-visible
+  approval of payment amount and payee for remote electronic payments.
+long_summary: >-
+  This regulation operationalizes human approval checkpoints in payment flows by requiring strong customer
+  authentication and an authentication code tied to the exact amount and payee. In practice, this is the regulatory
+  blueprint for approval moments in modern payment UX—especially app-based and step-up authentication journeys where
+  users explicitly confirm critical transaction details.
+key_takeaways:
+  - Require strong customer authentication with multiple factors for remote payment risk
+  - Bind the authentication code to both amount and payee to prevent silent transaction mutation
+  - Invalidate authentication when amount or payee changes after user approval
+  - Treat transaction risk analysis as a conditional gate, not a blanket exemption
+relevance: >-
+  Provides a concrete policy pattern for human-in-the-loop agentic payments. It shows how high-risk actions can be
+  delegated while still preserving explicit, user-owned approval rights at the decision boundary.
+notable_quotes:
+  - >-
+    As electronic remote payment transactions are subject to a higher risk of fraud, it is necessary to introduce
+    additional requirements for the strong customer authentication of such transactions, ensuring that the elements
+    dynamically link the transaction to an amount and a payee specified by the payer when initiating the transaction.
+  - any change to the amount or the payee results in the invalidation of the authentication code generated.
+tags:
+  - payments
+  - sca
+  - dynamic-linking
+topics:
+  - payment-authentication
+  - human-approval
+categories:
+  - governance-guardrails

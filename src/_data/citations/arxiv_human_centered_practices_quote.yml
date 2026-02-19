@@ -1,0 +1,6 @@
+id: arxiv_human_centered_practices_quote
+quote: >-
+  AI systems, including code generation models, perform best when given structured inputs that clearly frame the problem
+  and constraints. Ambiguous or underspecified prompts often yield outputs that reflect generic assumptions rather than
+  the user's needs.
+source_id: arxiv_human_centered_practices

@@ -1,0 +1,14 @@
+id: stripe_issuing_spending_controls
+title: Issuing spending controls
+publisher: Stripe Documentation
+published: '2026'
+accessed: '2026-02-19'
+url: https://docs.stripe.com/issuing/controls/spending-controls
+tags:
+  - governance-guardrails
+  - agentic-patterns
+reading_descriptions:
+  governance-guardrails: >-
+    Documents card-level and cardholder-level spending constraints that reduce blast radius for autonomous payment
+    actions.
+  agentic-patterns: Useful for implementing machine-initiated payment flows that still require bounded authorization surfaces.

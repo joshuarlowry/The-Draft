@@ -1,0 +1,15 @@
+id: graphite_ai_pair_programming
+author: Greg Foster
+author_ids:
+  - greg_foster
+title: AI Pair Programming Best Practices
+publisher: Graphite
+published: '2024'
+accessed: '2026-02-02'
+url: https://graphite.com/guides/ai-pair-programming-best-practices
+tags:
+  - planning-and-structure
+reading_descriptions:
+  planning-and-structure: >-
+    A practitioner-oriented guide on how context, constraints, and expectations shape the usefulness of AI coding
+    output.

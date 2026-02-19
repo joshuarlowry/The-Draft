@@ -1,0 +1,15 @@
+id: nngroup_ai_moderated_interviews
+author: Maria Rosala
+author_ids:
+  - maria_rosala
+title: 'AI-Moderated Interviews: If, When, and How to Use Them'
+publisher: Nielsen Norman Group
+published: '2026-01-30'
+accessed: '2026-02-05'
+url: https://www.nngroup.com/articles/ai-interviewers/
+tags:
+  - usability-inspection
+  - responsibility-oversight
+reading_descriptions:
+  usability-inspection: Explains where AI-moderated interviews can accelerate discovery work and where human-led depth remains necessary.
+  responsibility-oversight: Frames AI research facilitation as augmentation rather than replacement, with human accountability for quality.

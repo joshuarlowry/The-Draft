@@ -1,0 +1,11 @@
+id: kiro_agentic_ai_development
+title: 'Kiro: Agentic AI development from prototype to production'
+mentioned_people_ids:
+  - hakon_eriksen_drange
+publisher: Kiro
+accessed: '2026-02-03'
+url: https://kiro.dev/
+tags:
+  - planning-and-structure
+reading_descriptions:
+  planning-and-structure: Kiro highlights how spec-driven development and upfront structure improve outcomes before coding begins.

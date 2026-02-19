@@ -1,0 +1,17 @@
+id: arxiv_factify5wqa
+author: >-
+  Suryavardan Suresh, Anku Rani, Parth Patwa, Aishwarya Reganti, Vinija Jain, Aman Chadha, Amitava Das, Amit Sheth, Asif
+  Ekbal
+author_ids:
+  - aishwarya_naresh_reganti
+title: 'Overview of Factify5WQA: Fact Verification through 5W Question-Answering'
+repository: arXiv
+published: '2024-10-05'
+accessed: '2026-02-17'
+url: https://arxiv.org/abs/2410.04236
+tags:
+  - governance-guardrails
+  - tooling-guardrails
+reading_descriptions:
+  governance-guardrails: Shared-task paper on structured fact verification workflows that pair claims with explicit 5W QA checks.
+  tooling-guardrails: Useful reference for evidence-driven AI evaluation pipelines and measurable verification criteria.

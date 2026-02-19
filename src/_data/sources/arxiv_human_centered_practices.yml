@@ -1,0 +1,18 @@
+id: arxiv_human_centered_practices
+author: Ruotong Wang, Ruijia Cheng, Denae Ford, Thomas Zimmermann
+author_ids:
+  - ruotong_wang
+  - ruijia_cheng
+  - denae_ford
+  - thomas_zimmermann
+title: Human-Centered Practices for Responsible AI Development
+repository: arXiv
+published: '2023'
+accessed: '2026-02-02'
+url: https://arxiv.org/abs/2305.11248
+tags:
+  - responsibility-oversight
+  - governance-guardrails
+reading_descriptions:
+  responsibility-oversight: Research on how structured inputs, clear framing, and human supervision affect AI system behavior and reliability.
+  governance-guardrails: Covers oversight practices that translate into organizational guardrails.

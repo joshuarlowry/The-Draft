@@ -1,0 +1,28 @@
+source_id: databricks_ai_company_structures
+source_type: article
+summary: >-
+  Databricks examines how AI agents automate and augment organizational processes, featuring Bayer AG's radical
+  restructuring that cut nearly half of management positions through a Dynamic Shared Ownership model.
+long_summary: >-
+  This Databricks blog post analyzes how making processes explicit enables the design of AI agents that automate and
+  augment parts of organizational workflows. The standout case study is Bayer AG, which cut nearly half of management
+  and executive positions and adopted a Dynamic Shared Ownership model aimed at eliminating hierarchies and accelerating
+  decision-making. The post also discusses increasing focus on how to chain, orchestrate, and combine multiple smaller,
+  specialized agents rather than relying on single monolithic AI systems.
+key_takeaways:
+  - Making processes explicit is prerequisite to designing effective AI agents
+  - Bayer AG cut nearly half of management and executive positions
+  - Dynamic Shared Ownership eliminates hierarchies and accelerates decision-making
+  - Multi-agent orchestration is replacing monolithic AI system approaches
+relevance: >-
+  The Bayer case study is one of the most dramatic documented examples of AI-driven org restructuring. The emphasis on
+  explicit process design before automation connects directly to The Draft's planning-first approach.
+tags:
+  - bayer
+  - case-study
+  - process-design
+topics:
+  - team-restructuring
+  - organizational-design
+categories:
+  - ai-production-scale

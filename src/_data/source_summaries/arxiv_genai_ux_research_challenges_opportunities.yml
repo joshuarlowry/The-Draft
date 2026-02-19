@@ -1,0 +1,33 @@
+source_id: arxiv_genai_ux_research_challenges_opportunities
+source_type: paper
+summary: >-
+  This arXiv paper reports two studies showing that GenAI can assist UX research, but trust, role alignment, and
+  interpretive quality remain major barriers.
+long_summary: >-
+  The authors studied how UX researchers, designers, and product managers use GenAI in qualitative software research.
+  They found opportunities to streamline insight production, but also persistent tensions: researchers showed limited
+  trust in AI-generated analysis while managers often overestimated AI capabilities. The paper proposes interaction
+  patterns and design guidelines for responsible integration.
+key_takeaways:
+  - Surface trust gaps between researchers and managers when introducing AI analysis into UX research
+  - >-
+    Align AI workflows with interpretive and collaborative research practices instead of forcing purely
+    efficiency-driven models
+  - Apply interaction patterns that mirror human analysis steps to improve trust and adoption
+  - Treat responsible integration as a socio-technical design problem, not only a tooling decision
+relevance: >-
+  Strong evidence for The Draft's oversight lens: AI can accelerate research workflows, but governance and role clarity
+  determine whether outputs are usable.
+notable_quotes:
+  - >-
+    UX researchers expressed limited trust in AI-generated results, while product managers often overestimated AI
+    capabilities, amplifying organizational pressures to accelerate research within agile workflows.
+tags:
+  - ux-research
+  - trust
+  - human-ai-collaboration
+topics:
+  - qualitative-research
+  - ai-in-ux
+categories:
+  - cross-domain-calibration

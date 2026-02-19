@@ -1,0 +1,28 @@
+source_id: ibm_agentic_ai_operating_model
+source_type: article
+summary: >-
+  IBM's survey of 800 C-suite executives across 20 countries reveals key elements of autonomous AI operating models,
+  from management mindset shifts to workforce evolution and changing team structures.
+long_summary: >-
+  IBM Institute for Business Value surveyed 800 C-suite executives in 20 countries across 19 industries on agentic AI
+  operating models. The research reveals key elements of an autonomous AI operating model including shifts in management
+  mindset, workforce evolution, and specific operating model transformations in progress. The report emphasizes that
+  agentic AI is shifting operations from incremental efficiency gains to net-new business impact, requiring
+  fundamentally different organizational structures and leadership approaches.
+key_takeaways:
+  - 800 C-suite executives across 20 countries see agentic AI as a structural shift
+  - Autonomous AI operating models require management mindset changes, not just tech upgrades
+  - The shift is from incremental efficiency gains to net-new business impact
+  - Operating model transformations are already in progress across industries
+relevance: >-
+  Provides C-suite perspective and global scope that The Draft can reference when discussing how AI-driven structural
+  changes are not hypothetical but actively being planned at the executive level across industries.
+tags:
+  - c-suite
+  - global-survey
+  - operating-model
+topics:
+  - organizational-transformation
+  - leadership
+categories:
+  - ai-production-scale

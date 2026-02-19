@@ -1,0 +1,13 @@
+id: eberhardt_rechtin
+name: Eberhardt Rechtin
+slug: eberhardt-rechtin
+primary_domain: architecture
+secondary_domains: []
+profile_summary: >-
+  Eberhardt Rechtin was a pioneering systems architect who developed the discipline of systems architecting. He worked
+  on spacecraft and defense systems at JPL and DARPA, and his frameworks for heuristics, stakeholder analysis, and
+  quality attributes have shaped how complex systems are designed and evaluated.
+featured_works:
+  - title: Systems Architecting
+    url: https://www.amazon.com/Systems-Architecting-Organizations-Eberhardt-Rechtin/dp/0849378360
+    year: '1991'

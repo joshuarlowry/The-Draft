@@ -1,0 +1,29 @@
+source_id: stripe_issuing_spending_controls
+source_type: documentation
+summary: >-
+  Stripe Issuing documents spending controls that let teams apply explicit rules to cards and cardholders to bound how,
+  where, and how much can be spent.
+long_summary: >-
+  Stripe's Issuing controls are a practical implementation pattern for delegated purchasing. Instead of sharing a
+  high-trust card credential, systems can issue constrained credentials and enforce policy-level limits. This maps
+  directly to agentic loops where humans approve categories or budgets once, and execution remains bounded by
+  preconfigured controls.
+key_takeaways:
+  - Set card and cardholder rules to control spending behavior
+  - Constrain delegated payment authority with policy rather than static secrets
+  - Use card controls to reduce blast radius when automation is compromised
+  - Pair card controls with explicit user approvals for high-value exceptions
+relevance: >-
+  Useful for implementing payment guardrails in agentic products because it turns approval intent into enforceable
+  controls at the payment rail.
+notable_quotes:
+  - Learn how to use Issuing to set rules on cards and cardholders to control spending.
+tags:
+  - payments
+  - virtual-cards
+  - controls
+topics:
+  - payment-guardrails
+  - scoped-permissions
+categories:
+  - governance-guardrails

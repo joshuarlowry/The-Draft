@@ -1,0 +1,26 @@
+id: arxiv_genai_ux_research_challenges_opportunities
+author: >-
+  Heloisa Candello, Werner Geyer, Siya Kunde, Michael Muller, Daita Sarkar, Jessica He, Mariela Claudia Lanza, Carlos
+  Rosemberg, Gord Davison, Lisa Pelletier
+author_ids:
+  - heloisa_candello
+  - werner_geyer
+  - siya_kunde
+  - michael_muller
+  - daita_sarkar
+  - jessica_he
+  - mariela_claudia_lanza
+  - carlos_rosemberg
+  - gord_davison
+  - lisa_pelletier
+title: 'The Emerging Use of GenAI for UX Research in Software Development: Challenges and Opportunities'
+repository: arXiv
+published: '2025-12-17'
+accessed: '2026-02-10'
+url: https://arxiv.org/abs/2512.15944
+tags:
+  - cross-domain-calibration
+  - responsibility-oversight
+reading_descriptions:
+  cross-domain-calibration: Field research on how GenAI is changing qualitative UX research in software teams.
+  responsibility-oversight: Documents trust gaps and role tensions that appear when AI analysis is introduced into research workflows.

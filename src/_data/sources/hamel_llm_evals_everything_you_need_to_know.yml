@@ -1,0 +1,18 @@
+id: hamel_llm_evals_everything_you_need_to_know
+author: Hamel Husain, Shreya Shankar
+author_ids:
+  - hamel_husain
+  - shreya_shankar
+title: 'LLM Evals: Everything You Need to Know'
+publisher: Hamel.dev
+published: '2026-01-15'
+accessed: '2026-02-17'
+url: https://hamel.dev/blog/posts/evals-faq/
+tags:
+  - planning-and-structure
+  - governance-guardrails
+reading_descriptions:
+  planning-and-structure: >-
+    Comprehensive FAQ covering minimum viable eval setup, error analysis workflow, and practical evaluation design
+    choices.
+  governance-guardrails: Provides concrete guidance for using evaluations as CI and production guardrails rather than vanity metrics.

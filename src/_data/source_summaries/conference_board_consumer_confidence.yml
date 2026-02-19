@@ -1,0 +1,28 @@
+source_id: conference_board_consumer_confidence
+source_type: article
+summary: >-
+  Conference Board consumer confidence data provides demand-side context for whether labor disruption is translating
+  into weaker household sentiment.
+long_summary: >-
+  The consumer confidence series tracks household assessments of current conditions and near-term expectations. For
+  AI-transition analysis, this is critical because demand resilience depends on income security and expectations about
+  jobs. If automation-led restructuring accelerates without clear pathways to replacement income, confidence
+  deterioration can signal risks to consumption and therefore to the business case for productivity gains.
+key_takeaways:
+  - Monitor household sentiment as an early signal of demand-side fragility
+  - Link labor insecurity expectations to potential consumption slowdowns
+  - Pair productivity narratives with confidence trends to test macro balance
+  - Use expectations components to detect recessionary risk perception shifts
+relevance: >-
+  Directly supports your "who buys if incomes weaken" question by adding a demand-side lens to a mostly supply-side AI
+  productivity conversation.
+tags:
+  - consumer-demand
+  - macro-sentiment
+  - household-expectations
+topics:
+  - demand-side-risk
+  - consumption
+categories:
+  - workforce-strategy
+  - governance-guardrails

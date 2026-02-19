@@ -1,0 +1,12 @@
+id: llm_cli_tool_docs
+author: Simon Willison
+author_ids:
+  - simon_willison
+title: A CLI utility and Python library for interacting with Large Language Models
+publisher: LLM Documentation
+accessed: '2026-02-06'
+url: https://llm.datasette.io/en/stable/
+tags:
+  - terminal-interfaces
+reading_descriptions:
+  terminal-interfaces: Documents a CLI-first LLM toolchain that treats the terminal as a primary interface for model workflows.

@@ -1,0 +1,15 @@
+id: martinfowler_sdd_tools
+author: Birgitta Böckeler
+author_ids:
+  - birgitta_bockeler
+title: 'Understanding Spec-Driven-Development: Kiro, spec-kit, and Tessl'
+publisher: martinfowler.com
+published: '2026-01-29'
+accessed: '2026-02-03'
+url: https://martinfowler.com/articles/exploring-gen-ai/sdd-3-tools.html
+tags:
+  - planning-and-structure
+reading_descriptions:
+  planning-and-structure: >-
+    An overview of spec-driven development definitions and tooling, including spec-first, spec-anchored, and
+    spec-as-source approaches.

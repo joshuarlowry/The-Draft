@@ -1,0 +1,15 @@
+id: boehm_software_engineering_economics
+author: Barry W. Boehm
+author_ids:
+  - barry_w_boehm
+title: Software Engineering Economics
+publisher: Prentice Hall
+published: '1981'
+accessed: '2026-02-02'
+url: https://www.cs.cmu.edu/~johnl/temple/18-749/papers/boehm1981.pdf
+tags:
+  - engineering-judgment
+reading_descriptions:
+  engineering-judgment: >-
+    A foundational text on why detecting problems earlier in the lifecycle is cheaper and more effective than fixing
+    them later.

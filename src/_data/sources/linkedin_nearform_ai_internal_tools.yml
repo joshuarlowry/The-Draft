@@ -1,0 +1,15 @@
+id: linkedin_nearform_ai_internal_tools
+author: Cian Clarke
+author_ids:
+  - cian_clarke
+title: 'Under the hood: How Nearform uses AI to work smarter'
+publisher: LinkedIn
+published: '2025-06-12'
+accessed: '2026-02-04'
+url: https://www.linkedin.com/posts/cianclarke_got-a-rare-bit-of-dev-time-late-last-year-activity-7338946170125185025--FJi
+tags:
+  - ai-production-scale
+mentioned_people_ids:
+  - peri_kadaster
+reading_descriptions:
+  ai-production-scale: Cian Clarke shares how Nearform built internal AI tools like Wilde and Beckett to automate sales workflows.

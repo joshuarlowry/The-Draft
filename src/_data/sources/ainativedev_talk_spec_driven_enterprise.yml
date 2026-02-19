@@ -1,0 +1,14 @@
+id: ainativedev_talk_spec_driven_enterprise
+author: Cian Clarke
+author_ids:
+  - cian_clarke
+title: 'From Vibe Coding to Spec-Driven Development: Building AI-Native Software In The Enterprise'
+publisher: AI Native Dev
+accessed: '2026-02-04'
+url: https://ainativedev.io/talk/from-vibe-coding-to-spec-driven-development-building-ai-native-software-in-the-enterprise
+tags:
+  - planning-and-structure
+reading_descriptions:
+  planning-and-structure: >-
+    Talk describing how spec-driven development improves predictability and completeness for enterprise AI-native
+    software.

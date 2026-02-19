@@ -1,0 +1,14 @@
+id: arxiv_safe_ai_framework
+author: Satyam Kumar Navneet, Joydeep Chandra
+author_ids:
+  - satyam_kumar_navneet
+  - joydeep_chandra
+title: 'SAFE-AI Framework: Preventing Failures in AI-Driven Software Engineering'
+repository: arXiv
+published: '2025-08-15'
+accessed: '2026-01-30'
+url: https://arxiv.org/abs/2508.11824
+tags:
+  - governance-guardrails
+reading_descriptions:
+  governance-guardrails: Academic guidance on guardrails, sandboxing, and runtime verification for AI-driven software engineering.

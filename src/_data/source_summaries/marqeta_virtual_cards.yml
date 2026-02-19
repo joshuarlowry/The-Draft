@@ -1,0 +1,31 @@
+source_id: marqeta_virtual_cards
+source_type: article
+summary: >-
+  Marqeta positions virtual cards as real-time, customizable payment credentials with control layers for spend
+  management and security.
+long_summary: >-
+  Marqeta's virtual card platform messaging emphasizes instant issuance, custom controls, and security posture. For
+  agentic systems, this is relevant as a pattern for issuing narrowly-scoped credentials that can be tuned per workflow,
+  merchant context, or budget guardrail.
+key_takeaways:
+  - Create virtual cards in real time for delegated purchase workflows
+  - Customize controls to align payment authority with task scope
+  - Manage spending policy as a first-class system control
+  - Use virtualized credentials to reduce exposure versus permanent card numbers
+relevance: >-
+  Supports The Draft's guardrail perspective by showing how payment rails can encode bounded autonomy instead of
+  all-or-nothing card access.
+notable_quotes:
+  - >-
+    Instantly create and issue virtual cards with Marqeta. Minimize fraud, cut costs, and create real-time, customized
+    payments.
+  - Create real-time and customized payments. Manage your spending and stay secure with powerful controls.
+tags:
+  - payments
+  - issuing
+  - controls
+topics:
+  - virtual-card-architecture
+  - delegated-payments
+categories:
+  - agentic-patterns

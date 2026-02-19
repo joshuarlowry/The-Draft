@@ -1,0 +1,12 @@
+id: give_your_llm_a_terminal
+author: Matt Westcott
+author_ids:
+  - matt_westcott
+title: Give your LLM a terminal
+published: '2025-05-28'
+accessed: '2026-02-06'
+url: https://mattwestcott.org/blog/give-your-llm-a-terminal
+tags:
+  - terminal-interfaces
+reading_descriptions:
+  terminal-interfaces: Explains why command-line access with a persistent filesystem is a powerful, text-native workspace for LLMs.

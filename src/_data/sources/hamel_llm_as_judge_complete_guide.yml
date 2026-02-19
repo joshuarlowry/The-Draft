@@ -1,0 +1,15 @@
+id: hamel_llm_as_judge_complete_guide
+author: Hamel Husain
+author_ids:
+  - hamel_husain
+title: 'Using LLM-as-a-Judge For Evaluation: A Complete Guide'
+publisher: Hamel.dev
+published: '2024-10-29'
+accessed: '2026-02-17'
+url: https://hamel.dev/blog/posts/llm-judge/
+tags:
+  - governance-guardrails
+  - responsibility-oversight
+reading_descriptions:
+  governance-guardrails: Explains when LLM-as-judge works, how to validate judges against humans, and where evaluator drift can break trust.
+  responsibility-oversight: Emphasizes human calibration and continuous review when using model-based evaluators in production.

@@ -1,0 +1,19 @@
+source_id: github_copilot_productivity_research
+summary: >-
+  GitHub’s research reports that developers using Copilot completed a programming task 55% faster than those who did
+  not, indicating higher coding throughput.
+long_summary: >-
+  GitHub’s controlled experiment measured the time developers took to complete a coding task with and without Copilot.
+  The results show a 55% speed improvement for developers using Copilot, with significantly shorter completion times.
+  This provides quantified evidence that AI code assistance can accelerate implementation work, a key enabler for faster
+  functional prototyping and iteration cycles.
+tags:
+  - productivity
+  - ai-assistance
+  - speed
+topics:
+  - ai-assisted-coding
+  - prototyping-velocity
+categories:
+  - rapid-prototyping
+source_type: article

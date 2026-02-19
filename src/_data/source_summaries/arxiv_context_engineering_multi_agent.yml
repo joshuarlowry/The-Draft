@@ -1,0 +1,29 @@
+source_id: arxiv_context_engineering_multi_agent
+source_type: paper
+summary: >-
+  The paper details a multi-agent workflow that uses role decomposition and validation to improve the reliability of
+  LLM-based code assistants.
+long_summary: >-
+  This paper explores multi-agent LLM workflows for software engineering and shows that separating roles improves
+  outcomes. By delegating intent capture, retrieval, and validation to distinct agents, the workflow reduces ambiguity
+  and increases adherence to project context. The research highlights that reliability gains come from structured
+  handoffs rather than simply more model capacity. The implication is that “agentic” systems can scale guardrails by
+  design, turning review into an integrated workflow pattern.
+tags:
+  - multi-agent
+  - validation
+  - role-decomposition
+topics:
+  - agentic-workflows
+  - reliability
+key_takeaways:
+  - Role decomposition—separating intent capture, retrieval, and validation—improves outcomes
+  - Reliability gains come from structured handoffs rather than simply more model capacity
+  - Multi-agent systems can embed guardrails by design through specialized sub-agents
+  - Intent clarification and retrieval-augmented generation improve context adherence
+  - Higher single-shot success rates achieved vs. baseline single-agent approaches
+relevance: >-
+  Shows how agentic architectures can scale oversight by embedding validation into the workflow. Supports The Draft's
+  thesis that guardrails should be structural, not afterthoughts.
+categories:
+  - tooling-guardrails

@@ -1,0 +1,15 @@
+id: sourcetms_soft_skills_renaissance
+author: Thomas Schlossmacher
+author_ids:
+  - thomas_schlossmacher
+title: The Soft Skills Renaissance
+publisher: SourceTMS
+published: '2025-03-06'
+accessed: '2026-02-14'
+url: https://sourcetms.com/notes/outsourcing-knowledge
+tags:
+  - engineering-judgment
+  - ai-production-scale
+reading_descriptions:
+  engineering-judgment: Argues that as execution shifts to AI, human differentiators become taste, intuition, and direction quality.
+  ai-production-scale: Describes AI as both equalizer and divider, suggesting outcomes compound around operator skill.

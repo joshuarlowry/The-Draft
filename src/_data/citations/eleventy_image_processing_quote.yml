@@ -1,0 +1,3 @@
+id: eleventy_image_processing_quote
+quote: That’s it! All <img> and <picture> elements will be processed for you by Eleventy Image.
+source_id: eleventy_image_plugin

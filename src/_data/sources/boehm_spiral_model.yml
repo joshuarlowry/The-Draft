@@ -1,0 +1,15 @@
+id: boehm_spiral_model
+author: Barry W. Boehm
+author_ids:
+  - barry_w_boehm
+title: A Spiral Model of Software Development and Enhancement
+journal: Computer, Vol. 21, No. 5
+published: '1988'
+accessed: '2026-02-04'
+url: https://ieeexplore.ieee.org/document/59
+tags:
+  - engineering-judgment
+reading_descriptions:
+  engineering-judgment: >-
+    Introduces the spiral model, emphasizing iterative risk assessment and early validation in the development
+    lifecycle.

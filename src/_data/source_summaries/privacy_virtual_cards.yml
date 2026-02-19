@@ -1,0 +1,30 @@
+source_id: privacy_virtual_cards
+source_type: article
+summary: >-
+  Privacy.com describes virtual card numbers as a mechanism to shield primary payment credentials and reduce fraud
+  exposure in online transactions.
+long_summary: >-
+  This source provides a consumer pattern for blast-radius reduction— substitute reusable primary card credentials with
+  generated virtual numbers. In agentic transaction loops, the same approach can be adapted into scoped credentials per
+  merchant, per workflow, or per limit window.
+key_takeaways:
+  - Shield underlying debit or credit credentials with virtual card numbers
+  - Generate distinct card numbers for payment segmentation
+  - Reduce fraud impact by avoiding broad reuse of a single credential
+  - Apply virtual cards as scoped tokens in delegated agent workflows
+relevance: >-
+  Directly relevant to the question of scoped payment secrets for agents; it demonstrates the core pattern already
+  exists and is commercially deployed.
+notable_quotes:
+  - >-
+    Virtual payment cards shield your true debit and credit card numbers online. Generate secure virtual card numbers
+    everywhere you spend and protect against fraud.
+tags:
+  - payments
+  - consumer-fintech
+  - security
+topics:
+  - credential-scoping
+  - payment-risk
+categories:
+  - governance-guardrails

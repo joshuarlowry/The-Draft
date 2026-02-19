@@ -1,0 +1,28 @@
+source_id: anthropic_economic_index_2025
+source_type: article
+summary: >-
+  Anthropic's Economic Index provides usage-based evidence of where AI is augmenting versus automating work tasks across
+  occupations.
+long_summary: >-
+  The index analyzes real-world model interactions to estimate which kinds of work are most affected by AI tools. Rather
+  than relying only on hypothetical exposure models, it uses observed behavior to show adoption concentration in
+  software, writing, and analysis-heavy task domains. It also distinguishes augmentation from automation, which helps
+  evaluate whether headcount risk is immediate replacement or progressive role compression.
+key_takeaways:
+  - Use observed AI task data to ground workforce claims in actual usage patterns
+  - Distinguish augmentation-heavy usage from fully automated task execution
+  - Identify early-adopting occupations where role redesign pressure is highest
+  - Track adoption concentration to prioritize targeted reskilling investments
+relevance: >-
+  Strengthens The Draft's evidence posture by adding telemetry-driven insight to complement forecasts. This helps
+  separate narrative hype from measurable workflow change.
+tags:
+  - telemetry
+  - adoption-patterns
+  - task-data
+topics:
+  - augmentation-vs-automation
+  - occupational-usage
+categories:
+  - workforce-strategy
+  - ai-production-scale

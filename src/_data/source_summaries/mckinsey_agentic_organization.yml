@@ -1,0 +1,31 @@
+source_id: mckinsey_agentic_organization
+source_type: article
+summary: >-
+  McKinsey proposes a comprehensive framework for the agentic organization, defining new workforce archetypes and
+  operating models built around human-AI collaboration rather than traditional functional hierarchies.
+long_summary: >-
+  McKinsey outlines a five-pillar framework for redesigning enterprises around AI: business model, operating model,
+  governance, workforce and culture, and technology. The paper introduces three workforce archetypes: M-shaped
+  supervisors (broad generalists fluent in AI who orchestrate agents and hybrid teams across domains), T-shaped experts
+  (deep specialists who reimagine workflows, handle exceptions, and safeguard quality), and AI-augmented frontline
+  workers. It emphasizes agile operating models with small, cross-functional teams and notes that 90% of companies
+  invest in AI but fewer than 40% report meaningful bottom-line impact—suggesting the gap is organizational, not
+  technical.
+key_takeaways:
+  - Organizations need M-shaped supervisors who orchestrate AI agents across domains, not just deep specialists
+  - Small cross-functional teams outperform traditional departmental structures in agentic workflows
+  - 90% of companies invest in AI but fewer than 40% see meaningful bottom-line impact
+  - The gap between AI investment and results is organizational design, not technology
+  - Workflow redesign has the biggest effect on EBIT impact from generative AI
+relevance: >-
+  Directly relevant to The Draft's architecture and agentic domains. The framework connects organizational structure to
+  AI effectiveness, supporting the site's emphasis on planning and oversight as prerequisites to AI value.
+tags:
+  - org-structure
+  - workforce-archetypes
+  - operating-model
+topics:
+  - team-restructuring
+  - agentic-ai
+categories:
+  - ai-production-scale

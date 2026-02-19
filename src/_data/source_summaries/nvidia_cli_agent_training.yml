@@ -1,0 +1,28 @@
+source_id: nvidia_cli_agent_training
+source_type: article
+summary: >-
+  NVIDIA’s developer blog outlines how to train a computer-use agent to operate a new CLI safely using synthetic data
+  and reinforcement learning with verifiable rewards.
+long_summary: >-
+  The post describes a follow-on tutorial that teaches a reasoning model to operate the LangGraph Platform CLI, focusing
+  on safe, verifiable command execution. It explains why synthetic data generation and reinforcement learning are suited
+  to CLI command accuracy, and presents a human-in-the-loop pattern for confirming actions. The piece positions
+  CLI-specific training as a path to specialized, dependable agent behavior.
+key_takeaways:
+  - Demonstrate how LLM agents can be specialized to operate new CLI tools safely
+  - Use human-in-the-loop confirmation as a guardrail for command execution
+  - Emphasize synthetic data and verifiable rewards to improve command accuracy
+  - Frame CLI specialization as a repeatable path for enterprise tooling adoption
+relevance: >-
+  Shows how agent training is converging on CLI interfaces with built-in verification, reinforcing The Draft’s focus on
+  guardrails and reliable execution.
+tags:
+  - training
+  - reinforcement-learning
+  - cli
+topics:
+  - agent-training
+  - command-interfaces
+  - safety
+categories:
+  - terminal-interfaces

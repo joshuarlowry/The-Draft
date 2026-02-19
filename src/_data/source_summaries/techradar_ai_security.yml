@@ -1,0 +1,34 @@
+source_id: techradar_ai_security
+source_type: article
+summary: >-
+  TechRadar Pro reports that faster AI-generated code can introduce security risk when shipped without adequate review,
+  highlighting the need for tighter oversight as velocity increases.
+long_summary: >-
+  This TechRadar Pro article focuses on the security tradeoffs of AI-accelerated software delivery. It notes that rapid
+  AI-generated code can increase the pace of vulnerabilities if security review and testing do not keep up. The piece
+  highlights that teams adopting AI need to strengthen oversight, introduce security gates, and treat AI output as
+  potentially riskier until it is validated. The broader message is that speed must be paired with explicit safeguards
+  to avoid scaling weaknesses alongside productivity.
+key_takeaways:
+  - AI-assisted developers write 3-4x more code but introduce 10x more security findings
+  - Syntax errors dropped 76% and logic bugs fell 60%, but privilege escalation paths surged 322%
+  - Architectural design flaws rose 153%—issues human reviewers struggle to spot
+  - AI-assisted developers exposed sensitive keys nearly twice as often as unassisted peers
+  - Major companies like Coinbase and Citi are mandating AI coding, making oversight critical
+relevance: >-
+  Provides concrete evidence for The Draft's emphasis on guardrails and oversight. Quantifies the security tradeoffs of
+  AI velocity, reinforcing that speed without safeguards scales vulnerabilities alongside productivity.
+notable_quotes:
+  - AI is fixing the typos but creating the timebombs.
+  - >-
+    Because assistants generate large, multi-file changes, a single credential can be propagated across multiple
+    services or configs before anyone notices.
+tags:
+  - security-risk
+  - velocity
+  - oversight
+topics:
+  - ai-production
+  - software-security
+categories:
+  - responsibility-oversight

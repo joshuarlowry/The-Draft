@@ -1,0 +1,28 @@
+source_id: arxiv_interactive_teaching_conversational_ai
+source_type: paper
+summary: >-
+  Interactive Teaching proposes a human-in-the-loop method for improving conversational agents through iterative teacher
+  feedback.
+long_summary: >-
+  The paper frames conversational AI training as a collaboration loop where teachers inspect outputs, provide
+  corrections, and guide policy updates. Instead of relying purely on static datasets, the method incorporates active
+  interaction so the model can be steered toward better behavior in context. This setup improves data efficiency and
+  keeps human judgment embedded in the optimization process.
+key_takeaways:
+  - Keep humans in the training loop through iterative correction cycles
+  - Adapt dialog behavior with feedback gathered during real interaction
+  - Reduce reliance on large static datasets via targeted supervision
+  - Improve controllability by coupling model updates to explicit teacher signals
+relevance: >-
+  Reinforces The Draft's claim that supervision and iterative planning are core capabilities in reliable AI systems, not
+  optional process overhead.
+tags:
+  - conversational-ai
+  - human-in-the-loop
+  - interactive-learning
+topics:
+  - dialog-systems
+  - model-supervision
+categories:
+  - planning-and-structure
+  - responsibility-oversight

@@ -1,0 +1,16 @@
+id: yoshua_bengio
+name: Yoshua Bengio
+slug: yoshua-bengio
+primary_domain: agentic
+secondary_domains: []
+profile_summary: >-
+  Yoshua Bengio is a Turing Award-winning AI researcher and professor at Université de Montréal. His work on deep
+  learning, neural networks, and representation learning has been foundational to modern AI. He now focuses on AI
+  safety, responsible AI development, and the societal implications of advanced AI systems.
+social_links:
+  - label: Personal site
+    url: https://yoshuabengio.org
+featured_works:
+  - title: Deep Learning (book)
+    url: https://www.deeplearningbook.org/
+    year: '2016'
