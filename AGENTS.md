@@ -24,6 +24,29 @@ Data for sources, source summaries, people, and citations is stored as **one YAM
 - Use takes for standalone insights and positions. Consider whether new content should be a standalone take or an article that assembles and synthesizes multiple takes.
 - Keep intros/outros concise and focused on framing and synthesis rather than new claims.
 
+## What makes a strong take?
+A take should:
+1. **Lead with a clear claim** — The title and first sentence communicate the core insight immediately
+2. **Be evidence-backed** — Support claims with at least 1–3 citations to authoritative sources
+3. **Be specific, not generic** — Avoid obvious statements; provide actionable perspective
+4. **Fit within a domain** — Clear primary domain (architecture, ia, ux, agentic) with optional secondary domains
+5. **Be discoverable** — Include categories, topics, and tags that help readers find it in search and domain pages
+6. **Stand alone** — Readable without needing to read other content
+7. **Have a perspective** — Written from a clear viewpoint (technologist, architect, UX practitioner, etc.)
+
+## Discoverability checklist
+Before publishing a take, article, or concept, ensure:
+- [ ] `id`, `title`, and all required metadata are present
+- [ ] `primary_domain` and `secondary_domains` are set (if applicable)
+- [ ] `perspective` clearly identifies the author's viewpoint
+- [ ] `classification_rationale` explains domain placement (1–2 sentences)
+- [ ] `date` is explicit (for takes and articles, ensures correct RSS ordering)
+- [ ] `summary` is present (optional but recommended for takes and articles)
+- [ ] All `categories`, `topics`, `tags` are populated for search and domain discoverability
+- [ ] All factual claims are cited (for takes and concepts)
+- [ ] Spelling, grammar, and punctuation are correct (`npm run lint`)
+- [ ] The site builds without errors (`npm run build`)
+
 ## Before committing
 **Always run lint and build** before committing changes:
 - `npm run lint` — Prettier checks (CI will fail if this fails)
@@ -92,11 +115,15 @@ Data for sources, source summaries, people, and citations is stored as **one YAM
 
 ## Citation mechanism (APA)
 - **Inline citations:** Use `[[cite:your_quote_id]]` in content. The renderer outputs the quote plus an APA-style parenthetical reference, e.g., `(Author, 2024)` or `(Publisher, n.d.)`.
-- **Citations section:** Blocks should define a `citations` list in front matter with the quote IDs they use. The template renders a **Citations** section that lists unique sources in APA reference style.
+- **Citations section:** Takes and concepts should define a `citations` list in front matter with all quote IDs they embed. The template automatically renders a **Citations** section at the bottom listing unique sources in APA reference style.
 - **APA reference format:** `Author. (Year). Title. Container. URL`
   - **Author fallback:** If no author is available, the publisher or repository is used.
   - **Year fallback:** If `published` is missing, `n.d.` is used.
   - **Container:** Uses `journal`, then `publisher`, then `repository` if present.
+- **When to use citations:**
+  - **Takes:** Must include citations; every factual claim should be backed by a quote
+  - **Articles:** Can synthesize without direct quotes but should link to takes that cite their claims
+  - **Concepts:** Should cite foundational definitions or frameworks where applicable
 
 ## Reading bundles (extended reading lists)
 - **Location:** `src/_data/reading_bundles.yml`
@@ -116,8 +143,22 @@ Artifacts exist once; all domain views are derived from metadata. Meta content (
 
 ## Articles
 - **Location:** `src/articles/`
-- **Purpose:** Long-form content pages.
-- **Front matter:** Use `reading_bundle` to reference a bundle by id when needed. Include artifact metadata.
+- **Purpose:** Long-form synthesis pages that assemble takes and research into cohesive narratives.
+- **Required front matter:** `id`, `title`, `date`, `primary_domain`, `secondary_domains`, `perspective`, `classification_rationale`
+- **Optional front matter:** `summary` (1–2 sentence overview for listings), `intro`, `outro`, `blocks` (array of take IDs), `reading_bundle` (reference to a bundle ID for extended reading)
+- **ID format:** lowercase kebab-case, descriptive (e.g., `agent-driven-development-needs-operating-discipline`)
+- **Filename:** must match the `id` field
+- **Structure guidelines:**
+  - Start with a brief `intro` that frames the topic and thesis
+  - Use `blocks` to reference 3–8 takes that support your argument
+  - Synthesize across takes; don't duplicate their content
+  - Conclude with an `outro` that ties threads together and suggests implications
+  - Include a `summary` for search results and homepage listing
+  - Total length: 500–2000 words (including block assembly, excluding intro/outro)
+- **Best practices:**
+  - Every factual claim must be citation-backed (via referenced takes or direct citations)
+  - Favor linking to existing takes over writing new long-form content
+  - Use takes to explore depth; use articles to build synthesis and connection across domains
 
 ## Blocks (deprecated — migrated to Takes)
 - **Previous location:** `src/blocks/argument/`
@@ -127,13 +168,43 @@ Artifacts exist once; all domain views are derived from metadata. Meta content (
 
 ## Concepts
 - **Location:** `src/concepts/`
-- **Purpose:** Definitions or conceptual reference pages. Include artifact metadata.
+- **Purpose:** Definitional or foundational reference pages explaining core terms, frameworks, or patterns used across The Draft.
+- **Required front matter:** `id`, `title`, `primary_domain`, `secondary_domains`, `perspective`, `classification_rationale`
+- **Optional front matter:** `date`, `summary`, `categories`, `topics`, `tags`, `citations`
+- **ID format:** lowercase kebab-case, descriptive term (e.g., `specification-driven-development`)
+- **Filename:** must match the `id` field
+- **Structure guidelines:**
+  - **Length:** 200–800 words (definition + context + examples)
+  - **Define the concept:** Start by stating what the term means
+  - **Explain relevance:** Why does this concept matter for The Draft's themes?
+  - **Provide examples:** Ground the concept in concrete scenarios or applications
+  - **Include citations:** Support with evidence where applicable
+  - **Cross-link:** Reference related takes, articles, and concepts
+- **Best practices:**
+  - Use concepts to establish shared vocabulary across the site
+  - Avoid duplication; a concept should be referenced (not redefined) in takes and articles
+  - Keep definitions current; revisit as the site's understanding evolves
+  - Include metadata for discoverability alongside takes and articles
 
 ## Takes
 - **Location:** `src/takes/`
 - **Purpose:** Standalone, first-class insights and positions on key topics. Takes are discoverable content published individually at `/takes/{id}/`, included in the unified homepage "Recent" feed, searchable, and available via RSS feed.
-- **Front matter:** Required fields are `id`, `title`, plus artifact metadata (`primary_domain`, `secondary_domains`, `perspective`, `classification_rationale`). Optional: `date`, `summary`, `categories`, `topics`, `tags`, `citations`.
-- **Citations:** Use `[[cite:your_quote_id]]` placeholders to embed quotes. Include a `citations` list in front matter with all quoted citation IDs. The take layout automatically renders a **Citations** section at the bottom.
-- **Date:** Defaults to `2026-01-01` via directory data file; individual takes should specify explicit dates for accurate RSS ordering.
-- **Summary:** Optional field for blurb text shown in listings and feed descriptions. Degrades gracefully if omitted.
-- **How takes differ from blocks:** Takes are published as independent pages and content type (not embedded within articles). They appear on domain pages as a dedicated "Takes" section, in search results, and in the takes RSS feed. Blocks are reusable content assembled into articles and do not generate standalone pages.
+- **Required front matter:** `id`, `title`, `primary_domain`, `secondary_domains`, `perspective`, `classification_rationale`
+- **Optional front matter:** `date` (explicit creation date for accurate RSS ordering), `summary` (1–2 sentence blurb for listings/feeds), `categories`, `topics`, `tags`, `citations` (array of quote IDs)
+- **ID format:** lowercase kebab-case, descriptive claim (e.g., `ai-prototyping-weeks-to-days`)
+- **Filename:** must match the `id` field
+- **Structure guidelines:**
+  - **Length:** 150–600 words (concise, claim-driven)
+  - **Lead with the claim:** First sentence should state the core insight clearly
+  - **Support with evidence:** Use 1–3 citations with `[[cite:quote_id]]` placeholders to back claims
+  - **One main idea:** A take is not an article; focus on a single position or insight
+  - **Include metadata:** Always populate `categories`, `topics`, and `tags` for discoverability
+- **Citations:** Use `[[cite:your_quote_id]]` placeholders to embed quotes. Include a `citations` list in front matter with all quoted citation IDs. The take layout automatically renders a **Citations** section at the bottom with APA references.
+- **Best practices:**
+  - Every claim must be evidence-backed; a take without citations is assertion, not insight
+  - Write from a clear perspective (technologist, architect, UX practitioner, hybrid)
+  - Be specific and opinionated; avoid generic statements
+  - Link domains intentionally; secondary_domains should have clear relevance
+  - Add a `summary` so the take appears with context in RSS feeds and search results
+  - Use `date` field to ensure accurate chronological ordering in feeds (populated automatically from git history on migration)
+- **How takes differ from articles:** Takes are standalone, discoverable pages (not embedded within articles). They appear on domain pages in a dedicated "Takes" section, in search results, in the takes RSS feed at `/feeds/takes.xml`, and in the homepage "Recent" feed alongside articles. Articles synthesize and link multiple takes; takes present single, focused insights.
