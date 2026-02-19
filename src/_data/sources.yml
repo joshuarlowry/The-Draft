@@ -1979,3 +1979,55 @@
   reading_descriptions:
     documentation-operations: 'Positions AI as part of the docs lifecycle, from drafting and maintenance to end-user assistance.'
     ai-assisted-writing: 'Highlights self-updating docs workflows where AI agents draft and maintain technical content.'
+
+- id: eu_rts_sca_2018_389
+  title: 'Commission Delegated Regulation (EU) 2018/389 (RTS on strong customer authentication and secure communication)'
+  publisher: 'European Commission'
+  published: '2018'
+  accessed: '2026-02-19'
+  url: 'https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32018R0389'
+  tags:
+    - governance-guardrails
+    - responsibility-oversight
+  reading_descriptions:
+    governance-guardrails: 'Defines dynamic-linking and strong customer authentication requirements that force explicit user approval of amount and payee.'
+    responsibility-oversight: 'Shows how regulation encodes high-risk decision checkpoints for remote payments.'
+
+- id: stripe_issuing_spending_controls
+  title: 'Issuing spending controls'
+  publisher: 'Stripe Documentation'
+  published: '2026'
+  accessed: '2026-02-19'
+  url: 'https://docs.stripe.com/issuing/controls/spending-controls'
+  tags:
+    - governance-guardrails
+    - agentic-patterns
+  reading_descriptions:
+    governance-guardrails: 'Documents card-level and cardholder-level spending constraints that reduce blast radius for autonomous payment actions.'
+    agentic-patterns: 'Useful for implementing machine-initiated payment flows that still require bounded authorization surfaces.'
+
+- id: marqeta_virtual_cards
+  title: 'Virtual card platform'
+  publisher: 'Marqeta'
+  published: '2025'
+  accessed: '2026-02-19'
+  url: 'https://www.marqeta.com/platform/virtual-cards'
+  tags:
+    - agentic-patterns
+    - governance-guardrails
+  reading_descriptions:
+    agentic-patterns: 'Describes real-time virtual card issuance and control surfaces relevant to delegated agent purchases.'
+    governance-guardrails: 'Highlights spend-management controls as a practical guardrail for reducing payment abuse.'
+
+- id: privacy_virtual_cards
+  title: 'Virtual Cards To Protect Your Payments | Virtual Payment Cards'
+  publisher: 'Privacy.com'
+  published: '2026'
+  accessed: '2026-02-19'
+  url: 'https://www.privacy.com/virtual-card'
+  tags:
+    - governance-guardrails
+    - agentic-patterns
+  reading_descriptions:
+    governance-guardrails: 'Consumer-facing example of tokenized virtual card numbers that limit secret reuse exposure.'
+    agentic-patterns: 'Shows how ephemeral or segmented payment credentials can be used as scoped permissions in agentic workflows.'
