@@ -127,3 +127,12 @@ Artifacts exist once; all domain views are derived from metadata. Meta content (
 ## Concepts
 - **Location:** `src/concepts/`
 - **Purpose:** Definitions or conceptual reference pages. Include artifact metadata.
+
+## Takes
+- **Location:** `src/takes/`
+- **Purpose:** Standalone, first-class insights and positions on key topics. Takes are discoverable content published individually at `/takes/{id}/`, included in the unified homepage "Recent" feed, searchable, and available via RSS feed.
+- **Front matter:** Required fields are `id`, `title`, plus artifact metadata (`primary_domain`, `secondary_domains`, `perspective`, `classification_rationale`). Optional: `date`, `summary`, `categories`, `topics`, `tags`, `citations`.
+- **Citations:** Use `[[cite:your_quote_id]]` placeholders to embed quotes. Include a `citations` list in front matter with all quoted citation IDs. The take layout automatically renders a **Citations** section at the bottom.
+- **Date:** Defaults to `2026-01-01` via directory data file; individual takes should specify explicit dates for accurate RSS ordering.
+- **Summary:** Optional field for blurb text shown in listings and feed descriptions. Degrades gracefully if omitted.
+- **How takes differ from blocks:** Takes are published as independent pages and content type (not embedded within articles). They appear on domain pages as a dedicated "Takes" section, in search results, and in the takes RSS feed. Blocks are reusable content assembled into articles and do not generate standalone pages.
