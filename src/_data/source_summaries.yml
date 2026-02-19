@@ -3804,3 +3804,126 @@
   categories:
     - planning-and-structure
     - responsibility-oversight
+
+- source_id: eu_rts_sca_2018_389
+  source_type: documentation
+  summary: The EU RTS for PSD2 defines strong customer authentication and dynamic-linking
+    requirements that force user-visible approval of payment amount and payee for remote
+    electronic payments.
+  long_summary: This regulation operationalizes human approval checkpoints in payment
+    flows by requiring strong customer authentication and an authentication code tied
+    to the exact amount and payee. In practice, this is the regulatory blueprint
+    for approval moments in modern payment UX—especially app-based and step-up authentication
+    journeys where users explicitly confirm critical transaction details.
+  key_takeaways:
+    - Require strong customer authentication with multiple factors for remote payment risk
+    - Bind the authentication code to both amount and payee to prevent silent transaction mutation
+    - Invalidate authentication when amount or payee changes after user approval
+    - Treat transaction risk analysis as a conditional gate, not a blanket exemption
+  relevance: Provides a concrete policy pattern for human-in-the-loop agentic payments.
+    It shows how high-risk actions can be delegated while still preserving explicit,
+    user-owned approval rights at the decision boundary.
+  notable_quotes:
+    - As electronic remote payment transactions are subject to a higher risk of fraud,
+      it is necessary to introduce additional requirements for the strong customer
+      authentication of such transactions, ensuring that the elements dynamically
+      link the transaction to an amount and a payee specified by the payer when initiating
+      the transaction.
+    - any change to the amount or the payee results in the invalidation of the authentication
+      code generated.
+  tags:
+    - payments
+    - sca
+    - dynamic-linking
+  topics:
+    - payment-authentication
+    - human-approval
+  categories:
+    - governance-guardrails
+
+- source_id: stripe_issuing_spending_controls
+  source_type: documentation
+  summary: Stripe Issuing documents spending controls that let teams apply explicit
+    rules to cards and cardholders to bound how, where, and how much can be spent.
+  long_summary: Stripe's Issuing controls are a practical implementation pattern for
+    delegated purchasing. Instead of sharing a high-trust card credential, systems
+    can issue constrained credentials and enforce policy-level limits. This maps directly
+    to agentic loops where humans approve categories or budgets once, and execution
+    remains bounded by preconfigured controls.
+  key_takeaways:
+    - Set card and cardholder rules to control spending behavior
+    - Constrain delegated payment authority with policy rather than static secrets
+    - Use card controls to reduce blast radius when automation is compromised
+    - Pair card controls with explicit user approvals for high-value exceptions
+  relevance: Useful for implementing payment guardrails in agentic products because
+    it turns approval intent into enforceable controls at the payment rail.
+  notable_quotes:
+    - Learn how to use Issuing to set rules on cards and cardholders to control spending.
+  tags:
+    - payments
+    - virtual-cards
+    - controls
+  topics:
+    - payment-guardrails
+    - scoped-permissions
+  categories:
+    - governance-guardrails
+
+- source_id: marqeta_virtual_cards
+  source_type: article
+  summary: Marqeta positions virtual cards as real-time, customizable payment credentials
+    with control layers for spend management and security.
+  long_summary: Marqeta's virtual card platform messaging emphasizes instant issuance,
+    custom controls, and security posture. For agentic systems, this is relevant as
+    a pattern for issuing narrowly-scoped credentials that can be tuned per workflow,
+    merchant context, or budget guardrail.
+  key_takeaways:
+    - Create virtual cards in real time for delegated purchase workflows
+    - Customize controls to align payment authority with task scope
+    - Manage spending policy as a first-class system control
+    - Use virtualized credentials to reduce exposure versus permanent card numbers
+  relevance: Supports The Draft's guardrail perspective by showing how payment rails
+    can encode bounded autonomy instead of all-or-nothing card access.
+  notable_quotes:
+    - Instantly create and issue virtual cards with Marqeta. Minimize fraud, cut costs,
+      and create real-time, customized payments.
+    - Create real-time and customized payments. Manage your spending and stay secure
+      with powerful controls.
+  tags:
+    - payments
+    - issuing
+    - controls
+  topics:
+    - virtual-card-architecture
+    - delegated-payments
+  categories:
+    - agentic-patterns
+
+- source_id: privacy_virtual_cards
+  source_type: article
+  summary: Privacy.com describes virtual card numbers as a mechanism to shield primary
+    payment credentials and reduce fraud exposure in online transactions.
+  long_summary: This source provides a consumer pattern for blast-radius reduction—
+    substitute reusable primary card credentials with generated virtual numbers. In
+    agentic transaction loops, the same approach can be adapted into scoped credentials
+    per merchant, per workflow, or per limit window.
+  key_takeaways:
+    - Shield underlying debit or credit credentials with virtual card numbers
+    - Generate distinct card numbers for payment segmentation
+    - Reduce fraud impact by avoiding broad reuse of a single credential
+    - Apply virtual cards as scoped tokens in delegated agent workflows
+  relevance: Directly relevant to the question of scoped payment secrets for agents;
+    it demonstrates the core pattern already exists and is commercially deployed.
+  notable_quotes:
+    - Virtual payment cards shield your true debit and credit card numbers online.
+      Generate secure virtual card numbers everywhere you spend and protect against
+      fraud.
+  tags:
+    - payments
+    - consumer-fintech
+    - security
+  topics:
+    - credential-scoping
+    - payment-risk
+  categories:
+    - governance-guardrails

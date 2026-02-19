@@ -302,3 +302,23 @@
 - id: mintlify_context_aware_agent_quote
   quote: 'Draft, edit, and maintain content with a context-aware agent.'
   source_id: mintlify_intelligent_documentation_platform
+
+- id: eu_dynamic_linking_amount_payee_quote
+  quote: 'As electronic remote payment transactions are subject to a higher risk of fraud, it is necessary to introduce additional requirements for the strong customer authentication of such transactions, ensuring that the elements dynamically link the transaction to an amount and a payee specified by the payer when initiating the transaction.'
+  source_id: eu_rts_sca_2018_389
+
+- id: eu_amount_change_invalidates_auth_code_quote
+  quote: 'any change to the amount or the payee results in the invalidation of the authentication code generated.'
+  source_id: eu_rts_sca_2018_389
+
+- id: stripe_spending_controls_quote
+  quote: 'Learn how to use Issuing to set rules on cards and cardholders to control spending.'
+  source_id: stripe_issuing_spending_controls
+
+- id: marqeta_virtual_cards_controls_quote
+  quote: 'Create real-time and customized payments. Manage your spending and stay secure with powerful controls.'
+  source_id: marqeta_virtual_cards
+
+- id: privacy_virtual_cards_shield_quote
+  quote: 'Virtual payment cards shield your true debit and credit card numbers online. Generate secure virtual card numbers everywhere you spend and protect against fraud.'
+  source_id: privacy_virtual_cards
