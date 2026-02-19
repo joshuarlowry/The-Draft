@@ -19,9 +19,9 @@ Data for sources, source summaries, people, and citations is stored as **one YAM
 - When adding a source, extract authors and any notable people mentioned so we can create people profiles that connect back to the source and related articles. Plan ahead for future profile photos on those people pages.
 
 ## Content guidance
-- Keep blocks and articles claim-driven and evidence-backed; every factual claim should be supported by citations where possible.
+- Keep takes and articles claim-driven and evidence-backed; every factual claim should be supported by citations where possible.
 - Preserve quoted source text verbatim; do not paraphrase inside quotes.
-- Favor reusable blocks over repeated prose; articles should assemble blocks by ID instead of duplicating content.
+- Use takes for standalone insights and positions. Consider whether new content should be a standalone take or an article that assembles and synthesizes multiple takes.
 - Keep intros/outros concise and focused on framing and synthesis rather than new claims.
 
 ## Before committing
@@ -105,24 +105,25 @@ Data for sources, source summaries, people, and citations is stored as **one YAM
 - **Notes:** Each `id` in a bundle must match a source in `sources/`.
 
 ## Artifact metadata (domain classification)
-Every content artifact (article, block, concept) MUST declare:
+Every content artifact (article, take, concept) MUST declare:
 - `primary_domain`: one of `[architecture, ia, ux, agentic]`
 - `secondary_domains`: array (0+)
 - `perspective`: short descriptor (e.g., architect, ux practitioner, technologist, hybrid)
 - `overlap_angle`: optional string explaining cross-domain relevance
 - `classification_rationale`: 1–2 sentence explanation of placement
 
-Artifacts exist once; all domain views are derived from metadata. Meta content (e.g. blocks about the site platform itself) may omit domain fields; such artifacts do not appear on domain pages.
+Artifacts exist once; all domain views are derived from metadata. Meta content (e.g. takes about the site platform itself) may omit domain fields; such artifacts do not appear on domain pages.
 
 ## Articles
 - **Location:** `src/articles/`
 - **Purpose:** Long-form content pages.
 - **Front matter:** Use `reading_bundle` to reference a bundle by id when needed. Include artifact metadata.
 
-## Blocks
-- **Location:** `src/blocks/`
-- **Purpose:** Reusable argument blocks used within articles.
-- **Citations:** Use `[[cite:your_quote_id]]` placeholders to embed quotes from `citations/`. Include artifact metadata.
+## Blocks (deprecated — migrated to Takes)
+- **Previous location:** `src/blocks/argument/`
+- **Previous purpose:** Reusable argument blocks used within articles.
+- **Migration note:** All argument blocks have been migrated to `src/takes/` and are now published as standalone, first-class content. See the **Takes** section below.
+- **Future use:** The `src/blocks/` directory may be used for other types of reusable content if needed.
 
 ## Concepts
 - **Location:** `src/concepts/`
