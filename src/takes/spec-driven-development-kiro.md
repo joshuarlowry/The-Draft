@@ -1,5 +1,6 @@
 ---
 id: spec-driven-development-kiro
+date: '2026-02-03'
 title: 'Kiro positions spec-driven development as structure before code'
 primary_domain: agentic
 secondary_domains:

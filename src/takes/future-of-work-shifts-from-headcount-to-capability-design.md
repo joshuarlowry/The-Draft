@@ -1,5 +1,6 @@
 ---
 id: future-of-work-shifts-from-headcount-to-capability-design
+date: '2026-02-16'
 title: 'Future-of-work planning is shifting from headcount to capability design'
 primary_domain: architecture
 secondary_domains:

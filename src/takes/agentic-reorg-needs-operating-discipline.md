@@ -1,5 +1,6 @@
 ---
 id: agentic-reorg-needs-operating-discipline
+date: '2026-02-11'
 title: 'Agentic reorgs need operating discipline, not just restructuring'
 primary_domain: architecture
 secondary_domains:

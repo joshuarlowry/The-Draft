@@ -1,5 +1,6 @@
 ---
 id: ai-prototyping-weeks-to-days
+date: '2026-02-03'
 title: 'AI prototyping can shrink time-to-first-build'
 primary_domain: agentic
 secondary_domains:

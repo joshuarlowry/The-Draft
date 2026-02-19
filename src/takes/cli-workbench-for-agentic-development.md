@@ -1,5 +1,6 @@
 ---
 id: cli-workbench-for-agentic-development
+date: '2026-02-06'
 title: 'The CLI is the center of the agentic workbench'
 primary_domain: agentic
 secondary_domains:

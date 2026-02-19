@@ -1,5 +1,6 @@
 ---
 id: terminal-interfaces-llm-strengths
+date: '2026-02-06'
 title: 'Terminal interfaces align with LLM strengths'
 primary_domain: agentic
 secondary_domains:

@@ -1,5 +1,6 @@
 ---
 id: engineer-judgment
+date: '2026-02-03'
 title: "Planning first improves the engineer's judgment, not just the outcome of one task"
 primary_domain: agentic
 secondary_domains:

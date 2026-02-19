@@ -1,5 +1,6 @@
 ---
 id: ux-ai-augmentation-not-replacement
+date: '2026-02-10'
 title: 'Current UX evidence points to augmentation, not wholesale replacement'
 primary_domain: ux
 secondary_domains:

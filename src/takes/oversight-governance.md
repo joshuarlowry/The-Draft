@@ -1,5 +1,6 @@
 ---
 id: oversight-governance
+date: '2026-02-02'
 title: 'Governance is about gates, not exhaustive comprehension'
 primary_domain: agentic
 secondary_domains:

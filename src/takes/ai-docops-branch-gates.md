@@ -1,5 +1,6 @@
 ---
 id: ai-docops-branch-gates
+date: '2026-02-18'
 title: 'AI doc-ops is converging on branch-based quality gates'
 primary_domain: agentic
 secondary_domains:

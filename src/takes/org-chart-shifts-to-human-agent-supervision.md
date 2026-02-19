@@ -1,5 +1,6 @@
 ---
 id: org-chart-shifts-to-human-agent-supervision
+date: '2026-02-11'
 title: 'Org charts are shifting toward human-agent supervision layers'
 primary_domain: architecture
 secondary_domains:

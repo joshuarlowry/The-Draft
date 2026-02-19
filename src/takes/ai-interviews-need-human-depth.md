@@ -1,5 +1,6 @@
 ---
 id: ai-interviews-need-human-depth
+date: '2026-02-05'
 title: 'AI-moderated interviews scale feedback, but human-led depth still matters'
 primary_domain: ux
 secondary_domains:

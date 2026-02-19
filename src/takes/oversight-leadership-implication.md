@@ -1,5 +1,6 @@
 ---
 id: oversight-leadership-implication
+date: '2026-02-02'
 title: 'The leadership implication is uncomfortable but unavoidable'
 primary_domain: agentic
 secondary_domains:

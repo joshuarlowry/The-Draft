@@ -1,5 +1,6 @@
 ---
 id: spec-driven-development-clarke
+date: '2026-02-03'
 title: 'Cian Clarke argues spec-driven development removes the ceiling of vibe coding'
 primary_domain: agentic
 secondary_domains:

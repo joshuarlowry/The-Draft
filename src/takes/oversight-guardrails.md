@@ -1,5 +1,6 @@
 ---
 id: oversight-guardrails
+date: '2026-02-02'
 title: 'Research points to guardrails, not manual inspection'
 primary_domain: agentic
 secondary_domains:

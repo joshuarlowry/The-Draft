@@ -1,5 +1,6 @@
 ---
 id: human-responsibility
+date: '2026-02-03'
 title: 'Plan mode keeps humans responsible for system design instead of reviewing it after the fact'
 primary_domain: agentic
 secondary_domains:

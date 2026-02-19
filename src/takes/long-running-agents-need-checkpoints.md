@@ -1,5 +1,6 @@
 ---
 id: long-running-agents-need-checkpoints
+date: '2026-02-09'
 title: 'Long-running agent work needs checkpointed verification'
 primary_domain: agentic
 secondary_domains:

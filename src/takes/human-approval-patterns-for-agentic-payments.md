@@ -1,5 +1,6 @@
 ---
 id: human-approval-patterns-for-agentic-payments
+date: '2026-02-18'
 title: 'Agentic payments need explicit approval boundaries'
 primary_domain: agentic
 secondary_domains:

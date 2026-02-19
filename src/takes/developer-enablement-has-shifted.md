@@ -1,5 +1,6 @@
 ---
 id: developer-enablement-has-shifted
+date: '2026-02-11'
 title: 'Developer enablement has shifted from access to reliability'
 primary_domain: agentic
 secondary_domains:

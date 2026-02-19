@@ -1,5 +1,6 @@
 ---
 id: guardrail-static-analysis
+date: '2026-02-03'
 title: 'Iterative AI coding needs static analysis gates'
 primary_domain: agentic
 secondary_domains: []

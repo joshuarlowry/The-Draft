@@ -1,5 +1,6 @@
 ---
 id: oversight-scales-systems
+date: '2026-02-02'
 title: 'Oversight scales when it is designed into the system'
 primary_domain: agentic
 secondary_domains:

@@ -1,5 +1,6 @@
 ---
 id: sourcetms-soft-skills-leverage
+date: '2026-02-14'
 title: 'SourceTMS argues AI raises the premium on human direction quality'
 primary_domain: agentic
 secondary_domains:

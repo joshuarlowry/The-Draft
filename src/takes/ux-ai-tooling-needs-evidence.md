@@ -1,5 +1,6 @@
 ---
 id: ux-ai-tooling-needs-evidence
+date: '2026-02-05'
 title: 'UX teams should demand evidence and accountability from AI tooling'
 primary_domain: ux
 secondary_domains:

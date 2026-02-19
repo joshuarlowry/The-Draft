@@ -1,5 +1,6 @@
 ---
 id: spec-driven-development-others
+date: '2026-02-03'
 title: 'Other practitioners define spec-driven development as spec-first, decision-explicit work'
 primary_domain: agentic
 secondary_domains:

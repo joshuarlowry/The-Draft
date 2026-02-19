@@ -1,5 +1,6 @@
 ---
 id: plan-first
+date: '2026-02-03'
 title: "If you don't plan first, the AI will make design decisions for you"
 primary_domain: agentic
 secondary_domains:

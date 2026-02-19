@@ -1,5 +1,6 @@
 ---
 id: ai-usefulness-depends-on-maintenance-work
+date: '2026-02-17'
 title: 'AI usefulness should be judged against maintenance-heavy developer work'
 primary_domain: agentic
 secondary_domains:

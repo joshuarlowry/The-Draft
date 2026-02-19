@@ -1,5 +1,6 @@
 ---
 id: productivity-gains-need-demand-side-guardrails
+date: '2026-02-16'
 title: 'Productivity gains need demand-side guardrails'
 primary_domain: architecture
 secondary_domains:

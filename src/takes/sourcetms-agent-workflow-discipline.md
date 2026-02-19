@@ -1,5 +1,6 @@
 ---
 id: sourcetms-agent-workflow-discipline
+date: '2026-02-14'
 title: 'SourceTMS emphasizes operating discipline for agent-driven coding'
 primary_domain: agentic
 secondary_domains:

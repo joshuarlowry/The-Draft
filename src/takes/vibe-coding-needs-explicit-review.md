@@ -1,5 +1,6 @@
 ---
 id: vibe-coding-needs-explicit-review
+date: '2026-02-10'
 title: 'Vibe coding only scales safely when review is explicit'
 primary_domain: ux
 secondary_domains:

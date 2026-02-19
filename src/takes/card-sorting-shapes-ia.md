@@ -1,5 +1,6 @@
 ---
 id: card-sorting-shapes-ia
+date: '2026-02-05'
 title: 'Card sorting keeps IA anchored to user mental models'
 primary_domain: ia
 secondary_domains:

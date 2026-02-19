@@ -1,5 +1,6 @@
 ---
 id: ux-research-trust-gap-with-genai
+date: '2026-02-10'
 title: 'GenAI introduces a trust gap between UX research roles'
 primary_domain: ux
 secondary_domains:

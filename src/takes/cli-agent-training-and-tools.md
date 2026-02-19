@@ -1,5 +1,6 @@
 ---
 id: cli-agent-training-and-tools
+date: '2026-02-06'
 title: 'Agents are being trained and tooled for CLI-first workflows'
 primary_domain: agentic
 secondary_domains:

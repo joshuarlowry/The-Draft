@@ -1,5 +1,6 @@
 ---
 id: ai-era-career-ladders-must-be-designed
+date: '2026-02-16'
 title: 'AI-era career ladders must be designed, not assumed'
 primary_domain: agentic
 secondary_domains:

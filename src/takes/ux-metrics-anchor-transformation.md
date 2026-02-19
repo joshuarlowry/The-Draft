@@ -1,5 +1,6 @@
 ---
 id: ux-metrics-anchor-transformation
+date: '2026-02-05'
 title: 'Top-level UX metrics keep transformation grounded'
 primary_domain: ux
 secondary_domains:

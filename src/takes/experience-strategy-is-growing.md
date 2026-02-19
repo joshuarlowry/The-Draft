@@ -1,5 +1,6 @@
 ---
 id: experience-strategy-is-growing
+date: '2026-02-05'
 title: 'Experience strategy is becoming a core UX capability'
 primary_domain: ux
 secondary_domains:

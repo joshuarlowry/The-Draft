@@ -1,5 +1,6 @@
 ---
 id: small-teams-scale-with-agent-squads
+date: '2026-02-11'
 title: 'Small teams can scale when humans supervise agent squads'
 primary_domain: agentic
 secondary_domains:

@@ -1,5 +1,6 @@
 ---
 id: heuristic-evaluation-fast-pass
+date: '2026-02-03'
 title: 'Heuristic evaluation is a fast usability filter before user tests'
 primary_domain: ux
 secondary_domains:

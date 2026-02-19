@@ -1,5 +1,6 @@
 ---
 id: entry-level-erosion-creates-experience-debt
+date: '2026-02-16'
 title: 'When entry-level work disappears, organizations accumulate experience debt'
 primary_domain: architecture
 secondary_domains:

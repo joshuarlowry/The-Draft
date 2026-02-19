@@ -1,5 +1,6 @@
 ---
 id: guardrail-automated-testing
+date: '2026-02-03'
 title: 'Automated testing is the fastest guardrail you can add'
 primary_domain: agentic
 secondary_domains: []

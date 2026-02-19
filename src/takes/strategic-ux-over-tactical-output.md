@@ -1,5 +1,6 @@
 ---
 id: strategic-ux-over-tactical-output
+date: '2026-02-05'
 title: 'Strategic UX should replace feature-factory output thinking'
 primary_domain: ux
 secondary_domains:

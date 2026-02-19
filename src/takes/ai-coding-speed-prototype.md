@@ -1,5 +1,6 @@
 ---
 id: ai-coding-speed-prototype
+date: '2026-02-03'
 title: 'AI code assistance compresses build cycles'
 primary_domain: agentic
 secondary_domains:

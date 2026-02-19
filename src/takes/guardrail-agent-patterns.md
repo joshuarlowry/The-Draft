@@ -1,5 +1,6 @@
 ---
 id: guardrail-agent-patterns
+date: '2026-02-03'
 title: 'Multi-agent patterns turn guardrails into workflow'
 primary_domain: agentic
 secondary_domains: []
