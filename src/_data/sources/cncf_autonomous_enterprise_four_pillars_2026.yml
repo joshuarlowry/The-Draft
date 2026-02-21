@@ -1,0 +1,14 @@
+id: cncf_autonomous_enterprise_four_pillars_2026
+title: 'The autonomous enterprise and the four pillars of platform control: 2026 forecast'
+author: Asif Awan
+publisher: CNCF
+published: '2026-01-23'
+accessed: '2026-02-21'
+url: https://www.cncf.io/blog/2026/01/23/the-autonomous-enterprise-and-the-four-pillars-of-platform-control-2026-forecast/
+tags:
+  - platform-control
+  - autonomous-enterprise
+reading_descriptions:
+  platform-control: >-
+    Forecast framing for platform teams on how AI agents can operationalize governance via golden paths,
+    guardrails, safety nets, and human review.
