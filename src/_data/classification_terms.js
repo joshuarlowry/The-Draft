@@ -16,9 +16,7 @@ const FIELD_MAP = {
 
 module.exports = function (data) {
   const summaries = Array.isArray(data.source_summaries) ? data.source_summaries : [];
-  const takes = Array.isArray(data.collections?.takes)
-    ? data.collections.takes
-    : [];
+  const takes = Array.isArray(data.collections?.takes) ? data.collections.takes : [];
   const terms = [];
   const seen = new Set();
 

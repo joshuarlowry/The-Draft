@@ -1,0 +1,40 @@
+source_id: cncf_autonomous_enterprise_four_pillars_2026
+source_type: article
+summary: >-
+  CNCF guest post argues that enterprise platform control in 2026 will center on four AI-mediated mechanisms:
+  golden paths, guardrails, safety nets, and manual review workflows.
+long_summary: >-
+  Asif Awan outlines a forecast where AI agents move beyond assistant roles into delegated operational authority
+  for platform engineering. The article positions four control pillars as a practical governance model: golden
+  paths to make compliant defaults easiest, guardrails to block unsafe actions, safety nets for autonomous
+  detection and remediation, and manual review workflows to preserve human accountability for high-risk decisions.
+  The post links this model to current cloud-native adoption signals, arguing that speed, security, and cost
+  optimization will increasingly be managed through autonomous platform control loops.
+key_takeaways:
+  - Define platform governance as a layered control system of golden paths, guardrails, safety nets, and manual review
+  - Shift AI agents from assistive copilots toward delegated authority in provisioning, policy enforcement, and recovery
+  - Use autonomous drift remediation to continuously reconcile live environments with approved platform baselines
+  - Keep humans in high-stakes loops by reserving financial, architectural, and post-incident decisions for manual review
+  - Treat speed, security, and cost optimization as simultaneous outcomes of platform automation rather than separate initiatives
+relevance: >-
+  This source maps directly to The Draft's emphasis on guardrails, oversight, and engineering judgment in AI-assisted
+  delivery. It provides a concrete platform-operations lens for balancing autonomy with control, especially in regulated
+  or large-enterprise environments.
+tags:
+  - cncf
+  - platform-engineering
+  - ai-agents
+topics:
+  - platform-governance
+  - autonomous-operations
+  - devops
+categories:
+  - guardrails
+  - oversight
+notable_quotes:
+  - >-
+    The promise of DevOps and Platform Engineering is to balance developer velocity with enterprise governance.
+    In 2026, AI Agents move from being simple assistance tools to the core mechanisms that automate this balance.
+  - >-
+    As we begin 2026, it’s time to forecast how the enterprise shift to autonomy will be defined by four distinct,
+    AI-driven control mechanisms: golden paths, guardrails, safety nets, and manual review workflows.
