@@ -1,0 +1,36 @@
+source_id: davey_gibian_hacking_artificial_intelligence
+source_type: book
+summary: >-
+  Gibian argues that AI systems are already mission-critical yet widely under-secured, and he translates adversarial
+  machine learning risks into practical decision language for business and government leaders.
+long_summary: >-
+  Hacking Artificial Intelligence positions AI security as an urgent governance problem rather than a niche technical
+  concern. Gibian explains that as organizations deploy machine learning in products, operations, and public-sector
+  systems, they also inherit new attack surfaces such as evasion, data poisoning, model inversion, and manipulation of
+  model behavior through crafted inputs. The book's framing is intentionally executive-friendly: it does not assume deep
+  mathematical background, but it does insist that leaders treat AI vulnerabilities as a strategic risk class requiring
+  early controls, threat modeling, and accountability.
+key_takeaways:
+  - Reframe AI risk as an organizational security problem rather than a model-performance footnote
+  - Identify adversarial ML attack paths early, including poisoning, evasion, and privacy-focused model inversion
+  - Equip non-specialist leaders to evaluate AI deployment risk before scaling automated systems
+  - Treat current AI security maturity as internet-era security in its early, highly vulnerable phase
+relevance: >-
+  Strongly aligned with The Draft's focus on guardrails and oversight in AI-assisted systems. It provides explicit
+  rationale for why planning and governance must precede large-scale automation.
+notable_quotes:
+  - >-
+    The ability to hack AI and the technology industry's lack of effort to secure it is thought by experts to be the
+    biggest unaddressed technology issue of our time.
+  - >-
+    From a security perspective, AI is today where the internet was 30 years ago. It is wide open and can be exploited.
+tags:
+  - ai-security
+  - adversarial-ml
+  - governance
+topics:
+  - ai-risk
+  - executive-oversight
+  - threat-modeling
+categories:
+  - responsibility-oversight
