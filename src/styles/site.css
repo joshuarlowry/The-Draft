@@ -296,7 +296,9 @@ p {
 
 a {
   color: var(--color-accent);
-  text-decoration: none;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.18em;
   border-bottom: 1px solid transparent;
   transition:
     color var(--transition-fast),
@@ -312,6 +314,67 @@ a:focus-visible {
   outline: 2px solid var(--color-accent);
   outline-offset: 2px;
   border-radius: 2px;
+}
+
+/* Link types: make internal vs external links easier to scan in prose */
+main :where(p, li) a[href^='/'],
+main :where(p, li) a[href^='./'],
+main :where(p, li) a[href^='../'],
+main :where(p, li) a[href^='#'] {
+  text-decoration-style: solid;
+}
+
+main :where(p, li) a[href^='http://'],
+main :where(p, li) a[href^='https://'] {
+  font-family: var(--font-sans);
+  font-size: 0.95em;
+  font-weight: 500;
+  text-decoration: none;
+  border-bottom-color: currentColor;
+}
+
+main :where(p, li) a[href^='http://']::after,
+main :where(p, li) a[href^='https://']::after {
+  content: '↗';
+  margin-left: 0.28rem;
+  font-size: 0.82em;
+  vertical-align: baseline;
+}
+
+main :where(p, li) a[href*='youtube.com'],
+main :where(p, li) a[href*='youtu.be'],
+main :where(p, li) a[href*='vimeo.com'] {
+  color: #7b1419;
+  border-bottom-color: #7b1419;
+  background: rgba(123, 20, 25, 0.08);
+  border-radius: var(--radius-sm);
+  padding: 0.08rem 0.32rem;
+}
+
+main :where(p, li) a[href*='youtube.com']::before,
+main :where(p, li) a[href*='youtu.be']::before,
+main :where(p, li) a[href*='vimeo.com']::before {
+  content: '▶';
+  margin-right: 0.3rem;
+  font-size: 0.76em;
+}
+
+/* Keep utility links clean where badges and citation controls already provide context */
+.meta-list a[href],
+.citation-links a[href],
+.take-footer a[href] {
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+.meta-list a[href]::before,
+.meta-list a[href]::after,
+.citation-links a[href]::before,
+.citation-links a[href]::after,
+.take-footer a[href]::before,
+.take-footer a[href]::after {
+  content: none;
 }
 
 /* Article */
