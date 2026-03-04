@@ -1,0 +1,19 @@
+id: jorge_arango
+name: Jorge Arango
+slug: jorge-arango
+primary_domain: ia
+secondary_domains:
+  - ux
+profile_summary: >-
+  Jorge Arango is an information architect, writer, and educator known for advancing IA as a strategic practice for
+  making complex systems understandable. His work emphasizes wayfinding, structural clarity, and design's role in
+  framing ambiguity before interface decisions are made.
+social_links:
+  - label: LinkedIn
+    url: https://www.linkedin.com/in/jarango
+  - label: Personal site
+    url: https://jarango.com
+featured_works:
+  - title: Living in Information
+    url: https://rosenfeldmedia.com/books/living-in-information/
+    year: '2018'

@@ -1,0 +1,30 @@
+source_id: linkedin_jorge_arango_design_dead_post
+summary: >-
+  Jorge Arango argues that claims about AI "killing design" confuse interface production with the broader design
+  process.
+long_summary: >-
+  In this LinkedIn post, Arango frames design as abductive reasoning: understanding ambiguous contexts, exploring
+  possibilities, and iterating toward context-form fit. He acknowledges that AI will automate more screen-level
+  prototyping, but contends that strategic framing and human-centered problem definition remain essential. The post
+  distinguishes tactical UI output from upstream design judgment.
+source_type: social_post
+key_takeaways:
+  - Distinguish screen production from design's core responsibility of framing ambiguous problems
+  - Expect AI to accelerate prototyping while leaving context-setting and direction-finding to human practitioners
+  - Treat abductive reasoning as a durable design capability that remains valuable under AI-assisted workflows
+relevance: >-
+  This source supports The Draft's focus on oversight and judgment in AI-accelerated work by clarifying where human
+  design expertise still creates leverage. It is especially relevant to IA and UX positioning in agentic workflows.
+tags:
+  - design-strategy
+  - abductive-reasoning
+topics:
+  - information-architecture
+  - ai-in-ux
+categories:
+  - cross-domain-calibration
+notable_quotes:
+  - >-
+    Design is about finding the best path forward to address a particular challenge within a space of possibilities.
+  - >-
+    AI will change how we do it — but abductive reasoning is here to stay.
