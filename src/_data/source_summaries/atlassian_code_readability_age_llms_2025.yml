@@ -1,0 +1,28 @@
+source_id: atlassian_code_readability_age_llms_2025
+source_type: article
+summary: >-
+  Atlassian reports practitioner and empirical evidence that code readability still matters when LLM agents generate a
+  growing share of implementation work.
+long_summary: >-
+  This Atlassian research write-up summarizes a survey of 118 practitioners and an empirical comparison across 144 real
+  Jira issues and 250 files. Most respondents still treat readability as crucial for long-term maintenance, and their
+  measurements show LLM-generated code is often close to human-written readability with small language-specific gaps.
+  The article is directly relevant to debates about whether human-readable code remains necessary in AI-assisted
+  development.
+key_takeaways:
+  - Preserve readability standards because maintenance and review costs remain human-dominated
+  - Measure readability with explicit metrics rather than relying on intuition about AI-generated quality
+  - Expect parity in many languages while monitoring edge cases where generated code is longer or less maintainable
+  - Use LLMs for readability refactors, not only for feature generation
+relevance: >-
+  Provides a current industry data point on your core question: whether readability becomes optional as AI writes more
+  code. The findings suggest readability remains a critical control surface for both people and agents.
+tags:
+  - code-readability
+  - llm-agents
+  - software-maintainability
+topics:
+  - ai-assisted-development
+  - code-quality
+categories:
+  - engineering-practice

@@ -1,0 +1,28 @@
+source_id: github_copilot_code_quality_study_2024
+source_type: article
+summary: >-
+  GitHub's randomized controlled trial finds Copilot-assisted submissions were more functional and modestly more readable
+  and maintainable than control submissions.
+long_summary: >-
+  GitHub reports a controlled study with 202 experienced developers, comparing a Copilot-enabled group against a no-AI
+  group on the same endpoint implementation task. The study combines unit-test outcomes with blind expert reviews and
+  claims statistically significant gains in readability, reliability, maintainability, and approval rates for the
+  Copilot group. For future-of-code discussions, the piece is useful because it quantifies readability effects rather
+  than treating them as anecdotal.
+key_takeaways:
+  - Validate AI coding claims with controlled experiments instead of speed anecdotes alone
+  - Track readability and maintainability as first-class quality outcomes alongside functional correctness
+  - Interpret AI productivity gains in the context of downstream review and merge readiness
+  - Use blind review workflows to reduce bias when judging generated code quality
+relevance: >-
+  Adds empirical evidence to the human-vs-AI readability debate and helps ground your theory in measured outcomes. It
+  also highlights that readability remains a decision variable teams can intentionally optimize.
+tags:
+  - github-copilot
+  - controlled-study
+  - code-review
+topics:
+  - ai-assisted-development
+  - maintainability
+categories:
+  - engineering-metrics
