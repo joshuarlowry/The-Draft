@@ -1,0 +1,18 @@
+id: asgaut_mjolne_soderbom
+name: Asgaut Mjølne Söderbom
+slug: asgaut-mjolne-soderbom
+title: Developer at SpareBank 1 Utvikling
+primary_domain: agentic
+secondary_domains:
+  - architecture
+profile_summary: >-
+  Asgaut Mjølne Söderbom is a SpareBank 1 developer who writes about AI-assisted development, continuous delivery, pair
+  programming, learning, and the constraints of applying agentic coding in brownfield critical infrastructure.
+social_links:
+  - label: LinkedIn
+    url: https://www.linkedin.com/in/asgaut-mjolne/
+links:
+  - label: After four months of Claude-first we decided to code more by hand
+    url: https://www.linkedin.com/posts/asgaut-mjolne_after-four-months-of-claude-first-we-decided-ugcPost-7466023945259921408-Zkwi/
+  - label: Smidig Digitalisering 2026 speaker listing
+    url: https://www.smidig.no/event/smidig-digitalisering-2026

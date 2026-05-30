@@ -1,0 +1,25 @@
+id: linkedin_asgaut_mjolne_claude_first_post
+author: Asgaut Mjølne Söderbom
+author_ids:
+  - asgaut_mjolne_soderbom
+title: After four months of Claude-first we decided to code more by hand
+publisher: LinkedIn
+published: '2026-05-29'
+accessed: '2026-05-30'
+url: https://www.linkedin.com/posts/asgaut-mjolne_after-four-months-of-claude-first-we-decided-ugcPost-7466023945259921408-Zkwi/
+tags:
+  - ai-assisted-development
+  - learning-culture
+  - legacy-systems
+  - critical-infrastructure
+mentioned_people_ids:
+  - david_farley
+  - henrik_kniberg
+  - geir_amsjo
+mentioned_organization_ids:
+  - sparebank_1_utvikling
+  - smidig
+reading_descriptions:
+  ai-production-scale: >-
+    Asgaut Mjølne Söderbom describes why a bank engineering team reduced its Claude-first coding posture after finding
+    that agent speed was outpacing feedback loops, critical thinking, and organizational readiness.

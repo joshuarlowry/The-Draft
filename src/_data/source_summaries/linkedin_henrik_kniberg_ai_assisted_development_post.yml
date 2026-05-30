@@ -1,0 +1,37 @@
+source_id: linkedin_henrik_kniberg_ai_assisted_development_post
+summary: >-
+  Henrik Kniberg describes a highly automated AI-assisted development workflow in which a five-person team uses agents
+  across the delivery lifecycle and ships small batches daily.
+long_summary: >-
+  Kniberg’s post reports that a five-person development team moved from sprint-scale delivery expectations to daily
+  release cadence by applying AI assistance beyond coding into backlog refinement, planning, design, UX, testing, and
+  release management. The post highlights bottleneck chasing across the workflow, including a Backlogger agent that
+  converts Slack conversations into user stories and a Releaser agent that updates the changelog from agent-authored PR
+  descriptions. In Asgaut Mjølne Söderbom’s post, this stands as the optimistic comparison case: impressive and possibly
+  future-facing, but not immediately transferable to every brownfield or regulated environment.
+source_type: social_post
+key_takeaways:
+  - Expand AI assistance beyond code generation into backlog, design, testing, and release operations
+  - Use bottleneck movement as a signal for where agents should support the next part of the workflow
+  - Convert release work into smaller batches when agents reduce the cost of design-build-test cycles
+  - Compare high-velocity agentic teams carefully against contexts with heavier legacy, regulatory, or coordination constraints
+relevance: >-
+  This source captures the upside case for agentic development: agents can compress delivery cycles when embedded into
+  the whole workflow. It is useful for The Draft because it contrasts with slower-adoption contexts and sharpens the
+  question of what guardrails, team design, and architectural conditions make such acceleration safe.
+tags:
+  - ai-agents
+  - daily-releases
+  - workflow-automation
+  - agile-teams
+  - delivery-bottlenecks
+topics:
+  - agentic-development
+  - product-delivery
+  - release-management
+  - workflow-design
+categories:
+  - ai-production-scale
+  - rapid-prototyping
+notable_quotes:
+  - 'Now my 5-person dev team ships a new release with 2-8 backlog items - every day!'

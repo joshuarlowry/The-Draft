@@ -1,0 +1,19 @@
+id: linkedin_henrik_kniberg_ai_assisted_development_post
+author: Henrik Kniberg
+author_ids:
+  - henrik_kniberg
+title: I'm constantly mind-blown by the level of productivity that AI-assisted development enables
+publisher: LinkedIn
+published: '2026-03'
+accessed: '2026-05-30'
+url: https://www.linkedin.com/posts/hkniberg_im-constantly-mind-blown-by-the-level-of-activity-7438243754097930241-vBLg
+tags:
+  - ai-assisted-development
+  - agentic-workflow
+  - release-automation
+mentioned_organization_ids:
+  - abundly
+reading_descriptions:
+  ai-production-scale: >-
+    Henrik Kniberg describes a five-person team using AI across backlog management, design, coding, testing, and release
+    management to ship multiple production releases per week.

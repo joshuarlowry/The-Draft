@@ -1,0 +1,18 @@
+id: david_farley
+name: David Farley
+slug: david-farley
+title: Author and continuous delivery practitioner
+primary_domain: architecture
+secondary_domains:
+  - agentic
+profile_summary: >-
+  David Farley is a software engineering author and continuous delivery practitioner whose work emphasizes empirical
+  feedback, iterative delivery, testability, deployability, and managing complexity.
+social_links:
+  - label: Website
+    url: https://www.davefarley.net/
+  - label: Continuous Delivery
+    url: https://continuous-delivery.co.uk/
+links:
+  - label: Modern Software Engineering
+    url: https://www.informit.com/store/modern-software-engineering-doing-what-works-to-build-9780137314911

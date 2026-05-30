@@ -1,0 +1,17 @@
+id: farley_modern_software_engineering
+author: David Farley
+author_ids:
+  - david_farley
+title: 'Modern Software Engineering: Doing What Works to Build Better Software Faster'
+publisher: Addison-Wesley Professional
+published: '2021-12-10'
+accessed: '2026-05-30'
+url: https://www.informit.com/store/modern-software-engineering-doing-what-works-to-build-9780137314911
+tags:
+  - software-engineering
+  - feedback-loops
+  - managing-complexity
+reading_descriptions:
+  engineering-judgment: >-
+    David Farley frames modern software engineering around learning, exploration, empirical feedback, and managing
+    complexity rather than rigid process compliance.

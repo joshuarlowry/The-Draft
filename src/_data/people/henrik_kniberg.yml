@@ -1,0 +1,21 @@
+id: henrik_kniberg
+name: Henrik Kniberg
+slug: henrik-kniberg
+title: Chief Scientist and Cofounder at Abundly.ai
+primary_domain: agentic
+secondary_domains:
+  - ux
+  - architecture
+profile_summary: >-
+  Henrik Kniberg is an agile practitioner, author, and AI product builder known for explaining product-development
+  practices and for sharing current experiments with AI agents as members of cross-functional product teams.
+social_links:
+  - label: LinkedIn
+    url: https://www.linkedin.com/in/hkniberg/
+  - label: YouTube
+    url: https://www.youtube.com/@HenrikKniberg
+links:
+  - label: AI-assisted development productivity post
+    url: https://www.linkedin.com/posts/hkniberg_im-constantly-mind-blown-by-the-level-of-activity-7438243754097930241-vBLg
+  - label: Smidig Digitalisering 2026 speaker listing
+    url: https://www.smidig.no/event/smidig-digitalisering-2026

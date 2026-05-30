@@ -1,0 +1,38 @@
+source_id: linkedin_asgaut_mjolne_claude_first_post
+summary: >-
+  Asgaut Mjølne Söderbom argues that his team’s four-month Claude-first experiment showed the need to rebalance AI use
+  with manual coding, pair programming, feedback loops, and learning in a legacy banking environment.
+long_summary: >-
+  The post contrasts two AI-assisted engineering futures: Henrik Kniberg’s high-velocity human-plus-agent team and
+  SpareBank 1 Utvikling’s brownfield banking context, where critical infrastructure, legacy code, partner readiness, and
+  organizational constraints made all-in agentic coding premature. Söderbom says Claude helped the team ship several new
+  features per day, but the team also lost critical thinking, fast feedback loops, and joy. His conclusion is to use AI
+  deliberately where it fits while preserving the scientific software-engineering practices associated with Dave Farley:
+  small teams, continuous learning, pair programming, and short feedback cycles.
+source_type: social_post
+key_takeaways:
+  - Rebalance AI adoption when agent speed weakens critical thinking, feedback loops, or team motivation
+  - Treat brownfield critical infrastructure as a constraint on how aggressively agentic coding can be introduced
+  - Preserve pair programming, continuous learning, and small-team feedback practices alongside AI tools
+  - Use Claude selectively where it fits instead of forcing a Claude-first workflow into every engineering context
+relevance: >-
+  This source is a grounded counterweight to AI coding acceleration narratives: it frames agentic tooling as useful but
+  dependent on architecture, organizational readiness, and team learning. It supports The Draft’s emphasis on oversight,
+  feedback loops, and engineering judgment in AI-assisted development.
+tags:
+  - claude-code
+  - ai-adoption
+  - pair-programming
+  - continuous-delivery
+  - brownfield-systems
+topics:
+  - ai-assisted-development
+  - software-engineering-practice
+  - organizational-readiness
+  - learning-culture
+categories:
+  - ai-production-scale
+  - engineering-judgment
+notable_quotes:
+  - 'Take it easy with AI.'
+  - 'Value still comes from solving the right problems, learning quickly through feedback, and maintaining software that is easy to change safely and reliably.'
