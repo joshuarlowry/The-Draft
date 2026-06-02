@@ -1,0 +1,30 @@
+source_id: google_gemini_cli_open_source_agent
+source_type: article
+summary: >-
+  Google introduces Gemini CLI as an open-source AI agent that brings Gemini into the terminal for coding and broader
+  task automation.
+long_summary: >-
+  Gemini CLI represents the open-source, terminal-native branch of the harness landscape. It puts the agent where
+  developers already run commands, inspect state, and automate tasks. The source is useful for comparing local CLI
+  harnesses against hosted background agents and IDE-native products.
+key_takeaways:
+  - Make the command line a direct agent interface for coding, problem solving, and task management
+  - Treat open-source distribution as part of adoption for developer-facing harnesses
+  - Preserve terminal workflows instead of forcing all agent work into chat or IDE panes
+  - Offer a bridge between individual experimentation and professional usage-based or enterprise access
+relevance: >-
+  The source supports the site's focus on CLI-first agentic workflows and the idea that harness surfaces shape how work
+  is framed and verified.
+notable_quotes:
+  - 'Gemini CLI brings Gemini directly into developers’ terminals.'
+tags:
+  - cli
+  - gemini
+  - developer-tools
+topics:
+  - terminal-interfaces
+  - coding-agents
+  - workflow-design
+categories:
+  - developer-enablement
+  - terminal-interfaces

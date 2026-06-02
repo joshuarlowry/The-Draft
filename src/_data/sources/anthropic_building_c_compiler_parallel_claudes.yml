@@ -1,0 +1,17 @@
+id: anthropic_building_c_compiler_parallel_claudes
+author: Nicholas Carlini
+author_ids:
+  - nicholas_carlini
+title: Building a C compiler with a team of parallel Claudes
+publisher: Anthropic
+published: '2026-02-05'
+accessed: '2026-05-30'
+url: https://www.anthropic.com/engineering/building-c-compiler
+tags:
+  - agent-teams
+  - parallel-agents
+  - autonomous-development
+reading_descriptions:
+  ai-harnesses: >-
+    A high-end experiment in parallel agent supervision, testing how many autonomous coding sessions can coordinate on
+    a complex shared artifact.

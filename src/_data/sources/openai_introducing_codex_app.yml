@@ -1,0 +1,14 @@
+id: openai_introducing_codex_app
+author: OpenAI
+title: Introducing the Codex app
+publisher: OpenAI
+published: '2026-02-02'
+accessed: '2026-05-30'
+url: https://openai.com/index/introducing-the-codex-app/
+tags:
+  - codex
+  - background-agents
+  - multi-agent-workflows
+reading_descriptions:
+  ai-harnesses: >-
+    Positions Codex as a command center for parallel, long-running coding agents across local and cloud surfaces.

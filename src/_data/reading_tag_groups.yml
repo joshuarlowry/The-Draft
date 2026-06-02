@@ -41,3 +41,7 @@
 - id: ai-ux-role-shifts
   title: 'AI Role Shifts in UX Research, Design, and Strategy'
   description: 'Sources examining whether AI is replacing UX roles or augmenting them by reshaping collaboration, trust, and strategic responsibilities.'
+
+- id: ai-harnesses
+  title: 'AI Harnesses and Agent Workbenches'
+  description: 'Sources on the current landscape of AI harnesses: CLIs, IDE agents, background coding agents, managed long-horizon services, evaluator loops, and sandboxed execution.'

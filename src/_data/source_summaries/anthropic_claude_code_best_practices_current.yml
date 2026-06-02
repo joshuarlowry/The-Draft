@@ -1,0 +1,31 @@
+source_id: anthropic_claude_code_best_practices_current
+source_type: documentation
+summary: >-
+  Anthropic's Claude Code best practices document patterns for verification, context management, subagents, hooks,
+  skills, plugins, and scaled autonomous usage.
+long_summary: >-
+  The document shows what agent harness practice looks like after initial adoption: users are expected to manage
+  context windows, configure permissions, provide verification routes, split investigation into subagents, and automate
+  workflows through hooks or non-interactive mode. It turns agent usage into a disciplined operating model rather than a
+  one-off prompt style.
+key_takeaways:
+  - Give agents tests, screenshots, or expected outputs so they can verify their own work
+  - Manage context aggressively because long conversations degrade reliability
+  - Use subagents, hooks, skills, plugins, and multiple sessions to structure larger workflows
+  - Course-correct early and reset sessions when failed attempts pollute context
+relevance: >-
+  The source is practical evidence for The Draft's argument that AI-assisted development is becoming operations work:
+  context, verification, and tooling configuration determine output quality.
+notable_quotes:
+  - 'Claude Code can read your files, run commands, make changes, and autonomously work through problems.'
+tags:
+  - claude-code
+  - context-engineering
+  - verification
+topics:
+  - coding-agents
+  - workflow-design
+  - context-management
+categories:
+  - planning-and-structure
+  - governance-guardrails

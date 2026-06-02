@@ -1,0 +1,14 @@
+id: anthropic_claude_code_sandboxing
+author: Anthropic
+title: 'Beyond permission prompts: making Claude Code more secure and autonomous'
+publisher: Anthropic
+published: '2025-10-20'
+accessed: '2026-05-30'
+url: https://www.anthropic.com/engineering/claude-code-sandboxing
+tags:
+  - sandboxing
+  - agent-security
+  - permissions
+reading_descriptions:
+  ai-harnesses: >-
+    Shows how agent autonomy is limited or enabled by filesystem and network boundaries rather than prompt policy alone.

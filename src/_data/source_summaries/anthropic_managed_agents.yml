@@ -1,0 +1,31 @@
+source_id: anthropic_managed_agents
+source_type: article
+summary: >-
+  Anthropic frames Managed Agents as durable infrastructure for long-horizon agent work, separating the agent session,
+  harness, and sandbox so orchestration can evolve.
+long_summary: >-
+  The article argues that harnesses contain assumptions about model limitations, and those assumptions can expire when
+  models improve. Managed Agents respond by virtualizing the components of agent execution: an append-only session log,
+  a harness that routes model actions, and a sandbox where code and tools run. This abstraction matters because the
+  commercial agent landscape is moving from local chat loops toward hosted, resumable, auditable work systems.
+key_takeaways:
+  - Decouple model reasoning from execution environments so harness implementations can change underneath stable interfaces
+  - Preserve durable session logs for interrogation, recovery, and long-horizon work
+  - Expect model improvements to invalidate some existing orchestration assumptions
+  - Treat hosted agent platforms as infrastructure, not only user-facing assistants
+relevance: >-
+  The source helps explain why AI harnesses are becoming an application layer: reliability depends on sessions,
+  sandboxes, permissions, and state, not just better prompts.
+notable_quotes:
+  - 'Harnesses encode assumptions that go stale as models improve.'
+tags:
+  - managed-agents
+  - agent-infrastructure
+  - long-horizon-work
+topics:
+  - agentic-development
+  - infrastructure
+  - harness-design
+categories:
+  - architecture
+  - governance-guardrails

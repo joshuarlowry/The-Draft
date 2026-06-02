@@ -1,0 +1,9 @@
+id: prithvi_rajasekaran
+name: Prithvi Rajasekaran
+links:
+  - label: Anthropic author page
+    url: https://www.anthropic.com/engineering/harness-design-long-running-apps
+featured_works:
+  - title: Harness design for long-running application development
+    url: https://www.anthropic.com/engineering/harness-design-long-running-apps
+    year: '2026'

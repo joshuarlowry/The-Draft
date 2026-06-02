@@ -1,0 +1,3 @@
+id: anthropic_sandboxing_boundaries_quote
+quote: Sandboxing creates pre-defined boundaries within which Claude can work more freely.
+source_id: anthropic_claude_code_sandboxing

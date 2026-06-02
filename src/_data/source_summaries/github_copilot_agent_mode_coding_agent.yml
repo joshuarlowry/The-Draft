@@ -1,0 +1,32 @@
+source_id: github_copilot_agent_mode_coding_agent
+source_type: article
+summary: >-
+  GitHub explains how Copilot Agent Mode differs from the asynchronous Copilot coding agent, mapping each surface to a
+  different developer workflow.
+long_summary: >-
+  The article is useful because it describes the emerging split in commercial AI harnesses: synchronous agent mode in
+  the editor for interactive pair-work, and asynchronous coding agents in repository infrastructure for scoped issues,
+  tests, branches, and pull requests. It anchors the landscape in everyday workflow choices rather than benchmark
+  comparisons.
+key_takeaways:
+  - Use synchronous agent mode for interactive work where a human watches, redirects, and keeps changes local
+  - Use asynchronous coding agents for small-to-medium tickets with acceptance criteria and tests
+  - Treat issues and pull requests as the coordination surface for cloud agents
+  - Keep agent tasks atomic because background execution scales better through many small tickets
+relevance: >-
+  The source supports The Draft's view that the important change is workflow architecture: teams need to choose the
+  right harness for the pacing, risk, and review model of each task.
+notable_quotes:
+  - 'Agent mode = synchronous: Works inside VS Code.'
+  - 'Coding agent = asynchronous: Runs inside GitHub Actions.'
+tags:
+  - github-copilot
+  - asynchronous-agents
+  - ide-agents
+topics:
+  - coding-agents
+  - workflow-design
+  - pull-requests
+categories:
+  - developer-enablement
+  - planning-and-structure
