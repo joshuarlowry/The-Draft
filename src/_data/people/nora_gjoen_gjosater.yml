@@ -1,0 +1,13 @@
+id: nora_gjoen_gjosater
+name: Nora Gjøen-Gjøsæter
+slug: nora-gjoen-gjosater
+title: Kantega speaker
+primary_domain: agentic
+secondary_domains:
+  - ux
+profile_summary: >-
+  Nora Gjøen-Gjøsæter appeared on the Smidig Digitalisering 2026 program with a talk on why AI does not take the job,
+  despite taking over more coding, documentation, and analysis work.
+links:
+  - label: Smidig Digitalisering 2026 program
+    url: https://www.smidig.no/event/smidig-digitalisering-2026

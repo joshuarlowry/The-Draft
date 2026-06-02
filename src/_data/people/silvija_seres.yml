@@ -1,0 +1,16 @@
+id: silvija_seres
+name: Silvija Seres
+slug: silvija-seres
+title: Technologist and speaker
+primary_domain: agentic
+secondary_domains:
+  - ux
+profile_summary: >-
+  Silvija Seres is a technologist and speaker whose Smidig Digitalisering 2026 session addressed the risks of producing
+  large amounts of code faster than organizations can understand the consequences.
+social_links:
+  - label: Website
+    url: https://www.silvijaseres.no/
+links:
+  - label: Smidig Digitalisering 2026 program
+    url: https://www.smidig.no/event/smidig-digitalisering-2026

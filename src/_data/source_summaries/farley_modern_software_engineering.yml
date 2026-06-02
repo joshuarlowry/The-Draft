@@ -1,0 +1,36 @@
+source_id: farley_modern_software_engineering
+summary: >-
+  David Farley’s Modern Software Engineering presents software engineering as an empirical discipline centered on
+  learning, exploration, feedback, and managing complexity.
+long_summary: >-
+  Farley’s book, referenced by Asgaut Mjølne Söderbom as the basis for a scientific approach to software engineering,
+  argues that effective software work rests on two core exercises: learning and exploration, and managing complexity. Its
+  public table of contents foregrounds working iteratively, feedback, incrementalism, empiricism, experimentation,
+  modularity, cohesion, separation of concerns, abstraction, coupling, testability, deployability, and speed. For AI-era
+  development, the book provides a durable vocabulary for asking whether faster code generation is improving the system
+  or merely increasing unvalidated output.
+source_type: book
+key_takeaways:
+  - Optimize software engineering work for learning and exploration, not just code production
+  - Manage complexity through modularity, cohesion, separation of concerns, abstraction, and coupling control
+  - Prefer empirical feedback, small iterations, and experimentation as the basis for engineering decisions
+  - Use testability, deployability, and speed as tools of engineering discipline rather than isolated technical goals
+relevance: >-
+  Farley’s framework is foundational for The Draft’s perspective on AI-assisted development because it explains why
+  feedback, measurability, and complexity management still matter when agents make code cheaper to produce.
+tags:
+  - modern-software-engineering
+  - empirical-software-engineering
+  - continuous-delivery
+  - feedback-loops
+  - complexity-management
+topics:
+  - software-engineering
+  - engineering-discipline
+  - feedback
+  - complexity
+categories:
+  - engineering-judgment
+  - planning-and-structure
+notable_quotes:
+  - "Clarify what you're trying to accomplish"

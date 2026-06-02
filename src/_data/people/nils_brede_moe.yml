@@ -1,0 +1,16 @@
+id: nils_brede_moe
+name: Nils Brede Moe
+slug: nils-brede-moe
+title: Research scientist at SINTEF Digital
+primary_domain: agentic
+secondary_domains:
+  - architecture
+profile_summary: >-
+  Nils Brede Moe is a SINTEF Digital researcher whose Smidig Digitalisering 2026 session focused on what teams have
+  learned from AI-augmented product work and what becomes critical as AI adoption increases.
+social_links:
+  - label: LinkedIn
+    url: https://www.linkedin.com/in/nilsbrede/
+links:
+  - label: Smidig Digitalisering 2026 program
+    url: https://www.smidig.no/event/smidig-digitalisering-2026

@@ -1,0 +1,36 @@
+source_id: smidig_digitalisering_2026_ai_product_teams
+summary: >-
+  Smidig Digitalisering 2026 focused on AI in product teams, with talks on human-agent teams, AI-augmented product work,
+  vibe coding risks, and field experience from continuous delivery with pair programming and AI.
+long_summary: >-
+  The Smidig Digitalisering 2026 program provides the event context for Asgaut Mjølne Söderbom’s LinkedIn reflection. It
+  lists Henrik Kniberg’s talk on the new cross-functional team of humans plus agents and Söderbom’s talk on continuous
+  delivery with pair programming, learning, and AI. The agenda also included sessions on AI-augmented product teams,
+  vibe-coding risk, job displacement concerns, organizational scaling, and panel debates. As a collection, the program
+  frames AI adoption in product teams as an organizational, collaborative, and learning challenge rather than a tooling
+  question alone.
+source_type: article
+key_takeaways:
+  - Frame AI in product teams as a cross-functional change involving people, agents, workflow, and collaboration
+  - Contrast human-agent team optimism with sessions warning about excessive vibe coding and lost collaboration
+  - Include field reports from practitioners using AI in real delivery contexts rather than only vendor demos
+  - Pair AI adoption with conversations about learning, continuous delivery, team structure, and organizational scale
+relevance: >-
+  The event is relevant to The Draft because it surfaces the organizational questions around AI-assisted delivery: what
+  teams gain, what they risk losing, and how product organizations should adapt feedback loops and collaboration.
+tags:
+  - ai-product-teams
+  - agile-conference
+  - human-agent-teams
+  - pair-programming
+  - organizational-learning
+topics:
+  - ai-adoption
+  - product-teams
+  - agile
+  - collaboration
+categories:
+  - ai-production-scale
+  - engineering-judgment
+notable_quotes:
+  - 'The new crossfunctional team: humans + agents'
