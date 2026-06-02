@@ -1,0 +1,9 @@
+id: andrea_griffiths
+name: Andrea Griffiths
+links:
+  - label: GitHub Blog author page
+    url: https://github.blog/author/andreagriffiths11/
+featured_works:
+  - title: The difference between coding agent and agent mode in GitHub Copilot
+    url: https://github.blog/developer-skills/github/less-todo-more-done-the-difference-between-coding-agent-and-agent-mode-in-github-copilot/
+    year: '2025'

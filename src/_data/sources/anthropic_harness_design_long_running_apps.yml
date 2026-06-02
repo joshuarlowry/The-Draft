@@ -1,0 +1,18 @@
+id: anthropic_harness_design_long_running_apps
+author: Prithvi Rajasekaran
+author_ids:
+  - prithvi_rajasekaran
+title: Harness design for long-running application development
+publisher: Anthropic
+published: '2026-03-24'
+accessed: '2026-05-30'
+url: https://www.anthropic.com/engineering/harness-design-long-running-apps
+tags:
+  - ai-harnesses
+  - long-running-agents
+  - evaluator-agents
+reading_descriptions:
+  ai-harnesses: >-
+    Shows how planner, generator, and evaluator roles can push frontier models beyond single-agent app generation.
+  governance-guardrails: >-
+    Treats QA and evaluation as first-class harness components rather than after-the-fact review.

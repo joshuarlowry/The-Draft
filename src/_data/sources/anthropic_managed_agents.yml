@@ -1,0 +1,15 @@
+id: anthropic_managed_agents
+author: Anthropic
+title: 'Scaling Managed Agents: Decoupling the brain from the hands'
+publisher: Anthropic
+published: '2026-04-08'
+accessed: '2026-05-30'
+url: https://www.anthropic.com/engineering/managed-agents
+tags:
+  - managed-agents
+  - long-horizon-agents
+  - harness-design
+reading_descriptions:
+  ai-harnesses: >-
+    Explains why durable agent infrastructure separates sessions, harnesses, and sandboxes as models and orchestration
+    patterns change.

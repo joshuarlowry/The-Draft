@@ -1,0 +1,17 @@
+id: google_gemini_cli_open_source_agent
+author: Taylor Mullen, Ryan J. Salva
+author_ids:
+  - taylor_mullen
+  - ryan_salva
+title: 'Gemini CLI: your open-source AI agent'
+publisher: Google
+published: '2025-06-25'
+accessed: '2026-05-30'
+url: https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-cli-open-source-ai-agent/
+tags:
+  - gemini-cli
+  - cli-agents
+  - open-source-agents
+reading_descriptions:
+  ai-harnesses: >-
+    Shows the parallel CLI trend: model providers are making terminal-based agent loops a first-class developer surface.

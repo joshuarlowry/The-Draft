@@ -1,0 +1,5 @@
+id: anthropic_harness_three_agent_quote
+quote: >-
+  The final result was a three-agent architecture—planner, generator, and evaluator—that produced rich full-stack
+  applications over multi-hour autonomous coding sessions.
+source_id: anthropic_harness_design_long_running_apps

@@ -1,0 +1,3 @@
+id: anthropic_parallel_claudes_agent_teams_quote
+quote: With agent teams, multiple Claude instances work in parallel on a shared codebase without active human intervention.
+source_id: anthropic_building_c_compiler_parallel_claudes

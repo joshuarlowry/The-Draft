@@ -1,0 +1,16 @@
+id: github_copilot_agent_mode_coding_agent
+author: Andrea Griffiths
+author_ids:
+  - andrea_griffiths
+title: The difference between coding agent and agent mode in GitHub Copilot
+publisher: GitHub Blog
+published: '2025-06-02'
+accessed: '2026-05-30'
+url: https://github.blog/developer-skills/github/less-todo-more-done-the-difference-between-coding-agent-and-agent-mode-in-github-copilot/
+tags:
+  - github-copilot
+  - agent-mode
+  - asynchronous-agents
+reading_descriptions:
+  ai-harnesses: >-
+    Offers a practical distinction between synchronous IDE agents and asynchronous repo-level coding agents.

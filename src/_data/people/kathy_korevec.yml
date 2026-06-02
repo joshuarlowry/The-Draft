@@ -1,0 +1,9 @@
+id: kathy_korevec
+name: Kathy Korevec
+links:
+  - label: Google Jules announcement
+    url: https://blog.google/innovation-and-ai/models-and-research/google-labs/jules/
+featured_works:
+  - title: Build with Jules, your asynchronous coding agent
+    url: https://blog.google/innovation-and-ai/models-and-research/google-labs/jules/
+    year: '2025'

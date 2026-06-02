@@ -1,0 +1,31 @@
+source_id: openai_introducing_codex_app
+source_type: article
+summary: >-
+  OpenAI introduces a Codex app intended to manage multiple coding agents, preserve context, and expand Codex from code
+  writing into broader technical knowledge work.
+long_summary: >-
+  The Codex app announcement is a signal that agent harnesses are becoming explicit product surfaces. The app is framed
+  as a command center where developers manage multiple agents, move between workstreams, and eventually use cloud
+  automations. The announcement also reports fast usage growth and emphasizes the gap between frontier model capability
+  and usable supervision interfaces.
+key_takeaways:
+  - Shift coding agents from a single CLI or chat surface toward multi-agent command centers
+  - Support parallel work while preserving enough context for humans to supervise and redirect
+  - Extend coding-agent infrastructure toward technical and knowledge-work tasks beyond code generation
+  - Make local, IDE, web, app, and cloud agent surfaces part of one account-backed workflow
+relevance: >-
+  This source documents a recent product shift from assistant access toward harnessed agent management, directly
+  supporting the site's themes of supervision, workflow design, and operating discipline.
+notable_quotes:
+  - 'Within the app, we’ll keep refining multi-agent workflows based on real-world feedback.'
+tags:
+  - codex
+  - multi-agent-workflows
+  - background-automation
+topics:
+  - coding-agents
+  - workflow-design
+  - agentic-development
+categories:
+  - developer-enablement
+  - planning-and-structure

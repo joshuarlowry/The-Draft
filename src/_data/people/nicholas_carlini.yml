@@ -1,0 +1,9 @@
+id: nicholas_carlini
+name: Nicholas Carlini
+links:
+  - label: Anthropic author page
+    url: https://www.anthropic.com/engineering/building-c-compiler
+featured_works:
+  - title: Building a C compiler with a team of parallel Claudes
+    url: https://www.anthropic.com/engineering/building-c-compiler
+    year: '2026'

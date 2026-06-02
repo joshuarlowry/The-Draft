@@ -1,0 +1,31 @@
+source_id: anthropic_building_c_compiler_parallel_claudes
+source_type: article
+summary: >-
+  Carlini describes an experiment using parallel Claude Code sessions to build a Rust-based C compiler capable of
+  compiling Linux kernels across architectures.
+long_summary: >-
+  The post is less a product announcement than a stress test of autonomous coordination. Anthropic ran a team of agents
+  over many sessions, using tests, task decomposition, and shared progress artifacts to keep work moving. It shows what
+  people are now doing with harnesses at the frontier: not just asking an assistant to edit a file, but constructing a
+  supervision system where multiple agents pursue different pieces of a large engineering goal.
+key_takeaways:
+  - Use tests as the central coordination signal when humans are not continuously supervising every step
+  - Decompose long-running work so multiple agents can make progress in parallel without constantly blocking each other
+  - Expect coordination overhead, cost, and failure recovery to become core harness-design concerns
+  - Treat large autonomous builds as experiments in management architecture as much as model capability
+relevance: >-
+  The source reinforces The Draft's point that agentic scale depends on oversight structures, progress artifacts, and
+  clear verification, especially when work becomes parallel.
+notable_quotes:
+  - 'With agent teams, multiple Claude instances work in parallel on a shared codebase without active human intervention.'
+tags:
+  - agent-teams
+  - autonomous-coding
+  - verification
+topics:
+  - multi-agent-systems
+  - agentic-development
+  - testing
+categories:
+  - planning-and-structure
+  - governance-guardrails

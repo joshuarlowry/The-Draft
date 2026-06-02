@@ -1,0 +1,30 @@
+source_id: anthropic_claude_code_sandboxing
+source_type: article
+summary: >-
+  Anthropic explains how sandboxed filesystem and network boundaries reduce permission prompts while making Claude Code
+  safer to run autonomously.
+long_summary: >-
+  The article captures the security side of the harness landscape. As coding agents gain permission to read files, edit
+  code, run commands, and access networks, manual approval prompts become a bottleneck and a source of approval fatigue.
+  Sandboxing turns safety into environment design by constraining what the agent can touch and where it can connect.
+key_takeaways:
+  - Replace constant approvals with scoped filesystem and network boundaries where possible
+  - Recognize prompt injection risk when agents can read untrusted content and act on local resources
+  - Design permission systems that increase autonomy only inside explicit operating constraints
+  - Treat security architecture as part of the agent harness, not an external policy document
+relevance: >-
+  The source supports The Draft's guardrail theme: durable AI adoption requires embedded controls that scale with agent
+  autonomy.
+notable_quotes:
+  - 'Sandboxing creates pre-defined boundaries within which Claude can work more freely.'
+tags:
+  - sandboxing
+  - security
+  - permission-design
+topics:
+  - agent-security
+  - guardrails
+  - coding-agents
+categories:
+  - governance-guardrails
+  - architecture
