@@ -1,0 +1,21 @@
+id: kate_canales
+name: Kate Canales
+slug: kate-canales
+primary_domain: ux
+secondary_domains:
+  - ia
+profile_summary: >-
+  Kate Canales is a designer, educator, and Professor of Practice in Design at The University of Texas at Austin.
+  Her work explores how everyday systems shape human behavior, including design research, ethnography, prototyping,
+  collaboration, and the improvised public instructions people create when formal systems fall short.
+social_links:
+  - label: Kate Canales
+    url: https://www.katecanales.com/
+  - label: There, I Fixed It
+    url: https://www.thereifixedit.design/
+featured_works:
+  - title: The accidental brilliance of makeshift signs
+    url: https://www.ted.com/talks/kate_canales_the_accidental_brilliance_of_makeshift_signs
+    year: '2025'
+  - title: There, I Fixed It
+    url: https://www.thereifixedit.design/
