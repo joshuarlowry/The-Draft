@@ -1,0 +1,10 @@
+id: ornith15_35b_model_card
+title: Ornith-1.5-35B-A3B model card
+url: https://huggingface.co/ornith-ai/Ornith-1.5-35B-A3B
+author: Ornith Team
+publisher: huggingface.co
+accessed: '2026-10-18'
+tags:
+  - local-model-field-research
+reading_descriptions:
+  local-model-field-research: MIT-licensed 35B MoE candidate with roughly 3B active parameters.

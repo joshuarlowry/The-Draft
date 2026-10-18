@@ -1,0 +1,10 @@
+id: aider_lint_test_feedback
+title: Aider linting and testing
+url: https://aider.chat/docs/usage/lint-test.html
+author: Aider
+publisher: Aider
+accessed: '2026-10-18'
+tags:
+  - local-model-harnesses
+reading_descriptions:
+  local-model-harnesses: Harness support for running checks after edits and feeding failures into repair.

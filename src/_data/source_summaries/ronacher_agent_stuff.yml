@@ -1,0 +1,17 @@
+source_id: ronacher_agent_stuff
+summary: Personal package publishes inspectable implementations of review, tasks, goals, and editing workflows.
+long_summary: The README lists file-backed todos, review commands, edit preflight validation, usage analysis, and a serial subagent tool. Defaults are specific to the author’s environment; this is implementation evidence rather than a controlled evaluation.
+source_type: documentation
+key_takeaways:
+  - Inspect extension source before adapting it.
+  - Keep file-backed task state accessible outside the transcript.
+  - Measure edit failures and session usage before changing tools.
+relevance: Connects practitioner claims to code that can inform a pinned experiment.
+tags:
+  - pi-repeatable-mechanics
+  - self-hosted-models
+topics:
+  - harness-design
+  - agent-evaluation
+categories:
+  - engineering-judgment

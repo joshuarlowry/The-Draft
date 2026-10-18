@@ -1,0 +1,23 @@
+source_id: raschka_beyond_standard_llms
+source_type: article
+summary: Architecture tutorial covering attention hybrids and alternatives to conventional transformers.
+long_summary: >-
+  Raschka explains gated attention and recurrent state updates, then discusses diffusion and recursive models.
+  This older background article helps interpret modern model configurations; it is not a current hardware
+  comparison or direct 35B evaluation.
+key_takeaways:
+  - Inspect attention design alongside parameter count
+  - Separate architecture explanations from deployment measurements
+  - Treat efficiency and quality as distinct questions
+relevance: >-
+  Extends The Draft’s local-model research with evidence about deployment, feedback, or the limits of
+  transferring results between systems.
+tags:
+  - local-model-field-research
+  - self-hosted-models
+topics:
+  - model-evaluation
+  - harness-design
+categories:
+  - engineering-judgment
+  - architecture

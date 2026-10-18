@@ -1,0 +1,9 @@
+id: tian_ye
+name: Tian Ye
+links:
+  - label: 'SoL-Pi: Recursively Scaling Auto-Research Loops for Efficient Agent Harness'
+    url: https://arxiv.org/abs/2609.20519
+featured_works:
+  - title: 'SoL-Pi: Recursively Scaling Auto-Research Loops for Efficient Agent Harness'
+    url: https://arxiv.org/abs/2609.20519
+    year: '2026'

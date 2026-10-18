@@ -1,0 +1,17 @@
+---
+layout: layouts/base.njk
+---
+<article class="take">
+  <header class="take-header">
+    <h1>{{ title }}</h1>
+    {% if primary_domain or (secondary_domains and secondary_domains.length) %}
+    {% include "components/domain-badges.njk" %}
+    {% endif %}
+  </header>
+  <div class="take-content">
+    {{ content | renderWithCitations(citationRecords, sources, source_summaries) | safe }}
+  </div>
+  {% if citations and citations.length %}
+    {{ citations | renderCitationSection(citationRecords, sources, source_summaries) | safe }}
+  {% endif %}
+</article>

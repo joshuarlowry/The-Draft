@@ -1,0 +1,12 @@
+id: ronacher_agent_stuff
+title: 'Agent Stuff: reusable Pi workflow extensions'
+url: https://github.com/mitsuhiko/agent-stuff
+author: Armin Ronacher
+publisher: Armin Ronacher
+accessed: '2026-10-18'
+tags:
+  - pi-repeatable-mechanics
+reading_descriptions:
+  pi-repeatable-mechanics: Personal package publishes inspectable implementations of review, tasks, goals, and editing workflows.
+author_ids:
+  - armin_ronacher

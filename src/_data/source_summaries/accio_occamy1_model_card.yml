@@ -1,0 +1,25 @@
+source_id: accio_occamy1_model_card
+source_type: documentation
+summary: 35B Qwen3.6 derivative specialized for sustained tool-mediated work.
+long_summary: >-
+  The card describes further post-training for execution continuity and recovery, plus official quantized
+  checkpoints. Its limited compatibility checks use an H200; they do not establish consumer-hardware
+  performance. Native desktop/browser visual interaction is outside the stated training interface.
+key_takeaways:
+  - Test long-session recovery and state tracking
+  - Treat compatibility checks separately from quality benchmarks
+  - Validate the exact quantized checkpoint
+relevance: >-
+  Supports engineering judgment about model selection, deployment constraints, and evaluation for self-hosted
+  AI workflows.
+tags:
+  - self-hosted-models
+  - open-weights
+topics:
+  - local-inference
+  - model-selection
+categories:
+  - architecture
+  - engineering-judgment
+notable_quotes:
+  - Occamy is optimized for common co-work workloads, not as a replacement for frontier models on every task.

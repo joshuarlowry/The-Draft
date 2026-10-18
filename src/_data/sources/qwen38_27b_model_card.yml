@@ -1,0 +1,11 @@
+id: qwen38_27b_model_card
+title: Qwen3.8-27B model card
+url: https://huggingface.co/Qwen/Qwen3.8-27B
+author: Qwen Team
+publisher: Hugging Face
+published: '2026-08-14'
+accessed: '2026-10-18'
+tags:
+  - self-hosted-models
+reading_descriptions:
+  self-hosted-models: Nearby 27B dense model outside the requested 30–36B band.

@@ -1,0 +1,10 @@
+id: nvidia_nemotron3_nano_model_card
+title: NVIDIA Nemotron 3 Nano 30B-A3B BF16 model card
+url: https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-BF16
+author: NVIDIA
+publisher: Hugging Face
+accessed: '2026-10-18'
+tags:
+  - self-hosted-models
+reading_descriptions:
+  self-hosted-models: Hybrid Mamba/attention MoE with 30B total and 3.5B active parameters.

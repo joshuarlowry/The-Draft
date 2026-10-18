@@ -1,0 +1,12 @@
+id: pi_graph_runtime
+title: 'pi-graph: YAML workflow control and evidence'
+url: https://github.com/ali-abassi/pi-graph
+author: ali-abassi
+publisher: GitHub
+accessed: '2026-10-18'
+tags:
+  - agent-workflow-graphs
+reading_descriptions:
+  agent-workflow-graphs: A separate runner documents YAML dependencies, acceptance gates, and run evidence around Pi.
+author_ids:
+  - ali_abassi

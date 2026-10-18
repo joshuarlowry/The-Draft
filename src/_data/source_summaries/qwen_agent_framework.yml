@@ -1,0 +1,24 @@
+source_id: qwen_agent_framework
+source_type: documentation
+summary: Framework examples connect local model servers to tools, files, and retained conversation history.
+long_summary: >-
+  Parser ownership differs by model and API path. The README distinguishes framework-side parsing from native
+  server parsing; operators should use the recipe for their exact model.
+key_takeaways:
+  - Choose one documented parsing path
+  - Register tools with descriptions and parameters
+  - Retain structured message history
+relevance: >-
+  Connects model capability to context management, supervision, and reproducible execution in self-hosted
+  agent workflows.
+tags:
+  - self-hosted-models
+  - local-model-harnesses
+topics:
+  - harness-design
+  - agent-control
+categories:
+  - engineering-judgment
+  - governance-guardrails
+notable_quotes:
+  - The current default tool calling template natively supports Parallel Function Calls.

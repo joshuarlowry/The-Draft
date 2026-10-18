@@ -1,0 +1,25 @@
+source_id: jain_harness_cost_experiment
+source_type: article
+summary: Controlled comparison of behavioral harnesses on one API-service task.
+long_summary: >-
+  Jain separates in-loop contract feedback from an external acceptance suite. Results vary by model and
+  include overhead. This hosted-model experiment motivates local replication; it is not evidence about any
+  specific 30–36B checkpoint.
+key_takeaways:
+  - Separate development checks from acceptance evaluation
+  - Measure success and resource cost together
+  - Repeat comparisons before generalizing
+relevance: >-
+  Extends The Draft’s local-model research with evidence about deployment, feedback, or the limits of
+  transferring results between systems.
+tags:
+  - local-model-field-research
+  - self-hosted-models
+topics:
+  - model-evaluation
+  - harness-design
+categories:
+  - engineering-judgment
+  - architecture
+notable_quotes:
+  - The harness increased average time and cost without changing the observed acceptance result.

@@ -1,0 +1,11 @@
+id: google_gemma4_31b_model_card
+title: Gemma 4 31B instruction-tuned model card
+url: https://huggingface.co/google/gemma-4-31B-it
+author: Google DeepMind
+publisher: Hugging Face
+published: '2026-04-02'
+accessed: '2026-10-18'
+tags:
+  - self-hosted-models
+reading_descriptions:
+  self-hosted-models: Dense multimodal alternative in the 31B class under Apache 2.0.

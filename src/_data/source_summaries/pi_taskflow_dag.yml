@@ -1,0 +1,18 @@
+source_id: pi_taskflow_dag
+summary: A Pi extension documents dependency phases, isolated agent contexts, and resumable results.
+long_summary: The README explicitly treats ambiguous agent gate output as PASS. It also warns that undeclared file reads can make cross-run cached results stale.
+source_type: documentation
+key_takeaways:
+  - Inspect gate failure defaults.
+  - Declare cache dependencies.
+  - Distinguish valid topology from valid results.
+relevance: Provides both orchestration mechanics and concrete counterexamples to broad reliability claims.
+tags:
+  - agent-workflow-graphs
+topics:
+  - harness-design
+  - agent-evaluation
+categories:
+  - engineering-judgment
+notable_quotes:
+  - Ambiguous output fails open

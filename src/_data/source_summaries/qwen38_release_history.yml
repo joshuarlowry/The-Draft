@@ -1,0 +1,22 @@
+source_id: qwen38_release_history
+source_type: documentation
+summary: Official release chronology connecting Qwen3.5, Qwen3.6, and Qwen3.8.
+long_summary: >-
+  The history records the 35B Qwen3.5 release on February 24, the 35B Qwen3.6 release on April 16, and
+  Qwen3.8-27B on August 14, 2026. It does not establish an official Qwen3.8 35B checkpoint.
+key_takeaways:
+  - Verify model identities against official releases
+  - Separate family version from checkpoint size
+  - Avoid inferring releases from community model names
+relevance: >-
+  Supports engineering judgment about model selection, deployment constraints, and evaluation for self-hosted
+  AI workflows.
+tags:
+  - self-hosted-models
+  - open-weights
+topics:
+  - local-inference
+  - model-selection
+categories:
+  - architecture
+  - engineering-judgment

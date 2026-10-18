@@ -1,0 +1,24 @@
+source_id: aider_architect_editor_method
+source_type: article
+summary: Architect/editor workflow separates a proposed solution from producing file edits.
+long_summary: >-
+  The original experiment used earlier model families and reported results on Aider’s editing benchmark. It is
+  historical evidence for the workflow, not a measured improvement for the current local-model shortlist.
+key_takeaways:
+  - Separate solution planning from edit formatting
+  - Evaluate each role’s model independently
+  - Treat older benchmark gains as historical evidence
+relevance: >-
+  Connects model capability to context management, supervision, and reproducible execution in self-hosted
+  agent workflows.
+tags:
+  - self-hosted-models
+  - local-model-harnesses
+topics:
+  - harness-design
+  - agent-control
+categories:
+  - engineering-judgment
+  - governance-guardrails
+notable_quotes:
+  - An Architect model is asked to describe how to solve the coding problem.

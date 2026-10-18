@@ -1,0 +1,10 @@
+id: pi_compaction_reference
+title: Pi compaction and branch summaries
+url: https://pi.dev/docs/latest/compaction
+author: Pi contributors
+publisher: Pi
+accessed: '2026-10-18'
+tags:
+  - pi-repeatable-mechanics
+reading_descriptions:
+  pi-repeatable-mechanics: Pi distinguishes context compaction from summaries produced by session-tree navigation.

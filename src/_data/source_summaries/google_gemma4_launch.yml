@@ -1,0 +1,25 @@
+source_id: google_gemma4_launch
+source_type: article
+summary: Google announced Gemma 4 on April 2, 2026 under Apache 2.0.
+long_summary: >-
+  The launch places the 31B dense model alongside a 26B MoE variant and smaller edge models. It marks a useful
+  licensing and architecture comparison point for self-hosting, while launch performance claims remain vendor
+  claims.
+key_takeaways:
+  - Check the exact variant before comparing sizes
+  - Separate launch positioning from measured local performance
+  - Record licensing alongside capabilities
+relevance: >-
+  Supports engineering judgment about model selection, deployment constraints, and evaluation for self-hosted
+  AI workflows.
+tags:
+  - self-hosted-models
+  - open-weights
+topics:
+  - local-inference
+  - model-selection
+categories:
+  - architecture
+  - engineering-judgment
+notable_quotes:
+  - Today, we are introducing Gemma 4 — our most intelligent open models to date.

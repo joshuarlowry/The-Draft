@@ -1,0 +1,13 @@
+id: armin_ronacher
+name: Armin Ronacher
+links:
+  - label: 'Pi: The Minimal Agent Within OpenClaw'
+    url: https://lucumr.pocoo.org/2026/1/31/pi/
+  - label: 'Agent Stuff: reusable Pi workflow extensions'
+    url: https://github.com/mitsuhiko/agent-stuff
+featured_works:
+  - title: 'Pi: The Minimal Agent Within OpenClaw'
+    url: https://lucumr.pocoo.org/2026/1/31/pi/
+    year: '2026'
+  - title: 'Agent Stuff: reusable Pi workflow extensions'
+    url: https://github.com/mitsuhiko/agent-stuff

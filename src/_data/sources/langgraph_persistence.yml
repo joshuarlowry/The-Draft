@@ -1,0 +1,10 @@
+id: langgraph_persistence
+title: LangGraph persistence
+url: https://docs.langchain.com/oss/python/langgraph/persistence
+author: LangChain
+publisher: LangChain
+accessed: '2026-10-18'
+tags:
+  - agent-workflow-graphs
+reading_descriptions:
+  agent-workflow-graphs: Checkpointers preserve thread state; stores preserve cross-thread application data.

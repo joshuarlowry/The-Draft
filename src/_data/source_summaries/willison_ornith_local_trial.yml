@@ -1,0 +1,23 @@
+source_id: willison_ornith_local_trial
+source_type: article
+summary: First-hand trial connects an Ornith 35B GGUF in LM Studio to Pi.
+long_summary: >-
+  Willison links a Datasette code-navigation session and reports favorable early impressions. This is a
+  concrete workflow example, not a broad benchmark, and concerns Ornith 1.0 rather than the later 1.5
+  checkpoint.
+key_takeaways:
+  - Retain transcripts of actual tool use
+  - Separate model versions when following a lead
+  - Treat short trials as shortlist evidence
+relevance: >-
+  Extends The Draft’s local-model research with evidence about deployment, feedback, or the limits of
+  transferring results between systems.
+tags:
+  - local-model-field-research
+  - self-hosted-models
+topics:
+  - model-evaluation
+  - harness-design
+categories:
+  - engineering-judgment
+  - architecture

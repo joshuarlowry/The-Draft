@@ -1,0 +1,3 @@
+id: qwen_agent_framework_quote
+quote: The current default tool calling template natively supports Parallel Function Calls.
+source_id: qwen_agent_framework

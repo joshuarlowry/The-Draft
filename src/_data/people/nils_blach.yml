@@ -1,0 +1,9 @@
+id: nils_blach
+name: Nils Blach
+links:
+  - label: 'Graph of Thoughts: Solving Elaborate Problems with Large Language Models'
+    url: https://arxiv.org/abs/2308.09687v4
+featured_works:
+  - title: 'Graph of Thoughts: Solving Elaborate Problems with Large Language Models'
+    url: https://arxiv.org/abs/2308.09687v4
+    year: '2024'

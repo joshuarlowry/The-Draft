@@ -1,0 +1,3 @@
+id: pi_graph_runtime_quote
+quote: These guarantees target local macOS/Linux filesystems, not network filesystems or exactly-once external effects.
+source_id: pi_graph_runtime

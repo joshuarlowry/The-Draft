@@ -1,0 +1,18 @@
+source_id: langgraph_interrupts
+summary: Interrupts pause graph execution and resume through node re-execution.
+long_summary: Side effects preceding an interrupt can run again. The documentation recommends idempotent operations or separating effects from the pause.
+source_type: documentation
+key_takeaways:
+  - Expect interrupted nodes to restart.
+  - Make repeated effects safe.
+  - Use serializable approval payloads.
+relevance: Connects human review checkpoints to concrete replay hazards.
+tags:
+  - agent-workflow-graphs
+topics:
+  - harness-design
+  - agent-evaluation
+categories:
+  - engineering-judgment
+notable_quotes:
+  - Side effects called before interrupt must be idempotent

@@ -1,0 +1,13 @@
+id: sebastian_raschka
+name: Sebastian Raschka
+links:
+  - label: Beyond Standard LLMs
+    url: https://magazine.sebastianraschka.com/p/beyond-standard-llms
+  - label: LLM Architecture Gallery
+    url: https://sebastianraschka.com/llm-architecture-gallery/
+featured_works:
+  - title: Beyond Standard LLMs
+    url: https://magazine.sebastianraschka.com/p/beyond-standard-llms
+    year: '2025'
+  - title: LLM Architecture Gallery
+    url: https://sebastianraschka.com/llm-architecture-gallery/

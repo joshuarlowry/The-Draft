@@ -1,0 +1,10 @@
+id: hermes_managed_local_models
+title: Local Models
+url: https://hermes-agent.nousresearch.com/docs/user-guide/local-models
+author: Nous Research
+publisher: hermes-agent.nousresearch.com
+accessed: '2026-10-18'
+tags:
+  - local-model-field-research
+reading_descriptions:
+  local-model-field-research: Hermes documents managed local inference with hardware-aware downloads and memory placement.

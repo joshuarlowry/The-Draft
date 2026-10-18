@@ -1,0 +1,23 @@
+source_id: unsloth_local_tool_calling
+source_type: documentation
+summary: Local llama.cpp tutorial wiring model-generated function requests to executable tools.
+long_summary: >-
+  The guide illustrates schemas, dispatch, tool results, and model-specific serving settings. Its shell and
+  Python examples execute code locally; the small command denylist is not a sandbox or sufficient isolation
+  policy.
+key_takeaways:
+  - Test the whole tool-call/result cycle
+  - Validate dispatch and arguments separately
+  - Add execution isolation before unattended use
+relevance: >-
+  Extends The Draft’s local-model research with evidence about deployment, feedback, or the limits of
+  transferring results between systems.
+tags:
+  - local-model-field-research
+  - self-hosted-models
+topics:
+  - model-evaluation
+  - harness-design
+categories:
+  - engineering-judgment
+  - architecture

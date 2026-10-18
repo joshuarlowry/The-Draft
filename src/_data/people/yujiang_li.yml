@@ -1,0 +1,9 @@
+id: yujiang_li
+name: Yujiang Li
+links:
+  - label: 'CompactionRL: Reinforcement Learning with Context Compaction for Long-Horizon Agents'
+    url: https://arxiv.org/abs/2607.05378v2
+featured_works:
+  - title: 'CompactionRL: Reinforcement Learning with Context Compaction for Long-Horizon Agents'
+    url: https://arxiv.org/abs/2607.05378v2
+    year: '2026'

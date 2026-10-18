@@ -1,0 +1,10 @@
+id: sol_pi_extension
+title: SoL-Pi standalone extension and mechanisms
+url: https://github.com/NVlabs/SoL-Pi
+author: SoL-Pi contributors
+publisher: SoL-Pi contributors
+accessed: '2026-10-18'
+tags:
+  - pi-repeatable-mechanics
+reading_descriptions:
+  pi-repeatable-mechanics: An opt-in Pi extension packages four inspectable efficiency mechanisms.

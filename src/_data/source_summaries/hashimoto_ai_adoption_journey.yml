@@ -1,0 +1,25 @@
+source_id: hashimoto_ai_adoption_journey
+source_type: article
+summary: Personal account of learning to delegate scoped work and improve the surrounding tools.
+long_summary: >-
+  Hashimoto describes reproducing manual work with agents, separating planning from execution, and turning
+  observed mistakes into instructions or verification tools. This is practitioner experience, not a controlled
+  local-model comparison.
+key_takeaways:
+  - Calibrate delegation against work you understand
+  - Turn repeat failures into guidance or tools
+  - Separate planning from execution for ambiguous requests
+relevance: >-
+  Extends The Draft’s local-model research with evidence about deployment, feedback, or the limits of
+  transferring results between systems.
+tags:
+  - local-model-field-research
+  - self-hosted-models
+topics:
+  - model-evaluation
+  - harness-design
+categories:
+  - engineering-judgment
+  - architecture
+notable_quotes:
+  - Break down sessions into separate clear, actionable tasks.

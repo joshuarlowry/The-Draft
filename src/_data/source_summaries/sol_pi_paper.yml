@@ -1,0 +1,19 @@
+source_id: sol_pi_paper
+summary: A preprint evaluates four Pi efficiency mechanisms on hosted models.
+long_summary: The full stack reduces recorded token traffic but has a lower mean EdgeBench score than baseline Pi. This is not a measured result for local 30–36B models.
+source_type: paper
+key_takeaways:
+  - Separate development tasks from final evaluation.
+  - Check capability before accepting efficiency gains.
+  - Test individual mechanisms as well as their combination.
+relevance: Offers a concrete experimental design and cautions against equating token savings with unchanged quality.
+tags:
+  - pi-repeatable-mechanics
+  - self-hosted-models
+topics:
+  - harness-design
+  - agent-evaluation
+categories:
+  - engineering-judgment
+notable_quotes:
+  - Commands that require inspecting the mutation result remain separate.

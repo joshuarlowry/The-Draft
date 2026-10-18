@@ -1,0 +1,23 @@
+id: graph_of_thoughts_paper
+title: 'Graph of Thoughts: Solving Elaborate Problems with Large Language Models'
+url: https://arxiv.org/abs/2308.09687v4
+author: Maciej Besta, Nils Blach, Ales Kubicek, Robert Gerstenberger, Michal Podstawski, Lukas Gianinazzi, Joanna Gajda, Tomasz Lehmann, Hubert Niewiadomski, Piotr Nyczyk, Torsten Hoefler
+publisher: arXiv
+accessed: '2026-10-18'
+tags:
+  - agent-workflow-graphs
+reading_descriptions:
+  agent-workflow-graphs: Graph of Thoughts represents generated information and its dependencies as a graph.
+author_ids:
+  - maciej_besta
+  - nils_blach
+  - ales_kubicek
+  - robert_gerstenberger
+  - michal_podstawski
+  - lukas_gianinazzi
+  - joanna_gajda
+  - tomasz_lehmann
+  - hubert_niewiadomski
+  - piotr_nyczyk
+  - torsten_hoefler
+published: '2024-02-06'

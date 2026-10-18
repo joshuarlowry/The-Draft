@@ -1,0 +1,22 @@
+id: selfcompact_language_model_agents
+title: Self-Compacting Language Model Agents
+url: https://arxiv.org/abs/2606.23525v2
+author: >-
+  Tianjian Li, Jingyu Zhang, William Jurayj, Xi Wang, Chuanyang Jin, Mehrdad Farajtabar, Eric Nalisnick,
+  Daniel Khashabi
+author_ids:
+  - tianjian_li
+  - jingyu_zhang
+  - william_jurayj
+  - xi_wang
+  - chuanyang_jin
+  - mehrdad_farajtabar
+  - eric_nalisnick
+  - daniel_khashabi
+publisher: arXiv
+published: '2026-07-10'
+accessed: '2026-10-18'
+tags:
+  - local-model-harnesses
+reading_descriptions:
+  local-model-harnesses: Research pairs a compaction tool with a rubric for deciding when to use it.

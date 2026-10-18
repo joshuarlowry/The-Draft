@@ -1,0 +1,8 @@
+id: gscode1
+name: gscode1
+links:
+  - label: 'pi-taskflow: declarative task DAGs'
+    url: https://github.com/gscode1/pi-taskflow
+featured_works:
+  - title: 'pi-taskflow: declarative task DAGs'
+    url: https://github.com/gscode1/pi-taskflow

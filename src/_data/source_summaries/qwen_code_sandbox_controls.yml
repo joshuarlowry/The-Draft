@@ -1,0 +1,25 @@
+source_id: qwen_code_sandbox_controls
+source_type: documentation
+summary: Filesystem and network confinement operate separately from tool approval.
+long_summary: >-
+  Linux controls are backend-specific: bwrap can close ordinary networking, while Landlock cannot enforce that
+  requirement. Documented read visibility and inherited descriptors limit isolation; this is not a blanket
+  guarantee that secrets are hidden.
+key_takeaways:
+  - Choose confinement independently of approval
+  - Verify backend-specific guarantees
+  - Test denied operations before unattended work
+relevance: >-
+  Connects model capability to context management, supervision, and reproducible execution in self-hosted
+  agent workflows.
+tags:
+  - self-hosted-models
+  - local-model-harnesses
+topics:
+  - harness-design
+  - agent-control
+categories:
+  - engineering-judgment
+  - governance-guardrails
+notable_quotes:
+  - Approval and YOLO do not expand the filesystem or network policy.

@@ -1,0 +1,21 @@
+id: selfcompact_agent_scaffold
+title: SelfCompact agent scaffold
+url: https://github.com/tianjianl/selfcompact
+author: >-
+  Tianjian Li, Jingyu Zhang, William Jurayj, Xi Wang, Chuanyang Jin, Mehrdad Farajtabar, Eric Nalisnick,
+  Daniel Khashabi
+author_ids:
+  - tianjian_li
+  - jingyu_zhang
+  - william_jurayj
+  - xi_wang
+  - chuanyang_jin
+  - mehrdad_farajtabar
+  - eric_nalisnick
+  - daniel_khashabi
+publisher: GitHub
+accessed: '2026-10-18'
+tags:
+  - local-model-harnesses
+reading_descriptions:
+  local-model-harnesses: Runnable research harness with GLM-4.7-Flash examples and adaptive compaction gates.

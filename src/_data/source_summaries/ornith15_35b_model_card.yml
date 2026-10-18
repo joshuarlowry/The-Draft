@@ -1,0 +1,25 @@
+source_id: ornith15_35b_model_card
+source_type: documentation
+summary: MIT-licensed 35B MoE candidate with roughly 3B active parameters.
+long_summary: >-
+  The card reports multi-run agent evaluations and documents template, parser, and harness adjustments.
+  Results remain provider-reported. Its large-GPU serving examples should not be interpreted as
+  consumer-hardware measurements.
+key_takeaways:
+  - Pin templates and parser configuration
+  - Inspect benchmark harness conditions
+  - Evaluate the actual quantized artifact locally
+relevance: >-
+  Extends The Draft’s local-model research with evidence about deployment, feedback, or the limits of
+  transferring results between systems.
+tags:
+  - local-model-field-research
+  - self-hosted-models
+topics:
+  - model-evaluation
+  - harness-design
+categories:
+  - engineering-judgment
+  - architecture
+notable_quotes:
+  - All results reported for Ornith-1.5 are averaged over five independent runs.

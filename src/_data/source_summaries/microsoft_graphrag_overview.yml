@@ -1,0 +1,16 @@
+source_id: microsoft_graphrag_overview
+summary: GraphRAG builds a knowledge graph and community summaries for retrieval.
+long_summary: The graph organizes corpus evidence for answering questions. It does not itself define workflow transitions or approval boundaries.
+source_type: documentation
+key_takeaways:
+  - Extract entities and relationships from a corpus.
+  - Build community summaries.
+  - Evaluate retrieval separately from orchestration.
+relevance: Distinguishes knowledge organization from the control mechanisms in agent harnesses.
+tags:
+  - agent-workflow-graphs
+topics:
+  - harness-design
+  - agent-evaluation
+categories:
+  - engineering-judgment

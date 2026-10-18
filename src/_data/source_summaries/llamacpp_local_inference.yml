@@ -1,0 +1,25 @@
+source_id: llamacpp_local_inference
+source_type: documentation
+summary: Local inference project supporting quantization and multiple hardware backends.
+long_summary: >-
+  The README documents Apple Silicon, CUDA, HIP, and CPU/GPU hybrid execution. Offloading can accommodate
+  models larger than GPU memory, but the README does not guarantee a particular model throughput or context
+  capacity.
+key_takeaways:
+  - Check model support in the installed build
+  - Use quantization as a measured tradeoff
+  - Benchmark offloading on the actual machine
+relevance: >-
+  Supports engineering judgment about model selection, deployment constraints, and evaluation for self-hosted
+  AI workflows.
+tags:
+  - self-hosted-models
+  - open-weights
+topics:
+  - local-inference
+  - model-selection
+categories:
+  - architecture
+  - engineering-judgment
+notable_quotes:
+  - CPU+GPU hybrid inference to partially accelerate models larger than the total VRAM capacity

@@ -1,0 +1,24 @@
+source_id: willison_gemma4_local_notes
+source_type: article
+summary: Launch-day local trials include a failing Gemma 4 31B GGUF setup.
+long_summary: >-
+  Willison contrasts his LM Studio experience with an API run. The dated observation illustrates
+  deployment-specific failure; it does not establish a current defect in all Gemma 4 31B configurations.
+key_takeaways:
+  - Record runtime and quantization with observations
+  - Keep launch-day failures time-bounded
+  - Compare local and hosted paths diagnostically
+relevance: >-
+  Extends The Draft’s local-model research with evidence about deployment, feedback, or the limits of
+  transferring results between systems.
+tags:
+  - local-model-field-research
+  - self-hosted-models
+topics:
+  - model-evaluation
+  - harness-design
+categories:
+  - engineering-judgment
+  - architecture
+notable_quotes:
+  - I tried them out using the GGUFs for LM Studio.

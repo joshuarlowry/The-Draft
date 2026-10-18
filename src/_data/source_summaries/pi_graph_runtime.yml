@@ -1,0 +1,18 @@
+source_id: pi_graph_runtime
+summary: A separate runner documents YAML dependencies, acceptance gates, and run evidence around Pi.
+long_summary: The README describes strict validation and immutable run bundles, while acknowledging limits on shell-gate meaning and external effects. Claims were reviewed as documentation, not independently exercised.
+source_type: documentation
+key_takeaways:
+  - Validate graph definitions before execution.
+  - Keep evidence for each node.
+  - Review gate semantics independently.
+relevance: Provides an inspectable outer controller candidate for bounded local experiments.
+tags:
+  - agent-workflow-graphs
+topics:
+  - harness-design
+  - agent-evaluation
+categories:
+  - engineering-judgment
+notable_quotes:
+  - These guarantees target local macOS/Linux filesystems, not network filesystems or exactly-once external effects.

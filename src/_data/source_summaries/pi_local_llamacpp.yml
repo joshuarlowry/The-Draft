@@ -1,0 +1,17 @@
+source_id: pi_local_llamacpp
+summary: Official setup connects Pi to a local llama.cpp router and explicitly loaded GGUF models.
+long_summary: The guide separates model loading from session selection and explains template support and context allocation. It documents connectivity, not task success for a particular checkpoint.
+source_type: documentation
+key_takeaways:
+  - Enable compatible templates for tool calling.
+  - Match context allocation to available memory.
+  - Record the selected model and serving configuration.
+relevance: Establishes a reproducible local backend before adding workflow interventions.
+tags:
+  - pi-repeatable-mechanics
+  - self-hosted-models
+topics:
+  - harness-design
+  - agent-evaluation
+categories:
+  - engineering-judgment

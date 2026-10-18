@@ -1,0 +1,23 @@
+source_id: bockeler_harness_engineering
+source_type: article
+summary: A framework for combining guides, feedback sensors, and human steering.
+long_summary: >-
+  Böckeler distinguishes controls that rely on model interpretation from deterministic checks. The article
+  supersedes an earlier February memo and helps organize a harness without assuming all quality questions can
+  be automated.
+key_takeaways:
+  - Pair instructions with feedback
+  - Use deterministic checks for objective rules
+  - Keep human judgment for underspecified goals
+relevance: >-
+  Extends The Draft’s local-model research with evidence about deployment, feedback, or the limits of
+  transferring results between systems.
+tags:
+  - local-model-field-research
+  - self-hosted-models
+topics:
+  - model-evaluation
+  - harness-design
+categories:
+  - engineering-judgment
+  - architecture

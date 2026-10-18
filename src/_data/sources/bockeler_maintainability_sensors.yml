@@ -1,0 +1,13 @@
+id: bockeler_maintainability_sensors
+title: Maintainability sensors for coding agents
+url: https://martinfowler.com/articles/sensors-for-coding-agents.html
+author: Birgitta Böckeler
+author_ids:
+  - birgitta_bockeler
+publisher: martinfowler.com
+published: '2026-05-27'
+accessed: '2026-10-18'
+tags:
+  - local-model-field-research
+reading_descriptions:
+  local-model-field-research: Hands-on exploration of linting, dependency rules, mutation testing, and maintainability feedback.

@@ -1,0 +1,25 @@
+source_id: bockeler_maintainability_sensors
+source_type: article
+summary: Hands-on exploration of linting, dependency rules, mutation testing, and maintainability feedback.
+long_summary: >-
+  The author finds file/function checks useful, while cross-file coupling needs interpretation. A sensor CLI
+  supports supervised work; ensuring unattended agents actually invoke it and integrating it with sandboxes
+  remain open work.
+key_takeaways:
+  - Track maintainability separately from functional success
+  - Make sensor output actionable
+  - Enforce required checks at workflow boundaries
+relevance: >-
+  Extends The Draft’s local-model research with evidence about deployment, feedback, or the limits of
+  transferring results between systems.
+tags:
+  - local-model-field-research
+  - self-hosted-models
+topics:
+  - model-evaluation
+  - harness-design
+categories:
+  - engineering-judgment
+  - architecture
+notable_quotes:
+  - Computational sensors impressed me most at the file and function level.

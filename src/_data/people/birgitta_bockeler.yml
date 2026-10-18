@@ -3,3 +3,14 @@ name: Birgitta Böckeler
 links:
   - label: 'Understanding Spec-Driven-Development: Kiro, spec-kit, and Tessl'
     url: https://martinfowler.com/articles/exploring-gen-ai/sdd-3-tools.html
+  - label: Harness engineering for coding agent users
+    url: https://martinfowler.com/articles/harness-engineering.html
+  - label: Maintainability sensors for coding agents
+    url: https://martinfowler.com/articles/sensors-for-coding-agents.html
+featured_works:
+  - title: Harness engineering for coding agent users
+    url: https://martinfowler.com/articles/harness-engineering.html
+    year: '2026'
+  - title: Maintainability sensors for coding agents
+    url: https://martinfowler.com/articles/sensors-for-coding-agents.html
+    year: '2026'

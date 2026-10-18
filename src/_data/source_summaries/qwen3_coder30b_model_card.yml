@@ -1,0 +1,23 @@
+source_id: qwen3_coder30b_model_card
+source_type: documentation
+summary: Coding-focused MoE baseline with 30.5B total and 3.3B active parameters.
+long_summary: >-
+  This checkpoint uses non-thinking output, a specialized function-call format, and native 262,144-token
+  context. It provides a useful comparison when evaluating whether newer reasoning models improve completed
+  coding tasks.
+key_takeaways:
+  - Keep a non-thinking coding baseline
+  - Use the expected function-call format
+  - Measure completed tasks alongside generation speed
+relevance: >-
+  Supports engineering judgment about model selection, deployment constraints, and evaluation for self-hosted
+  AI workflows.
+tags:
+  - self-hosted-models
+  - open-weights
+topics:
+  - local-inference
+  - model-selection
+categories:
+  - architecture
+  - engineering-judgment
