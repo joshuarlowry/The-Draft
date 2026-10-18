@@ -1,0 +1,10 @@
+id: pi_local_llamacpp
+title: Pi local models with llama.cpp
+url: https://pi.dev/docs/latest/llama-cpp
+author: Pi contributors
+publisher: Pi
+accessed: '2026-10-18'
+tags:
+  - pi-repeatable-mechanics
+reading_descriptions:
+  pi-repeatable-mechanics: Official setup connects Pi to a local llama.cpp router and explicitly loaded GGUF models.

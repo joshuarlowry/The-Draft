@@ -1,0 +1,14 @@
+id: google_gemma4_launch
+title: 'Gemma 4: Byte for byte, the most capable open models'
+url: https://blog.google/innovation-and-ai/technology/developers-tools/gemma-4/
+author: Clement Farabet and Olivier Lacombe
+publisher: Google
+published: '2026-04-02'
+accessed: '2026-10-18'
+tags:
+  - self-hosted-models
+reading_descriptions:
+  self-hosted-models: Google announced Gemma 4 on April 2, 2026 under Apache 2.0.
+author_ids:
+  - clement_farabet
+  - olivier_lacombe

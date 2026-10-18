@@ -1,0 +1,18 @@
+source_id: langgraph_persistence
+summary: Checkpointers preserve thread state; stores preserve cross-thread application data.
+long_summary: In-memory checkpoints disappear on restart. Durable recovery requires persistent storage, stable run identity, and a tested recovery procedure.
+source_type: documentation
+key_takeaways:
+  - Separate run state from shared memory.
+  - Choose persistent checkpoint storage.
+  - Test recovery across process restarts.
+relevance: Clarifies what a resumable local workflow must actually persist.
+tags:
+  - agent-workflow-graphs
+topics:
+  - harness-design
+  - agent-evaluation
+categories:
+  - engineering-judgment
+notable_quotes:
+  - When the process restarts, all checkpoints are lost.

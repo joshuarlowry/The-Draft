@@ -1,0 +1,3 @@
+id: llamacpp_local_inference_quote
+quote: CPU+GPU hybrid inference to partially accelerate models larger than the total VRAM capacity
+source_id: llamacpp_local_inference

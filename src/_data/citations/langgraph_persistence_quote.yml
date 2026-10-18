@@ -1,0 +1,3 @@
+id: langgraph_persistence_quote
+quote: When the process restarts, all checkpoints are lost.
+source_id: langgraph_persistence

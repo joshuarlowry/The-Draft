@@ -1,0 +1,11 @@
+id: aider_architect_editor_method
+title: Separating code reasoning and editing
+url: https://aider.chat/2024/09/26/architect.html
+author: Aider
+publisher: Aider
+published: '2024-09-26'
+accessed: '2026-10-18'
+tags:
+  - local-model-harnesses
+reading_descriptions:
+  local-model-harnesses: Architect/editor workflow separates a proposed solution from producing file edits.

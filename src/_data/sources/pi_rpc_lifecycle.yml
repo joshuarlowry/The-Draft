@@ -1,0 +1,10 @@
+id: pi_rpc_lifecycle
+title: Pi RPC mode and run lifecycle
+url: https://pi.dev/docs/latest/rpc
+author: Pi contributors
+publisher: Pi
+accessed: '2026-10-18'
+tags:
+  - pi-repeatable-mechanics
+reading_descriptions:
+  pi-repeatable-mechanics: RPC exposes commands and lifecycle events over a subprocess JSONL protocol.

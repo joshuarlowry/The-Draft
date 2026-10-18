@@ -1,0 +1,19 @@
+source_id: sol_pi_extension
+summary: An opt-in Pi extension packages four inspectable efficiency mechanisms.
+long_summary: Action Fusion pairs mutation and validation. ObservationPack archives large results for paged recall. A reducer verifies extracted evidence and falls back on failure. Plan boundaries can trigger compaction. Compatibility is version-specific.
+source_type: documentation
+key_takeaways:
+  - Enable mechanisms individually.
+  - Preserve original observations for recovery.
+  - Check the compatibility script against pinned Pi dependencies.
+relevance: Provides implementation leads for controlled local experiments, without establishing local-model gains.
+tags:
+  - pi-repeatable-mechanics
+  - self-hosted-models
+topics:
+  - harness-design
+  - agent-evaluation
+categories:
+  - engineering-judgment
+notable_quotes:
+  - Every mechanism is opt-in and disabled by default.

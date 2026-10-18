@@ -1,0 +1,26 @@
+source_id: compactionrl_glm47_flash
+source_type: paper
+summary: Training study jointly optimizes task execution and summaries across compressed trajectories.
+long_summary: >-
+  The October revision reports GLM-4.7-Flash improvements against its own baseline. These are post-training
+  results, not gains from enabling a runtime summarization switch. The first submission was July 6, 2026.
+key_takeaways:
+  - Distinguish training from inference configuration
+  - Compare against the paper’s own baseline
+  - Preserve the version when recording results
+relevance: >-
+  Connects model capability to context management, supervision, and reproducible execution in self-hosted
+  agent workflows.
+tags:
+  - self-hosted-models
+  - local-model-harnesses
+topics:
+  - harness-design
+  - agent-control
+categories:
+  - engineering-judgment
+  - governance-guardrails
+notable_quotes:
+  - >-
+    We propose CompactionRL, a reinforcement learning strategy to train long-horizon agentic LLMs with context
+    compaction.

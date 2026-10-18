@@ -1,0 +1,23 @@
+source_id: hermes_managed_local_models
+source_type: documentation
+summary: Hermes documents managed local inference with hardware-aware downloads and memory placement.
+long_summary: >-
+  The managed path accounts for context state and runtime buffers, grows context when feasible, and otherwise
+  compresses. These are product-documented behaviors, not independent performance measurements. Separately
+  configured tools still need their own locality assessment.
+key_takeaways:
+  - Inspect the full launch memory budget
+  - Record managed engine and model versions
+  - Distinguish local inference from the complete tool workflow
+relevance: >-
+  Extends The Draft’s local-model research with evidence about deployment, feedback, or the limits of
+  transferring results between systems.
+tags:
+  - local-model-field-research
+  - self-hosted-models
+topics:
+  - model-evaluation
+  - harness-design
+categories:
+  - engineering-judgment
+  - architecture

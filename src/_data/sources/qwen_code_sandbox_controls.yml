@@ -1,0 +1,10 @@
+id: qwen_code_sandbox_controls
+title: Qwen Code sandbox controls
+url: https://qwenlm.github.io/qwen-code-docs/en/users/features/sandbox/
+author: Qwen Team
+publisher: Qwen
+accessed: '2026-10-18'
+tags:
+  - local-model-harnesses
+reading_descriptions:
+  local-model-harnesses: Filesystem and network confinement operate separately from tool approval.

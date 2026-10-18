@@ -1,0 +1,13 @@
+id: willison_gemma4_local_notes
+title: 'Gemma 4: Byte for byte, the most capable open models'
+url: https://simonwillison.net/2026/Apr/2/gemma-4/
+author: Simon Willison
+author_ids:
+  - simon_willison
+publisher: simonwillison.net
+published: '2026-04-02'
+accessed: '2026-10-18'
+tags:
+  - local-model-field-research
+reading_descriptions:
+  local-model-field-research: Launch-day local trials include a failing Gemma 4 31B GGUF setup.

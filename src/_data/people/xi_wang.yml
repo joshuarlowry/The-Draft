@@ -1,0 +1,14 @@
+id: xi_wang
+name: Xi Wang
+links:
+  - label: SelfCompact agent scaffold
+    url: https://github.com/tianjianl/selfcompact
+  - label: Self-Compacting Language Model Agents
+    url: https://arxiv.org/abs/2606.23525v2
+featured_works:
+  - title: SelfCompact agent scaffold
+    url: https://github.com/tianjianl/selfcompact
+    year: '2026'
+  - title: Self-Compacting Language Model Agents
+    url: https://arxiv.org/abs/2606.23525v2
+    year: '2026'

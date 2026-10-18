@@ -1,0 +1,18 @@
+source_id: pi_workflows_graph_engine
+summary: A Pi extension documents typed workflow nodes, durable execution, and protected human decisions.
+long_summary: Interactive agent nodes use the originating conversation. Shell/action nodes declare recovery contracts. These are maintainer-described capabilities, not measured local-model gains.
+source_type: documentation
+key_takeaways:
+  - Retain conversational context across stages.
+  - Declare effect recovery behavior.
+  - Separate protected human decisions from model submissions.
+relevance: Offers an implementation candidate for conversational workflows with explicit control.
+tags:
+  - agent-workflow-graphs
+topics:
+  - harness-design
+  - agent-evaluation
+categories:
+  - engineering-judgment
+notable_quotes:
+  - A workflow is a graph of named nodes with exactly one entry point.

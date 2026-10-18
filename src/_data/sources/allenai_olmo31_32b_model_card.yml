@@ -1,0 +1,10 @@
+id: allenai_olmo31_32b_model_card
+title: Olmo 3.1 32B Think model card
+url: https://huggingface.co/allenai/Olmo-3.1-32B-Think
+author: Allen Institute for AI
+publisher: Hugging Face
+accessed: '2026-10-18'
+tags:
+  - self-hosted-models
+reading_descriptions:
+  self-hosted-models: 32B reasoning model with unusually extensive training provenance.

@@ -1,0 +1,10 @@
+id: accio_occamy1_model_card
+title: Occamy-1.0 model card
+url: https://huggingface.co/Accio-Lab/occamy-1.0
+author: Accio Lab
+publisher: Hugging Face
+accessed: '2026-10-18'
+tags:
+  - self-hosted-models
+reading_descriptions:
+  self-hosted-models: 35B Qwen3.6 derivative specialized for sustained tool-mediated work.

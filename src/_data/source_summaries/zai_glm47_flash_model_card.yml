@@ -1,0 +1,25 @@
+source_id: zai_glm47_flash_model_card
+source_type: documentation
+summary: MIT-licensed text model described as 30B-A3B MoE.
+long_summary: >-
+  The card supplies local serving examples and benchmark-specific sampling settings. It also discloses changed
+  interaction prompts and domain fixes for tau-squared evaluation, limiting direct comparison with unrelated
+  score tables.
+key_takeaways:
+  - Use the exact Flash checkpoint identity
+  - Preserve thinking for the specified multi-turn evaluations
+  - Record evaluation protocol changes
+relevance: >-
+  Supports engineering judgment about model selection, deployment constraints, and evaluation for self-hosted
+  AI workflows.
+tags:
+  - self-hosted-models
+  - open-weights
+topics:
+  - local-inference
+  - model-selection
+categories:
+  - architecture
+  - engineering-judgment
+notable_quotes:
+  - GLM-4.7-Flash is a 30B-A3B MoE model.

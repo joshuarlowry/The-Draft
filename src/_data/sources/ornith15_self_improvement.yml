@@ -1,0 +1,11 @@
+id: ornith15_self_improvement
+title: 'Ornith-1.5: From Self-Scaffolding to Self-Improvement'
+url: https://ornith.ai/ornith_1_5.html
+author: Ornith Team
+publisher: ornith.ai
+published: 2026-08
+accessed: '2026-10-18'
+tags:
+  - local-model-field-research
+reading_descriptions:
+  local-model-field-research: Training method jointly generates tasks, scaffolds, and solution trajectories.

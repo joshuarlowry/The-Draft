@@ -1,0 +1,10 @@
+id: pi_extension_contracts
+title: Pi extension contracts
+url: https://pi.dev/docs/latest/extensions
+author: Pi contributors
+publisher: Pi
+accessed: '2026-10-18'
+tags:
+  - pi-repeatable-mechanics
+reading_descriptions:
+  pi-repeatable-mechanics: Lifecycle hooks provide executable control over tools, context, and final continuation.

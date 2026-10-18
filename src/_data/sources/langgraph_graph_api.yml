@@ -1,0 +1,10 @@
+id: langgraph_graph_api
+title: LangGraph Graph API overview
+url: https://docs.langchain.com/oss/python/langgraph/graph-api
+author: LangChain
+publisher: LangChain
+accessed: '2026-10-18'
+tags:
+  - agent-workflow-graphs
+reading_descriptions:
+  agent-workflow-graphs: Graph state, node functions, and routing edges make workflow transitions explicit.

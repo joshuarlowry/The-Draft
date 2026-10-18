@@ -1,0 +1,12 @@
+id: pi_taskflow_dag
+title: 'pi-taskflow: declarative task DAGs'
+url: https://github.com/gscode1/pi-taskflow
+author: gscode1
+publisher: GitHub
+accessed: '2026-10-18'
+tags:
+  - agent-workflow-graphs
+reading_descriptions:
+  agent-workflow-graphs: A Pi extension documents dependency phases, isolated agent contexts, and resumable results.
+author_ids:
+  - gscode1

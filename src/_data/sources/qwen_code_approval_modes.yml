@@ -1,0 +1,12 @@
+id: qwen_code_approval_modes
+title: Qwen Code approval modes
+url: https://qwenlm.github.io/qwen-code-docs/en/users/features/approval-mode/
+author: Qwen Team
+publisher: Qwen
+accessed: '2026-10-18'
+tags:
+  - local-model-harnesses
+reading_descriptions:
+  local-model-harnesses: >-
+    Explicit operating modes distinguish planning, approved actions, automatic edits, classifier approval, and
+    unrestricted approval.

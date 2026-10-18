@@ -1,0 +1,10 @@
+id: microsoft_graphrag_overview
+title: Microsoft GraphRAG overview
+url: https://microsoft.github.io/graphrag/
+author: Microsoft
+publisher: Microsoft
+accessed: '2026-10-18'
+tags:
+  - agent-workflow-graphs
+reading_descriptions:
+  agent-workflow-graphs: GraphRAG builds a knowledge graph and community summaries for retrieval.

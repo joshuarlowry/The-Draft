@@ -1,0 +1,19 @@
+source_id: pi_rpc_lifecycle
+summary: RPC exposes commands and lifecycle events over a subprocess JSONL protocol.
+long_summary: Prompt acknowledgement and low-level run completion are distinct from settlement. Clients must consume events, correlate command IDs, and handle failures, deadlines, and process exits.
+source_type: documentation
+key_takeaways:
+  - Correlate responses by command ID.
+  - Wait for settlement when a run actually starts.
+  - Handle errors and cancellation outside the model.
+relevance: Enables an external evaluator to determine completion and measure resource use.
+tags:
+  - pi-repeatable-mechanics
+  - self-hosted-models
+topics:
+  - harness-design
+  - agent-evaluation
+categories:
+  - engineering-judgment
+notable_quotes:
+  - 'It does not mean model work completed:'

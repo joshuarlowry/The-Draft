@@ -1,0 +1,10 @@
+id: qwen_agent_framework
+title: Qwen-Agent framework
+url: https://github.com/QwenLM/Qwen-Agent
+author: Qwen Team
+publisher: Qwen
+accessed: '2026-10-18'
+tags:
+  - local-model-harnesses
+reading_descriptions:
+  local-model-harnesses: Framework examples connect local model servers to tools, files, and retained conversation history.

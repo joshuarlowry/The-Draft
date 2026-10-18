@@ -45,3 +45,23 @@
 - id: ai-harnesses
   title: 'AI Harnesses and Agent Workbenches'
   description: 'Sources on the current landscape of AI harnesses: CLIs, IDE agents, background coding agents, managed long-horizon services, evaluator loops, and sandboxed execution.'
+
+- id: self-hosted-models
+  title: Self-hosted Models Around 30–36B
+  description: Official model cards, release history, and runtime documentation for evaluating local AI deployments.
+
+- id: local-model-harnesses
+  title: Harnesses and Controls for Local Models
+  description: Implemented workflows and research on tool protocols, context compaction, approval boundaries, and executable feedback.
+
+- id: local-model-field-research
+  title: Local Model Field Research and Author Perspectives
+  description: Practitioner trials, architecture explanations, harness experiments, and implementation guides discovered from the initial model survey.
+
+- id: pi-repeatable-mechanics
+  title: Repeatable Mechanics with Pi
+  description: Official APIs, practitioner extensions, and experimental evidence for controlled local-model workflows.
+
+- id: agent-workflow-graphs
+  title: Agent Workflow Graphs and Control
+  description: Graph orchestration, Pi implementations, replay semantics, and distinctions from reasoning and knowledge graphs.

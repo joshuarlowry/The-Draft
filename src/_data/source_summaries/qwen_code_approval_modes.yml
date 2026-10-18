@@ -1,0 +1,26 @@
+source_id: qwen_code_approval_modes
+source_type: documentation
+summary: >-
+  Explicit operating modes distinguish planning, approved actions, automatic edits, classifier approval, and
+  unrestricted approval.
+long_summary: >-
+  The documentation offers a plan-first workflow and explicit mode transitions. Its statements about defaults
+  are inconsistent, so configure and inspect the intended mode rather than infer the default.
+key_takeaways:
+  - Enter planning mode explicitly
+  - Choose approval policy before execution
+  - Check the effective mode in the installed version
+relevance: >-
+  Connects model capability to context management, supervision, and reproducible execution in self-hosted
+  agent workflows.
+tags:
+  - self-hosted-models
+  - local-model-harnesses
+topics:
+  - harness-design
+  - agent-control
+categories:
+  - engineering-judgment
+  - governance-guardrails
+notable_quotes:
+  - Regular planning requests do not switch modes by themselves.

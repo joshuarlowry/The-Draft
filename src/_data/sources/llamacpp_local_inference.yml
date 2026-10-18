@@ -1,0 +1,10 @@
+id: llamacpp_local_inference
+title: 'llama.cpp: LLM inference in C/C++'
+url: https://github.com/ggml-org/llama.cpp
+author: ggml-org
+publisher: GitHub
+accessed: '2026-10-18'
+tags:
+  - self-hosted-models
+reading_descriptions:
+  self-hosted-models: Local inference project supporting quantization and multiple hardware backends.

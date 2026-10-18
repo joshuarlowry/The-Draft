@@ -1,0 +1,18 @@
+source_id: graph_of_thoughts_paper
+summary: Graph of Thoughts represents generated information and its dependencies as a graph.
+long_summary: The paper explores combining and refining candidate thoughts. It concerns reasoning organization, not durable workflow execution or current Pi deployment performance.
+source_type: paper
+key_takeaways:
+  - Represent candidate information explicitly.
+  - Combine and refine intermediate candidates.
+  - Separate reasoning results from runtime guarantees.
+relevance: Establishes the meaning of a frequently conflated use of graphs.
+tags:
+  - agent-workflow-graphs
+topics:
+  - harness-design
+  - agent-evaluation
+categories:
+  - engineering-judgment
+notable_quotes:
+  - edges correspond to dependencies between these vertices.

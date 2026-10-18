@@ -1,0 +1,10 @@
+id: qwen3_coder30b_model_card
+title: Qwen3-Coder-30B-A3B-Instruct model card
+url: https://huggingface.co/Qwen/Qwen3-Coder-30B-A3B-Instruct
+author: Qwen Team
+publisher: Hugging Face
+accessed: '2026-10-18'
+tags:
+  - self-hosted-models
+reading_descriptions:
+  self-hosted-models: Coding-focused MoE baseline with 30.5B total and 3.3B active parameters.

@@ -1,0 +1,19 @@
+source_id: pi_extension_contracts
+summary: Lifecycle hooks provide executable control over tools, context, and final continuation.
+long_summary: Current documentation distinguishes tool interception, persisted state, and settlement. Extensions run with the host process permissions. Historical examples need checking against the installed API.
+source_type: documentation
+key_takeaways:
+  - Intercept tool calls before execution.
+  - Persist workflow state separately from model context.
+  - Bound continuations at the settlement boundary.
+relevance: Provides concrete integration points for testable controls rather than relying on instructions alone.
+tags:
+  - pi-repeatable-mechanics
+  - self-hosted-models
+topics:
+  - harness-design
+  - agent-evaluation
+categories:
+  - engineering-judgment
+notable_quotes:
+  - An extension runs inside the Pi process with the same operating-system permissions.

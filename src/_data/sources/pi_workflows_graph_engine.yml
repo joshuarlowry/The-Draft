@@ -1,0 +1,12 @@
+id: pi_workflows_graph_engine
+title: 'pi-workflows: TypeScript graphs inside Pi'
+url: https://github.com/osolmaz/pi-workflows
+author: Onur Solmaz
+publisher: GitHub
+accessed: '2026-10-18'
+tags:
+  - agent-workflow-graphs
+reading_descriptions:
+  agent-workflow-graphs: A Pi extension documents typed workflow nodes, durable execution, and protected human decisions.
+author_ids:
+  - onur_solmaz

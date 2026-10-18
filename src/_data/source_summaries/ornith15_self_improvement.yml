@@ -1,0 +1,22 @@
+source_id: ornith15_self_improvement
+source_type: article
+summary: Training method jointly generates tasks, scaffolds, and solution trajectories.
+long_summary: >-
+  The team describes reward signals for valid, challenging, novel tasks and evaluation quality. This is a
+  model-training process, not a claim that a downloaded checkpoint autonomously retrains itself during use.
+key_takeaways:
+  - Distinguish training loops from runtime behavior
+  - Check whether evaluations reject incorrect solutions
+  - Treat release scores as provider evidence
+relevance: >-
+  Extends The Draft’s local-model research with evidence about deployment, feedback, or the limits of
+  transferring results between systems.
+tags:
+  - local-model-field-research
+  - self-hosted-models
+topics:
+  - model-evaluation
+  - harness-design
+categories:
+  - engineering-judgment
+  - architecture

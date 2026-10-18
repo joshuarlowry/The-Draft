@@ -1,0 +1,23 @@
+source_id: raschka_llm_architecture_gallery
+source_type: documentation
+summary: Visual architecture reference with dense, sparse, and hybrid model entries.
+long_summary: >-
+  The gallery includes Qwen3.6, Gemma 4, Nemotron, and Ornith configurations. Use it to identify structural
+  differences and follow technical references; inclusion does not establish runtime compatibility or local
+  task quality.
+key_takeaways:
+  - Compare architecture rather than names alone
+  - Return to model configs for deployment decisions
+  - Use the gallery as a discovery index
+relevance: >-
+  Extends The Draft’s local-model research with evidence about deployment, feedback, or the limits of
+  transferring results between systems.
+tags:
+  - local-model-field-research
+  - self-hosted-models
+topics:
+  - model-evaluation
+  - harness-design
+categories:
+  - engineering-judgment
+  - architecture

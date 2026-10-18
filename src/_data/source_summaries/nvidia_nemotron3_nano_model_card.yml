@@ -1,0 +1,24 @@
+source_id: nvidia_nemotron3_nano_model_card
+source_type: documentation
+summary: Hybrid Mamba/attention MoE with 30B total and 3.5B active parameters.
+long_summary: >-
+  The text model advertises up to one million tokens but defaults to 256K in its Hugging Face configuration
+  because longer contexts require more VRAM. It uses the NVIDIA Nemotron Open Model License.
+key_takeaways:
+  - Distinguish supported context from default configuration
+  - Check hybrid-architecture runtime support
+  - Review the checkpoint-specific license
+relevance: >-
+  Supports engineering judgment about model selection, deployment constraints, and evaluation for self-hosted
+  AI workflows.
+tags:
+  - self-hosted-models
+  - open-weights
+topics:
+  - local-inference
+  - model-selection
+categories:
+  - architecture
+  - engineering-judgment
+notable_quotes:
+  - The model has 3.5B active parameters and 30B parameters in total.

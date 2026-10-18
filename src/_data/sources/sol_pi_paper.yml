@@ -1,0 +1,26 @@
+id: sol_pi_paper
+title: 'SoL-Pi: Recursively Scaling Auto-Research Loops for Efficient Agent Harness'
+url: https://arxiv.org/abs/2609.20519
+author: Haozhe Liu, Tian Ye, Sensen Gao, Qihang Cao, Yitong Li, Mingchen Zhuge, Duomin Wang, Ruihua Zhang, Ping Luo, Jiawang Bian, Lei Zhu, Ligeng Zhu, Enze Xie, Song Han
+publisher: arXiv
+accessed: '2026-10-18'
+tags:
+  - pi-repeatable-mechanics
+reading_descriptions:
+  pi-repeatable-mechanics: A preprint evaluates four Pi efficiency mechanisms on hosted models.
+published: '2026-09-17'
+author_ids:
+  - haozhe_liu
+  - tian_ye
+  - sensen_gao
+  - qihang_cao
+  - yitong_li
+  - mingchen_zhuge
+  - duomin_wang
+  - ruihua_zhang
+  - ping_luo
+  - jiawang_bian
+  - lei_zhu
+  - ligeng_zhu
+  - enze_xie
+  - song_han

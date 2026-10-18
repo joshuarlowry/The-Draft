@@ -1,0 +1,24 @@
+source_id: aider_lint_test_feedback
+source_type: documentation
+summary: Harness support for running checks after edits and feeding failures into repair.
+long_summary: >-
+  The documentation describes automatic linting and optional test commands, with non-zero exits indicating
+  failure. It establishes an implemented feedback mechanism, not model-specific proof of quality gains.
+key_takeaways:
+  - Define the acceptance command before editing
+  - Feed concrete errors into repair
+  - Distinguish passing checks from complete requirements coverage
+relevance: >-
+  Connects model capability to context management, supervision, and reproducible execution in self-hosted
+  agent workflows.
+tags:
+  - self-hosted-models
+  - local-model-harnesses
+topics:
+  - harness-design
+  - agent-control
+categories:
+  - engineering-judgment
+  - governance-guardrails
+notable_quotes:
+  - Aider can automatically lint and test your code every time it makes changes.

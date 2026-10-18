@@ -1,0 +1,24 @@
+source_id: qwen36_35b_model_card
+source_type: documentation
+summary: 35B MoE with 3B active parameters, vision input, and native 262,144-token context.
+long_summary: >-
+  The card emphasizes coding agents and retained reasoning history. Its benchmark footnotes disclose internal
+  scaffolds and modified tasks; results should not be treated as independent local measurements.
+key_takeaways:
+  - Separate total from active parameters
+  - Retain the documented reasoning and tool-call formats
+  - Evaluate the deployed quantization in its actual harness
+relevance: >-
+  Supports engineering judgment about model selection, deployment constraints, and evaluation for self-hosted
+  AI workflows.
+tags:
+  - self-hosted-models
+  - open-weights
+topics:
+  - local-inference
+  - model-selection
+categories:
+  - architecture
+  - engineering-judgment
+notable_quotes:
+  - 'Number of Parameters: 35B in total and 3B activated'

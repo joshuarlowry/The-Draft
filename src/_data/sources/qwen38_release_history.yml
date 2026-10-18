@@ -1,0 +1,10 @@
+id: qwen38_release_history
+title: Qwen model release history
+url: https://github.com/QwenLM/Qwen3.8
+author: Qwen Team
+publisher: GitHub
+accessed: '2026-10-18'
+tags:
+  - self-hosted-models
+reading_descriptions:
+  self-hosted-models: Official release chronology connecting Qwen3.5, Qwen3.6, and Qwen3.8.

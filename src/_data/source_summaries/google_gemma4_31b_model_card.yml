@@ -1,0 +1,23 @@
+source_id: google_gemma4_31b_model_card
+source_type: documentation
+summary: Dense multimodal alternative in the 31B class under Apache 2.0.
+long_summary: >-
+  The card lists 30.7B parameters for the dense language model and a separate vision encoder. It supports 256K
+  context, text and image inputs, configurable thinking, and function calling. Audio support belongs to other
+  family members.
+key_takeaways:
+  - Compare dense and sparse models separately
+  - Check modality support for the exact variant
+  - Validate function calls in the chosen runtime
+relevance: >-
+  Supports engineering judgment about model selection, deployment constraints, and evaluation for self-hosted
+  AI workflows.
+tags:
+  - self-hosted-models
+  - open-weights
+topics:
+  - local-inference
+  - model-selection
+categories:
+  - architecture
+  - engineering-judgment

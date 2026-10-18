@@ -1,0 +1,23 @@
+source_id: selfcompact_language_model_agents
+source_type: paper
+summary: Research pairs a compaction tool with a rubric for deciding when to use it.
+long_summary: >-
+  The study concerns inference-time scaffolding without fine-tuning. Its aggregate improvements span multiple
+  models and tasks; they should not be interpreted as a guaranteed gain for every 30–36B checkpoint. First
+  submitted June 22, 2026.
+key_takeaways:
+  - Pair a compaction tool with a decision rubric
+  - Avoid compressing unresolved intermediate work
+  - Validate gains on the actual model and task
+relevance: >-
+  Connects model capability to context management, supervision, and reproducible execution in self-hosted
+  agent workflows.
+tags:
+  - self-hosted-models
+  - local-model-harnesses
+topics:
+  - harness-design
+  - agent-control
+categories:
+  - engineering-judgment
+  - governance-guardrails

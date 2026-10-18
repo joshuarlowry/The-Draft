@@ -1,0 +1,23 @@
+source_id: qwen38_27b_model_card
+source_type: documentation
+summary: Nearby 27B dense model outside the requested 30–36B band.
+long_summary: >-
+  The August checkpoint adds a newer comparison point for coding and professional workflows. Its card
+  describes vision input, adjustable reasoning effort, and preservation of reasoning history; those features
+  require compatible serving and harness behavior.
+key_takeaways:
+  - Label this model as outside the strict size band
+  - Test reasoning effort as an explicit setting
+  - Compare task outcomes on the same hardware
+relevance: >-
+  Supports engineering judgment about model selection, deployment constraints, and evaluation for self-hosted
+  AI workflows.
+tags:
+  - self-hosted-models
+  - open-weights
+topics:
+  - local-inference
+  - model-selection
+categories:
+  - architecture
+  - engineering-judgment

@@ -1,0 +1,5 @@
+id: compactionrl_glm47_flash_quote
+quote: >-
+  We propose CompactionRL, a reinforcement learning strategy to train long-horizon agentic LLMs with context
+  compaction.
+source_id: compactionrl_glm47_flash

@@ -1,0 +1,27 @@
+source_id: selfcompact_agent_scaffold
+source_type: documentation
+summary: Runnable research harness with GLM-4.7-Flash examples and adaptive compaction gates.
+long_summary: >-
+  The repository contrasts no compression, periodic compression, and a model rubric. It records per-run traces
+  and token counts. Web search and default judging use external services, so local inference does not make the
+  entire experiment offline.
+key_takeaways:
+  - Gate compaction on completed work and progress
+  - Retain source-bearing summaries
+  - Record policy, token budget, and external services
+relevance: >-
+  Connects model capability to context management, supervision, and reproducible execution in self-hosted
+  agent workflows.
+tags:
+  - self-hosted-models
+  - local-model-harnesses
+topics:
+  - harness-design
+  - agent-control
+categories:
+  - engineering-judgment
+  - governance-guardrails
+notable_quotes:
+  - >-
+    Compression is always self-summarization: the research model writes the summary, and the history resets to
+    `[system, question, summary, "continue"]`.

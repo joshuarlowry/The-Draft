@@ -1,0 +1,19 @@
+source_id: pi_compaction_reference
+summary: Pi distinguishes context compaction from summaries produced by session-tree navigation.
+long_summary: The reference covers retained recent messages, cumulative file tracking, configurable thresholds, and extension hooks. A summary is a reconstruction of context, not an independent verification of completed work.
+source_type: documentation
+key_takeaways:
+  - Distinguish branch summaries from compaction.
+  - Preserve recent messages alongside summaries.
+  - Tune reserve and retention settings for the actual window.
+relevance: Supplies the mechanics for testing handoff quality and recovery from limited context.
+tags:
+  - pi-repeatable-mechanics
+  - self-hosted-models
+topics:
+  - harness-design
+  - agent-evaluation
+categories:
+  - engineering-judgment
+notable_quotes:
+  - Both use closely related structured formats and track file operations cumulatively.

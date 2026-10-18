@@ -1,0 +1,10 @@
+id: zai_glm47_flash_model_card
+title: GLM-4.7-Flash model card
+url: https://huggingface.co/zai-org/GLM-4.7-Flash
+author: Z.ai
+publisher: Hugging Face
+accessed: '2026-10-18'
+tags:
+  - self-hosted-models
+reading_descriptions:
+  self-hosted-models: MIT-licensed text model described as 30B-A3B MoE.

@@ -1,0 +1,10 @@
+id: langgraph_interrupts
+title: LangGraph interrupts and replay semantics
+url: https://docs.langchain.com/oss/python/langgraph/interrupts
+author: LangChain
+publisher: LangChain
+accessed: '2026-10-18'
+tags:
+  - agent-workflow-graphs
+reading_descriptions:
+  agent-workflow-graphs: Interrupts pause graph execution and resume through node re-execution.

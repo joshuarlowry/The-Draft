@@ -5,3 +5,14 @@ links:
     url: https://llm.datasette.io/en/stable/
   - label: Language models on the command-line
     url: https://simonwillison.net/2024/Jun/17/cli-language-models/
+  - label: 'Gemma 4: Byte for byte, the most capable open models'
+    url: https://simonwillison.net/2026/Apr/2/gemma-4/
+  - label: 'Ornith-1.0: Self-Scaffolding LLMs for Agentic Coding'
+    url: https://simonwillison.net/2026/Jun/29/ornith/
+featured_works:
+  - title: 'Gemma 4: Byte for byte, the most capable open models'
+    url: https://simonwillison.net/2026/Apr/2/gemma-4/
+    year: '2026'
+  - title: 'Ornith-1.0: Self-Scaffolding LLMs for Agentic Coding'
+    url: https://simonwillison.net/2026/Jun/29/ornith/
+    year: '2026'

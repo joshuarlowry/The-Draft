@@ -1,0 +1,5 @@
+id: selfcompact_agent_scaffold_quote
+quote: >-
+  Compression is always self-summarization: the research model writes the summary, and the history resets to
+  `[system, question, summary, "continue"]`.
+source_id: selfcompact_agent_scaffold

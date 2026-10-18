@@ -1,0 +1,18 @@
+source_id: langgraph_graph_api
+summary: Graph state, node functions, and routing edges make workflow transitions explicit.
+long_summary: The reference supports cyclic workflows, conditional routing, and reducers for state updates. Graph structure does not establish correctness of node results.
+source_type: documentation
+key_takeaways:
+  - Declare shared state.
+  - Specify routes explicitly.
+  - Define how concurrent updates combine.
+relevance: Provides vocabulary for moving workflow control into inspectable code.
+tags:
+  - agent-workflow-graphs
+topics:
+  - harness-design
+  - agent-evaluation
+categories:
+  - engineering-judgment
+notable_quotes:
+  - Nodes and Edges are nothing more than functions

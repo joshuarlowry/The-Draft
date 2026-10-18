@@ -1,0 +1,19 @@
+source_id: ronacher_pi_workflow
+summary: Ronacher describes personal Pi workflows using persistent tasks and branched review.
+long_summary: The January account links extensions for review, questions, and file browsing. Its description of absent MCP support is historical; current extension documentation includes MCP registration.
+source_type: article
+key_takeaways:
+  - Keep tasks in files that people and agents can inspect.
+  - Separate review context from implementation context.
+  - Treat personal workflow reports as hypotheses to test.
+relevance: Provides a firsthand lead for reproducible oversight mechanics without claiming local-model benchmark gains.
+tags:
+  - pi-repeatable-mechanics
+  - self-hosted-models
+topics:
+  - harness-design
+  - agent-evaluation
+categories:
+  - engineering-judgment
+notable_quotes:
+  - Because Pi sessions are trees, I can branch into a fresh review context, get findings, then bring fixes back to the main session.

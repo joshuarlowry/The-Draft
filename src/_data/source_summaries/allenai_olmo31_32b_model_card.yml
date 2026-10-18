@@ -1,0 +1,23 @@
+source_id: allenai_olmo31_32b_model_card
+source_type: documentation
+summary: 32B reasoning model with unusually extensive training provenance.
+long_summary: >-
+  The card links Dolma pretraining data, Dolci post-training data, intermediate checkpoints, and training
+  code. It is valuable for studying how a model was produced, beyond access to final weights. The card still
+  marks logs as forthcoming.
+key_takeaways:
+  - Inspect intermediate training stages
+  - Distinguish downloadable weights from reproducible training
+  - Keep promised artifacts separate from available ones
+relevance: >-
+  Supports engineering judgment about model selection, deployment constraints, and evaluation for self-hosted
+  AI workflows.
+tags:
+  - self-hosted-models
+  - open-weights
+topics:
+  - local-inference
+  - model-selection
+categories:
+  - architecture
+  - engineering-judgment
