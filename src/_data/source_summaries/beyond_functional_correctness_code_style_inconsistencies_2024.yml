@@ -1,0 +1,27 @@
+source_id: beyond_functional_correctness_code_style_inconsistencies_2024
+source_type: paper
+summary: >-
+  This paper shows that functionally correct LLM code can still diverge from human style conventions across many
+  inconsistency dimensions.
+long_summary: >-
+  The paper proposes a taxonomy of 24 coding style inconsistency types spanning formatting, semantics,
+  expression/statement choices, control flow, and fault tolerance. Evaluating multiple code LLMs against human ground
+  truth, the authors find substantial style inconsistency rates even when generated code is functionally correct. The
+  core implication is that "passes tests" does not automatically mean "fits team conventions" or "easy to maintain."
+key_takeaways:
+  - Distinguish functional correctness from style and maintainability quality dimensions
+  - Audit generated code for semantic naming and control-flow consistency, not only syntax cleanliness
+  - Build style-governance checks into AI coding pipelines to prevent drift
+  - Use inconsistency taxonomies to prioritize post-generation refactor automation
+relevance: >-
+  Directly challenges the idea that readability concerns disappear as AI handles atomic implementation. It argues that
+  style coherence remains an operational requirement for sustainable AI-assisted codebases.
+tags:
+  - code-style
+  - llm-evaluation
+  - quality-assurance
+topics:
+  - code-generation
+  - software-quality
+categories:
+  - research-evidence

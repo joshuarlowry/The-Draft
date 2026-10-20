@@ -1,0 +1,27 @@
+source_id: karpathy_software_2_0_2017
+source_type: article
+summary: >-
+  Karpathy's "Software 2.0" argues that learned model weights can replace large portions of hand-written imperative
+  logic.
+long_summary: >-
+  This essay introduces the idea that many capabilities previously encoded as explicit human-written logic are shifting
+  into data, model architectures, and trained weights. It is an early conceptual anchor for arguments that the future of
+  software may include less directly human-readable procedural code at the "atomic" implementation layer. At the same
+  time, surrounding systems still require interpretable interfaces, tests, and integration logic.
+key_takeaways:
+  - Recognize that learned parameters can become a primary behavior substrate in modern software systems
+  - Reframe engineering work toward data quality, evaluation, and interface design around models
+  - Separate low-level model internals from higher-level orchestration code that remains human-governed
+  - Anticipate hybrid stacks where classic code and learned components co-exist
+relevance: >-
+  Supports the "readability may matter less in some layers" side of your theory while still fitting The Draft's focus on
+  guardrails and oversight in AI-assisted systems.
+tags:
+  - software-2-0
+  - neural-networks
+  - future-of-code
+topics:
+  - ai-native-software
+  - system-design
+categories:
+  - conceptual-framework

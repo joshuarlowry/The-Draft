@@ -1,0 +1,26 @@
+source_id: code_for_machines_not_just_humans_2026
+source_type: paper
+summary: >-
+  This 2026 study links human-oriented code health to better semantic preservation when LLMs perform refactoring.
+long_summary: >-
+  The authors study 5,000 Python files and evaluate how code quality measured by CodeHealth relates to successful
+  LLM-based refactoring. Their reported association suggests maintainable, human-comprehensible code is also easier for
+  AI tools to transform safely. Rather than replacing readability, the paper reframes readability as a shared interface
+  quality for both humans and agents.
+key_takeaways:
+  - Treat readability and maintainability as enablers of reliable AI refactoring
+  - Use code-health signals to identify low-risk and high-risk areas for autonomous edits
+  - Prioritize remediation of low-health modules before scaling agentic change workflows
+  - Keep human oversight strongest where code health predicts higher AI edit risk
+relevance: >-
+  This source directly addresses your theory by testing whether machine-oriented coding decouples from human readability.
+  Its conclusion points the other way: better human readability appears to improve AI editing reliability.
+tags:
+  - ai-friendly-code
+  - refactoring
+  - codehealth
+topics:
+  - agentic-development
+  - maintainability
+categories:
+  - research-evidence
